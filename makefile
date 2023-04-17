@@ -1,5 +1,6 @@
 all:
-	pdflatex mattscode.tex
+	pdflatex -synctex=1 -interaction=nonstopmode --shell-escape mattscode.tex 
+	pdflatex -synctex=1 -interaction=nonstopmode --shell-escape mattscode.tex
 
 clean:
 	-rm mattscode.pdf

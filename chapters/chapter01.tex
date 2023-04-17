@@ -1,1 +1,98 @@
-\chapter{The First Chapter}
+\chapter{Introduction}
+
+	This document lists a bunch of the GitHub repositories created by me which may be useful to others. Some of these repositories are fairly complete, others are less so. I will do my best to fix and update anything that is buggy or incomplete, please do report bugs in the relevant repositories if you can. If you're feeling particularly helpful - feel free to send pull requests. 
+	
+	Most of the code here is written in Python, some things make use of C++ libraries to do some of the heavy lifting, one is a pretty dodgy Python wrapper of a C++ wrapper of Fortran code... Some of the modules and libraries used here are dependencies of others. In the more complete repos \texttt{pip} will take care of dependencies, otherwise some manual installation may be required.
+
+	\section{Setting up the environment}
+
+		In this section I describe how to set up the environment such that everything \textit{should} pretty much work...
+
+		\subsection{Linux}
+			
+			If running on ALICE/SPECTRE, you will most likely be required to enable the following modules:
+
+			\begin{minted}{bash}
+module load gcc/9.3
+module load python/gcc/3.9.10
+module load git/2.35.2
+			\end{minted}
+			where exact version numbers may change (use whatever is latest, don't just copy and paste!) and the replacement for SPECTRE/ALICE may have another method for loading these things in for all I know. I also recommend adding those to the end of your \texttt{~/.bashrc} file so that they load every login, e.g.:
+			\begin{minted}{bash}
+echo module load gcc/9.3 >> ~/.bashrc
+echo module load python/gcc/3.9.10 >> ~/.bashrc
+echo module load git/2.35.2 >> ~/.bashrc
+			\end{minted}
+			
+			The above is unlikely to be necessary on a local Linux installation, instead I would recommend installing \texttt{git, gcc, g++, make, gfortran} and \texttt{pip3}, e.g. in Ubuntu:
+
+			\begin{minted}{bash}
+sudo apt install git gcc g++ binutils gfortran python3-pip
+			\end{minted}
+
+			All of the above should allow you to install/run/compile most of my code. I wouldn't recommend using Conda in Linux - I know it has cause some problems/confusion when it comes to linking Python with C/C++ on SPECTRE.
+
+		\subsection{Windows}
+
+			A fair portion of the code is able to run on Windows - much of the Python code is platform independent and some of the C++ libraries/backends are able to be compiled using Windows. In this case, I \textit{would} actually recommend installing Conda, as it worked for me. The GCC compilers (for C/C++/Fortran) can all be installed easily with TDM-GCC (\href{https://jmeubank.github.io/tdm-gcc/}{get the 64-bit version here}), just remember to put a tick in the box for ``fortran'' and ``openmp''.
+
+		\subsection{MacOS}
+		
+			I managed to install the relevant packages in a virtual Hackintosh once. I don't remember how, perhaps using homebrew. Good luck...
+
+	\section{Setting up a virtual environment}
+
+		In SPECTRE I never actually bothered with a virtual environment, mistakes were made, headaches may have been avoided had I done so. This step is entirely optional, but somewhat recommended: 
+		\begin{minted}{bash}
+#create a virtual environment, call it what you want, 
+#here I call mine "env"
+python3 -m venv env
+		\end{minted}
+		Once this has been created, you MUST activate it before running any code, or you will just be running things globally:
+		\begin{minted}{bash}
+source env/bin/activate
+		\end{minted}
+		note that I am assuming that \texttt{env} exists in the current working directory, if not adjust the path accordingly! If it works, the prompt terminal prmpt should change, e.g:
+		\begin{minted}{bash}
+#before:
+matt@matt-MS-7B86:~$
+
+source env/bin/activate
+#after:
+(env) matt@matt-MS-7B86:~$
+		\end{minted}
+
+	\section{Some python packages}
+
+		Here are a list of Python packages which are either going to be required by most of my code, or would just be recommended:
+		\begin{enumerate}
+			\item ipython : best Python interpreter, forget notebooks
+			\item numpy : essential, don't skip
+			\item matplotlib : for plotting
+			\item scipy : loads of good stuff here
+			\item wheel : used to build Python packages to be installed by pip
+			\item cdflib : reads CDF files
+			\item keras : nice for machine learning
+			\item tensorflow : also machine learning
+		\end{enumerate}
+		install them:
+		\begin{minted}{bash}
+#update pip first
+python3 -m install pip --upgrade --user
+
+pip3 install ipython numpy matplotlib scipy wheel cdflib keras tensorflow --user
+		\end{minted}
+		where the ```\texttt{--user}''' flag may or may not be necessary, depending on your version of Python - it places the installed modules in \texttt{$\sim$/.local/lib/python3.9/site-packages}.
+
+		In theory, at this point you should be able to run \texttt{ipython3} (or just \texttt{ipython}) within the terminal, from which any installed code can be imported. The reason I recommend using Ipython over the standard Python interpreter is that it has autocomplete and it uses pretty colours for syntax highlighting. It would also be a good idea to enable the autoreload feature in Ipython, which recompiles anything that has been edited since it was last run, otherwise would have to reload the code manually (or restart the session) after every edit. Run
+		\begin{minted}{bash}
+ipython profile create
+		\end{minted}
+		then add the following lines to \texttt{$\sim$/.ipython/profile\_default/ipython\_config.py}:
+		\begin{minted}{python}
+c.InteractiveShellApp.extensions = ['autoreload']
+c.InteractiveShellApp.exec_lines = ['%autoreload 2']
+c.InteractiveShellApp.exec_lines.append('print("Warning: disable autoreload in ipython_config.py to improve performance.")')
+		\end{minted}
+
+		That should just about do it.

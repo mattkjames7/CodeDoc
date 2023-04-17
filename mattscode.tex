@@ -1,6 +1,17 @@
-\documentclass[a4paper,12pt]{book}
+\documentclass[a4paper,10pt]{book}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
+\usepackage{minted}
+\usepackage{xcolor} % to access the named colour LightGray
+\definecolor{LightGray}{gray}{0.9}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=orange,
+	filecolor=blue,      
+	urlcolor=blue,
+}
 
 \begin{document}
 
@@ -12,9 +23,16 @@
 \maketitle
 \tableofcontents
 
+
 \mainmatter
 \include{./chapters/chapter01}
 \include{./chapters/chapter02}
+\include{./chapters/chapter03}
+\include{./chapters/chapter04}
+\include{./chapters/chapter05}
+\include{./chapters/chapter06}
+\include{./chapters/chapter07}
+
 
 \backmatter
 % bibliography, glossary and index would go here.
