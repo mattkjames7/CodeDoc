@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}create a virtual environment, call it what you want,}
+\PYG{c+c1}{\PYGZsh{}here I call mine \PYGZdq{}env\PYGZdq{}}
+python3 \PYGZhy{}m venv env
+\end{Verbatim}
