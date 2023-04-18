@@ -1,0 +1,775 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.7.13)  18 APR 2023 17:34
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**mattscode.tex
+(./mattscode.tex
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14>
+(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@chapter=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+)
+(/usr/share/texlive/texmf-dist/tex/latex/minted/minted.sty
+Package: minted 2017/07/19 v2.5 Yet another Pygments shim for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/fvextra/fvextra.sty
+Package: fvextra 2019/02/04 v1.4 fvextra - extensions and patches for fancyvrb
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count176
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2020/01/13 v3.5 verbatim text (tvz,hv)
+\FV@CodeLineNo=\count177
+\FV@InFile=\read2
+\FV@TabBox=\box45
+\c@FancyVerbLine=\count178
+\FV@StepNumber=\count179
+\FV@OutFile=\write3
+)
+(/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+)
+(/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count180
+\output=\toks17
+\linenoprevgraf=\count181
+\linenumbersep=\dimen137
+\linenumberwidth=\dimen138
+\c@linenumber=\count182
+\c@pagewiselinenumber=\count183
+\c@LN@truepage=\count184
+\c@internallinenumber=\count185
+\c@internallinenumbers=\count186
+\quotelinenumbersep=\dimen139
+\bframerule=\dimen140
+\bframesep=\dimen141
+\bframebox=\box46
+LaTeX Info: Redefining \\ on input line 3056.
+)
+\c@FV@TrueTabGroupLevel=\count187
+\c@FV@TrueTabCounter=\count188
+\FV@TabBox@Group=\box47
+\FV@TmpLength=\skip49
+\c@FV@HighlightLinesStart=\count189
+\c@FV@HighlightLinesStop=\count190
+\FV@LoopCount=\count191
+\FV@NCharsBox=\box48
+\FV@BreakIndent=\dimen142
+\FV@BreakIndentNChars=\count192
+\FV@BreakSymbolSepLeft=\dimen143
+\FV@BreakSymbolSepLeftNChars=\count193
+\FV@BreakSymbolSepRight=\dimen144
+\FV@BreakSymbolSepRightNChars=\count194
+\FV@BreakSymbolIndentLeft=\dimen145
+\FV@BreakSymbolIndentLeftNChars=\count195
+\FV@BreakSymbolIndentRight=\dimen146
+\FV@BreakSymbolIndentRightNChars=\count196
+\c@FancyVerbLineBreakLast=\count197
+\FV@LineBox=\box49
+\FV@LineIndentBox=\box50
+\FV@LineWidth=\dimen147
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count198
+\calc@Bcount=\count199
+\calc@Adimen=\dimen148
+\calc@Bdimen=\dimen149
+\calc@Askip=\skip50
+\calc@Bskip=\skip51
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count266
+\calc@Cskip=\skip52
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/ifplatform/ifplatform.sty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/catchfile/catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+runsystem(uname -s > "mattscode.w18")...executed.
+
+ (./mattscode.w18)
+runsystem(rm -- "mattscode.w18")...executed.
+
+) (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
+\integerpart=\count267
+\decimalpart=\count268
+)
+Package: xstring 2019/02/06 v1.83 String manipulations (CT)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip53
+\fb@frw=\dimen150
+\fb@frh=\dimen151
+\FrameRule=\dimen152
+\FrameSep=\dimen153
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count269
+\float@exts=\toks18
+\float@box=\box51
+\@float@everytoks=\toks19
+\@floatcapt=\box52
+)
+\minted@appexistsfile=\read3
+\minted@bgbox=\box53
+\minted@code=\write4
+\c@minted@FancyVerbLineTemp=\count270
+\c@minted@pygmentizecounter=\count271
+\@float@every@listing=\toks20
+\c@listing=\count272
+)
+runsystem(mkdir -p _minted-mattscode)...executed.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen154
+\Hy@linkcounter=\count273
+\Hy@pagecounter=\count274
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count275
+\pdfmajorversion=\count276
+Package hyperref Info: Hyper figures OFF on input line 4547.
+Package hyperref Info: Link nesting OFF on input line 4552.
+Package hyperref Info: Hyper index ON on input line 4555.
+Package hyperref Info: Plain pages OFF on input line 4562.
+Package hyperref Info: Backreferencing OFF on input line 4567.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4800.
+\c@Hy@tempcnt=\count277
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5159.
+\XeTeXLinkMargin=\dimen155
+
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count278
+\Field@Width=\dimen156
+\Fld@charsize=\dimen157
+Package hyperref Info: Hyper figures OFF on input line 6430.
+Package hyperref Info: Link nesting OFF on input line 6435.
+Package hyperref Info: Hyper index ON on input line 6438.
+Package hyperref Info: backreferencing OFF on input line 6445.
+Package hyperref Info: Link coloring OFF on input line 6450.
+Package hyperref Info: Link coloring with OCG OFF on input line 6455.
+Package hyperref Info: PDF/A mode OFF on input line 6460.
+LaTeX Info: Redefining \ref on input line 6500.
+LaTeX Info: Redefining \pageref on input line 6504.
+
+(/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\Hy@abspage=\count279
+\c@Item=\count280
+\c@Hfootnote=\count281
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/atveryend/atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+)
+\Fld@listcount=\count282
+\c@bookmark@seq@number=\count283
+
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip54
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 14.
+runsystem(which pygmentize && touch mattscode.aex)...executed.
+
+runsystem(rm mattscode.aex)...executed.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count284
+\l__pdf_internal_box=\box54
+)
+(./mattscode.aux (./chapters/chapter01.aux) (./chapters/chapter02.aux)
+(./chapters/chapter03.aux) (./chapters/chapter04.aux) (./chapters/chapter05.aux
+) (./chapters/chapter06.aux) (./chapters/chapter07.aux))
+\openout1 = `mattscode.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count285
+\scratchdimen=\dimen158
+\scratchbox=\box55
+\nofMPsegments=\count286
+\nofMParguments=\count287
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count288
+\MPscratchDim=\dimen159
+\MPnumerator=\count289
+\makeMPintoPDFobject=\count290
+\everyMPtoPDFconversion=\toks22
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box56
+Package hyperref Info: Link coloring ON on input line 16.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count291
+)
+LaTeX Info: Redefining \ref on input line 16.
+LaTeX Info: Redefining \pageref on input line 16.
+LaTeX Info: Redefining \nameref on input line 16.
+
+(./mattscode.out) (./mattscode.out)
+\@outlinefile=\write5
+\openout5 = `mattscode.out'.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 24.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 24.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 24.
+ [1
+
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
+
+] (./mattscode.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 2.
+ [3])
+\tf@toc=\write6
+\openout6 = `mattscode.toc'.
+
+ [4]
+\openout2 = `./chapters/chapter01.aux'.
+
+ (./chapters/chapter01.tex
+Chapter 1.
+\openout3 = `mattscode.pyg'.
+
+(./_minted-mattscode/default-pyg-prefix.pygstyle)
+(./_minted-mattscode/default.pygstyle)
+(./_minted-mattscode/5BD3F0136BC21B7CC528788CBA19E1CC86FA503B7245306FEC594FFC58
+8019BA.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/463266740068905A92ACD9C81F6190BB86FA503B7245306FEC594FFC58
+8019BA.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/596B7F5A42F7C3E2B223F8173AC799DC86FA503B7245306FEC594FFC58
+8019BA.pygtex [1
+
+
+
+])
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/DECF4AD9AD811D1A63323D76C011086186FA503B7245306FEC594FFC58
+8019BA.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/799B5518A89A513285A816BF05C02A2586FA503B7245306FEC594FFC58
+8019BA.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/018778BA6096BC8C7E014FB48B14C9F086FA503B7245306FEC594FFC58
+8019BA.pygtex) [2]
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/FC32F1E9E5DF3380DA41B9AFA67393D186FA503B7245306FEC594FFC58
+8019BA.pygtex)
+Overfull \hbox (59.94324pt too wide) in paragraph at lines 85--86
+\OT1/cmr/m/n/10 sion of Python - it places the in-stalled mod-ules in $\OMS/cms
+y/m/n/10 ^^X$\OT1/cmtt/m/n/10 /.local/lib/python3.9/site-packages\OT1/cmr/m/n/1
+0 . 
+ []
+
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/45737EB99C315CE188C645DE144C760B86FA503B7245306FEC594FFC58
+8019BA.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/2852662D8A084CD140F70430FA7CD8F84EF73C33EDF7844E267B065EB1
+234670.pygtex
+Overfull \hbox (18.4194pt too wide) in paragraph at lines 91--1
+\OT1/cmr/m/n/10 then add the fol-low-ing lines to $\OMS/cmsy/m/n/10 ^^X$\OT1/cm
+tt/m/n/10 /.ipython/profile[]default/ipython[]config.py\OT1/cmr/m/n/10 : 
+ []
+
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 3.
+)) [3]
+\openout2 = `./chapters/chapter02.aux'.
+
+ (./chapters/chapter02.tex [4
+
+
+
+]
+Chapter 2.
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 3.
+) [5]
+\openout2 = `./chapters/chapter03.aux'.
+
+ (./chapters/chapter03.tex [6
+
+
+
+]
+Chapter 3.
+
+Overfull \hbox (2.90953pt too wide) in paragraph at lines 15--15
+[]\OT1/cmtt/m/n/14.4 con2020\OT1/cmr/bx/n/14.4 : Python im-ple-men-ta-tion of J
+upiter's
+ []
+
+
+Overfull \hbox (10.02286pt too wide) in paragraph at lines 17--17
+[]\OT1/cmtt/m/n/14.4 libcon2020\OT1/cmr/bx/n/14.4 : C++ im-ple-men-ta-tion of J
+upiter's
+ []
+
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7]
+Overfull \vbox (27.93031pt too high) has occurred while \output is active []
+
+
+[8]
+\openout2 = `./chapters/chapter04.aux'.
+
+ (./chapters/chapter04.tex
+Chapter 4.
+
+Overfull \hbox (26.61455pt too wide) in paragraph at lines 17--17
+[]\OT1/cmtt/m/n/14.4 imagePP\OT1/cmr/bx/n/14.4 : Down-load and read Gold-stein'
+s plasma-
+ []
+
+
+Overfull \hbox (7.26776pt too wide) in paragraph at lines 25--25
+[]\OT1/cmtt/m/n/14.4 VenusExpress\OT1/cmr/bx/n/14.4 : Down-load and read VEX da
+ta 
+ []
+
+) [9
+
+
+
+]
+\openout2 = `./chapters/chapter05.aux'.
+
+ (./chapters/chapter05.tex [10
+
+
+
+]
+Chapter 5.
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/36CE360915F26640CB3362D6AA82E10786FA503B7245306FEC594FFC58
+8019BA.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/51581C89EDEB3A37F6D3A0C3F91C86E086FA503B7245306FEC594FFC58
+8019BA.pygtex [11])
+LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
+43.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmtt.fd
+File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+! Missing $ inserted.
+<inserted text> 
+                $
+l.43 ...h defined be the \texttt{\$SUPERDARN_PATH}
+                                                   variable.
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.43 ...h defined be the \texttt{\$SUPERDARN_PATH}
+                                                   variable.
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.44 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (17.24684pt too wide) in paragraph at lines 46--47
+\OT1/cmtt/m/n/10 There are a few functions within SuperDARN.Data which provide 
+objects
+ []
+
+\openout3 = `mattscode.pyg'.
+
+runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
+minted-mattscode/0D3FD685DF46E9247565F74806C4550F4EF73C33EDF7844E267B065EB12346
+70.pygtex mattscode.pyg)...executed.
+
+
+(./_minted-mattscode/0D3FD685DF46E9247565F74806C4550F4EF73C33EDF7844E267B065EB1
+234670.pygtex)
+Overfull \hbox (11.24702pt too wide) in paragraph at lines 63--64
+[]\OT1/cmtt/m/n/10 In the above examples bdata and cdata are numpy.recarray obj
+ects,
+ []
+
+
+Overfull \hbox (21.74693pt too wide) in paragraph at lines 65--66
+[]\OT1/cmtt/m/n/10 The fitacf data are stored in memory once loaded so that the
+y don't
+ []
+
+
+Overfull \hbox (6.74693pt too wide) in paragraph at lines 65--66
+\OT1/cmtt/m/n/10 need to be re-read every time the data are requested. To check
+ how
+ []
+
+\openout3 = `mattscode.pyg'.
+
+runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
+minted-mattscode/E3EC616B0006F30882360ACA625173384EF73C33EDF7844E267B065EB12346
+70.pygtex mattscode.pyg)...executed.
+
+
+(./_minted-mattscode/E3EC616B0006F30882360ACA625173384EF73C33EDF7844E267B065EB1
+234670.pygtex)
+\openout3 = `mattscode.pyg'.
+
+runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
+minted-mattscode/A3E80D080C26338DB07FC6C4B285856C4EF73C33EDF7844E267B065EB12346
+70.pygtex mattscode.pyg)...executed.
+
+
+(./_minted-mattscode/A3E80D080C26338DB07FC6C4B285856C4EF73C33EDF7844E267B065EB1
+234670.pygtex [12])
+<figures/ch05_sdexample.png, id=401, 578.16pt x 714.0276pt>
+File: figures/ch05_sdexample.png Graphic file (type png)
+<use figures/ch05_sdexample.png>
+Package pdftex.def Info: figures/ch05_sdexample.png  used on input line 119.
+(pdftex.def)             Requested size: 276.00105pt x 340.8554pt.
+
+Overfull \hbox (0.74712pt too wide) in paragraph at lines 126--127
+[]\OT1/cmtt/m/n/10 The fields of view of each radar are stored as instances of 
+the
+ []
+
+
+Overfull \hbox (32.9967pt too wide) in paragraph at lines 126--127
+\OT1/cmtt/m/n/10 SuperDARN.FOV.FOVObj objects in memory and can be accessed usi
+ng GetFOV,
+ []
+
+\openout3 = `mattscode.pyg'.
+
+runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
+minted-mattscode/C8B0D148ED86453F42FD49649CCC8E364EF73C33EDF7844E267B065EB12346
+70.pygtex mattscode.pyg)...executed.
+
+
+(./_minted-mattscode/C8B0D148ED86453F42FD49649CCC8E364EF73C33EDF7844E267B065EB1
+234670.pygtex [13] [14 <./figures/ch05_sdexample.png>])
+<figures/ch05_sdfov.png, id=414, 462.528pt x 346.896pt>
+File: figures/ch05_sdfov.png Graphic file (type png)
+<use figures/ch05_sdfov.png>
+Package pdftex.def Info: figures/ch05_sdfov.png  used on input line 149.
+(pdftex.def)             Requested size: 172.5pt x 129.37639pt.
+) [15 <./figures/ch05_sdfov.png>]
+\openout2 = `./chapters/chapter06.aux'.
+
+ (./chapters/chapter06.tex [16
+
+
+
+]
+Chapter 6.
+
+Overfull \hbox (14.31621pt too wide) in paragraph at lines 3--3
+[]\OT1/cmtt/m/n/14.4 NNClass\OT1/cmr/bx/n/14.4 : Sim-ple neu-ral net-work clas-
+si-fier mod-
+ []
+
+) [17]
+\openout2 = `./chapters/chapter07.aux'.
+
+ (./chapters/chapter07.tex [18
+
+
+
+]
+Chapter 7.
+
+Overfull \hbox (71.4777pt too wide) in paragraph at lines 10--10
+[]\OT1/cmtt/m/n/14.4 RecarrayTools\OT1/cmr/bx/n/14.4 : Tools for ma-nip-u-lat-i
+ng \OT1/cmtt/m/n/14.4 numpy.recarrays 
+ []
+
+
+Overfull \hbox (9.77625pt too wide) in paragraph at lines 11--11
+[]\OT1/cmtt/m/n/14.4 PBSJobExamples\OT1/cmr/bx/n/14.4 : Ex-am-ples for sub-mit-
+ting jobs
+ []
+
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
+Overfull \vbox (29.73582pt too high) has occurred while \output is active []
+
+
+[20]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 40.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 40.
+ (./mattscode.aux (./chapters/chapter01.aux) (./chapters/chapter02.aux)
+(./chapters/chapter03.aux) (./chapters/chapter04.aux) (./chapters/chapter05.aux
+) (./chapters/chapter06.aux) (./chapters/chapter07.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 40.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 40.
+Package rerunfilecheck Info: File `mattscode.out' has not changed.
+(rerunfilecheck)             Checksum: 9DE08CCF51D6A3F53AB0C70BDD9DA66B;5083.
+runsystem(rm mattscode.pyg)...executed.
+
+ )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 43 ({)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 9143 strings out of 481239
+ 159341 string characters out of 5920377
+ 470660 words of memory out of 5000000
+ 24053 multiletter control sequences out of 15000+600000
+ 539475 words of font info for 49 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,6n,37p,882b,639s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsltt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/sha
+re/texmf/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on mattscode.pdf (24 pages, 403808 bytes).
+PDF statistics:
+ 515 PDF objects out of 1000 (max. 8388607)
+ 465 compressed objects within 5 object streams
+ 97 named destinations out of 1000 (max. 500000)
+ 483 words of extra memory for PDF output out of 10000 (max. 10000000)
+

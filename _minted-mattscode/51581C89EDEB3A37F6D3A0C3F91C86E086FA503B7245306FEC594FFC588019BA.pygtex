@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}path to where FITACF files are stored}
+\PYG{c+c1}{\PYGZsh{}(this one is specific to SPECTRE)}
+\PYG{n+nb}{export} \PYG{n+nv}{FITACF\PYGZus{}PATH}\PYG{o}{=}/data/sol\PYGZhy{}ionosphere/fitacf
+	
+\PYG{c+c1}{\PYGZsh{}path to where this module can create some files}
+\PYG{c+c1}{\PYGZsh{}(this should be a path where you have write access)}
+\PYG{n+nb}{export} \PYG{n+nv}{SUPERDARN\PYGZus{}PATH}\PYG{o}{=}/some/other/path/SuperDARN
+\end{Verbatim}
