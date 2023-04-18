@@ -1,5 +1,6 @@
 \begin{Verbatim}[commandchars=\\\{\}]
 \PYG{c+c1}{\PYGZsh{}get the object from memory}
+\PYG{n}{Date} \PYG{o}{=} \PYG{l+m+mi}{20020321}
 \PYG{n}{fov} \PYG{o}{=} \PYG{n}{sd}\PYG{o}{.}\PYG{n}{FOV}\PYG{o}{.}\PYG{n}{GetFOV}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}pyk\PYGZsq{}}\PYG{p}{,}\PYG{n}{Date}\PYG{p}{)}
 			
 \PYG{c+c1}{\PYGZsh{}use it to retrieve the FOV in mag coordinates}

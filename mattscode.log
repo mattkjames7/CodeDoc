@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.7.13)  18 APR 2023 17:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.7.13)  18 APR 2023 21:13
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -325,7 +325,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip54
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 14.
+Package hyperref Info: Option `colorlinks' set `true' on input line 15.
 runsystem(which pygmentize && touch mattscode.aex)...executed.
 
 runsystem(rm mattscode.aex)...executed.
@@ -341,22 +341,22 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 ) (./chapters/chapter06.aux) (./chapters/chapter07.aux))
 \openout1 = `mattscode.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -381,7 +381,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box56
-Package hyperref Info: Link coloring ON on input line 16.
+Package hyperref Info: Link coloring ON on input line 17.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -394,20 +394,20 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count291
 )
-LaTeX Info: Redefining \ref on input line 16.
-LaTeX Info: Redefining \pageref on input line 16.
-LaTeX Info: Redefining \nameref on input line 16.
+LaTeX Info: Redefining \ref on input line 17.
+LaTeX Info: Redefining \pageref on input line 17.
+LaTeX Info: Redefining \nameref on input line 17.
 
 (./mattscode.out) (./mattscode.out)
 \@outlinefile=\write5
 \openout5 = `mattscode.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 24.
+(Font)              <12> on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 24.
+(Font)              <8> on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 24.
+(Font)              <6> on input line 25.
  [1
 
 
@@ -431,7 +431,7 @@ Chapter 1.
 \openout3 = `mattscode.pyg'.
 
 (./_minted-mattscode/default-pyg-prefix.pygstyle)
-(./_minted-mattscode/default.pygstyle)
+(./_minted-mattscode/pastie.pygstyle)
 (./_minted-mattscode/5BD3F0136BC21B7CC528788CBA19E1CC86FA503B7245306FEC594FFC58
 8019BA.pygtex)
 \openout3 = `mattscode.pyg'.
@@ -489,8 +489,6 @@ Overfull \hbox (18.4194pt too wide) in paragraph at lines 91--1
 tt/m/n/10 /.ipython/profile[]default/ipython[]config.py\OT1/cmr/m/n/10 : 
  []
 
-LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 3.
 )) [3]
 \openout2 = `./chapters/chapter02.aux'.
 
@@ -575,113 +573,44 @@ LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmtt.fd
 File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-! Missing $ inserted.
-<inserted text> 
-                $
-l.43 ...h defined be the \texttt{\$SUPERDARN_PATH}
-                                                   variable.
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.43 ...h defined be the \texttt{\$SUPERDARN_PATH}
-                                                   variable.
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.44 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (17.24684pt too wide) in paragraph at lines 46--47
-\OT1/cmtt/m/n/10 There are a few functions within SuperDARN.Data which provide 
-objects
- []
-
 \openout3 = `mattscode.pyg'.
-
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/0D3FD685DF46E9247565F74806C4550F4EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
 
 (./_minted-mattscode/0D3FD685DF46E9247565F74806C4550F4EF73C33EDF7844E267B065EB1
-234670.pygtex)
-Overfull \hbox (11.24702pt too wide) in paragraph at lines 63--64
-[]\OT1/cmtt/m/n/10 In the above examples bdata and cdata are numpy.recarray obj
-ects,
- []
-
-
-Overfull \hbox (21.74693pt too wide) in paragraph at lines 65--66
-[]\OT1/cmtt/m/n/10 The fitacf data are stored in memory once loaded so that the
-y don't
- []
-
-
-Overfull \hbox (6.74693pt too wide) in paragraph at lines 65--66
-\OT1/cmtt/m/n/10 need to be re-read every time the data are requested. To check
- how
- []
-
+234670.pygtex
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 2.
+)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/E3EC616B0006F30882360ACA625173384EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/E3EC616B0006F30882360ACA625173384EF73C33EDF7844E267B065EB1
+(./_minted-mattscode/2565C17C58039680B1CF92ECD715FB854EF73C33EDF7844E267B065EB1
 234670.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/A3E80D080C26338DB07FC6C4B285856C4EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/A3E80D080C26338DB07FC6C4B285856C4EF73C33EDF7844E267B065EB1
+(./_minted-mattscode/C788A75A845A207C2380A157CF92466E4EF73C33EDF7844E267B065EB1
 234670.pygtex [12])
-<figures/ch05_sdexample.png, id=401, 578.16pt x 714.0276pt>
+<figures/ch05_sdexample.png, id=399, 578.16pt x 714.0276pt>
 File: figures/ch05_sdexample.png Graphic file (type png)
 <use figures/ch05_sdexample.png>
 Package pdftex.def Info: figures/ch05_sdexample.png  used on input line 119.
 (pdftex.def)             Requested size: 276.00105pt x 340.8554pt.
 
-Overfull \hbox (0.74712pt too wide) in paragraph at lines 126--127
-[]\OT1/cmtt/m/n/10 The fields of view of each radar are stored as instances of 
-the
- []
-
-
-Overfull \hbox (32.9967pt too wide) in paragraph at lines 126--127
-\OT1/cmtt/m/n/10 SuperDARN.FOV.FOVObj objects in memory and can be accessed usi
-ng GetFOV,
+Overfull \hbox (32.33275pt too wide) in paragraph at lines 127--128
+[]\OT1/cmr/m/n/10 The fields of view of each radar are stored as in-stances of 
+the \OT1/cmtt/m/n/10 SuperDARN.FOV.FOVObj
  []
 
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/C8B0D148ED86453F42FD49649CCC8E364EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/C8B0D148ED86453F42FD49649CCC8E364EF73C33EDF7844E267B065EB1
+(./_minted-mattscode/E3F09FB75362D7B8A5A9B07E6BBA3D8B4EF73C33EDF7844E267B065EB1
 234670.pygtex [13] [14 <./figures/ch05_sdexample.png>])
 <figures/ch05_sdfov.png, id=414, 462.528pt x 346.896pt>
 File: figures/ch05_sdfov.png Graphic file (type png)
 <use figures/ch05_sdfov.png>
-Package pdftex.def Info: figures/ch05_sdfov.png  used on input line 149.
+Package pdftex.def Info: figures/ch05_sdfov.png  used on input line 151.
 (pdftex.def)             Requested size: 172.5pt x 129.37639pt.
 ) [15 <./figures/ch05_sdfov.png>]
 \openout2 = `./chapters/chapter06.aux'.
@@ -727,49 +656,42 @@ Overfull \vbox (29.73582pt too high) has occurred while \output is active []
 
 
 [20]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 40.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 40.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 41.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 41.
  (./mattscode.aux (./chapters/chapter01.aux) (./chapters/chapter02.aux)
 (./chapters/chapter03.aux) (./chapters/chapter04.aux) (./chapters/chapter05.aux
 ) (./chapters/chapter06.aux) (./chapters/chapter07.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 40.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 40.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 41.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 41.
 Package rerunfilecheck Info: File `mattscode.out' has not changed.
 (rerunfilecheck)             Checksum: 9DE08CCF51D6A3F53AB0C70BDD9DA66B;5083.
 runsystem(rm mattscode.pyg)...executed.
 
- )
-(\end occurred inside a group at level 1)
-
-### simple group (level 1) entered at line 43 ({)
-### bottom level 
+ ) 
 Here is how much of TeX's memory you used:
- 9143 strings out of 481239
- 159341 string characters out of 5920377
- 470660 words of memory out of 5000000
- 24053 multiletter control sequences out of 15000+600000
- 539475 words of font info for 49 fonts, out of 8000000 for 9000
+ 9243 strings out of 481239
+ 160827 string characters out of 5920377
+ 472671 words of memory out of 5000000
+ 24152 multiletter control sequences out of 15000+600000
+ 539307 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,6n,37p,882b,639s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsltt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/sha
-re/texmf/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on mattscode.pdf (24 pages, 403808 bytes).
+ 41i,6n,39p,847b,574s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsltt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr
+/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on mattscode.pdf (24 pages, 378383 bytes).
 PDF statistics:
- 515 PDF objects out of 1000 (max. 8388607)
- 465 compressed objects within 5 object streams
- 97 named destinations out of 1000 (max. 500000)
+ 507 PDF objects out of 1000 (max. 8388607)
+ 460 compressed objects within 5 object streams
+ 99 named destinations out of 1000 (max. 500000)
  483 words of extra memory for PDF output out of 10000 (max. 10000000)
 

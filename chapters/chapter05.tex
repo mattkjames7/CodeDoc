@@ -40,7 +40,7 @@ export SUPERDARN_PATH=/some/other/path/SuperDARN
 
 		\subsubsection{Usage}
 		
-			In ipython, the first time this module is imported, it should attempt to download some files from the \href{https://github.com/SuperDARN/rst}{Radar Software Toolkit (RST)} which help in calculating the coordinates of the fields of view of each radar. These files are created in the path defined be the \texttt{\$SUPERDARN_PATH} variable.
+			In ipython, the first time this module is imported, it should attempt to download some files from the \href{https://github.com/SuperDARN/rst}{Radar Software Toolkit (RST)} which help in calculating the coordinates of the fields of view of each radar. These files are created in the path defined be the \texttt{\$SUPERDARN\_PATH} variable.
 
 			\subsubsection{Reading Data}
 				There are a few functions within \texttt{SuperDARN.Data} which provide objects containing data:
@@ -65,7 +65,7 @@ rdata = sd.Data.GetRadarData('han',[20020321,20020322],[22.0,23.0])
 				The fitacf data are stored in memory once loaded so that they don't need to be re-read every time the data are requested. To check how much memory is in use and to clear it:
 			
 				\begin{minted}{python}
-#check memory usage
+#check memory usage in MB
 sd.Data.MemUsage()
 		
 #clear memory
@@ -100,7 +100,7 @@ ax2 = sd.Plot.RTILat('han',[20020321,20020322],[23.0,1.0],105.0,Param='V',
 ax3 = sd.Plot.RTILon('han',[20020321,20020322],[23.0,1.0],70.0,Param='V',
 					fig=plt,maps=[2,3,1,1])
 			
-#some random cells
+#some specific cells
 beams = [1,5,7,2,8,4,9]
 gates = [20,26,33,22,25,21,29]
 ax4 = sd.Plot.RTI('han',[20020321,20020322],[23.0,1.0],beams,gates,
@@ -113,10 +113,11 @@ ax5 = sd.Plot.FOVData('han',20020321,23.5,Param='V',fig=plt,maps=[2,3,1,2])
 plt.tight_layout()
 				\end{minted}
 			
-				which should produce:
+				which should produce figure \ref{FigSDExample}.
 			
 				\begin{figure}
 					\centering\includegraphics[width=0.8\textwidth]{figures/ch05_sdexample.png}
+					\caption{Top left: range time intensity (RTI) plot of backscatter power. Top right: RTI plot of line of sight velocity. Mid left: velocity along a line of cells in magnetic longitude. Mid right: velocity along a range of longitudes. Bottom left: velocity of specific range cells. Bottom right: velocity within the field of view plot. \label{FigSDExample} }
 				\end{figure}
 
 			\subsubsection{Fields of View}
@@ -127,6 +128,7 @@ plt.tight_layout()
 			
 				\begin{minted}{python}
 #get the object from memory
+Date = 20020321
 fov = sd.FOV.GetFOV('pyk',Date)
 			
 #use it to retrieve the FOV in mag coordinates
@@ -143,10 +145,12 @@ gates = [20,26,33,22,25,21,29]
 fov.PlotPolarCells(beams,gates,color='red',fig=ax,Mag=True,linewidth=2.0,Lon=True)
 				\end{minted}
 			
-				The above code should look like this:
+				The above code should look like figure \ref{FigSDFOV}:
 			
 				\begin{figure}
 					\centering\includegraphics[width=0.5\textwidth]{figures/ch05_sdfov.png}
+					\caption{SuperDARN field of view plot with specific cells highlighted.\label{FigSDFOV}}
+					
 				\end{figure}
 			
 
