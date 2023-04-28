@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}before:}
+matt@matt\PYGZhy{}MS\PYGZhy{}7B86:\PYGZti{}\PYGZdl{}
+
+\PYG{n+nb}{source} env/bin/activate
+\PYG{c+c1}{\PYGZsh{}after:}
+\PYG{o}{(}env\PYG{o}{)} matt@matt\PYGZhy{}MS\PYGZhy{}7B86:\PYGZti{}\PYGZdl{}
+\end{Verbatim}

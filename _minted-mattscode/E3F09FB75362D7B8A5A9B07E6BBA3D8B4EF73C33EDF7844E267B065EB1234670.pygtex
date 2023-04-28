@@ -1,0 +1,18 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}get the object from memory}
+\PYG{n}{Date} \PYG{o}{=} \PYG{l+m+mi}{20020321}
+\PYG{n}{fov} \PYG{o}{=} \PYG{n}{sd}\PYG{o}{.}\PYG{n}{FOV}\PYG{o}{.}\PYG{n}{GetFOV}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}pyk\PYGZsq{}}\PYG{p}{,}\PYG{n}{Date}\PYG{p}{)}
+			
+\PYG{c+c1}{\PYGZsh{}use it to retrieve the FOV in mag coordinates}
+\PYG{n}{mlon}\PYG{p}{,}\PYG{n}{mlat} \PYG{o}{=} \PYG{n}{fov}\PYG{o}{.}\PYG{n}{GetFOV}\PYG{p}{(}\PYG{n}{Mag}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{,}\PYG{n}{Date}\PYG{o}{=}\PYG{n}{Date}\PYG{p}{)}
+			
+\PYG{c+c1}{\PYGZsh{}plot it}
+\PYG{n}{ax} \PYG{o}{=} \PYG{n}{fov}\PYG{o}{.}\PYG{n}{PlotPolar}\PYG{p}{(}\PYG{n}{Background}\PYG{o}{=}\PYG{p}{[}\PYG{l+m+mf}{0.0}\PYG{p}{,}\PYG{l+m+mf}{0.2}\PYG{p}{,}\PYG{l+m+mf}{1.0}\PYG{p}{],}\PYG{n}{Continents}\PYG{o}{=}\PYG{p}{[}\PYG{l+m+mf}{0.0}\PYG{p}{,}\PYG{l+m+mf}{1.0}\PYG{p}{,}\PYG{l+m+mf}{0.2}\PYG{p}{],}
+				\PYG{n}{color}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}magenta\PYGZsq{}}\PYG{p}{,}\PYG{n}{ShowBeams}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{,}\PYG{n}{ShowCells}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{,}
+				\PYG{n}{linewidth}\PYG{o}{=}\PYG{l+m+mf}{2.0}\PYG{p}{,}\PYG{n}{Mag}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{,}\PYG{n}{Lon}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)}
+			
+\PYG{c+c1}{\PYGZsh{}add some cells}
+\PYG{n}{beams} \PYG{o}{=} \PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{l+m+mi}{5}\PYG{p}{,}\PYG{l+m+mi}{7}\PYG{p}{,}\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{l+m+mi}{8}\PYG{p}{,}\PYG{l+m+mi}{4}\PYG{p}{,}\PYG{l+m+mi}{9}\PYG{p}{]}
+\PYG{n}{gates} \PYG{o}{=} \PYG{p}{[}\PYG{l+m+mi}{20}\PYG{p}{,}\PYG{l+m+mi}{26}\PYG{p}{,}\PYG{l+m+mi}{33}\PYG{p}{,}\PYG{l+m+mi}{22}\PYG{p}{,}\PYG{l+m+mi}{25}\PYG{p}{,}\PYG{l+m+mi}{21}\PYG{p}{,}\PYG{l+m+mi}{29}\PYG{p}{]}
+\PYG{n}{fov}\PYG{o}{.}\PYG{n}{PlotPolarCells}\PYG{p}{(}\PYG{n}{beams}\PYG{p}{,}\PYG{n}{gates}\PYG{p}{,}\PYG{n}{color}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}red\PYGZsq{}}\PYG{p}{,}\PYG{n}{fig}\PYG{o}{=}\PYG{n}{ax}\PYG{p}{,}\PYG{n}{Mag}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{,}\PYG{n}{linewidth}\PYG{o}{=}\PYG{l+m+mf}{2.0}\PYG{p}{,}\PYG{n}{Lon}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)}
+\end{Verbatim}

@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n+nb}{export} \PYG{n+nv}{KPDATA\PYGZus{}PATH}\PYG{o}{=}/path/to/kp
+\PYG{n+nb}{export} \PYG{n+nv}{OMNIDATA\PYGZus{}PATH}\PYG{o}{=}/path/to/omni
+\PYG{n+nb}{export} \PYG{n+nv}{GEOPACK\PYGZus{}PATH}\PYG{o}{=}/path/to/geopack/data				
+\end{Verbatim}

@@ -1,0 +1,21 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cp}{\PYGZsh{}include}\PYG{+w}{ }\PYG{c+cpf}{\PYGZlt{}internal.h\PYGZgt{}}
+
+\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n+nf}{main}\PYG{p}{()}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{c+cm}{/* set current model */}
+\PYG{+w}{    }\PYG{n}{internalModel}\PYG{p}{.}\PYG{n}{SetModel}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}jrm09\PYGZdq{}}\PYG{p}{);}
+
+\PYG{+w}{    }\PYG{c+cm}{/* set intput and output coordinates to Cartesian */}
+\PYG{+w}{    }\PYG{n}{internalModel}\PYG{p}{.}\PYG{n}{SetCartIn}\PYG{p}{(}\PYG{n+nb}{true}\PYG{p}{);}
+\PYG{+w}{    }\PYG{n}{internalModel}\PYG{p}{.}\PYG{n}{SetCartOut}\PYG{p}{(}\PYG{n+nb}{true}\PYG{p}{);}
+
+\PYG{+w}{    }\PYG{c+cm}{/* input position (cartesian)*/}
+\PYG{+w}{    }\PYG{k+kt}{double}\PYG{+w}{ }\PYG{n}{x}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mf}{35.0}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k+kt}{double}\PYG{+w}{ }\PYG{n}{y}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mf}{10.0}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k+kt}{double}\PYG{+w}{ }\PYG{n}{z}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mf}{\PYGZhy{}4.0}\PYG{p}{;}
+
+\PYG{+w}{    }\PYG{c+cm}{/* output field */}
+\PYG{+w}{    }\PYG{k+kt}{double}\PYG{+w}{ }\PYG{n}{Bx}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{By}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{Bz}\PYG{p}{;}
+\PYG{+w}{    }\PYG{n}{internalModel}\PYG{p}{.}\PYG{n}{Field}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,}\PYG{n}{y}\PYG{p}{,}\PYG{n}{z}\PYG{p}{,}\PYG{o}{\PYGZam{}}\PYG{n}{Bx}\PYG{p}{,}\PYG{o}{\PYGZam{}}\PYG{n}{By}\PYG{p}{,}\PYG{o}{\PYGZam{}}\PYG{n}{Bz}\PYG{p}{);}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

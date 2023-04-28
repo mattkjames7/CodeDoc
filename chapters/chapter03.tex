@@ -75,9 +75,181 @@ ax = T.PlotRhoZ()
 
 		\label{sectGeopack}
 
+		This is the code that \texttt{PyGeopack} calls, it provides a simple C-compatible interface for calculating field vectors, tracing and coordinate conversion. The C++ code in this library is used for configuring model parameters, determining footprints and providing a simple interface for the models, while the Fortran code currently provides field vectors, coordinate transforms and tracing.
+
+		\subsection{Installation}
+
+			This code can be installed as a linkable library (at least on POSIX systems):
+			\begin{minted}{bash}
+#clone the repo
+git clone https://github.com/mattkjames7/geopack --recurse-submodules
+
+#cd into it
+cd geopack
+
+#fetch the submodules if you forgot the 
+#--recurse-submodules flag on the clone command
+git submodule update --init --recursive
+
+#compile it
+make
+sudo make install
+			\end{minted}
+
+			On Linux and MacOS the \texttt{sudo make install} command will place the header file at \texttt{/usr/local/include/geopack.h} and the shared object file at \texttt{/usr/local/lib/libgeopack.so}, unless the \texttt{PREFIX} keyword is set (by default \texttt{PREFIX=/usr/local}). If the \texttt{PREFIX} uses a custom path, then be sure to let the linker know where it exists, either by setting \texttt{LD\_LIBRARY\_PATH} or by using \texttt{-L} and \texttt{-I}.
+
+			On Windows, run \texttt{compile.bat} to create \texttt{lib\\libgeopack.dll}.
+
+		\subsection{Usage}
+			
+			To use this code with C and C++, the header file must be included, i.e.:
+			\begin{minted}{cpp}
+#include <geopack.h>
+			\end{minted}
+			and when compiling, the \texttt{-lgeopack} flag should be used to link to the library. 
+
+			C and other languages such as Python should use the wrapper functions defined within the \texttt{extern "C" \{\}} section of \texttt{geopack.h}. This includes \texttt{ModelField()} for calculating model field vectors, \texttt{TraceField()} for field traces and a number of functions for coordinate conversion, e.g. \texttt{SMtoGSMUT()}. An example of how to trace a field line is in \texttt{geopack\tests\test.c}.
+
+			C++ is able to use all of the functions declared in \texttt{geopack.h}, including the wrapper functions used by C. This means that direct usage of the \texttt{Trace} class is possible, an example of this is shown in \texttt{geopack\tests\test.cc}.
+			
+
 	\section{\texttt{libinternalfield}: C++ spherical harmonic model code}
 
+		This library provides field vectors for spherical harmonic magnetic field models. It has a bunch of built in models from magnetized planets and a moon (Ganymede). This library is used by libjupitermag.
+
+		\subsection{Installation}
+
+			Compile and install in Linux and MacOS:
+
+			\begin{minted}{bash}
+#clone the repo
+git clone https://github.com/mattkjames7/libinternalfield
+		
+#cd into it
+cd libjupitermag
+			
+#compile it
+make
+sudo make install
+			\end{minted}
+
+			Or in Windows, run \texttt{compile.bat} to create \texttt{libinternalfield.dll}.
+
+		\subsection{Usage}
+
+			To use this library, the header should be included \texttt{#include <internalfield.h>} and the code should be compiled with the \texttt{-linternalfield} flag in order to link to the library.
+
+			In C, we can use the \texttt{getModelFieldPointer()} to get a function pointer to the model we want to use, e.g.:
+			\begin{minted}{c}
+#include <stdio.h>
+#include <internalfield.h>
+
+int main() {
+
+	printf("Testing C\n");
+	
+	/* try getting a model function */
+	modelFieldPtr model = getModelFieldPtr("jrm33");
+	double x = 10.0;
+	double y = 10.0;
+	double z = 0.0;
+	double Bx, By, Bz;
+	model(x,y,z,&Bx,&By,&Bz);
+
+	printf("B = [%6.1f,%6.1f,%6.1f] nT at [%4.1f,%4.1f,%4.1f]\n",Bx,By,Bz,x,y,z);
+
+	printf("C test done\n");
+
+}
+			\end{minted}
+
+			C++ can use the \texttt{internalModel} object, e.g.:
+			\begin{minted}{cpp}
+#include <internal.h>
+
+int main() {
+    /* set current model */
+    internalModel.SetModel("jrm09");
+
+    /* set intput and output coordinates to Cartesian */
+    internalModel.SetCartIn(true);
+    internalModel.SetCartOut(true);
+
+    /* input position (cartesian)*/
+    double x = 35.0;
+    double y = 10.0;
+    double z = -4.0;
+
+    /* output field */
+    double Bx, By, Bz;
+    internalModel.Field(x,y,z,&Bx,&By,&Bz);    
+}
+			\end{minted}
+
+
 	\section{\texttt{vsmodel}: Python based Volland-Stern electric field model for Earth}
+		
+		This is a purely Python-based implementation of the Volland-Stern electric field model \citep{Volland1973,Stern1975}.
+
+		\subsection{Installation}
+
+		Use \texttt{pip}:
+		\begin{minted}{bash}
+pip3 install vsmodel --user
+		\end{minted}
+
+		\subsection{Usage}
+
+			Electric field vectors can be determined using either cylindrical (\texttt{vsmodel.ModelE}) or Cartesian (\texttt{vsmodel.ModelCart}) coordinates (Solar Magnetic), e.g.:
+			\begin{minted}{python}
+import vsmodel
+
+##### The simple model using Maynard and Chen ####
+#the Cartesian model
+Ex,Ey,Ez = vsmodel.ModelCart(x,y,Kp)
+
+#the cylindrical model
+Er,Ep,Ez = vsmodel.ModelE(r,phi,Kp)
+
+
+#### The Goldstein et al 2005 version ####
+#the Cartesian model, either by providing solar wind 
+#speed (Vsw) and IMF Bz (Bz), or the equivalent E field (Esw)
+Ex,Ey,Ez = vsmodel.ModelCart(x,y,Kp,Vsw=Vsw,Bz=Bz)
+Ex,Ey,Ez = vsmodel.ModelCart(x,y,Kp,Esw=Esw)
+
+#the cylindrical model
+Er,Ep,Ez = vsmodel.ModelE(r,phi,Kp,Vsw=Vsw,Bz=Bz)
+Er,Ep,Ez = vsmodel.ModelE(r,phi,Kp,Esw=Esw)
+			\end{minted}
+			where the \citet{Maynard1975} method uses the Kp index and the \citet{Goldstein2005} method uses Kp, solar wind speed and the $z$-component of the interplanetary magnetic field.
+
+			The electric field magnitude and $\mathbf{E}\times\mathbf{B}$ velocity can be plotted in the Earth's equatorial plane:
+			\begin{minted}{python}
+import vsmodel
+import matplotlib.pyplot as plt
+
+plt.figure(figsize=(9,8))
+ax0 = vsmodel.PlotModelEq('E',Kp=1.0,Vsw=-400.0,Bz=-2.5,
+		maps=[2,2,0,0],fig=plt,fmt='%4.2f',scale=[0.01,10.0])
+ax1 = vsmodel.PlotModelEq('E',Kp=5.0,Vsw=-400.0,Bz=-2.5,
+		maps=[2,2,1,0],fig=plt,fmt='%4.2f',scale=[0.01,10.0])
+ax2 = vsmodel.PlotModelEq('V',Kp=1.0,Vsw=-400.0,Bz=-2.5,
+		maps=[2,2,0,1],fig=plt,scale=[100.0,10000.0])
+ax3 = vsmodel.PlotModelEq('V',Kp=5.0,Vsw=-400.0,Bz=-2.5,
+		maps=[2,2,1,1],fig=plt,scale=[100.0,10000.0])
+ax0.set_title('$K_p=1$; $E_{sw}=-1$ mV m$^{-1}$')
+ax2.set_title('$K_p=1$; $E_{sw}=-1$ mV m$^{-1}$')
+ax3.set_title('$K_p=5$; $E_{sw}=-1$ mV m$^{-1}$')
+ax1.set_title('$K_p=5$; $E_{sw}=-1$ mV m$^{-1}$')
+plt.tight_layout()
+			\end{minted}
+			which would produce figure \ref{figVS}
+
+			\begin{figure}
+				\centering\includegraphics[width=\textwidth]{figures/ch03_vsmodel.png}
+				\caption{Volland-Stern electric field (top plots) and $\mathbf{E}\times\mathbf{B}$ velocity (bottom plots). \label{figVS}}
+			\end{figure}
 
 	\section{\texttt{JupiterMag}: Python wrapper for Jovian field models}
 

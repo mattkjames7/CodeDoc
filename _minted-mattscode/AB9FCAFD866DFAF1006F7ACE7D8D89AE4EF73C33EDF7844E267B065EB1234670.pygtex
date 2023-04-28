@@ -1,0 +1,14 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import} \PYG{n+nn}{numpy} \PYG{k}{as} \PYG{n+nn}{np}
+
+\PYG{c+c1}{\PYGZsh{}define a few starting positions for the traces}
+\PYG{n}{x} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{array}\PYG{p}{([}\PYG{l+m+mf}{2.0}\PYG{p}{,}\PYG{l+m+mf}{4.0}\PYG{p}{,}\PYG{l+m+mf}{6.0}\PYG{p}{,}\PYG{l+m+mf}{8.0}\PYG{p}{])}
+\PYG{n}{y} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{array}\PYG{p}{([}\PYG{l+m+mf}{0.0}\PYG{p}{,}\PYG{l+m+mf}{0.0}\PYG{p}{,}\PYG{l+m+mf}{0.0}\PYG{p}{,}\PYG{l+m+mf}{0.0}\PYG{p}{])}
+\PYG{n}{z} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{array}\PYG{p}{([}\PYG{l+m+mf}{0.0}\PYG{p}{,}\PYG{l+m+mf}{0.0}\PYG{p}{,}\PYG{l+m+mf}{0.0}\PYG{p}{,}\PYG{l+m+mf}{0.0}\PYG{p}{])}
+
+\PYG{c+c1}{\PYGZsh{}run the traces, return TraceField object}
+\PYG{n}{T} \PYG{o}{=} \PYG{n}{gp}\PYG{o}{.}\PYG{n}{TraceField}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,}\PYG{n}{y}\PYG{p}{,}\PYG{n}{z}\PYG{p}{,}\PYG{l+m+mi}{20221222}\PYG{p}{,}\PYG{l+m+mf}{16.0}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{}plot field traces}
+\PYG{n}{ax} \PYG{o}{=} \PYG{n}{T}\PYG{o}{.}\PYG{n}{PlotRhoZ}\PYG{p}{()}
+\end{Verbatim}
