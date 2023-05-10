@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import} \PYG{n+nn}{PyGCPM}
+\PYG{n}{ne}\PYG{p}{,}\PYG{n}{nH}\PYG{p}{,}\PYG{n}{nHe}\PYG{p}{,}\PYG{n}{nO} \PYG{o}{=} \PYG{n}{PyGCPM}\PYG{o}{.}\PYG{n}{GCPM}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,}\PYG{n}{y}\PYG{p}{,}\PYG{n}{z}\PYG{p}{,}\PYG{n}{Date}\PYG{p}{,}\PYG{n}{ut}\PYG{p}{,}\PYG{n}{Kp}\PYG{o}{=}\PYG{n}{Kp}\PYG{p}{,}\PYG{n}{Verbose}\PYG{o}{=}\PYG{n}{Verbose}\PYG{p}{)}
+\end{Verbatim}
