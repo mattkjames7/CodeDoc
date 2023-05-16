@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}if you download the package}
+pip3 install HermeanFLRModel\PYGZhy{}x.y.z\PYGZhy{}py3\PYGZhy{}none\PYGZhy{}any.whl \PYGZhy{}\PYGZhy{}user
+
+\PYG{c+c1}{\PYGZsh{}or clone, build and install}
+git clone https://github.com/mattkjames7/HermeanFLRModel.git
+\PYG{n+nb}{cd} HermeanFLRModel
+python3 setup.py bdist\PYGZus{}wheel
+pip3 install dist/HermeanFLRModel\PYGZhy{}x.y.z\PYGZhy{}py3\PYGZhy{}none\PYGZhy{}any.whl \PYGZhy{}\PYGZhy{}user
+\end{Verbatim}

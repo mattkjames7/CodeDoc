@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}create input coordinate(s)}
+\PYG{n}{x} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{zeros}\PYG{p}{(}\PYG{l+m+mi}{6}\PYG{p}{)}
+\PYG{n}{y} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{array}\PYG{p}{([}\PYG{l+m+mf}{1.0}\PYG{p}{,}\PYG{l+m+mf}{1.2}\PYG{p}{,}\PYG{l+m+mf}{1.4}\PYG{p}{,}\PYG{l+m+mf}{1.6}\PYG{p}{,}\PYG{l+m+mf}{1.8}\PYG{p}{,}\PYG{l+m+mf}{2.0}\PYG{p}{])}
+\PYG{n}{z} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{zeros}\PYG{p}{(}\PYG{l+m+mi}{6}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{}call model Calc() function}
+\PYG{n}{rho} \PYG{o}{=} \PYG{n}{model}\PYG{o}{.}\PYG{n}{Calc}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,}\PYG{n}{y}\PYG{p}{,}\PYG{n}{z}\PYG{p}{)}
+\end{Verbatim}

@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import} \PYG{n+nn}{HermeanFLRModel} \PYG{k}{as} \PYG{n+nn}{hflr}
+
+\PYG{n}{model} \PYG{o}{=} \PYG{n}{hflr}\PYG{o}{.}\PYG{n}{Model}\PYG{p}{(}\PYG{n}{Alpha}\PYG{p}{,}\PYG{n}{Coord}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}MSM\PYGZsq{}}\PYG{p}{)}
+\end{Verbatim}

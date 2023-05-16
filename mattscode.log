@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.4.18)  10 MAY 2023 15:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.4.18)  16 MAY 2023 14:40
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -514,7 +514,63 @@ Chapter 2.
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 3.
 ! Undefined control sequence.
-l.15 ...r for the Global Core Plasma Model (\citet
+l.13 ...ne resonance (FLR) based model from \citet
+                                                  {James2019}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\openout3 = `mattscode.pyg'.
+
+runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -P str
+ipnl=False -o _minted-mattscode/60154A0CF5F7BB6F28A96B5F5EDFE095506B1BCBD2335BB
+37B8184D8D95DE162.pygtex mattscode.pyg)...executed.
+
+
+(./_minted-mattscode/60154A0CF5F7BB6F28A96B5F5EDFE095506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
+\openout3 = `mattscode.pyg'.
+
+runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -P s
+tripnl=False -o _minted-mattscode/5999602422C011C15120BAFD93033B4C59A43900517B4
+1B76D2303EB37018509.pygtex mattscode.pyg)...executed.
+
+
+(./_minted-mattscode/5999602422C011C15120BAFD93033B4C59A43900517B41B76D2303EB37
+018509.pygtex
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 2.
+) [5]
+\openout3 = `mattscode.pyg'.
+
+runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -P s
+tripnl=False -o _minted-mattscode/E9378681DE1F279AA0AEA85F0284954259A43900517B4
+1B76D2303EB37018509.pygtex mattscode.pyg)...executed.
+
+
+(./_minted-mattscode/E9378681DE1F279AA0AEA85F0284954259A43900517B41B76D2303EB37
+018509.pygtex)
+\openout3 = `mattscode.pyg'.
+
+runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -P s
+tripnl=False -o _minted-mattscode/C26C6D5C5731C8ED5F43047E299C072D59A43900517B4
+1B76D2303EB37018509.pygtex mattscode.pyg)...executed.
+
+
+(./_minted-mattscode/C26C6D5C5731C8ED5F43047E299C072D59A43900517B41B76D2303EB37
+018509.pygtex)
+
+LaTeX Warning: Reference `FigHFLR' on page 6 undefined on input line 60.
+
+<figures/ch2_hflr.png, id=421, 462.528pt x 346.896pt>
+File: figures/ch2_hflr.png Graphic file (type png)
+<use figures/ch2_hflr.png>
+Package pdftex.def Info: figures/ch2_hflr.png  used on input line 64.
+(pdftex.def)             Requested size: 276.00105pt x 207.01175pt.
+! Undefined control sequence.
+l.75 ...r for the Global Core Plasma Model (\citet
                                                   {Gallagher2000}, \href{htt...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -522,6 +578,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+[6 <./figures/ch2_hflr.png>]
 \openout3 = `mattscode.pyg'.
 
 
@@ -531,40 +588,32 @@ and I'll forget about whatever was undefined.
 
 
 (./_minted-mattscode/8A0570E17C32C58A39A2860F5944C80A59A43900517B41B76D2303EB37
-018509.pygtex
-LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 2.
- [5])
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
 (./_minted-mattscode/12744E3435C94EC8E7BA1C67B0E2E93E59A43900517B41B76D2303EB37
 018509.pygtex)
-<figures/ch2_pygcpm_equator.png, id=426, 462.528pt x 346.896pt>
+<figures/ch2_pygcpm_equator.png, id=432, 462.528pt x 346.896pt>
 File: figures/ch2_pygcpm_equator.png Graphic file (type png)
 <use figures/ch2_pygcpm_equator.png>
-Package pdftex.def Info: figures/ch2_pygcpm_equator.png  used on input line 48.
-
+Package pdftex.def Info: figures/ch2_pygcpm_equator.png  used on input line 108
+.
 (pdftex.def)             Requested size: 276.00105pt x 207.01175pt.
 \openout3 = `mattscode.pyg'.
 
 
 (./_minted-mattscode/00057E2B72843F28A2EC627862935E1B59A43900517B41B76D2303EB37
 018509.pygtex)
-<figures/ch2_pygcpm_mlt.png, id=429, 462.528pt x 346.896pt>
+<figures/ch2_pygcpm_mlt.png, id=434, 462.528pt x 346.896pt>
 File: figures/ch2_pygcpm_mlt.png Graphic file (type png)
 <use figures/ch2_pygcpm_mlt.png>
-Package pdftex.def Info: figures/ch2_pygcpm_mlt.png  used on input line 61.
+Package pdftex.def Info: figures/ch2_pygcpm_mlt.png  used on input line 121.
 (pdftex.def)             Requested size: 276.00105pt x 207.01175pt.
-) [6 <./figures/ch2_pygcpm_equator.png>] [7 <./figures/ch2_pygcpm_mlt.png>]
+) [7] [8 <./figures/ch2_pygcpm_equator.png> <./figures/ch2_pygcpm_mlt.png>]
 \openout2 = `./chapters/chapter03.aux'.
 
- (./chapters/chapter03.tex [8
-
-
-
-
-]
+ (./chapters/chapter03.tex
 Chapter 3.
 
 Overfull \hbox (8.43134pt too wide) in paragraph at lines 5--6
@@ -607,7 +656,12 @@ This input will be discarded. Type <return> to continue.
 
 
 (./_minted-mattscode/DA0EA8B3F469DC5C34AFFEDF2E154D25506B1BCBD2335BB37B8184D8D9
-5DE162.pygtex) [9]
+5DE162.pygtex) [9
+
+
+
+
+]
 \openout3 = `mattscode.pyg'.
 
 
@@ -623,7 +677,7 @@ This input will be discarded. Type <return> to continue.
 
 (./_minted-mattscode/AB9FCAFD866DFAF1006F7ACE7D8D89AE59A43900517B41B76D2303EB37
 018509.pygtex)
-<figures/ch03_geopacktrace.png, id=455, 462.528pt x 346.896pt>
+<figures/ch03_geopacktrace.png, id=461, 462.528pt x 346.896pt>
 File: figures/ch03_geopacktrace.png Graphic file (type png)
 <use figures/ch03_geopacktrace.png>
 Package pdftex.def Info: figures/ch03_geopacktrace.png  used on input line 67.
@@ -786,7 +840,7 @@ and I'll forget about whatever was undefined.
 
 (./_minted-mattscode/EC839C7D9BDB0AFE956B88F834DF7D1259A43900517B41B76D2303EB37
 018509.pygtex)
-<figures/ch03_vsmodel.png, id=477, 650.43pt x 578.16pt>
+<figures/ch03_vsmodel.png, id=483, 650.43pt x 578.16pt>
 File: figures/ch03_vsmodel.png Graphic file (type png)
 <use figures/ch03_vsmodel.png>
 Package pdftex.def Info: figures/ch03_vsmodel.png  used on input line 250.
@@ -871,7 +925,7 @@ File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 
 (./_minted-mattscode/C788A75A845A207C2380A157CF92466E59A43900517B41B76D2303EB37
 018509.pygtex [20])
-<figures/ch05_sdexample.png, id=516, 578.16pt x 714.0276pt>
+<figures/ch05_sdexample.png, id=522, 578.16pt x 714.0276pt>
 File: figures/ch05_sdexample.png Graphic file (type png)
 <use figures/ch05_sdexample.png>
 Package pdftex.def Info: figures/ch05_sdexample.png  used on input line 119.
@@ -887,7 +941,7 @@ the \OT1/cmtt/m/n/10 SuperDARN.FOV.FOVObj
 
 (./_minted-mattscode/E3F09FB75362D7B8A5A9B07E6BBA3D8B59A43900517B41B76D2303EB37
 018509.pygtex [21] [22 <./figures/ch05_sdexample.png>])
-<figures/ch05_sdfov.png, id=530, 462.528pt x 346.896pt>
+<figures/ch05_sdfov.png, id=536, 462.528pt x 346.896pt>
 File: figures/ch05_sdfov.png Graphic file (type png)
 <use figures/ch05_sdfov.png>
 Package pdftex.def Info: figures/ch05_sdfov.png  used on input line 151.
@@ -943,16 +997,28 @@ Overfull \vbox (29.73582pt too high) has occurred while \output is active []
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `mattscode.out' has not changed.
-(rerunfilecheck)             Checksum: 9E60757385A1DFC65C09FA5CB8617811;16953.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `mattscode.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `mattscode.out':
+(rerunfilecheck)             Before: 9E60757385A1DFC65C09FA5CB8617811;16953
+(rerunfilecheck)             After:  497B3030B7CC4DA10EA49634E387D490;17162.
 runsystem(rm mattscode.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 12692 strings out of 480247
- 233754 string characters out of 5896151
- 559684 words of memory out of 5000000
- 30187 multiletter control sequences out of 15000+600000
+ 12727 strings out of 480247
+ 236044 string characters out of 5896151
+ 560081 words of memory out of 5000000
+ 30206 multiletter control sequences out of 15000+600000
  476847 words of font info for 54 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  74i,6n,77p,763b,689s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -970,10 +1036,10 @@ onts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt
 10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb
 >
-Output written on mattscode.pdf (32 pages, 713509 bytes).
+Output written on mattscode.pdf (32 pages, 739183 bytes).
 PDF statistics:
- 647 PDF objects out of 1000 (max. 8388607)
- 568 compressed objects within 6 object streams
- 125 named destinations out of 1000 (max. 500000)
- 591 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 654 PDF objects out of 1000 (max. 8388607)
+ 573 compressed objects within 6 object streams
+ 128 named destinations out of 1000 (max. 500000)
+ 596 words of extra memory for PDF output out of 10000 (max. 10000000)
 

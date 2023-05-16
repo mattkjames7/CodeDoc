@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}select magnetic local time and alpha}
+\PYG{n}{MLT} \PYG{o}{=} \PYG{l+m+mf}{6.0}
+\PYG{n}{Alpha} \PYG{o}{=} \PYG{l+m+mf}{3.0}
+
+\PYG{c+c1}{\PYGZsh{}plot it}
+\PYG{n}{ax} \PYG{o}{=} \PYG{n}{hflr}\PYG{o}{.}\PYG{n}{PlotModelSlice}\PYG{p}{(}\PYG{n}{MLT}\PYG{p}{,}\PYG{n}{Alpha}\PYG{p}{)}
+\end{Verbatim}

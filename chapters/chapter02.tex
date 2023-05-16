@@ -8,6 +8,66 @@
 
 	\section{\texttt{HermeanFLRModel}: Model of Mercury's dayside plasma mass density}
 
+		GitHub: \href{https://github.com/mattkjames7/HermeanFLRModel.git}{https://github.com/mattkjames7/HermeanFLRModel.git}
+
+		Estimate the dayside plasma mass density in Mercury's magnetosphere using the field line resonance (FLR) based model from \citet{James2019}.
+
+		\subsection{Installation}
+
+			This hasn't been placed on PyPI, so either download fromt he GitHub page and install using \texttt{pip}, or clone and build the package:
+			\begin{minted}{bash}
+#if you download the package
+pip3 install HermeanFLRModel-x.y.z-py3-none-any.whl --user
+
+#or clone, build and install
+git clone https://github.com/mattkjames7/HermeanFLRModel.git
+cd HermeanFLRModel
+python3 setup.py bdist_wheel
+pip3 install dist/HermeanFLRModel-x.y.z-py3-none-any.whl --user
+			\end{minted}
+			where \texttt{x.y.z} should be replaced with the current version number.
+
+		\subsection{Usage}
+
+			Import the module and create an instance of the \texttt{Model} object:
+			\begin{minted}{python}
+import HermeanFLRModel as hflr
+
+model = hflr.Model(Alpha,Coord='MSM')
+			\end{minted}
+			where \texttt{Alpha} is the power law index which should be an integer from 0 to 6, and \texttt{Coord} sets the coordinate system to use (either MSM or MSO).
+
+			Use the \texttt{model.Calc()} member function to work out densities:
+			\begin{minted}{python}
+#create input coordinate(s)
+x = np.zeros(6)
+y = np.array([1.0,1.2,1.4,1.6,1.8,2.0])
+z = np.zeros(6)
+
+#call model Calc() function
+rho = model.Calc(x,y,z)
+			\end{minted}
+
+			Or produce a plot of the plasma mass denity for a slice through the magnetosphere, e.g.:
+			\begin{minted}{python}
+#select magnetic local time and alpha
+MLT = 6.0
+Alpha = 3.0
+
+#plot it
+ax = hflr.PlotModelSlice(MLT,Alpha)
+			\end{minted}
+			which should produce something like figure \ref{FigHFLR}.
+
+			\begin{figure}
+				\begin{center}
+					\includegraphics[width=0.8\textwidth]{figures/ch2_hflr.png}
+				\end{center}
+				\caption{Plasma mass density at 6:00 MLT. \label{FigHFLR}}
+			\end{figure}
+
+
+
 	\section{\texttt{PyGCPM}: Wrapper for the Global Core Plasma Model}
 	
 		GitHub: \href{https://github.com/mattkjames7/PyGCPM.git}{https://github.com/mattkjames7/PyGCPM.git}
