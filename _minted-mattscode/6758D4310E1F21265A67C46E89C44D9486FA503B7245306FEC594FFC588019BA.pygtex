@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+make
+
+\PYG{c+c1}{\PYGZsh{}optionally install globally}
+sudo make install
+\end{Verbatim}

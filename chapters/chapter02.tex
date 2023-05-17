@@ -6,6 +6,35 @@
 
 	\section{\texttt{spiced}}
 
+		GitHub: \href{https://github.com/mattkjames7/spiced.git}{https://github.com/mattkjames7/spiced.git}
+
+		The C++ code behind the SPICED model. It should be possible to build this library in Linux, Windows and MacOS.
+
+		\subsection{Installation}
+
+			In Linux and MacOS, it should eb possible to make and install the library:
+			\begin{minted}{bash}
+make
+
+#optionally install globally
+sudo make install
+			\end{minted}
+
+			Or in Windows:
+			\begin{minted}{bash}
+compile.bat
+			\end{minted}
+
+		\subsection{Usage}
+
+			When using this library, the header file should be included, i.e.:
+			\begin{minted}{cpp}
+#include <spiced.h>
+			\end{minted}
+			and the linker flag \texttt{-lspiced} should be used during compilation.
+
+			The models also need to be initialized at runtime using \texttt{initModels();}. \texttt{spiced.h} contains a full list of the functions which can be linked to using C and other languages like Python within the \texttt{extern "C" \{\}} section; other symbols outside this section can, such as the model objects themselves may be interacted with directly using C++.
+
 	\section{\texttt{HermeanFLRModel}: Model of Mercury's dayside plasma mass density}
 
 		GitHub: \href{https://github.com/mattkjames7/HermeanFLRModel.git}{https://github.com/mattkjames7/HermeanFLRModel.git}

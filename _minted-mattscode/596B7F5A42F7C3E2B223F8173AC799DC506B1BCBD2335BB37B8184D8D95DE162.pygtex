@@ -1,3 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-sudo apt install git gcc g++ binutils gfortran python3\PYGZhy{}pip
-\end{Verbatim}

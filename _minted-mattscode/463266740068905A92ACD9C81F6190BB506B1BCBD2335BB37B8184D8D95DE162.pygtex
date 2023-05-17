@@ -1,5 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{n+nb}{echo} module load gcc/9.3 \PYGZgt{}\PYGZgt{} \PYGZti{}/.bashrc
-\PYG{n+nb}{echo} module load python/gcc/3.9.10 \PYGZgt{}\PYGZgt{} \PYGZti{}/.bashrc
-\PYG{n+nb}{echo} module load git/2.35.2 \PYGZgt{}\PYGZgt{} \PYGZti{}/.bashrc
-\end{Verbatim}

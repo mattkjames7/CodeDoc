@@ -1,5 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-module load gcc/9.3
-module load python/gcc/3.9.10
-module load git/2.35.2
-\end{Verbatim}

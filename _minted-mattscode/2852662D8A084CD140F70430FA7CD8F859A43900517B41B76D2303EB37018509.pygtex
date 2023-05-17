@@ -1,5 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{n}{c}\PYG{o}{.}\PYG{n}{InteractiveShellApp}\PYG{o}{.}\PYG{n}{extensions} \PYG{o}{=} \PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}autoreload\PYGZsq{}}\PYG{p}{]}
-\PYG{n}{c}\PYG{o}{.}\PYG{n}{InteractiveShellApp}\PYG{o}{.}\PYG{n}{exec\PYGZus{}lines} \PYG{o}{=} \PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+si}{\PYGZpc{}a}\PYG{l+s+s1}{utoreload 2\PYGZsq{}}\PYG{p}{]}
-\PYG{n}{c}\PYG{o}{.}\PYG{n}{InteractiveShellApp}\PYG{o}{.}\PYG{n}{exec\PYGZus{}lines}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}print(\PYGZdq{}Warning: disable autoreload in ipython\PYGZus{}config.py to improve performance.\PYGZdq{})\PYGZsq{}}\PYG{p}{)}
-\end{Verbatim}
