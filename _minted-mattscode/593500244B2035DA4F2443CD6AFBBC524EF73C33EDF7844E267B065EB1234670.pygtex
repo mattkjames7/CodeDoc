@@ -1,0 +1,25 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import} \PYG{n+nn}{matplotlib.pyplot} \PYG{k}{as} \PYG{n+nn}{plt}
+\PYG{k+kn}{import} \PYG{n+nn}{spicedmodel}
+
+\PYG{c+c1}{\PYGZsh{}create the plot window}
+\PYG{n}{plt}\PYG{o}{.}\PYG{n}{figure}\PYG{p}{(}\PYG{n}{figsize}\PYG{o}{=}\PYG{p}{(}\PYG{l+m+mi}{8}\PYG{p}{,}\PYG{l+m+mi}{7}\PYG{p}{))}
+
+\PYG{c+c1}{\PYGZsh{}set the parameters of the models}
+\PYG{n}{smr} \PYG{o}{=} \PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{70.0}
+
+\PYG{c+c1}{\PYGZsh{}plot the average ion mass}
+\PYG{n}{ax0} \PYG{o}{=} \PYG{n}{spicedmodel}\PYG{o}{.}\PYG{n}{PlotEq}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}mav\PYGZsq{}}\PYG{p}{,}\PYG{n}{SMR}\PYG{o}{=}\PYG{n}{smr}\PYG{p}{,}\PYG{n}{fig}\PYG{o}{=}\PYG{n}{plt}\PYG{p}{,}\PYG{n}{maps}\PYG{o}{=}\PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{l+m+mi}{0}\PYG{p}{])}
+
+\PYG{c+c1}{\PYGZsh{}plot probability}
+\PYG{n}{ax1} \PYG{o}{=} \PYG{n}{spicedmodel}\PYG{o}{.}\PYG{n}{PlotEq}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}prob\PYGZsq{}}\PYG{p}{,}\PYG{n}{SMR}\PYG{o}{=}\PYG{n}{smr}\PYG{p}{,}\PYG{n}{fig}\PYG{o}{=}\PYG{n}{plt}\PYG{p}{,}\PYG{n}{maps}\PYG{o}{=}\PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{l+m+mi}{0}\PYG{p}{])}
+
+\PYG{c+c1}{\PYGZsh{}plot electron density}
+\PYG{n}{ax4} \PYG{o}{=} \PYG{n}{spicedmodel}\PYG{o}{.}\PYG{n}{PlotEq}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}density\PYGZsq{}}\PYG{p}{,}\PYG{n}{SMR}\PYG{o}{=}\PYG{n}{smr}\PYG{p}{,}\PYG{n}{fig}\PYG{o}{=}\PYG{n}{plt}\PYG{p}{,}\PYG{n}{maps}\PYG{o}{=}\PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{l+m+mi}{1}\PYG{p}{])}
+
+\PYG{c+c1}{\PYGZsh{}plot plasma mass density}
+\PYG{n}{ax5} \PYG{o}{=} \PYG{n}{spicedmodel}\PYG{o}{.}\PYG{n}{PlotEq}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}pmd\PYGZsq{}}\PYG{p}{,}\PYG{n}{SMR}\PYG{o}{=}\PYG{n}{smr}\PYG{p}{,}\PYG{n}{fig}\PYG{o}{=}\PYG{n}{plt}\PYG{p}{,}\PYG{n}{maps}\PYG{o}{=}\PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{l+m+mi}{1}\PYG{p}{])}
+
+\PYG{c+c1}{\PYGZsh{}adjust everything to fit}
+\PYG{n}{plt}\PYG{o}{.}\PYG{n}{tight\PYGZus{}layout}\PYG{p}{()}
+\end{Verbatim}

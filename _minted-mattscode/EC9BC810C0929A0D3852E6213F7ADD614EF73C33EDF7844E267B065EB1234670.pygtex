@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}electron density}
+\PYG{n}{ne} \PYG{o}{=} \PYG{n}{spicedmodel}\PYG{o}{.}\PYG{n}{Density}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,}\PYG{n}{y}\PYG{p}{,}\PYG{n}{SMR}\PYG{o}{=\PYGZhy{}}\PYG{l+m+mf}{75.0}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{}average ion mass}
+\PYG{n}{mav} \PYG{o}{=} \PYG{n}{spicedmodel}\PYG{o}{.}\PYG{n}{Mav}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,}\PYG{n}{y}\PYG{p}{,}\PYG{n}{SMR}\PYG{o}{=\PYGZhy{}}\PYG{l+m+mf}{75.0}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{}plasma mass density, effectively ne*mav}
+\PYG{n}{pmd} \PYG{o}{=} \PYG{n}{spicedmodel}\PYG{o}{.}\PYG{n}{PMD}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,}\PYG{n}{y}\PYG{p}{,}\PYG{n}{SMR}\PYG{o}{=\PYGZhy{}}\PYG{l+m+mf}{75.0}\PYG{p}{)}
+\end{Verbatim}

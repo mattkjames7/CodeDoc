@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+git clone https://github.com/mattkjames7/spicedmodel
+\PYG{n+nb}{cd} spicedmodel
+\end{Verbatim}

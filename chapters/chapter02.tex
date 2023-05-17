@@ -2,6 +2,134 @@
 
 	\section{\texttt{spicedmodel}: The Scalable Plasma Ion Composition and Electron Density Model}
 
+		Python wrapper for the Scalable Plasma Ion Composition and Electron Density (SPICED) model:
+
+		James, M. K., Yeoman, T.K., Jones, P., Sandhu, J. K., Goldstein, J. (2021), The Scalable Plasma Ion Composition and Electron Density (SPICED) model for Earth's inner magnetosphere, \emph{J. Geophys. Res. Space Physics},  \url{https://doi.org/10.1029/2021JA029565}
+
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=0.9\linewidth]{figures/ch2_spicedmodel.png}
+			\caption{Example output of the SPICED model.}
+		\end{figure}
+
+		\subsection{Installation}
+
+			\subsubsection{Using \texttt{pip}}
+
+				This will download the package from PyPI:
+
+\begin{minted}{bash}
+pip3 install spicedmodel --user
+\end{minted}
+
+			\subsubsection{From Source}
+
+			Obtain the latest release from \url{https://github.com/mattkjames7/spicedmodel}
+
+\begin{minted}{bash}
+git clone https://github.com/mattkjames7/spicedmodel
+cd spicedmodel
+\end{minted}
+
+			Either install using \texttt{setup.py}:
+
+\begin{minted}{bash}
+python3 setup.py install --user
+\end{minted}
+
+			or by building a wheel:
+
+\begin{minted}{bash}
+python3 setup.py bdist_wheel
+pip3 install dist/spicedmodel-XXX.whl --user
+\end{minted}
+
+			where \texttt{"XXX"} is the rest of the file name, which will vary depending upon the current version.
+
+			\subsection{Usage}
+
+				Load \texttt{python3} or \texttt{ipython3}, and import
+
+\begin{minted}{python}
+import spicedmodel
+\end{minted}
+
+			\subsubsection{Accessing the models}
+
+				There are four models, plus two additional combinations of these models:
+
+				\begin{itemize}
+					\item Plasmasphere average ion mass, $m_{\text{av,ps}}$: \texttt{spicedmodel.MavPS}
+					\item Plasmatrough average ion mass, $m_{\text{av,pt}}$: \texttt{spicedmodel.MavPT}
+					\item Combined average ion mass, $m_{\text{av}}$: \texttt{spicedmodel.Mav}
+					\item Hot average ion mass, $m_{\text{av}}$: \texttt{spicedmodel.MavHot}
+					\item Probability of being within the plasmasphere, $P$: \texttt{spicedmodel.Prob}
+					\item Plasmasphere electron density, $n_{\text{e,ps}}$: \texttt{spicedmodel.PS}
+					\item Plasmatrough electron density, $n_{\text{e,pt}}$: \texttt{spicedmodel.PT}
+					\item Combined electron density, $n_{\text{e}}$ (a combination of plasmasphere, plasmatrough and probability models): \texttt{spicedmodel.Density}
+					\item Combined plasma mass density, $\rho$: \texttt{spicedmodel.PMD}
+				\end{itemize}
+
+				The average versions of each model can be accessed simply by providing the positions in the equatorial plane where you would like them, e.g.:
+
+\begin{minted}{python}
+#either using SM x and y coordinates
+P = spicedmodel.Prob(x,y)
+
+#or using MLT (M) and L-Shell (L)
+P = spicedmodel.Prob(M,L,Coord='ml')
+\end{minted}
+
+				The scaled models can be accessed using the same functions, this time including the \texttt{SMR} keyword (for \texttt{Mav}, \texttt{MavPS}, \texttt{MavPT}, \texttt{Prob}, \texttt{PS}, \texttt{PT}, \texttt{Density} or \texttt{PMD}) or \texttt{F107} (for \texttt{MavHot}), e.g.:
+
+\begin{minted}{python}
+#electron density
+ne = spicedmodel.Density(x,y,SMR=-75.0)
+
+#average ion mass
+mav = spicedmodel.Mav(x,y,SMR=-75.0)
+
+#plasma mass density, effectively ne*mav
+pmd = spicedmodel.PMD(x,y,SMR=-75.0)
+\end{minted}
+
+				\subsubsection{Plotting the models}
+
+					A simple function is included, \texttt{PlotEq}, which allows the plotting of any of the models in the equatorial plane, e.g.:
+
+\begin{minted}{python}
+ax = spicedmodel.PlotEq(ptype,SMR=-75.0)
+\end{minted}
+
+					where \texttt{ptype} is used to tell the function which model to plot, available options are: \texttt{'mav'|'mavps'|'mavpt'|'mavhot'|'prob'|'ps'|'pt'|'density'|'pmd'}.
+
+					The following code produces a plot with all 6 models when SMR = -75 nT
+
+\begin{minted}{python}
+import matplotlib.pyplot as plt
+import spicedmodel
+
+#create the plot window
+plt.figure(figsize=(8,7))
+
+#set the parameters of the models
+smr = -70.0
+
+#plot the average ion mass
+ax0 = spicedmodel.PlotEq('mav',SMR=smr,fig=plt,maps=[2,2,0,0])
+
+#plot probability 
+ax1 = spicedmodel.PlotEq('prob',SMR=smr,fig=plt,maps=[2,2,1,0])
+
+#plot electron density 
+ax4 = spicedmodel.PlotEq('density',SMR=smr,fig=plt,maps=[2,2,0,1])
+
+#plot plasma mass density
+ax5 = spicedmodel.PlotEq('pmd',SMR=smr,fig=plt,maps=[2,2,1,1])
+
+#adjust everything to fit
+plt.tight_layout()
+\end{minted}
 
 
 	\section{\texttt{spiced}}

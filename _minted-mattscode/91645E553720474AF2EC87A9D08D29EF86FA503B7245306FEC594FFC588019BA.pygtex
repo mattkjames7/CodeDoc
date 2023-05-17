@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+python3 setup.py bdist\PYGZus{}wheel
+pip3 install dist/spicedmodel\PYGZhy{}XXX.whl \PYGZhy{}\PYGZhy{}user
+\end{Verbatim}

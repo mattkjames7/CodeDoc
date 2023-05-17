@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}either using SM x and y coordinates}
+\PYG{n}{P} \PYG{o}{=} \PYG{n}{spicedmodel}\PYG{o}{.}\PYG{n}{Prob}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,}\PYG{n}{y}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{}or using MLT (M) and L\PYGZhy{}Shell (L)}
+\PYG{n}{P} \PYG{o}{=} \PYG{n}{spicedmodel}\PYG{o}{.}\PYG{n}{Prob}\PYG{p}{(}\PYG{n}{M}\PYG{p}{,}\PYG{n}{L}\PYG{p}{,}\PYG{n}{Coord}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}ml\PYGZsq{}}\PYG{p}{)}
+\end{Verbatim}
