@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+git clone https://github.com/mattkjames7/jrm09.git
+\PYG{n+nb}{cd} jrm09
+
+\PYGZpc{} EITHER create a wheel and install \PYG{o}{(}replace X.X.X with the version number\PYG{o}{)}:
+python3 setup.py bdist\PYGZus{}wheel
+pip3 install dist/jrm09\PYGZhy{}X.X.X\PYGZhy{}py3\PYGZhy{}none\PYGZhy{}any.whl \PYGZhy{}\PYGZhy{}user
+
+\PYGZpc{} OR install directly using setup.py
+python3 setup.py install \PYGZhy{}\PYGZhy{}user
+\end{Verbatim}

@@ -798,9 +798,384 @@ Cartesian       Bxyz =[3.61151705, 1.6486016], [13.4661294,  12.43672946], [65.3
 
 	\section{\texttt{libcon2020}: C++ implementation of Jupiter's magnetodisc model}
 
+
+	
+	C++ implementation of the Connerney et al., 1981 and Connerney et al., 2020 Jovian magnetodisc model. This model provides the magnetic field due to a "washer-shaped" current disc near to Jupiter's magnetic equator. The model uses the analytical equations from Edwards et al., 2001 or Connerney et al., 1981; or the numerical integration of the Connerney et al., 1981 equations to provide the magnetic field vectors due to the azimuthal current. This code also implements the Connerney et al., 2020 radial current and the Leicester magnetosphere-ionosphere coupling (L-MIC, Cowley et al., 2005, 2008) models which provide the azimuthal component of the magnetic field.
+	
+	This is part of \texttt{libjupitermag}, which is part of a greater effort to provide community code for the Jovian magnetosphere:
+	
+	\texttt{Magnetospheres of the Outer Planets Group Community Code}
+	
+	\subsection{Building libcon2020}
+	
+	To build this library in Linux or Mac OS:
+	
+	\begin{minted}{bash}
+#clone this repo
+git clone https://github.com/mattkjames7/libcon2020.git
+cd libcon2020
+	
+#build
+make
+	
+#optionally install it system wide
+sudo make install
+	\end{minted}
+	
+	In Windows:
+	
+	\begin{minted}{powershell}
+git clone https://github.com/mattkjames7/libcon2020.git
+cd libcon2020
+	
+.\compile.bat
+	\end{minted}
+	
+	With a system wide installation, the compiler and linker will be able to locate the library and its header, otherwise absolute paths must be provided for linking and including. In Windows, there is an experimental script \texttt{install.bat} which will copy the DLL and headers to folders within the \texttt{C:\textbackslash TDC-GCC-64\textbackslash} directory. This is experimental; instead, it might be better to copy the headers and the DLL to the root directory of the executable linked to it.
+	
+	Uninstallation can be achieved in Linux and Mac using \texttt{sudo make uninstall}.
+	
+	\subsection{Usage}
+	
+	\subsubsection{Linking to and Including libcon2020}
+	
+	If a system-wide installation is successful, then the library may be linked to simply by including the \texttt{-lcon2020} flag while compiling/linking. Otherwise, the path to the library must also be included, e.g. \texttt{-L /path/to/lib/directory -lcon2020}. In Windows, the DLL should be placed in the root directory of the executable linked to it.
+	
+	This library includes a header file \texttt{include/con2020.h} which is compatible with both C and C++. This header contains the full set of function and class prototypes for use with C++; it also includes C-compatible wrapper functions. The wrapper functions in the header file would also provide the easiest ways to link other languages to the library such as Python, IDL, and Fortran.
+	
+	If the library was installed system-wide, then the headers may be included using \texttt{\#include <con2020.h>}. Otherwise, a relative or absolute path to the headers must be used, e.g. \texttt{\#include "path/to/con2020.h"}.
+	
+	\subsubsection{C++ usage}
+	
+	This section briefly describes some C++ specific examples for using the \texttt{libcon2020} library, while the following section is also somewhat applicable.
+	
+	Access the model using the \texttt{Con2020} class:
+	
+	\begin{minted}{cpp}
+/* contents of cppexample.cc */
+#include <stdio.h>
+#include <con2020.h>
+	
+int main () {
+	/* create an instance of the model */
+	Con2020 model;
+	
+	/* set coordinate system to be Cartesian SIII (default) */
+	model.SetCartIn(true);
+	model.SetCartOut(true);
+	
+	/* create some variables to store a field vector in,
+	 * note that positions are in units of Rj */
+	double x = 11.0;
+	double y = 5.0;
+	double z = -10.0;
+	double Bx, By, Bz;
+	
+	/* call the model */
+	model.Field(x,y,z,&Bx,&By,&Bz);
+	printf("B=[%5.1f,%5.1f,%5.1f] nT at [%4.1f,%4.1f,%4.1f] Rj\n",Bx,By,Bz,x,y,z);
+	
+	/* alternatively obtain an array of field vectors in spherical polar coords */
+	model.SetCartIn(false);
+	model.SetCartOut(false);
+	double r[] = {5.0,10.0,15.0};
+	double theta[] = {1.0,1.5,2.0};
+	double phi[] = {0.0,0.1,0.2};
+	double Br[3], Bt[3], Bp[3];
+	
+	model.Field(3,r,theta,phi,Br,Bt,Bp);
+	int i;
+	for (i=0;i<3;i++) {
+		printf("B=[%5.1f,%5.1f,%5.1f] nT at r = %4.1f Rj, theta = %4.1f rad, phi = %4.1f rad\n",Br[i],Bt[i],Bp[i],r[i],theta[i],phi[i]);
+	}
+		
+	return 0;
+}
+	\end{minted}
+	
+	In the example above, the model can be configured by using class member functions (e.g., \texttt{Con2020::SetCartIn()}), see the table below for a full list of configurable parameters. The \texttt{Con2020::Field()} function is overloaded, so it can either accept a single input position to provide a single field vector or can accept an array of positions to provide an array of field vectors. Compile and run the above example using
+	
+	\begin{minted}{bash}
+g++ cppexample.cc -o cppexample -lcon2020
+./cppexample
+	\end{minted}
+	
+	\subsubsection{Other Languages}
+	
+	In other languages, it is easier to run the model code by using the wrapper functions listed in both \texttt{con2020.h}. For example, in C:
+	
+	\begin{minted}{c}
+/* contents of cexample.c */
+#include <stdio.h>
+#include <stdbool.h>
+#include <con2020.h>
+	
+int main() {
+	
+	/* we can obtain a single field vector like this,
+	 * using the default model parameters */
+	double x = 10.0;
+	double y = 20.0;
+	double z = 5.0;
+	double Bx, By, Bz;
+	Con2020Field(x,y,z,&Bx,&By,&Bz);
+	printf("B=[%5.1f,%5.1f,%5.1f] nT at [%4.1f,%4.1f,%4.1f] Rj\n",Bx,By,Bz,x,y,z);
+	
+	/* or using arrays */
+	double xa[] = {10.0,20.0,30.0};
+	double ya[] = {5.0,10.0,15.0};
+	double za[] = {10.0,10.0,10.0};
+	double Bxa[3], Bya[3], Bza[3];
+	Con2020FieldArray(3,xa,ya,za,Bxa,Bya,Bza);
+	int i;
+	for (i=0;i<3;i++) {
+		printf("B=[%5.1f,%5.1f,%5.1f] nT at [%4.1f,%4.1f,%4.1f] Rj\n",
+					Bxa[i],Bya[i],Bza[i],xa[i],ya[i],za[i]);
+	}
+	
+	/* we can retrieve the current model parameters */
+	double mui, irho, r0, r1, d, xt, xp, DeltaRho, DeltaZ, g, wO_open,
+			wO_om, thetamm, dthetamm, thetaoc, dthetaoc;
+	bool Edwards, ErrChk, CartIn, CartOut, smooth;
+	char eqtype[16];
+	char azfunc[16];
+	GetCon2020Params(&mui,&irho,&r0,&r1,&d,&xt,&xp,eqtype,&Edwards,&ErrChk,
+					&CartIn,&CartOut,&smooth,&DeltaRho,&DeltaZ,&g,azfunc,
+					&wO_open,&wO_om,&thetamm,&dthetamm,&thetaoc,&dthetaoc);
+	
+	/* these parameters may be edited and passed back to the model */
+	irho = 0.0;
+	strcpy(eqtype,"analytic");
+	SetCon2020Params(mui,irho,r0,r1,d,xt,xp,eqtype,Edwards,ErrChk,
+					CartIn,CartOut,smooth,DeltaRho,DeltaZ,g,azfunc,
+					wO_open,wO_om,thetamm,dthetamm,thetaoc,dthetaoc);
+}
+	\end{minted}
+	
+	Compile and run using:
+	
+	\begin{minted}{bash}
+gcc cexample.c -o cexample -lcon2020
+./cexample
+	\end{minted}
+	
+	\subsection{Model Parameters}
+	
+	This table lists all of the configurable parameters currently included in the code.
+	
+	\begin{tabular}{|l|l|l|p{5cm}|}
+	  \hline
+	  Parameter & Default & \texttt{Con2020} Member Functions & Description \\
+	  \hline
+	  \texttt{mui} & \texttt{139.6} & \texttt{SetAzCurrentParameter()} \newline \texttt{GetAzCurrentParameter()} & Azimuthal current sheet parameter, nT. \\
+	  \texttt{irho} & \texttt{16.7} & \texttt{SetRadCurrentParameter()} \newline \texttt{GetRadCurrentParameter()} & Radial current intensity, MA \\
+	  \texttt{r0} & \texttt{7.8} & \texttt{SetR0()} \newline \texttt{GetR0()} & Inner edge of the current sheet, R\textsubscript{J}. \\
+	  \texttt{r1} & \texttt{51.4} & \texttt{SetR1()} \newline \texttt{GetR1()} & Outer edge of the current sheet, R\textsubscript{J}. \\
+	  \texttt{d} & \texttt{3.6} & \texttt{SetCSHalfThickness()} \newline \texttt{GetSCHalfThickness()} & Half thickness of the current sheet, R\textsubscript{J}. \\
+	  \texttt{xt} & \texttt{9.3} & \texttt{SetCSTilt()} \newline \texttt{GetCSTilt()} & Tilt angle of the current sheet away from the SIII z-axis, °. \\
+	  \texttt{xp} & \texttt{155.8} & \texttt{SetCSTiltAzimuth()} \newline \texttt{GetCSTiltAzimuth()} & Right-handed longitude towards which the current sheet is tilted, °. \\
+	  \texttt{eqtype} & \texttt{"hybrid"} & \texttt{SetEqType()} \newline \texttt{GetEqType()} & Set what method to use: \newline \texttt{"analytic"} - use analytic equations \newline \texttt{"integral"} - use full integral equations \newline \texttt{"hybrid"} - use a combination of both \\
+	  \texttt{Edwards} & \texttt{true} & \texttt{SetEdwardsEqs()} \newline \texttt{GetEdwardsEqs()} & Switch between the Edwards et al., 2001 and Connerney et al., 1981 analytical equations \\
+	  \texttt{ErrChk} & \texttt{true} & \texttt{SetErrCheck()} \newline \texttt{GetErrChk()} & Check for errors on the inputs to \texttt{Con2020::Field()}, set to \texttt{false} for a slightly risky speedup. \\
+	  \texttt{CartIn} & \texttt{true} & \texttt{SetCartIn()} \newline \texttt{GetCartIn()} & If \texttt{true}, then input coordinates will be assumed to be SIII Cartesian (in units of R\textsubscript{J}), otherwise spherical polar coordinates (\textit{r} in units of R\textsubscript{J}; $\theta$ and $\phi$ in radians). \\
+	  \texttt{CartOut} & \texttt{true} & \texttt{SetCartOut()} \newline \texttt{GetCartOut()} & If \texttt{true}, then output field vectors will be in Cartesian SIII coordinates, otherwise they will be oriented such that the three components are radial, meridional, and azimuthal. \\
+	  \texttt{smooth} & \texttt{true} & \texttt{SetSmooth()} \newline \texttt{GetSmooth()} & Use Stan's $\tanh$-based functions to smooth over the $r_0$ and $r_1$ boundaries in the $\rho$ direction and across $\pm d$ in the $z$ direction. \\
+	  \texttt{DeltaRho} & \texttt{1.0} & \texttt{SetDeltaRho()} \newline \texttt{GetDeltaRho()} & Scale length over which smoothing is done in the $\rho$ direction R\textsubscript{J}. \\
+	  \texttt{DeltaZ} & \texttt{0.1} & \texttt{SetDeltaZ()} \newline \texttt{GetDeltaZ()} & Scale length over which smoothing is done in the $z$ direction. \\
+	  \texttt{g} & \texttt{417659.3836476442} & \texttt{SetG()} \newline \texttt{GetG()} & Magnetic dipole parameter, nT \\
+	  \texttt{azfunc} & \texttt{"connerney"} & \texttt{SetAzimuthalFunc()} \newline \texttt{GetAzimuthalFunc()} & Set the method to use to calculate the azimuthal field due to the radial component of the current: \newline \texttt{"connerney"} - use the Connerney et al., 2020 azimuthal field model \newline \texttt{"lmic"} - use the L-MIC model (Connerney et al., 2005, 2008). \\
+	  \texttt{wO\_open} & \texttt{0.1} & \texttt{SetOmegaOpen()} \newline \texttt{GetOmegaOpen()} & Ratio of plasma to Jupiter's angular velocity on open field lines. \\
+	  \texttt{wO\_om} & \texttt{0.35} & \texttt{SetOmegaOM()} \newline \texttt{GetOmegaOM()} & Ratio of plasma to Jupiter's angular velocity in the outer magnetosphere. \\
+	  \texttt{thetamm} & \texttt{16.1} & \texttt{SetThetaMM()} \newline \texttt{GetThetaMM()} & Colatitude of the centre of the middle magnetosphere, where the plasma transitions from corotating to sub-corotating, °. \\
+	  \texttt{dthetamm} & \texttt{0.5} & \texttt{SetdThetaMM()} \newline \texttt{GetdThetaMM()} & Colatitude range over which the transition from inner to outer magnetosphere occurs, °. \\
+	  \texttt{thetaoc} & \texttt{10.716} & \texttt{SetThetaOC()} \newline \texttt{GetThetaOC()} & Colatitude of the centre of the open-closed field line boundary, °. \\
+	  \texttt{dthetaoc} & \texttt{0.125} & \texttt{SetdThetaOC()} \newline \texttt{GetdThetaOC()} & Colatitude range of the open-closed field line boundary, °. \\
+	  \hline
+	\end{tabular}
+
+
 	\section{\texttt{jrm33}: The JRM33 model in Python}
+
+
+	\subsection{Installation}
+
+	Install using \texttt{pip}:
+	
+	\begin{minted}{bash}
+pip3 install jrm33 --user
+	\end{minted}
+	
+	Or by cloning this repo:
+	
+	\begin{minted}{bash}
+git clone https://github.com/mattkjames7/jrm33.git
+cd jrm09
+	
+# EITHER create a wheel and install (replace X.X.X with the version number):
+python3 setup.py bdist_wheel
+pip3 install dist/jrm33-X.X.X-py3-none-any.whl --user
+	
+% OR install directly using setup.py
+python3 setup.py install --user
+	\end{minted}
+	
+	\subsection{Usage}
+	
+	The model accepts right-handed System III coordinates either in Cartesian form (\texttt{jrm33.ModelCart()}) or in spherical polar form (\texttt{jrm33.Model()}), e.g.:
+	
+	\begin{minted}{python}
+import jrm33
+	
+# get some Cartesian field vectors (Deg keyword is optional)
+Bx, By, Bz = jrm33.ModelCart(x, y, z, Deg=13)
+	
+# or spherical polar ones
+Br, Bt, Bp = jrm33.Model(r, theta, phi, Deg=13)
+	\end{minted}
+	
+	Please read the docstrings for \texttt{jrm33.Model()} and \texttt{jrm33.ModelCart()} using \texttt{help} or \texttt{?} e.g. \texttt{help(jrm33.Model)}.
+	
+	There is also a test function which requires \texttt{matplotlib} to be installed:
+	
+	\begin{minted}{python}
+# evaluate the model at some R
+jrm33.Test(R=0.85)
+	\end{minted}
+	
+	which produces this (based on figure 4 of Connerney et al. 2018):
+	
+	\begin{center}
+		\includegraphics[width=0.6\textwidth]{figures/ch3_jrm33test.png}
+	\end{center}
+	
+
+
 
 	\section{\texttt{jrm09}: The JRM09 model in Python}
 
+	\section{Installation}
+
+	Install using \texttt{pip}:
+	
+	\begin{minted}{bash}
+pip3 install jrm09 --user
+	\end{minted}
+	
+	Or by cloning this repo:
+	
+	\begin{minted}{bash}
+git clone https://github.com/mattkjames7/jrm09.git
+cd jrm09
+	
+# EITHER create a wheel and install (replace X.X.X with the version number):
+python3 setup.py bdist_wheel
+pip3 install dist/jrm09-X.X.X-py3-none-any.whl --user
+	
+# OR install directly using setup.py
+python3 setup.py install --user
+	\end{minted}
+	\section{Installation}
+
+Install using \texttt{pip}:
+
+\begin{minted}{bash}
+pip3 install jrm09 --user
+\end{minted}
+
+Or by cloning this repo:
+
+\begin{minted}{bash}
+git clone https://github.com/mattkjames7/jrm09.git
+cd jrm09
+
+% EITHER create a wheel and install (replace X.X.X with the version number):
+python3 setup.py bdist_wheel
+pip3 install dist/jrm09-X.X.X-py3-none-any.whl --user
+
+% OR install directly using setup.py
+python3 setup.py install --user
+\end{minted}
+
+\section{Usage}
+
+The model accepts right-handed System III coordinates either in Cartesian form (\texttt{jrm09.ModelCart()}) or in spherical polar form (\texttt{jrm09.Model()}), e.g.:
+
+\begin{minted}{python}
+import jrm09
+
+% get some Cartesian field vectors (MaxDeg keyword is optional)
+Bx, By, Bz = jrm09.ModelCart(x, y, z, MaxDeg=10)
+
+% or spherical polar ones
+Br, Bt, Bp = jrm09.Model(r, theta, phi, MaxDeg=10)
+\end{minted}
+
+	
+	Please read the docstrings for \texttt{jrm09.Model()} and \texttt{jrm09.ModelCart()} using \texttt{help} or \texttt{?} e.g. \texttt{help(jrm09.Model)}.
+	
+	There is also a test function which requires \texttt{matplotlib} to be installed:
+	
+	\begin{minted}{python}
+#evaluate the model at some R
+jrm09.Test(R=0.85)
+	\end{minted}
+	
+	which produces this (based on figure 4 of Connerney et al. 2018):
+	
+	\begin{center}
+		\includegraphics[width=0.6\textwidth]{figures/ch3_jrm09test.png}
+	\end{center}
+
+
 	\section{\texttt{vip4model}: The VIP4 model in Python}
 	
+	\section{Installation}
+
+Install using \texttt{pip}:
+
+\begin{minted}{bash}
+pip3 install vip4model --user
+\end{minted}
+
+Or by cloning this repo:
+
+\begin{minted}{bash}
+git clone https://github.com/mattkjames7/vip4model.git
+cd vip4model
+
+# EITHER create a wheel and install (replace X.X.X with the version number):
+python3 setup.py bdist_wheel
+pip3 install dist/vip4model-X.X.X-py3-none-any.whl --user
+
+# OR install directly using setup.py
+python3 setup.py install --user
+\end{minted}
+
+\section{Usage}
+
+The model accepts right-handed System III coordinates either in Cartesian form (\texttt{vip4model.ModelCart()}) or in spherical polar form (\texttt{vip4model.Model()}), e.g.:
+
+\begin{minted}{python}
+import vip4model
+
+# get some Cartesian field vectors (MaxDeg keyword is optional)
+Bx, By, Bz = vip4model.ModelCart(x, y, z, MaxDeg=4)
+
+# or spherical polar ones
+Br, Bt, Bp = vip4model.Model(r, theta, phi, MaxDeg=4)
+\end{minted}
+
+Please read the docstrings for \texttt{vip4model.Model()} and \texttt{vip4model.ModelCart()} using \texttt{help} or \texttt{?} e.g. \texttt{help(vip4model.Model)}.
+
+There is also a test function which requires \texttt{matplotlib} to be installed:
+
+\begin{minted}{python}
+# evaluate the model at some R
+vip4model.Test(R=0.85)
+\end{minted}
+
+which produces this (based on figure 4 of Connerney et al. 2018):
+
+\begin{center}
+\includegraphics[width=0.6\textwidth]{figures/ch3_vip4test.png}
+\end{center}

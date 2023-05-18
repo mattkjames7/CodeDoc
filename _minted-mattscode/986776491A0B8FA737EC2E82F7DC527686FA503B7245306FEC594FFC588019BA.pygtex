@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	git clone https://github.com/mattkjames7/pyomnidata
+	\PYG{n+nb}{cd} pyomnidata
+	
+	\PYG{c+c1}{\PYGZsh{}EITHER build a wheel and install with pip (better)}
+	python3 setup.py bdist\PYGZus{}wheel
+	pip3 install dist/pyomnidata\PYGZhy{}1.0.0\PYGZhy{}py3\PYGZhy{}none\PYGZhy{}any.whl \PYGZhy{}\PYGZhy{}user
+	
+	\PYG{c+c1}{\PYGZsh{}OR directly using setup py (should work, not tested though)}
+	python3 setup.py install \PYGZhy{}\PYGZhy{}user
+\end{Verbatim}

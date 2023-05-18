@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import} \PYG{n+nn}{jrm09}
+
+\PYG{o}{\PYGZpc{}} \PYG{n}{get} \PYG{n}{some} \PYG{n}{Cartesian} \PYG{n}{field} \PYG{n}{vectors} \PYG{p}{(}\PYG{n}{MaxDeg} \PYG{n}{keyword} \PYG{o+ow}{is} \PYG{n}{optional}\PYG{p}{)}
+\PYG{n}{Bx}\PYG{p}{,} \PYG{n}{By}\PYG{p}{,} \PYG{n}{Bz} \PYG{o}{=} \PYG{n}{jrm09}\PYG{o}{.}\PYG{n}{ModelCart}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,} \PYG{n}{y}\PYG{p}{,} \PYG{n}{z}\PYG{p}{,} \PYG{n}{MaxDeg}\PYG{o}{=}\PYG{l+m+mi}{10}\PYG{p}{)}
+
+\PYG{o}{\PYGZpc{}} \PYG{o+ow}{or} \PYG{n}{spherical} \PYG{n}{polar} \PYG{n}{ones}
+\PYG{n}{Br}\PYG{p}{,} \PYG{n}{Bt}\PYG{p}{,} \PYG{n}{Bp} \PYG{o}{=} \PYG{n}{jrm09}\PYG{o}{.}\PYG{n}{Model}\PYG{p}{(}\PYG{n}{r}\PYG{p}{,} \PYG{n}{theta}\PYG{p}{,} \PYG{n}{phi}\PYG{p}{,} \PYG{n}{MaxDeg}\PYG{o}{=}\PYG{l+m+mi}{10}\PYG{p}{)}
+\end{Verbatim}

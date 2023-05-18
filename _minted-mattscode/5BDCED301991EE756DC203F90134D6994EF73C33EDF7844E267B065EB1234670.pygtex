@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{c+c1}{\PYGZsh{}set date in format yyyymmdd}
+	\PYG{n}{Date} \PYG{o}{=} \PYG{l+m+mi}{20010610}
+	\PYG{n}{ut} \PYG{o}{=} \PYG{l+m+mf}{7.0}
+	
+	\PYG{c+c1}{\PYGZsh{}get plasmapause coordinates}
+	\PYG{n}{data} \PYG{o}{=} \PYG{n}{ipp}\PYG{o}{.}\PYG{n}{GetPP}\PYG{p}{(}\PYG{n}{Date}\PYG{p}{,}\PYG{n}{ut}\PYG{p}{)}
+\end{Verbatim}

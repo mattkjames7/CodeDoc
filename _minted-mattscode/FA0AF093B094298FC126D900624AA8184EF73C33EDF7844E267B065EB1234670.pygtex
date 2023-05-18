@@ -1,0 +1,23 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{k+kn}{import} \PYG{n+nn}{Arase}
+	\PYG{k+kn}{import} \PYG{n+nn}{matplotlib.pyplot} \PYG{k}{as} \PYG{n+nn}{plt}
+	
+	\PYG{c+c1}{\PYGZsh{} read in the electrons \PYGZhy{} this should work with any SpecCls object}
+	\PYG{n}{spec} \PYG{o}{=} \PYG{n}{Arase}\PYG{o}{.}\PYG{n}{Electrons}\PYG{o}{.}\PYG{n}{ReadOmni}\PYG{p}{(}\PYG{n}{Date}\PYG{p}{)}
+	
+	\PYG{c+c1}{\PYGZsh{} for the energy bins and particle flux data}
+	\PYG{n}{e}\PYG{p}{,} \PYG{n}{dJdE}\PYG{p}{,} \PYG{n}{\PYGZus{}} \PYG{o}{=} \PYG{n}{spec}\PYG{o}{.}\PYG{n}{GetSpectrum}\PYG{p}{(}\PYG{n}{Date}\PYG{p}{,} \PYG{n}{ut}\PYG{p}{)}
+	
+	\PYG{c+c1}{\PYGZsh{} for velocity and phase space density}
+	\PYG{n}{v}\PYG{p}{,} \PYG{n}{f}\PYG{p}{,} \PYG{n}{\PYGZus{}} \PYG{o}{=} \PYG{n}{spec}\PYG{o}{.}\PYG{n}{GetSpectrum}\PYG{p}{(}\PYG{n}{Date}\PYG{p}{,} \PYG{n}{ut}\PYG{p}{,} \PYG{n}{xparam}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}V\PYGZsq{}}\PYG{p}{,} \PYG{n}{yparam}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}PSD\PYGZsq{}}\PYG{p}{)}
+	
+	\PYG{c+c1}{\PYGZsh{} or to plot}
+	\PYG{n}{plt}\PYG{o}{.}\PYG{n}{figure}\PYG{p}{(}\PYG{n}{figsize}\PYG{o}{=}\PYG{p}{(}\PYG{l+m+mi}{8}\PYG{p}{,} \PYG{l+m+mi}{4}\PYG{p}{))}
+	\PYG{n}{ax0} \PYG{o}{=} \PYG{n}{spec}\PYG{o}{.}\PYG{n}{PlotSpectrum}\PYG{p}{(}\PYG{n}{Date}\PYG{p}{,} \PYG{n}{ut}\PYG{p}{,} \PYG{n}{xparam}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}E\PYGZsq{}}\PYG{p}{,} \PYG{n}{yparam}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}Flux\PYGZsq{}}\PYG{p}{,} \PYG{n}{Split}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{,} \PYG{n}{fig}\PYG{o}{=}\PYG{n}{plt}\PYG{p}{,} \PYG{n}{maps}\PYG{o}{=}\PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{])}
+	\PYG{n}{ax1} \PYG{o}{=} \PYG{n}{spec}\PYG{o}{.}\PYG{n}{PlotSpectrum}\PYG{p}{(}\PYG{n}{Date}\PYG{p}{,} \PYG{n}{ut}\PYG{p}{,} \PYG{n}{xparam}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}V\PYGZsq{}}\PYG{p}{,} \PYG{n}{yparam}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}PSD\PYGZsq{}}\PYG{p}{,} \PYG{n}{Split}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{,} \PYG{n}{fig}\PYG{o}{=}\PYG{n}{plt}\PYG{p}{,} \PYG{n}{maps}\PYG{o}{=}\PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{])}
+	\PYG{n}{plt}\PYG{o}{.}\PYG{n}{tight\PYGZus{}layout}\PYG{p}{()}
+	
+	\PYG{c+c1}{\PYGZsh{} for more information, read the docstrings:}
+	\PYG{n}{spec}\PYG{o}{.}\PYG{n}{GetSpectrum}\PYG{err}{?}
+	\PYG{n}{spec}\PYG{o}{.}\PYG{n}{PlotSpectrum}\PYG{err}{?}
+\end{Verbatim}

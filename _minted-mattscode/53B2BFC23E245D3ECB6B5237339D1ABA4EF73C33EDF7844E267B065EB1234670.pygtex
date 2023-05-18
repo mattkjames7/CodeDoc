@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import} \PYG{n+nn}{jrm33}
+	
+\PYG{c+c1}{\PYGZsh{} get some Cartesian field vectors (Deg keyword is optional)}
+\PYG{n}{Bx}\PYG{p}{,} \PYG{n}{By}\PYG{p}{,} \PYG{n}{Bz} \PYG{o}{=} \PYG{n}{jrm33}\PYG{o}{.}\PYG{n}{ModelCart}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,} \PYG{n}{y}\PYG{p}{,} \PYG{n}{z}\PYG{p}{,} \PYG{n}{Deg}\PYG{o}{=}\PYG{l+m+mi}{13}\PYG{p}{)}
+	
+\PYG{c+c1}{\PYGZsh{} or spherical polar ones}
+\PYG{n}{Br}\PYG{p}{,} \PYG{n}{Bt}\PYG{p}{,} \PYG{n}{Bp} \PYG{o}{=} \PYG{n}{jrm33}\PYG{o}{.}\PYG{n}{Model}\PYG{p}{(}\PYG{n}{r}\PYG{p}{,} \PYG{n}{theta}\PYG{p}{,} \PYG{n}{phi}\PYG{p}{,} \PYG{n}{Deg}\PYG{o}{=}\PYG{l+m+mi}{13}\PYG{p}{)}
+\end{Verbatim}

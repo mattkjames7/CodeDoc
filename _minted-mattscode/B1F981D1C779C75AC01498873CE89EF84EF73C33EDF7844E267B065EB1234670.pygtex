@@ -1,0 +1,23 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{c+c1}{\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}OMNI parameters\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}}
+	\PYG{c+c1}{\PYGZsh{}Year can either be a single year:}
+	\PYG{n}{Year} \PYG{o}{=} \PYG{l+m+mi}{2001}
+	\PYG{c+c1}{\PYGZsh{}or it can be a range:}
+	\PYG{n}{Year} \PYG{o}{=} \PYG{p}{[}\PYG{l+m+mi}{2001}\PYG{p}{,}\PYG{l+m+mi}{2004}\PYG{p}{]}
+	
+	\PYG{c+c1}{\PYGZsh{}5 minute resolution data}
+	\PYG{n}{data} \PYG{o}{=} \PYG{n}{pyomnidata}\PYG{o}{.}\PYG{n}{GetOMNI}\PYG{p}{(}\PYG{n}{Year}\PYG{p}{,}\PYG{n}{Res}\PYG{o}{=}\PYG{l+m+mi}{5}\PYG{p}{)}
+	
+	\PYG{c+c1}{\PYGZsh{}1 minute data}
+	\PYG{n}{data} \PYG{o}{=} \PYG{n}{pyomnidata}\PYG{o}{.}\PYG{n}{GetOMNI}\PYG{p}{(}\PYG{n}{Year}\PYG{p}{,}\PYG{n}{Res}\PYG{o}{=}\PYG{l+m+mi}{1}\PYG{p}{)}
+	
+	\PYG{c+c1}{\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}solar flux\PYGZsh{}\PYGZsh{}\PYGZsh{}}
+	\PYG{c+c1}{\PYGZsh{}all of the data}
+	\PYG{n}{data} \PYG{o}{=} \PYG{n}{pyomnidata}\PYG{o}{.}\PYG{n}{GetSolarFlux}\PYG{p}{()}
+	
+	\PYG{c+c1}{\PYGZsh{}a single date}
+	\PYG{n}{data} \PYG{o}{=} \PYG{n}{pyomnidata}\PYG{o}{.}\PYG{n}{GetSolarFlux}\PYG{p}{(}\PYG{n}{Date}\PYG{o}{=}\PYG{l+m+mi}{20050101}\PYG{p}{)}
+	
+	\PYG{c+c1}{\PYGZsh{}a range of dates}
+	\PYG{n}{data} \PYG{o}{=} \PYG{n}{pyomnidata}\PYG{o}{.}\PYG{n}{GetSolarFlux}\PYG{p}{(}\PYG{n}{Date}\PYG{o}{=}\PYG{p}{[}\PYG{l+m+mi}{20020101}\PYG{p}{,}\PYG{l+m+mi}{20020103}\PYG{p}{])}
+\end{Verbatim}

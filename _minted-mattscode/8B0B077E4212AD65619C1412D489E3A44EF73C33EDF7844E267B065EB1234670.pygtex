@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{n}{PyMess}\PYG{o}{.}\PYG{n}{MAG}\PYG{o}{.}\PYG{n}{PlotMagData}\PYG{p}{(}\PYG{n}{Date}\PYG{p}{,}\PYG{n}{ut}\PYG{o}{=}\PYG{n}{ut}\PYG{p}{,}\PYG{n}{MagType}\PYG{o}{=}\PYG{n}{MagType}\PYG{p}{)}
+\end{Verbatim}

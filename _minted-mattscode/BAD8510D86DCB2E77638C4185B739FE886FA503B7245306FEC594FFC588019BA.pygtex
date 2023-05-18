@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	git clone https://github.com/mattkjames7/kpindex.git
+	\PYG{n+nb}{cd} kpindex
+	python3 setup.py bdist\PYGZus{}wheel
+	pip3 install dist/kpindex\PYGZhy{}0.0.1\PYGZhy{}py3\PYGZhy{}none\PYGZhy{}any.whl \PYGZhy{}\PYGZhy{}user
+\end{Verbatim}

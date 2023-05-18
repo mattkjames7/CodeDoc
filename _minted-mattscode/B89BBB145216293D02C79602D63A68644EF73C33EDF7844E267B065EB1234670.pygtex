@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{k+kn}{import} \PYG{n+nn}{kpindex}
+	\PYG{n}{kpindex}\PYG{o}{.}\PYG{n}{UpdateLocalData}\PYG{p}{()}
+\end{Verbatim}

@@ -43,42 +43,51 @@
 \BOOKMARK [2][-]{subsection.3.8.1}{Installation}{section.3.8}% 43
 \BOOKMARK [2][-]{subsection.3.8.2}{Usage}{section.3.8}% 44
 \BOOKMARK [1][-]{section.3.9}{libcon2020: C++ implementation of Jupiter's magnetodisc model}{chapter.3}% 45
-\BOOKMARK [1][-]{section.3.10}{jrm33: The JRM33 model in Python}{chapter.3}% 46
-\BOOKMARK [1][-]{section.3.11}{jrm09: The JRM09 model in Python}{chapter.3}% 47
-\BOOKMARK [1][-]{section.3.12}{vip4model: The VIP4 model in Python}{chapter.3}% 48
-\BOOKMARK [0][-]{chapter.4}{Spacecraft Data}{}% 49
-\BOOKMARK [1][-]{section.4.1}{Arase: Download and read Arase data}{chapter.4}% 50
-\BOOKMARK [1][-]{section.4.2}{RBSP: Download and read Van Allen Probe data}{chapter.4}% 51
-\BOOKMARK [1][-]{section.4.3}{cluster: Download and read Cluster data}{chapter.4}% 52
-\BOOKMARK [1][-]{section.4.4}{pyCRRES: Download and read CRRES data}{chapter.4}% 53
-\BOOKMARK [1][-]{section.4.5}{themissc: Download and read THEMIS data}{chapter.4}% 54
-\BOOKMARK [1][-]{section.4.6}{imageeuv: Download and read IMAGE EUV data}{chapter.4}% 55
-\BOOKMARK [1][-]{section.4.7}{imagerpi: Download and read IMAGE RPI data}{chapter.4}% 56
-\BOOKMARK [1][-]{section.4.8}{imagePP: Download and read Goldstein's plasmapause dataset}{chapter.4}% 57
-\BOOKMARK [1][-]{section.4.9}{PyMess: Download and read MESSENGER data}{chapter.4}% 58
-\BOOKMARK [1][-]{section.4.10}{FIPSProtonData: Download and read ANN verified FIPS moments}{chapter.4}% 59
-\BOOKMARK [1][-]{section.4.11}{VenusExpress: Download and read VEX data}{chapter.4}% 60
-\BOOKMARK [0][-]{chapter.5}{Ground Data and Geomagnetic Indices}{}% 61
-\BOOKMARK [1][-]{section.5.1}{groundmag: Tools for processing and reading ground magnetometer data}{chapter.5}% 62
-\BOOKMARK [1][-]{section.5.2}{SuperDARN: Simple SuperDARN fitacf reading code}{chapter.5}% 63
-\BOOKMARK [2][-]{subsection.5.2.1}{Installation}{section.5.2}% 64
-\BOOKMARK [1][-]{section.5.3}{kpindex: Download the latext Kp indices}{chapter.5}% 65
-\BOOKMARK [1][-]{section.5.4}{pyomnidata: Download the latext OMNI and solar flux data}{chapter.5}% 66
-\BOOKMARK [1][-]{section.5.5}{smindex: Read the SuperMAG indices}{chapter.5}% 67
-\BOOKMARK [0][-]{chapter.6}{Machine Learning}{}% 68
-\BOOKMARK [1][-]{section.6.1}{NNClass: Simple neural network classifier module}{chapter.6}% 69
-\BOOKMARK [1][-]{section.6.2}{NNFunction: Train neural networks on arbitrary functions}{chapter.6}% 70
-\BOOKMARK [0][-]{chapter.7}{Other Tools}{}% 71
-\BOOKMARK [1][-]{section.7.1}{wavespec: Spectral analysis tools}{chapter.7}% 72
-\BOOKMARK [1][-]{section.7.2}{MHDWaveHarmonics: Tools for MHD waves}{chapter.7}% 73
-\BOOKMARK [1][-]{section.7.3}{FieldTracing: Python field tracing code}{chapter.7}% 74
-\BOOKMARK [1][-]{section.7.4}{DateTimeTools: Tools for dealing with dates and times}{chapter.7}% 75
-\BOOKMARK [1][-]{section.7.5}{datetime: C++ library dealing for dates and times}{chapter.7}% 76
-\BOOKMARK [1][-]{section.7.6}{PyFileIO: Tools for reading and writing files}{chapter.7}% 77
-\BOOKMARK [1][-]{section.7.7}{RecarrayTools: Tools for manipulating numpy.recarrays}{chapter.7}% 78
-\BOOKMARK [1][-]{section.7.8}{PBSJobExamples: Examples for submitting jobs to PBS}{chapter.7}% 79
-\BOOKMARK [1][-]{section.7.9}{PlanetSpice: SPICE related code}{chapter.7}% 80
-\BOOKMARK [1][-]{section.7.10}{ColorString: Change colour of strings in the terminal}{chapter.7}% 81
-\BOOKMARK [1][-]{section.7.11}{cppembedbinary: Examples for embedding data into C++ code}{chapter.7}% 82
-\BOOKMARK [1][-]{section.7.12}{libspline: C++ library for splines}{chapter.7}% 83
-\BOOKMARK [1][-]{section.7.13}{linterp: C++ interpolation code}{chapter.7}% 84
+\BOOKMARK [2][-]{subsection.3.9.1}{Building libcon2020}{section.3.9}% 46
+\BOOKMARK [2][-]{subsection.3.9.2}{Usage}{section.3.9}% 47
+\BOOKMARK [2][-]{subsection.3.9.3}{Model Parameters}{section.3.9}% 48
+\BOOKMARK [1][-]{section.3.10}{jrm33: The JRM33 model in Python}{chapter.3}% 49
+\BOOKMARK [2][-]{subsection.3.10.1}{Installation}{section.3.10}% 50
+\BOOKMARK [2][-]{subsection.3.10.2}{Usage}{section.3.10}% 51
+\BOOKMARK [1][-]{section.3.11}{jrm09: The JRM09 model in Python}{chapter.3}% 52
+\BOOKMARK [1][-]{section.3.12}{Installation}{chapter.3}% 53
+\BOOKMARK [1][-]{section.3.13}{Installation}{chapter.3}% 54
+\BOOKMARK [1][-]{section.3.14}{Usage}{chapter.3}% 55
+\BOOKMARK [1][-]{section.3.15}{vip4model: The VIP4 model in Python}{chapter.3}% 56
+\BOOKMARK [1][-]{section.3.16}{Installation}{chapter.3}% 57
+\BOOKMARK [1][-]{section.3.17}{Usage}{chapter.3}% 58
+\BOOKMARK [0][-]{chapter.4}{Spacecraft Data}{}% 59
+\BOOKMARK [1][-]{section.4.1}{Arase: Download and read Arase data}{chapter.4}% 60
+\BOOKMARK [2][-]{subsection.4.1.1}{Installation}{section.4.1}% 61
+\BOOKMARK [2][-]{subsection.4.1.2}{Downloading Data}{section.4.1}% 62
+\BOOKMARK [2][-]{subsection.4.1.3}{Position and Tracing}{section.4.1}% 63
+\BOOKMARK [2][-]{subsection.4.1.4}{Reading Data}{section.4.1}% 64
+\BOOKMARK [2][-]{subsection.4.1.5}{Current Progress}{section.4.1}% 65
+\BOOKMARK [1][-]{section.4.2}{RBSP: Download and read Van Allen Probe data}{chapter.4}% 66
+\BOOKMARK [1][-]{section.4.3}{cluster: Download and read Cluster data}{chapter.4}% 67
+\BOOKMARK [1][-]{section.4.4}{pyCRRES: Download and read CRRES data}{chapter.4}% 68
+\BOOKMARK [1][-]{section.4.5}{themissc: Download and read THEMIS data}{chapter.4}% 69
+\BOOKMARK [1][-]{section.4.6}{imageeuv: Download and read IMAGE EUV data}{chapter.4}% 70
+\BOOKMARK [1][-]{section.4.7}{imagerpi: Download and read IMAGE RPI data}{chapter.4}% 71
+\BOOKMARK [1][-]{section.4.8}{imagePP: Download and read Goldstein's plasmapause dataset}{chapter.4}% 72
+\BOOKMARK [1][-]{section.4.9}{Installation}{chapter.4}% 73
+\BOOKMARK [1][-]{section.4.10}{Usage}{chapter.4}% 74
+\BOOKMARK [1][-]{section.4.11}{PyMess: Download and read MESSENGER data}{chapter.4}% 75
+\BOOKMARK [2][-]{subsection.4.11.1}{Installation}{section.4.11}% 76
+\BOOKMARK [2][-]{subsection.4.11.2}{Submodules}{section.4.11}% 77
+\BOOKMARK [1][-]{section.4.12}{FIPSProtonData: Download and read ANN verified FIPS moments}{chapter.4}% 78
+\BOOKMARK [2][-]{subsection.4.12.1}{Requirements}{section.4.12}% 79
+\BOOKMARK [2][-]{subsection.4.12.2}{Installation}{section.4.12}% 80
+\BOOKMARK [2][-]{subsection.4.12.3}{Usage}{section.4.12}% 81
+\BOOKMARK [1][-]{section.4.13}{VenusExpress: Download and read VEX data}{chapter.4}% 82
+\BOOKMARK [0][-]{chapter.5}{Ground Data and Geomagnetic Indices}{}% 83
+\BOOKMARK [1][-]{section.5.1}{groundmag: Tools for processing and reading ground magnetometer data}{chapter.5}% 84
+\BOOKMARK [1][-]{section.5.2}{SuperDARN: Simple SuperDARN fitacf reading code}{chapter.5}% 85
+\BOOKMARK [2][-]{subsection.5.2.1}{Installation}{section.5.2}% 86
+\BOOKMARK [1][-]{section.5.3}{kpindex: Download the latext Kp indices}{chapter.5}% 87
+\BOOKMARK [2][-]{subsection.5.3.1}{Installation}{section.5.3}% 88
+\BOOKMARK [2][-]{subsection.5.3.2}{Post-Install}{section.5.3}% 89
+\BOOKMARK [2][-]{subsection.5.3.3}{Usage}{section.5.3}% 90
+\BOOKMARK [1][-]{section.5.4}{pyomnidata: Download the latext OMNI and solar flux data}{chapter.5}% 91
+\BOOKMARK [2][-]{subsection.5.4.1}{Installation}{section.5.4}% 92
+\BOOKMARK [2][-]{subsection.5.4.2}{Usage}{section.5.4}% 93

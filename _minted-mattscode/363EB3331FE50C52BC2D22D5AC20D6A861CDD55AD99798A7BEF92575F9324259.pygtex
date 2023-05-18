@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{git} \PYG{n}{clone} \PYG{n}{https}\PYG{p}{://}\PYG{n}{github}\PYG{p}{.}\PYG{n}{com}\PYG{p}{/}\PYG{n}{mattkjames7}\PYG{p}{/}\PYG{n}{libcon2020}\PYG{p}{.}\PYG{n}{git}
+\PYG{n+nb}{cd }\PYG{n}{libcon2020}
+	
+\PYG{p}{.\PYGZbs{}}\PYG{n}{compile}\PYG{p}{.}\PYG{n}{bat}
+\end{Verbatim}

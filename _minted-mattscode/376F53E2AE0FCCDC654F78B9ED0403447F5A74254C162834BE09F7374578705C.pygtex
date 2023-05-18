@@ -1,0 +1,41 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cm}{/* contents of cppexample.cc */}
+\PYG{c+cp}{\PYGZsh{}include}\PYG{+w}{ }\PYG{c+cpf}{\PYGZlt{}stdio.h\PYGZgt{}}
+\PYG{c+cp}{\PYGZsh{}include}\PYG{+w}{ }\PYG{c+cpf}{\PYGZlt{}con2020.h\PYGZgt{}}
+\PYG{+w}{	}
+\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n+nf}{main}\PYG{+w}{ }\PYG{p}{()}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{	}\PYG{c+cm}{/* create an instance of the model */}
+\PYG{+w}{	}\PYG{n}{Con2020}\PYG{+w}{ }\PYG{n}{model}\PYG{p}{;}
+\PYG{+w}{	}
+\PYG{+w}{	}\PYG{c+cm}{/* set coordinate system to be Cartesian SIII (default) */}
+\PYG{+w}{	}\PYG{n}{model}\PYG{p}{.}\PYG{n}{SetCartIn}\PYG{p}{(}\PYG{n+nb}{true}\PYG{p}{);}
+\PYG{+w}{	}\PYG{n}{model}\PYG{p}{.}\PYG{n}{SetCartOut}\PYG{p}{(}\PYG{n+nb}{true}\PYG{p}{);}
+\PYG{+w}{	}
+\PYG{+w}{	}\PYG{c+cm}{/* create some variables to store a field vector in,}
+\PYG{c+cm}{	 * note that positions are in units of Rj */}
+\PYG{+w}{	}\PYG{k+kt}{double}\PYG{+w}{ }\PYG{n}{x}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mf}{11.0}\PYG{p}{;}
+\PYG{+w}{	}\PYG{k+kt}{double}\PYG{+w}{ }\PYG{n}{y}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mf}{5.0}\PYG{p}{;}
+\PYG{+w}{	}\PYG{k+kt}{double}\PYG{+w}{ }\PYG{n}{z}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mf}{\PYGZhy{}10.0}\PYG{p}{;}
+\PYG{+w}{	}\PYG{k+kt}{double}\PYG{+w}{ }\PYG{n}{Bx}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{By}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{Bz}\PYG{p}{;}
+\PYG{+w}{	}
+\PYG{+w}{	}\PYG{c+cm}{/* call the model */}
+\PYG{+w}{	}\PYG{n}{model}\PYG{p}{.}\PYG{n}{Field}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,}\PYG{n}{y}\PYG{p}{,}\PYG{n}{z}\PYG{p}{,}\PYG{o}{\PYGZam{}}\PYG{n}{Bx}\PYG{p}{,}\PYG{o}{\PYGZam{}}\PYG{n}{By}\PYG{p}{,}\PYG{o}{\PYGZam{}}\PYG{n}{Bz}\PYG{p}{);}
+\PYG{+w}{	}\PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}B=[\PYGZpc{}5.1f,\PYGZpc{}5.1f,\PYGZpc{}5.1f] nT at [\PYGZpc{}4.1f,\PYGZpc{}4.1f,\PYGZpc{}4.1f] Rj}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{,}\PYG{n}{Bx}\PYG{p}{,}\PYG{n}{By}\PYG{p}{,}\PYG{n}{Bz}\PYG{p}{,}\PYG{n}{x}\PYG{p}{,}\PYG{n}{y}\PYG{p}{,}\PYG{n}{z}\PYG{p}{);}
+\PYG{+w}{	}
+\PYG{+w}{	}\PYG{c+cm}{/* alternatively obtain an array of field vectors in spherical polar coords */}
+\PYG{+w}{	}\PYG{n}{model}\PYG{p}{.}\PYG{n}{SetCartIn}\PYG{p}{(}\PYG{n+nb}{false}\PYG{p}{);}
+\PYG{+w}{	}\PYG{n}{model}\PYG{p}{.}\PYG{n}{SetCartOut}\PYG{p}{(}\PYG{n+nb}{false}\PYG{p}{);}
+\PYG{+w}{	}\PYG{k+kt}{double}\PYG{+w}{ }\PYG{n}{r}\PYG{p}{[]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{\PYGZob{}}\PYG{l+m+mf}{5.0}\PYG{p}{,}\PYG{l+m+mf}{10.0}\PYG{p}{,}\PYG{l+m+mf}{15.0}\PYG{p}{\PYGZcb{};}
+\PYG{+w}{	}\PYG{k+kt}{double}\PYG{+w}{ }\PYG{n}{theta}\PYG{p}{[]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{\PYGZob{}}\PYG{l+m+mf}{1.0}\PYG{p}{,}\PYG{l+m+mf}{1.5}\PYG{p}{,}\PYG{l+m+mf}{2.0}\PYG{p}{\PYGZcb{};}
+\PYG{+w}{	}\PYG{k+kt}{double}\PYG{+w}{ }\PYG{n}{phi}\PYG{p}{[]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{\PYGZob{}}\PYG{l+m+mf}{0.0}\PYG{p}{,}\PYG{l+m+mf}{0.1}\PYG{p}{,}\PYG{l+m+mf}{0.2}\PYG{p}{\PYGZcb{};}
+\PYG{+w}{	}\PYG{k+kt}{double}\PYG{+w}{ }\PYG{n}{Br}\PYG{p}{[}\PYG{l+m+mi}{3}\PYG{p}{],}\PYG{+w}{ }\PYG{n}{Bt}\PYG{p}{[}\PYG{l+m+mi}{3}\PYG{p}{],}\PYG{+w}{ }\PYG{n}{Bp}\PYG{p}{[}\PYG{l+m+mi}{3}\PYG{p}{];}
+\PYG{+w}{	}
+\PYG{+w}{	}\PYG{n}{model}\PYG{p}{.}\PYG{n}{Field}\PYG{p}{(}\PYG{l+m+mi}{3}\PYG{p}{,}\PYG{n}{r}\PYG{p}{,}\PYG{n}{theta}\PYG{p}{,}\PYG{n}{phi}\PYG{p}{,}\PYG{n}{Br}\PYG{p}{,}\PYG{n}{Bt}\PYG{p}{,}\PYG{n}{Bp}\PYG{p}{);}
+\PYG{+w}{	}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{i}\PYG{p}{;}
+\PYG{+w}{	}\PYG{k}{for}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{i}\PYG{o}{=}\PYG{l+m+mi}{0}\PYG{p}{;}\PYG{n}{i}\PYG{o}{\PYGZlt{}}\PYG{l+m+mi}{3}\PYG{p}{;}\PYG{n}{i}\PYG{o}{++}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{		}\PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}B=[\PYGZpc{}5.1f,\PYGZpc{}5.1f,\PYGZpc{}5.1f] nT at r = \PYGZpc{}4.1f Rj, theta = \PYGZpc{}4.1f rad, phi = \PYGZpc{}4.1f rad}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{,}\PYG{n}{Br}\PYG{p}{[}\PYG{n}{i}\PYG{p}{],}\PYG{n}{Bt}\PYG{p}{[}\PYG{n}{i}\PYG{p}{],}\PYG{n}{Bp}\PYG{p}{[}\PYG{n}{i}\PYG{p}{],}\PYG{n}{r}\PYG{p}{[}\PYG{n}{i}\PYG{p}{],}\PYG{n}{theta}\PYG{p}{[}\PYG{n}{i}\PYG{p}{],}\PYG{n}{phi}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]);}
+\PYG{+w}{	}\PYG{p}{\PYGZcb{}}
+\PYG{+w}{		}
+\PYG{+w}{	}\PYG{k}{return}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

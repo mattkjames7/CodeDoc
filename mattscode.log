@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.7.13)  18 MAY 2023 14:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.7.13)  18 MAY 2023 17:27
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -357,7 +357,7 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 )
 (./mattscode.aux (./chapters/chapter01.aux) (./chapters/chapter02.aux)
 (./chapters/chapter03.aux) (./chapters/chapter04.aux) (./chapters/chapter05.aux
-) (./chapters/chapter06.aux) (./chapters/chapter07.aux))
+))
 \openout1 = `mattscode.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
@@ -376,8 +376,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
 LaTeX Font Info:    ... okay on input line 29.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
 LaTeX Font Info:    ... okay on input line 29.
-
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count288
 \scratchdimen=\dimen166
@@ -540,7 +539,7 @@ Chapter 1.
 Chapter 2.
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 3.
-<figures/ch2_spicedmodel.png, id=480, 578.16pt x 505.89pt>
+<figures/ch2_spicedmodel.png, id=515, 578.16pt x 505.89pt>
 File: figures/ch2_spicedmodel.png Graphic file (type png)
 <use figures/ch2_spicedmodel.png>
 Package pdftex.def Info: figures/ch2_spicedmodel.png  used on input line 11.
@@ -718,7 +717,7 @@ and I'll forget about whatever was undefined.
 
 (./_minted-mattscode/C26C6D5C5731C8ED5F43047E299C072D4EF73C33EDF7844E267B065EB1
 234670.pygtex)
-<figures/ch2_hflr.png, id=510, 462.528pt x 346.896pt>
+<figures/ch2_hflr.png, id=544, 462.528pt x 346.896pt>
 File: figures/ch2_hflr.png Graphic file (type png)
 <use figures/ch2_hflr.png>
 Package pdftex.def Info: figures/ch2_hflr.png  used on input line 221.
@@ -748,7 +747,7 @@ and I'll forget about whatever was undefined.
 
 (./_minted-mattscode/12744E3435C94EC8E7BA1C67B0E2E93E4EF73C33EDF7844E267B065EB1
 234670.pygtex)
-<figures/ch2_pygcpm_equator.png, id=519, 462.528pt x 346.896pt>
+<figures/ch2_pygcpm_equator.png, id=553, 462.528pt x 346.896pt>
 File: figures/ch2_pygcpm_equator.png Graphic file (type png)
 <use figures/ch2_pygcpm_equator.png>
 Package pdftex.def Info: figures/ch2_pygcpm_equator.png  used on input line 265
@@ -759,7 +758,7 @@ Package pdftex.def Info: figures/ch2_pygcpm_equator.png  used on input line 265
 
 (./_minted-mattscode/00057E2B72843F28A2EC627862935E1B4EF73C33EDF7844E267B065EB1
 234670.pygtex)
-<figures/ch2_pygcpm_mlt.png, id=521, 462.528pt x 346.896pt>
+<figures/ch2_pygcpm_mlt.png, id=555, 462.528pt x 346.896pt>
 File: figures/ch2_pygcpm_mlt.png Graphic file (type png)
 <use figures/ch2_pygcpm_mlt.png>
 Package pdftex.def Info: figures/ch2_pygcpm_mlt.png  used on input line 278.
@@ -831,7 +830,7 @@ This input will be discarded. Type <return> to continue.
 
 (./_minted-mattscode/AB9FCAFD866DFAF1006F7ACE7D8D89AE4EF73C33EDF7844E267B065EB1
 234670.pygtex)
-<figures/ch03_geopacktrace.png, id=546, 462.528pt x 346.896pt>
+<figures/ch03_geopacktrace.png, id=580, 462.528pt x 346.896pt>
 File: figures/ch03_geopacktrace.png Graphic file (type png)
 <use figures/ch03_geopacktrace.png>
 Package pdftex.def Info: figures/ch03_geopacktrace.png  used on input line 67.
@@ -990,7 +989,7 @@ and I'll forget about whatever was undefined.
 
 (./_minted-mattscode/EC839C7D9BDB0AFE956B88F834DF7D124EF73C33EDF7844E267B065EB1
 234670.pygtex)
-<figures/ch03_vsmodel.png, id=563, 650.43pt x 578.16pt>
+<figures/ch03_vsmodel.png, id=597, 650.43pt x 578.16pt>
 File: figures/ch03_vsmodel.png Graphic file (type png)
 <use figures/ch03_vsmodel.png>
 Package pdftex.def Info: figures/ch03_vsmodel.png  used on input line 250.
@@ -1041,7 +1040,7 @@ Package pdftex.def Info: figures/ch03_vsmodel.png  used on input line 250.
 
 (./_minted-mattscode/E68BD1F10CBFEB654843E039BE59771F4EF73C33EDF7844E267B065EB1
 234670.pygtex [18])
-<figures/ch3_JMCompareTrace.png, id=598, 462.528pt x 346.896pt>
+<figures/ch3_JMCompareTrace.png, id=632, 462.528pt x 346.896pt>
 File: figures/ch3_JMCompareTrace.png Graphic file (type png)
 <use figures/ch3_JMCompareTrace.png>
 Package pdftex.def Info: figures/ch3_JMCompareTrace.png  used on input line 427
@@ -1214,7 +1213,7 @@ Overfull \hbox (961.91742pt too wide) in paragraph at lines 758--783
  [][] 
  []
 
-<figures/ch3_con2020Test.png, id=635, 794.97pt x 578.16pt>
+<figures/ch3_con2020Test.png, id=669, 794.97pt x 578.16pt>
 File: figures/ch3_con2020Test.png Graphic file (type png)
 <use figures/ch3_con2020Test.png>
 Package pdftex.def Info: figures/ch3_con2020Test.png  used on input line 794.
@@ -1225,19 +1224,867 @@ Overfull \hbox (9.27417pt too wide) in paragraph at lines 799--799
 upiter's mag-ne-todisc model 
  []
 
-) [24] [25 <./figures/ch3_con2020Test.png>]
+[24]
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/11CF558D45E6B4D0B296BE0E0D1B009C86FA503B7245306FEC594FFC58
+8019BA.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/363EB3331FE50C52BC2D22D5AC20D6A861CDD55AD99798A7BEF92575F9
+324259.pygtex) [25 <./figures/ch3_con2020Test.png>]
+Overfull \hbox (36.39536pt too wide) in paragraph at lines 842--843
+\OT1/cmr/m/n/10 flag while com-pil-ing/linking. Oth-er-wise, the path to the li
+-brary must also be in-cluded, e.g. \OT1/cmtt/m/n/10 -L /path/to/lib/directory
+ []
+
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/376F53E2AE0FCCDC654F78B9ED0403447F5A74254C162834BE09F73745
+78705C.pygtex [26])
+Overfull \hbox (23.96957pt too wide) in paragraph at lines 896--897
+[]\OT1/cmr/m/n/10 In the ex-am-ple above, the model can be con-fig-ured by us-i
+ng class mem-ber func-tions (e.g., \OT1/cmtt/m/n/10 Con2020::SetCartIn()\OT1/cm
+r/m/n/10 ),
+ []
+
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/AE91D5B0C1F8DA795941BB7D3E70BD1086FA503B7245306FEC594FFC58
+8019BA.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/6F5AE0625CF6B32E688FEA4C4A5A42D2355EDB485ED9D1E55F42B5AD92
+9BBF13.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/81055CE1ADDD240B495888E62D240B9586FA503B7245306FEC594FFC58
+8019BA.pygtex [27])
+Underfull \hbox (badness 1852) in paragraph at lines 974--975
+[]\OT1/cmr/m/n/10 Half thick-ness of the cur-rent
+ []
+
+
+Underfull \hbox (badness 3884) in paragraph at lines 989--990
+\OT1/cmr/m/n/10 mid-dle mag-ne-to-sphere, where
+ []
+
+
+Overfull \hbox (108.28629pt too wide) in paragraph at lines 966--995
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28]
+Overfull \vbox (152.96414pt too high) has occurred while \output is active []
+
+
+[29]
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/15375E1386B34E489918085D5E1EC4C286FA503B7245306FEC594FFC58
+8019BA.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/1D710EC94541E33897A2E75012AF2A7D86FA503B7245306FEC594FFC58
+8019BA.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/53B2BFC23E245D3ECB6B5237339D1ABA4EF73C33EDF7844E267B065EB1
+234670.pygtex)
+Overfull \hbox (19.17142pt too wide) in paragraph at lines 1036--1037
+[]\OT1/cmr/m/n/10 Please read the doc-strings for \OT1/cmtt/m/n/10 jrm33.Model(
+) \OT1/cmr/m/n/10 and \OT1/cmtt/m/n/10 jrm33.ModelCart() \OT1/cmr/m/n/10 us-ing
+ \OT1/cmtt/m/n/10 help \OT1/cmr/m/n/10 or \OT1/cmtt/m/n/10 ? \OT1/cmr/m/n/10 e.
+g. \OT1/cmtt/m/n/10 help(jrm33.Model)\OT1/cmr/m/n/10 . 
+ []
+
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/780D64BC8CD4900595A140538FEA863C4EF73C33EDF7844E267B065EB1
+234670.pygtex)
+<figures/ch3_jrm33test.png, id=701, 462.528pt x 346.896pt>
+File: figures/ch3_jrm33test.png Graphic file (type png)
+<use figures/ch3_jrm33test.png>
+Package pdftex.def Info: figures/ch3_jrm33test.png  used on input line 1048.
+(pdftex.def)             Requested size: 290.22107pt x 217.67754pt.
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/A5E2F3EC80ACB0F8F22153556E5581F886FA503B7245306FEC594FFC58
+8019BA.pygtex [30 <./figures/ch3_jrm33test.png>])
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/39A0F0138C644BA3E90EDB68BC1B0BAF86FA503B7245306FEC594FFC58
+8019BA.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/A5E2F3EC80ACB0F8F22153556E5581F886FA503B7245306FEC594FFC58
+8019BA.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/0D1870154052100975EF70877E2BCA3886FA503B7245306FEC594FFC58
+8019BA.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/31B6328A4683BD73EA45BF24517454E64EF73C33EDF7844E267B065EB1
+234670.pygtex)
+Overfull \hbox (19.17142pt too wide) in paragraph at lines 1114--1115
+[]\OT1/cmr/m/n/10 Please read the doc-strings for \OT1/cmtt/m/n/10 jrm09.Model(
+) \OT1/cmr/m/n/10 and \OT1/cmtt/m/n/10 jrm09.ModelCart() \OT1/cmr/m/n/10 us-ing
+ \OT1/cmtt/m/n/10 help \OT1/cmr/m/n/10 or \OT1/cmtt/m/n/10 ? \OT1/cmr/m/n/10 e.
+g. \OT1/cmtt/m/n/10 help(jrm09.Model)\OT1/cmr/m/n/10 . 
+ []
+
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/1090F5F14FEF2FEDAB059F4F803368274EF73C33EDF7844E267B065EB1
+234670.pygtex)
+<figures/ch3_jrm09test.png, id=707, 462.528pt x 346.896pt>
+File: figures/ch3_jrm09test.png Graphic file (type png)
+<use figures/ch3_jrm09test.png>
+Package pdftex.def Info: figures/ch3_jrm09test.png  used on input line 1126.
+(pdftex.def)             Requested size: 290.22107pt x 217.67754pt.
+ [31]
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/A542BEA6B9A43D9A62AB2A4A9F67A47F86FA503B7245306FEC594FFC58
+8019BA.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/100BC2C20CDD531C7F71DEFE123A6AA286FA503B7245306FEC594FFC58
+8019BA.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/D21158EFA6E0E2C5F4B74878209CAD7C4EF73C33EDF7844E267B065EB1
+234670.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/A4020EC8F22DFC2B9F5F981C040347B04EF73C33EDF7844E267B065EB1
+234670.pygtex)
+<figures/ch3_vip4test.png, id=712, 462.528pt x 346.896pt>
+File: figures/ch3_vip4test.png Graphic file (type png)
+<use figures/ch3_vip4test.png>
+Package pdftex.def Info: figures/ch3_vip4test.png  used on input line 1180.
+(pdftex.def)             Requested size: 290.22107pt x 217.67754pt.
+ [32 <./figures/ch3_jrm09test.png>]) [33 <./figures/ch3_vip4test.png>]
 \openout2 = `./chapters/chapter04.aux'.
 
- (./chapters/chapter04.tex [26
+ (./chapters/chapter04.tex [34
 
 
 
 ]
 Chapter 4.
-) [27]
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/618DC34EF00E7755319C8B96B053085D86FA503B7245306FEC594FFC58
+8019BA.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/F916BA6C88D2D4E89A6BBD201E3BDD3986FA503B7245306FEC594FFC58
+8019BA.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/F9AA3E8A470F63248205CB2438A0200286FA503B7245306FEC594FFC58
+8019BA.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/BCC09A54C55D23AECBF03DB03B03286D4EF73C33EDF7844E267B065EB1
+234670.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/AB22B95E1EDA1A443DFA985773BED11B4EF73C33EDF7844E267B065EB1
+234670.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/011FF633BA3B6813829885AFE2C8A1DE4EF73C33EDF7844E267B065EB1
+234670.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/26F6214FAE1AB40C3A0BD49993A28CE44EF73C33EDF7844E267B065EB1
+234670.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/C96C4554469C07FAA4F951767A4029EB4EF73C33EDF7844E267B065EB1
+234670.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/2CDC74D0FF126C0EE63FB4420F2FDA614EF73C33EDF7844E267B065EB1
+234670.pygtex) [35]
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/BAD5466CB1CD8662A743E505F086284B4EF73C33EDF7844E267B065EB1
+234670.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/6C4E676502B6845AF45C77CE727021F74EF73C33EDF7844E267B065EB1
+234670.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/7FA599068365AF746F2C4D27F7BFD2D34EF73C33EDF7844E267B065EB1
+234670.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/0E99C7CEFF0FD7026C2EA1E8F98743F54EF73C33EDF7844E267B065EB1
+234670.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/A1EB2182C433E9C741F55D6A7DAB31644EF73C33EDF7844E267B065EB1
+234670.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/4C5D67A15C98EFC3D43C1A31A460B2FC4EF73C33EDF7844E267B065EB1
+234670.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/0068EC6D4BC19DFA775D48598F616C7B4EF73C33EDF7844E267B065EB1
+234670.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/FA0AF093B094298FC126D900624AA8184EF73C33EDF7844E267B065EB1
+234670.pygtex [36])
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/B59E9A4B4FF50A867E03480FD7C612144EF73C33EDF7844E267B065EB1
+234670.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/157E4DE93331AD1F11803FAF176EE15E4EF73C33EDF7844E267B065EB1
+234670.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/F28EC3EED829F4124F99C6ABB808F9614EF73C33EDF7844E267B065EB1
+234670.pygtex)
+Overfull \hbox (10.65439pt too wide) in paragraph at lines 165--166
+\OT1/cmr/m/n/10 on the in-stru-ment). The re-turned ob-ject will ei-ther be a \
+OT1/cmtt/m/n/10 dict \OT1/cmr/m/n/10 con-tain-ing just the data if \OT1/cmtt/m/
+n/10 ReturnSpecObject=False\OT1/cmr/m/n/10 ,
+ []
+
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/53846796825C9DCACBDB485B3D4D40434EF73C33EDF7844E267B065EB1
+234670.pygtex)
+<figures/ch4_ArasePADSpectrogram.png, id=746, 462.528pt x 346.896pt>
+File: figures/ch4_ArasePADSpectrogram.png Graphic file (type png)
+<use figures/ch4_ArasePADSpectrogram.png>
+Package pdftex.def Info: figures/ch4_ArasePADSpectrogram.png  used on input lin
+e 173.
+(pdftex.def)             Requested size: 386.95897pt x 290.23143pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37]
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/7E935FBF47901736F8D0232A6EE36BA34EF73C33EDF7844E267B065EB1
+234670.pygtex)
+<figures/ch4_ArasePAD1DSpectrum.png, id=753, 462.528pt x 346.896pt>
+File: figures/ch4_ArasePAD1DSpectrum.png Graphic file (type png)
+<use figures/ch4_ArasePAD1DSpectrum.png>
+Package pdftex.def Info: figures/ch4_ArasePAD1DSpectrum.png  used on input line
+ 180.
+(pdftex.def)             Requested size: 386.95897pt x 290.23143pt.
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/FFF8909C3FA645D379287FDF68C637424EF73C33EDF7844E267B065EB1
+234670.pygtex)
+<figures/ch4_ArasePAD2DSpectrum.png, id=754, 462.528pt x 346.896pt>
+File: figures/ch4_ArasePAD2DSpectrum.png Graphic file (type png)
+<use figures/ch4_ArasePAD2DSpectrum.png>
+Package pdftex.def Info: figures/ch4_ArasePAD2DSpectrum.png  used on input line
+ 187.
+(pdftex.def)             Requested size: 386.95897pt x 290.23143pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38 <./figures/ch4_ArasePADSpectrogram.png> <./figures/ch4_ArasePAD1DSpectrum.
+png>]
+! Undefined control sequence.
+l.196 	HEP & & 2 & omniflux & \checkmark
+                                         & \checkmark & \checkmark \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.196 ... & 2 & omniflux & \checkmark & \checkmark
+                                                   & \checkmark \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.196 ...ux & \checkmark & \checkmark & \checkmark
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.197 	LEPe & & 2 & omniflux & \checkmark
+                                          & \checkmark & \checkmark \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.197 ... & 2 & omniflux & \checkmark & \checkmark
+                                                   & \checkmark \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.197 ...ux & \checkmark & \checkmark & \checkmark
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.198 	LEPe & & 2 & 3dflux & \checkmark
+                                        & $\times$ & $\times$ \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.199 	LEPi & & 2 & omniflux & \checkmark
+                                          & \checkmark & \checkmark \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.199 ... & 2 & omniflux & \checkmark & \checkmark
+                                                   & \checkmark \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.199 ...ux & \checkmark & \checkmark & \checkmark
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.200 	LEPi & & 2 & 3dflux & \checkmark
+                                        & $\times$ & $\times$ \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.201 	MEPe & & 2 & omniflux & \checkmark
+                                          & \checkmark & \checkmark \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.201 ... & 2 & omniflux & \checkmark & \checkmark
+                                                   & \checkmark \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.201 ...ux & \checkmark & \checkmark & \checkmark
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.202 	MEPe & & 2 & 3dflux & \checkmark
+                                        & $\times$ & $\times$ \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.203 	MEPe & & 3 & 3dflux & \checkmark
+                                        & $\times$ & $\times$ \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.204 	MEPi & & 2 & omniflux & \checkmark
+                                          & \checkmark & \checkmark \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.204 ... & 2 & omniflux & \checkmark & \checkmark
+                                                   & \checkmark \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.204 ...ux & \checkmark & \checkmark & \checkmark
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.205 	MEPi & & 2 & 3dflux & \checkmark
+                                        & $\times$ & \checkmark \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.205 ...flux & \checkmark & $\times$ & \checkmark
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.206 	MEPi & & 3 & 3dflux & \checkmark
+                                        & \checkmark & $\times$ \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.206 ... & & 3 & 3dflux & \checkmark & \checkmark
+                                                   & $\times$ \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.207 	MGF & & 2 & 8sec & \checkmark
+                                     & \checkmark & $\times$ \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.207 	MGF & & 2 & 8sec & \checkmark & \checkmark
+                                                  & $\times$ \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.208 	PWE & efd & 2 & spec & \checkmark
+                                         & \checkmark & \checkmark \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.208 ... efd & 2 & spec & \checkmark & \checkmark
+                                                   & \checkmark \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.208 ...ec & \checkmark & \checkmark & \checkmark
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.209 	PWE & hfa & 2 & high & \checkmark
+                                         & \checkmark & \checkmark \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.209 ... hfa & 2 & high & \checkmark & \checkmark
+                                                   & \checkmark \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.209 ...gh & \checkmark & \checkmark & \checkmark
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.210 	PWE & hfa & 2 & low & \checkmark
+                                        & \checkmark & \checkmark \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.210 ...& hfa & 2 & low & \checkmark & \checkmark
+                                                   & \checkmark \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.210 ...ow & \checkmark & \checkmark & \checkmark
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.211 	PWE & hfa & 3 & & \checkmark
+                                    & \checkmark & $\times$ \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.211 	PWE & hfa & 3 & & \checkmark & \checkmark
+                                                 & $\times$ \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.214 	PWE & ofa & 2 & spec & \checkmark
+                                         & $\times$ & $\times$ \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.215 	XEP & & 2 & omniflux & \checkmark
+                                         & \checkmark & \checkmark \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.215 ... & 2 & omniflux & \checkmark & \checkmark
+                                                   & \checkmark \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.215 ...ux & \checkmark & \checkmark & \checkmark
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \checkmark 
+                           
+l.221 	\item \checkmark
+                        - Works
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Command \Diamond not provided in base LaTeX2e.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.223 	\item $\Diamond
+                      $ - Probably works, but have no access to the data to ...
+
+Load the latexsym or the amsfonts package to define this symbol
+
+! Undefined control sequence.
+l.224 	\item $\times\checkmark
+                              $ - Currently, 3D spectra can only be read int...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[39 <./figures/ch4_ArasePAD2DSpectrum.png>]
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/76357F1F6CAD84B62C9B6669193B0E0D86FA503B7245306FEC594FFC58
+8019BA.pygtex)
+LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
+269.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmtt.fd
+File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/D44246A6BB1AB0385D682DD2BD065F2886FA503B7245306FEC594FFC58
+8019BA.pygtex
+Overfull \hbox (14.01552pt too wide) in paragraph at lines 269--1
+[]\OT1/cmr/m/n/10 The \OT1/cmtt/m/n/10 ImagePP \OT1/cmr/m/n/10 mod-ule re-quire
+s a di-rec-tory to down-load data to. Set the en-vi-ron-ment vari-able \TS1/cmt
+t/m/n/10 $\OT1/cmtt/m/n/10 PLASMAPAUSE[]DATA
+ []
+
+)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/EC89F06510F5C3FD9EC1B0DA82B81C134EF73C33EDF7844E267B065EB1
+234670.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/5BDCED301991EE756DC203F90134D6994EF73C33EDF7844E267B065EB1
+234670.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/CA1A76F1351784161595398C164C0A674EF73C33EDF7844E267B065EB1
+234670.pygtex)
+<figures/ch4_ppexample.png, id=767, 462.528pt x 346.896pt>
+File: figures/ch4_ppexample.png Graphic file (type png)
+<use figures/ch4_ppexample.png>
+Package pdftex.def Info: figures/ch4_ppexample.png  used on input line 299.
+(pdftex.def)             Requested size: 241.84843pt x 181.38736pt.
+ [40]
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/FB0B849165347A9EC8B3D8B3312183AA86FA503B7245306FEC594FFC58
+8019BA.pygtex
+Overfull \hbox (22.63457pt too wide) in paragraph at lines 318--1
+\OT1/cmr/m/n/10 mod-ule is to down-load this repos-i-tory, or clone it us-ing: 
+\OT1/cmtt/m/n/10 git clone https://github.com/mattkjames7/PyMess.git
+ []
+
+) [41 <./figures/ch4_ppexample.png>]
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/7E0EAF48E44F0B728548F9DEB352CD0B4EF73C33EDF7844E267B065EB1
+234670.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/6BC7B25796F77A6C1FAD79380A6834CE4EF73C33EDF7844E267B065EB1
+234670.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/ABB2BC99508AF5B2E88767F0ABC9E7754EF73C33EDF7844E267B065EB1
+234670.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/1E6043D3E8E2B89899E718E60CA536C84EF73C33EDF7844E267B065EB1
+234670.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/697E80FFA42256D382A16DFE723BF6D74EF73C33EDF7844E267B065EB1
+234670.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/27AE1189DD011A3392E264722C1DE1AA4EF73C33EDF7844E267B065EB1
+234670.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/C50E59B9C049A3B16A29360EE858A18B4EF73C33EDF7844E267B065EB1
+234670.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/E9D66FC89185E9AD2849DC6D1E07A01E4EF73C33EDF7844E267B065EB1
+234670.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/8B0B077E4212AD65619C1412D489E3A44EF73C33EDF7844E267B065EB1
+234670.pygtex) [42]
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/ECDDE77EAB9EAB84C970DD03A0905CE94EF73C33EDF7844E267B065EB1
+234670.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/C05CFBA55231F20F5B37E83401473CD186FA503B7245306FEC594FFC58
+8019BA.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/6B1C16900093A97D1C9242190099642586FA503B7245306FEC594FFC58
+8019BA.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/F571A330FA34FB4017DB1AC74544092E4EF73C33EDF7844E267B065EB1
+234670.pygtex) [43]
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/E233967F05F4EB799795470303A96BDB4EF73C33EDF7844E267B065EB1
+234670.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/44051247E025EB50241793A52F5C77C64EF73C33EDF7844E267B065EB1
+234670.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/C4BD781D39DF17CA7F0AE35E8DC8E73F4EF73C33EDF7844E267B065EB1
+234670.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/95B58E9F5D5D7ECB8170E5B24D1E6AFE4EF73C33EDF7844E267B065EB1
+234670.pygtex [44])
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/AB518EEA01B273089A303420E7904C664EF73C33EDF7844E267B065EB1
+234670.pygtex)) [45]
 \openout2 = `./chapters/chapter05.aux'.
 
- (./chapters/chapter05.tex [28
+ (./chapters/chapter05.tex [46
 
 
 
@@ -1253,16 +2100,11 @@ Chapter 5.
 
 (./_minted-mattscode/51581C89EDEB3A37F6D3A0C3F91C86E086FA503B7245306FEC594FFC58
 8019BA.pygtex)
-LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
-43.
- (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmtt.fd
-File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
 \openout3 = `mattscode.pyg'.
 
 
 (./_minted-mattscode/0D3FD685DF46E9247565F74806C4550F4EF73C33EDF7844E267B065EB1
-234670.pygtex [29])
+234670.pygtex [47])
 \openout3 = `mattscode.pyg'.
 
 
@@ -1272,8 +2114,8 @@ File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 
 
 (./_minted-mattscode/C788A75A845A207C2380A157CF92466E4EF73C33EDF7844E267B065EB1
-234670.pygtex [30])
-<figures/ch05_sdexample.png, id=676, 578.16pt x 714.0276pt>
+234670.pygtex [48])
+<figures/ch05_sdexample.png, id=831, 578.16pt x 714.0276pt>
 File: figures/ch05_sdexample.png Graphic file (type png)
 <use figures/ch05_sdexample.png>
 Package pdftex.def Info: figures/ch05_sdexample.png  used on input line 119.
@@ -1283,78 +2125,268 @@ Package pdftex.def Info: figures/ch05_sdexample.png  used on input line 119.
 
 (./_minted-mattscode/E3F09FB75362D7B8A5A9B07E6BBA3D8B4EF73C33EDF7844E267B065EB1
 234670.pygtex)
-<figures/ch05_sdfov.png, id=678, 462.528pt x 346.896pt>
+<figures/ch05_sdfov.png, id=833, 462.528pt x 346.896pt>
 File: figures/ch05_sdfov.png Graphic file (type png)
 <use figures/ch05_sdfov.png>
 Package pdftex.def Info: figures/ch05_sdfov.png  used on input line 151.
 (pdftex.def)             Requested size: 241.84843pt x 181.38736pt.
-) [31] [32 <./figures/ch05_sdexample.png>] [33 <./figures/ch05_sdfov.png>]
-\openout2 = `./chapters/chapter06.aux'.
 
- (./chapters/chapter06.tex [34
+Overfull \hbox (10.02411pt too wide) in paragraph at lines 160--162
+\OT1/cmr/m/n/10 Very sim-ple pack-age for ob-tain-ing the plan-e-tary Kp in-dex
+ data (see [][]$\OT1/cmtt/m/n/10 https : / / www . gfz-[]potsdam . de / en / kp
+-[]index/$[][]
+ []
 
-
-
-]
-Chapter 6.
-) [35]
-\openout2 = `./chapters/chapter07.aux'.
-
- (./chapters/chapter07.tex [36
+\openout3 = `mattscode.pyg'.
 
 
+(./_minted-mattscode/4FD15B3F6087DD7521000DA53C07F6A986FA503B7245306FEC594FFC58
+8019BA.pygtex)
+\openout3 = `mattscode.pyg'.
 
-]
-Chapter 7.
-) [37] [38
+
+(./_minted-mattscode/63ACCC60B157A457952D1891E248EAD386FA503B7245306FEC594FFC58
+8019BA.pygtex)
+\openout3 = `mattscode.pyg'.
 
 
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
- (./mattscode.aux (./chapters/chapter01.aux)
-(./chapters/chapter02.aux) (./chapters/chapter03.aux) (./chapters/chapter04.aux
-) (./chapters/chapter05.aux) (./chapters/chapter06.aux)
-(./chapters/chapter07.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 53.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
+(./_minted-mattscode/BAD8510D86DCB2E77638C4185B739FE886FA503B7245306FEC594FFC58
+8019BA.pygtex [49] [50 <./figures/ch05_sdexample.png>])
+! Missing $ inserted.
+<inserted text> 
+                $
+l.216 ...e access using the \texttt{\$KPDATA_PATH}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.216 ...e access using the \texttt{\$KPDATA_PATH}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.220 	
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (529.03355pt too wide) in paragraph at lines 214--220
+\OT1/cmr/m/n/10 the di-rec-tion of a di-rec-tory where you have read and write 
+ac-cess us-ing the \TS1/cmtt/m/n/10 $\OT1/cmtt/m/n/10 KPDATA$[]\OML/cmm/m/it/10
+ ATHenvironmentvariable:Thiscanbedoneeitherbyrunningthefollowingintheterminalbe
+forestartingPython; orinsertingitintoyour[]file \OT1/cmr/m/n/10 :$ 
+ []
+
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/39298E8DD9D94F174B37DE31CE75393486FA503B7245306FEC594FFC58
+8019BA.pygtex)
+Overfull \hbox (25.54869pt too wide) in paragraph at lines 227--230
+\OT1/cmtt/m/n/10 Using this module is very simple: the first time you run it yo
+u will need to update the database
+ []
+
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/B89BBB145216293D02C79602D63A68644EF73C33EDF7844E267B065EB1
+234670.pygtex)
+Overfull \hbox (3.79901pt too wide) in paragraph at lines 236--238
+[]\OT1/cmtt/m/n/10 It may take a couple of minutes to download the data and con
+vert it, then you are ready to
+ []
+
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/89F36212EAE92654C4743C852F5D61E54EF73C33EDF7844E267B065EB1
+234670.pygtex)
+Overfull \hbox (30.04878pt too wide) in paragraph at lines 243--248
+[]\OT1/cmtt/m/n/10 where Date could be None, in which case ALL of the Kp indice
+s ever will be returned; Date could
+ []
+
+
+Overfull \hbox (4.54887pt too wide) in paragraph at lines 243--248
+\OT1/cmtt/m/n/10 be a single date in the format yyyymmdd, in which case only Kp
+ indices from that date will be
+ []
+
+
+Overfull \hbox (25.54869pt too wide) in paragraph at lines 243--248
+\OT1/cmtt/m/n/10 returned; finally, it could be a two-element array/list/tuple 
+containing two dates, in this case,
+ []
+
+
+Overfull \hbox (40.54869pt too wide) in paragraph at lines 257--258
+[]\OT1/cmtt/m/n/10 If you make use of the OMNI data please acknowledge and cite
+ as specified here: [][]$https : / / omniweb .
+ []
+
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/BED381BF9C4975E7922FA365CCEAFA7386FA503B7245306FEC594FFC58
+8019BA.pygtex [51 <./figures/ch05_sdfov.png>])
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/986776491A0B8FA737EC2E82F7DC527686FA503B7245306FEC594FFC58
+8019BA.pygtex)
+! Missing $ inserted.
+<inserted text> 
+                $
+l.281 ...ed to set up the \texttt{\$OMNIDATA_PATH}
+                                                   environment variable to p...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.281 ...ed to set up the \texttt{\$OMNIDATA_PATH}
+                                                   environment variable to p...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.282 	
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (604.65811pt too wide) in paragraph at lines 281--282
+[]\OT1/cmtt/m/n/10 For this to work properly - you will need to set up the \TS1
+/cmtt/m/n/10 $\OT1/cmtt/m/n/10 OMNIDATA$[]\OML/cmm/m/it/10 ATHenvironmentvariab
+letopointtoafolderwhereyouwanttostorethedata:Dothisbyaddingsomethingalongthelin
+esofthefollowingtothebottomofyour[]file \OT1/cmr/m/n/10 :$ 
+ []
+
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/2F14206C2830D0BFF630AEFFA8DD621786FA503B7245306FEC594FFC58
+8019BA.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/34A98D2387B0CE5EB3B46453A2C9BB3B4EF73C33EDF7844E267B065EB1
+234670.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/F0421B1280D848FBCFF89D32EAB2626C4EF73C33EDF7844E267B065EB1
+234670.pygtex)
+Overfull \hbox (3.79901pt too wide) in paragraph at lines 306--307
+[]\OT1/cmtt/m/n/10 where EndDate is the last date for which you want to request
+ solar flux data. This should
+ []
+
+
+Overfull \hbox (46.54851pt too wide) in paragraph at lines 306--307
+\OT1/cmtt/m/n/10 be set to a date at least a few days prior to the current date
+. If you request a date that currently
+ []
+
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/B1F981D1C779C75AC01498873CE89EF84EF73C33EDF7844E267B065EB1
+234670.pygtex)
+Overfull \hbox (45.79865pt too wide) in paragraph at lines 336--337
+[]\OT1/cmtt/m/n/10 The returned data object is a numpy.recarray object which co
+ntains all of the OMNI data requested.
+ []
+
+
+Overfull \hbox (41.29855pt too wide) in paragraph at lines 336--337
+\OT1/cmtt/m/n/10 To see what fields are stored use print(data.dtype.names). The
+ units are as presented here: [][]$https :
+ []
+
+[52]
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/42575AC1C53D1412E8072C243E61792B4EF73C33EDF7844E267B065EB1
+234670.pygtex)
+<figures/ch5_omniexample.png, id=866, 794.97pt x 433.62pt>
+File: figures/ch5_omniexample.png Graphic file (type png)
+<use figures/ch5_omniexample.png>
+Package pdftex.def Info: figures/ch5_omniexample.png  used on input line 362.
+(pdftex.def)             Requested size: 483.69687pt x 263.83954pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 366.
+ [53 <./figures/ch5_omniexample.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 366.
+ (./mattscode.aux
+(./chapters/chapter01.aux) (./chapters/chapter02.aux) (./chapters/chapter03.aux
+) (./chapters/chapter04.aux) (./chapters/chapter05.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 366.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 366.
 Package rerunfilecheck Info: File `mattscode.out' has not changed.
-(rerunfilecheck)             Checksum: 9B4EB26A56D8FC69550BCFF02821EF01;6640.
+(rerunfilecheck)             Checksum: 08CAFF2B076AD318701D21A4FB8BCF9A;6804.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 runsystem(rm mattscode.pyg)...executed.
 
- ) 
+ ) )
+(\end occurred inside a group at level 2)
+
+### simple group (level 2) entered at line 281 ({)
+### simple group (level 1) entered at line 216 ({)
+### bottom level
+(\end occurred when \iftrue on line 45 was incomplete)
+(\end occurred when \ifnum on line 45 was incomplete) 
 Here is how much of TeX's memory you used:
- 10121 strings out of 481239
- 195037 string characters out of 5920377
- 502329 words of memory out of 5000000
- 24747 multiletter control sequences out of 15000+600000
+ 10615 strings out of 481239
+ 230135 string characters out of 5920377
+ 530381 words of memory out of 5000000
+ 24949 multiletter control sequences out of 15000+600000
  540600 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,18n,39p,847b,573s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsltt10.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf/fonts/ty
-pe1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/
-sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on mattscode.pdf (42 pages, 1005768 bytes).
+ 41i,18n,39p,847b,575s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/en
+c/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsltt10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmtt12.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></
+usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/font
+s/type1/public/cm-super/sftt1000.pfb>
+Output written on mattscode.pdf (57 pages, 1519887 bytes).
 PDF statistics:
- 813 PDF objects out of 1000 (max. 8388607)
- 724 compressed objects within 8 object streams
- 168 named destinations out of 1000 (max. 500000)
- 723 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 987 PDF objects out of 1000 (max. 8388607)
+ 865 compressed objects within 9 object streams
+ 227 named destinations out of 1000 (max. 500000)
+ 835 words of extra memory for PDF output out of 10000 (max. 10000000)
 

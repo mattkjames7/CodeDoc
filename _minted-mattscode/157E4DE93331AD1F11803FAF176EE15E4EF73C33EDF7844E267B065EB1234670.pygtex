@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{k+kn}{import} \PYG{n+nn}{Arase}
+	\PYG{n}{Arase}\PYG{o}{.}\PYG{n}{LEPe}\PYG{o}{.}\PYG{n}{SavePADs}\PYG{p}{(}\PYG{n}{Date}\PYG{p}{,} \PYG{n}{na}\PYG{o}{=}\PYG{l+m+mi}{18}\PYG{p}{,} \PYG{n}{Overwrite}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{,} \PYG{n}{DownloadMissingData}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{,} \PYG{n}{DeleteNewData}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{,} \PYG{n}{Verbose}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)}
+\end{Verbatim}

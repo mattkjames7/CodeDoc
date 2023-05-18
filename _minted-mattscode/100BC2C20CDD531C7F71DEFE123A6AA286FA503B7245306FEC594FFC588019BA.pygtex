@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+git clone https://github.com/mattkjames7/vip4model.git
+\PYG{n+nb}{cd} vip4model
+
+\PYG{c+c1}{\PYGZsh{} EITHER create a wheel and install (replace X.X.X with the version number):}
+python3 setup.py bdist\PYGZus{}wheel
+pip3 install dist/vip4model\PYGZhy{}X.X.X\PYGZhy{}py3\PYGZhy{}none\PYGZhy{}any.whl \PYGZhy{}\PYGZhy{}user
+
+\PYG{c+c1}{\PYGZsh{} OR install directly using setup.py}
+python3 setup.py install \PYGZhy{}\PYGZhy{}user
+\end{Verbatim}

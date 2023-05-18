@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{n}{x} \PYG{o}{=} \PYG{n}{data}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]}\PYG{o}{.}\PYG{n}{lshell} \PYG{c+c1}{\PYGZsh{} single element access}
+	\PYG{n}{x} \PYG{o}{=} \PYG{n}{data}\PYG{o}{.}\PYG{n}{lshell}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]} \PYG{c+c1}{\PYGZsh{} single element access, equivalent to above}
+	\PYG{n}{x} \PYG{o}{=} \PYG{n}{data}\PYG{o}{.}\PYG{n}{lshell} \PYG{c+c1}{\PYGZsh{} array access, x becomes a numpy.ndarray}
+\end{Verbatim}

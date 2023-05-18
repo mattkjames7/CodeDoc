@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} evaluate the model at some R}
+\PYG{n}{jrm33}\PYG{o}{.}\PYG{n}{Test}\PYG{p}{(}\PYG{n}{R}\PYG{o}{=}\PYG{l+m+mf}{0.85}\PYG{p}{)}
+\end{Verbatim}

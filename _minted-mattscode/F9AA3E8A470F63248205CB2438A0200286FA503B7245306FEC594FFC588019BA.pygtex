@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{n+nb}{export} \PYG{n+nv}{ARASE\PYGZus{}PATH}\PYG{o}{=}/path/to/arase/data
+\end{Verbatim}

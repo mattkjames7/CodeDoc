@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{k+kn}{import} \PYG{n+nn}{pyomnidata}
+	
+	\PYG{c+c1}{\PYGZsh{}download all available data}
+	\PYG{n}{pyomnidata}\PYG{o}{.}\PYG{n}{UpdateLocalData}\PYG{p}{()}
+\end{Verbatim}

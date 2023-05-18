@@ -57,46 +57,57 @@
 \contentsline {subsection}{\numberline {3.8.1}Installation}{23}{subsection.3.8.1}%
 \contentsline {subsection}{\numberline {3.8.2}Usage}{23}{subsection.3.8.2}%
 \contentsline {section}{\numberline {3.9}\texttt {libcon2020}: C++ implementation of Jupiter's magnetodisc model}{25}{section.3.9}%
-\contentsline {section}{\numberline {3.10}\texttt {jrm33}: The JRM33 model in Python}{25}{section.3.10}%
-\contentsline {section}{\numberline {3.11}\texttt {jrm09}: The JRM09 model in Python}{25}{section.3.11}%
-\contentsline {section}{\numberline {3.12}\texttt {vip4model}: The VIP4 model in Python}{25}{section.3.12}%
-\contentsline {chapter}{\numberline {4}Spacecraft Data}{27}{chapter.4}%
-\contentsline {section}{\numberline {4.1}\texttt {Arase}: Download and read Arase data}{27}{section.4.1}%
-\contentsline {section}{\numberline {4.2}\texttt {RBSP}: Download and read Van Allen Probe data}{27}{section.4.2}%
-\contentsline {section}{\numberline {4.3}\texttt {cluster}: Download and read Cluster data}{27}{section.4.3}%
-\contentsline {section}{\numberline {4.4}\texttt {pyCRRES}: Download and read CRRES data}{27}{section.4.4}%
-\contentsline {section}{\numberline {4.5}\texttt {themissc}: Download and read THEMIS data}{27}{section.4.5}%
-\contentsline {section}{\numberline {4.6}\texttt {imageeuv}: Download and read IMAGE EUV data}{27}{section.4.6}%
-\contentsline {section}{\numberline {4.7}\texttt {imagerpi}: Download and read IMAGE RPI data}{27}{section.4.7}%
-\contentsline {section}{\numberline {4.8}\texttt {imagePP}: Download and read Goldstein's plasmapause dataset}{27}{section.4.8}%
-\contentsline {section}{\numberline {4.9}\texttt {PyMess}: Download and read MESSENGER data}{27}{section.4.9}%
-\contentsline {section}{\numberline {4.10}\texttt {FIPSProtonData}: Download and read ANN verified FIPS moments}{27}{section.4.10}%
-\contentsline {section}{\numberline {4.11}\texttt {VenusExpress}: Download and read VEX data}{27}{section.4.11}%
-\contentsline {chapter}{\numberline {5}Ground Data and Geomagnetic Indices}{29}{chapter.5}%
-\contentsline {section}{\numberline {5.1}\texttt {groundmag}: Tools for processing and reading ground magnetometer data}{29}{section.5.1}%
-\contentsline {section}{\numberline {5.2}\texttt {SuperDARN}: Simple SuperDARN fitacf reading code}{29}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Installation}{29}{subsection.5.2.1}%
-\contentsline {subsubsection}{Usage}{29}{section*.16}%
-\contentsline {subsubsection}{Reading Data}{30}{section*.17}%
-\contentsline {subsubsection}{Plotting Data}{30}{section*.18}%
-\contentsline {subsubsection}{Fields of View}{31}{section*.19}%
-\contentsline {section}{\numberline {5.3}\texttt {kpindex}: Download the latext Kp indices}{31}{section.5.3}%
-\contentsline {section}{\numberline {5.4}\texttt {pyomnidata}: Download the latext OMNI and solar flux data}{31}{section.5.4}%
-\contentsline {section}{\numberline {5.5}\texttt {smindex}: Read the SuperMAG indices}{31}{section.5.5}%
-\contentsline {chapter}{\numberline {6}Machine Learning}{35}{chapter.6}%
-\contentsline {section}{\numberline {6.1}\texttt {NNClass}: Simple neural network classifier module}{35}{section.6.1}%
-\contentsline {section}{\numberline {6.2}\texttt {NNFunction}: Train neural networks on arbitrary functions}{35}{section.6.2}%
-\contentsline {chapter}{\numberline {7}Other Tools}{37}{chapter.7}%
-\contentsline {section}{\numberline {7.1}\texttt {wavespec}: Spectral analysis tools}{37}{section.7.1}%
-\contentsline {section}{\numberline {7.2}\texttt {MHDWaveHarmonics}: Tools for MHD waves}{37}{section.7.2}%
-\contentsline {section}{\numberline {7.3}\texttt {FieldTracing}: Python field tracing code}{37}{section.7.3}%
-\contentsline {section}{\numberline {7.4}\texttt {DateTimeTools}: Tools for dealing with dates and times}{37}{section.7.4}%
-\contentsline {section}{\numberline {7.5}\texttt {datetime}: C++ library dealing for dates and times}{37}{section.7.5}%
-\contentsline {section}{\numberline {7.6}\texttt {PyFileIO}: Tools for reading and writing files}{37}{section.7.6}%
-\contentsline {section}{\numberline {7.7}\texttt {RecarrayTools}: Tools for manipulating \texttt {numpy.recarrays}}{37}{section.7.7}%
-\contentsline {section}{\numberline {7.8}\texttt {PBSJobExamples}: Examples for submitting jobs to PBS}{37}{section.7.8}%
-\contentsline {section}{\numberline {7.9}\texttt {PlanetSpice}: SPICE related code}{37}{section.7.9}%
-\contentsline {section}{\numberline {7.10}\texttt {ColorString}: Change colour of strings in the terminal}{37}{section.7.10}%
-\contentsline {section}{\numberline {7.11}\texttt {cppembedbinary}: Examples for embedding data into C++ code}{37}{section.7.11}%
-\contentsline {section}{\numberline {7.12}\texttt {libspline}: C++ library for splines}{37}{section.7.12}%
-\contentsline {section}{\numberline {7.13}\texttt {linterp}: C++ interpolation code}{37}{section.7.13}%
+\contentsline {subsection}{\numberline {3.9.1}Building libcon2020}{25}{subsection.3.9.1}%
+\contentsline {subsection}{\numberline {3.9.2}Usage}{26}{subsection.3.9.2}%
+\contentsline {subsubsection}{Linking to and Including libcon2020}{26}{section*.16}%
+\contentsline {subsubsection}{C++ usage}{26}{section*.17}%
+\contentsline {subsubsection}{Other Languages}{27}{section*.18}%
+\contentsline {subsection}{\numberline {3.9.3}Model Parameters}{28}{subsection.3.9.3}%
+\contentsline {section}{\numberline {3.10}\texttt {jrm33}: The JRM33 model in Python}{30}{section.3.10}%
+\contentsline {subsection}{\numberline {3.10.1}Installation}{30}{subsection.3.10.1}%
+\contentsline {subsection}{\numberline {3.10.2}Usage}{30}{subsection.3.10.2}%
+\contentsline {section}{\numberline {3.11}\texttt {jrm09}: The JRM09 model in Python}{31}{section.3.11}%
+\contentsline {section}{\numberline {3.12}Installation}{31}{section.3.12}%
+\contentsline {section}{\numberline {3.13}Installation}{31}{section.3.13}%
+\contentsline {section}{\numberline {3.14}Usage}{31}{section.3.14}%
+\contentsline {section}{\numberline {3.15}\texttt {vip4model}: The VIP4 model in Python}{32}{section.3.15}%
+\contentsline {section}{\numberline {3.16}Installation}{32}{section.3.16}%
+\contentsline {section}{\numberline {3.17}Usage}{32}{section.3.17}%
+\contentsline {chapter}{\numberline {4}Spacecraft Data}{35}{chapter.4}%
+\contentsline {section}{\numberline {4.1}\texttt {Arase}: Download and read Arase data}{35}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Installation}{35}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Downloading Data}{35}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Position and Tracing}{35}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}Reading Data}{36}{subsection.4.1.4}%
+\contentsline {subsubsection}{MGF Data}{36}{section*.19}%
+\contentsline {subsubsection}{Particle Omni-directional Spectra}{36}{section*.20}%
+\contentsline {subsubsection}{Combined Particle Spectra}{36}{section*.21}%
+\contentsline {subsubsection}{Single Spectra}{36}{section*.22}%
+\contentsline {subsubsection}{3D Particle Spectra}{37}{section*.23}%
+\contentsline {subsubsection}{Pitch Angle Distributions}{37}{section*.24}%
+\contentsline {subsection}{\numberline {4.1.5}Current Progress}{39}{subsection.4.1.5}%
+\contentsline {section}{\numberline {4.2}\texttt {RBSP}: Download and read Van Allen Probe data}{39}{section.4.2}%
+\contentsline {section}{\numberline {4.3}\texttt {cluster}: Download and read Cluster data}{40}{section.4.3}%
+\contentsline {section}{\numberline {4.4}\texttt {pyCRRES}: Download and read CRRES data}{40}{section.4.4}%
+\contentsline {section}{\numberline {4.5}\texttt {themissc}: Download and read THEMIS data}{40}{section.4.5}%
+\contentsline {section}{\numberline {4.6}\texttt {imageeuv}: Download and read IMAGE EUV data}{40}{section.4.6}%
+\contentsline {section}{\numberline {4.7}\texttt {imagerpi}: Download and read IMAGE RPI data}{40}{section.4.7}%
+\contentsline {section}{\numberline {4.8}\texttt {imagePP}: Download and read Goldstein's plasmapause dataset}{40}{section.4.8}%
+\contentsline {section}{\numberline {4.9}Installation}{40}{section.4.9}%
+\contentsline {section}{\numberline {4.10}Usage}{40}{section.4.10}%
+\contentsline {section}{\numberline {4.11}\texttt {PyMess}: Download and read MESSENGER data}{41}{section.4.11}%
+\contentsline {subsection}{\numberline {4.11.1}Installation}{41}{subsection.4.11.1}%
+\contentsline {subsection}{\numberline {4.11.2}Submodules}{41}{subsection.4.11.2}%
+\contentsline {subsubsection}{\texttt {FIPS} - Fast Imaging Plasma Spectrometer}{42}{section*.25}%
+\contentsline {subsubsection}{\texttt {MAG} - Magnetometer}{42}{section*.26}%
+\contentsline {subsubsection}{\texttt {NS} - Neutron Spectrometer}{43}{section*.27}%
+\contentsline {section}{\numberline {4.12}\texttt {FIPSProtonData}: Download and read ANN verified FIPS moments}{43}{section.4.12}%
+\contentsline {subsection}{\numberline {4.12.1}Requirements}{43}{subsection.4.12.1}%
+\contentsline {subsection}{\numberline {4.12.2}Installation}{43}{subsection.4.12.2}%
+\contentsline {subsubsection}{For Linux and possibly Mac:}{43}{section*.28}%
+\contentsline {subsubsection}{Windows:}{43}{section*.29}%
+\contentsline {subsection}{\numberline {4.12.3}Usage}{43}{subsection.4.12.3}%
+\contentsline {subsubsection}{First run}{43}{section*.30}%
+\contentsline {subsubsection}{Loading data}{44}{section*.31}%
+\contentsline {subsubsection}{Plotting data}{44}{section*.32}%
+\contentsline {section}{\numberline {4.13}\texttt {VenusExpress}: Download and read VEX data}{45}{section.4.13}%

@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{n}{pad} \PYG{o}{=} \PYG{n}{Arase}\PYG{o}{.}\PYG{n}{MEPe}\PYG{o}{.}\PYG{n}{ReadPAD}\PYG{p}{(}\PYG{l+m+mi}{20180101}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}eFlux\PYGZsq{}}\PYG{p}{)}
+	\PYG{n}{pad}\PYG{o}{.}\PYG{n}{PlotSpectrogram}\PYG{p}{(}\PYG{n}{Bin}\PYG{o}{=}\PYG{l+m+mi}{5}\PYG{p}{)}
+\end{Verbatim}

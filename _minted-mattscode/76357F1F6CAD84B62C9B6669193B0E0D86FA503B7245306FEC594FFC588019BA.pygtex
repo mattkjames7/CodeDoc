@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	git clone https://github.com/mattkjames7/ImagePP.git
+	\PYG{n+nb}{cd} ImagePP
+	
+	\PYG{c+c1}{\PYGZsh{}build the wheel file}
+	python3 setup.py bdist\PYGZus{}wheel
+	
+	\PYG{c+c1}{\PYGZsh{}install using pip (replace x.x.x with current version)}
+	pip3 install \PYGZhy{}\PYGZhy{}user dist/ImagePP\PYGZhy{}x.x.x\PYGZhy{}py3\PYGZhy{}none\PYGZhy{}any.whl
+\end{Verbatim}

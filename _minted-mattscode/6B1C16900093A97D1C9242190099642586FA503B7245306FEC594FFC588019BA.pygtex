@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{n+nb}{export} \PYG{n+nv}{MESSENGER\PYGZus{}PATH}\PYG{o}{=}/data/path/to/MESSENGER
+\end{Verbatim}

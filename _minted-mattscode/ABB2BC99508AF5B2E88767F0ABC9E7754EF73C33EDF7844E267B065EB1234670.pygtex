@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{n}{data} \PYG{o}{=} \PYG{n}{PyMess}\PYG{o}{.}\PYG{n}{FIPS}\PYG{o}{.}\PYG{n}{ReadFIPS}\PYG{p}{(}\PYG{n}{Date}\PYG{p}{,}\PYG{n}{Type}\PYG{o}{=}\PYG{n}{Type}\PYG{p}{)}
+\end{Verbatim}

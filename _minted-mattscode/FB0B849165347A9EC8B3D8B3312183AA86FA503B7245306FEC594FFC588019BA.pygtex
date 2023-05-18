@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{n+nb}{cd} PyMess
+	python3 setup.py sdist bdist\PYGZus{}wheel
+	pip3 install dist/PyMess\PYGZhy{}0.0.1\PYGZhy{}py3\PYGZhy{}none\PYGZhy{}any.whl \PYGZhy{}\PYGZhy{}user
+\end{Verbatim}
