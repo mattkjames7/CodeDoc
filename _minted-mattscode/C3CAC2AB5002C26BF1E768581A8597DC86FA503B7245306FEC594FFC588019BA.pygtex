@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+pip3 install \PYGZhy{}\PYGZhy{}user con2020
+	
+\PYG{c+c1}{\PYGZsh{}or if you have previously installed using this method}
+pip3 install \PYGZhy{}\PYGZhy{}upgrade \PYGZhy{}\PYGZhy{}user con2020
+\end{Verbatim}

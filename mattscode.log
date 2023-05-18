@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.7.13)  17 MAY 2023 22:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.7.13)  18 MAY 2023 14:25
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -540,7 +540,7 @@ Chapter 1.
 Chapter 2.
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 3.
-<figures/ch2_spicedmodel.png, id=440, 578.16pt x 505.89pt>
+<figures/ch2_spicedmodel.png, id=480, 578.16pt x 505.89pt>
 File: figures/ch2_spicedmodel.png Graphic file (type png)
 <use figures/ch2_spicedmodel.png>
 Package pdftex.def Info: figures/ch2_spicedmodel.png  used on input line 11.
@@ -718,7 +718,7 @@ and I'll forget about whatever was undefined.
 
 (./_minted-mattscode/C26C6D5C5731C8ED5F43047E299C072D4EF73C33EDF7844E267B065EB1
 234670.pygtex)
-<figures/ch2_hflr.png, id=469, 462.528pt x 346.896pt>
+<figures/ch2_hflr.png, id=510, 462.528pt x 346.896pt>
 File: figures/ch2_hflr.png Graphic file (type png)
 <use figures/ch2_hflr.png>
 Package pdftex.def Info: figures/ch2_hflr.png  used on input line 221.
@@ -748,7 +748,7 @@ and I'll forget about whatever was undefined.
 
 (./_minted-mattscode/12744E3435C94EC8E7BA1C67B0E2E93E4EF73C33EDF7844E267B065EB1
 234670.pygtex)
-<figures/ch2_pygcpm_equator.png, id=479, 462.528pt x 346.896pt>
+<figures/ch2_pygcpm_equator.png, id=519, 462.528pt x 346.896pt>
 File: figures/ch2_pygcpm_equator.png Graphic file (type png)
 <use figures/ch2_pygcpm_equator.png>
 Package pdftex.def Info: figures/ch2_pygcpm_equator.png  used on input line 265
@@ -759,7 +759,7 @@ Package pdftex.def Info: figures/ch2_pygcpm_equator.png  used on input line 265
 
 (./_minted-mattscode/00057E2B72843F28A2EC627862935E1B4EF73C33EDF7844E267B065EB1
 234670.pygtex)
-<figures/ch2_pygcpm_mlt.png, id=481, 462.528pt x 346.896pt>
+<figures/ch2_pygcpm_mlt.png, id=521, 462.528pt x 346.896pt>
 File: figures/ch2_pygcpm_mlt.png Graphic file (type png)
 <use figures/ch2_pygcpm_mlt.png>
 Package pdftex.def Info: figures/ch2_pygcpm_mlt.png  used on input line 278.
@@ -831,7 +831,7 @@ This input will be discarded. Type <return> to continue.
 
 (./_minted-mattscode/AB9FCAFD866DFAF1006F7ACE7D8D89AE4EF73C33EDF7844E267B065EB1
 234670.pygtex)
-<figures/ch03_geopacktrace.png, id=506, 462.528pt x 346.896pt>
+<figures/ch03_geopacktrace.png, id=546, 462.528pt x 346.896pt>
 File: figures/ch03_geopacktrace.png Graphic file (type png)
 <use figures/ch03_geopacktrace.png>
 Package pdftex.def Info: figures/ch03_geopacktrace.png  used on input line 67.
@@ -990,40 +990,254 @@ and I'll forget about whatever was undefined.
 
 (./_minted-mattscode/EC839C7D9BDB0AFE956B88F834DF7D124EF73C33EDF7844E267B065EB1
 234670.pygtex)
-<figures/ch03_vsmodel.png, id=523, 650.43pt x 578.16pt>
+<figures/ch03_vsmodel.png, id=563, 650.43pt x 578.16pt>
 File: figures/ch03_vsmodel.png Graphic file (type png)
 <use figures/ch03_vsmodel.png>
 Package pdftex.def Info: figures/ch03_vsmodel.png  used on input line 250.
 (pdftex.def)             Requested size: 483.69687pt x 429.96663pt.
+ [15] [16 <./figures/ch03_vsmodel.png>]
+\openout3 = `mattscode.pyg'.
 
-Overfull \hbox (2.16084pt too wide) in paragraph at lines 258--258
+
+(./_minted-mattscode/F58DD771485D5BAE4876756C4DBF340786FA503B7245306FEC594FFC58
+8019BA.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/70389147E1946249E15CC2ECF3B3399386FA503B7245306FEC594FFC58
+8019BA.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/6222AA1C446F17E4E25934EB16AC772786FA503B7245306FEC594FFC58
+8019BA.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/C518D7F99FDBA73F2C90DE27FE0B7F4186FA503B7245306FEC594FFC58
+8019BA.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/FB13017DAD8E540970480AFED95D943C86FA503B7245306FEC594FFC58
+8019BA.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/89447D3D8D23C1EC2962DAF95B7D13DE4EF73C33EDF7844E267B065EB1
+234670.pygtex [17])
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/D5068BD515020AAB9F78C4485CB4F7994EF73C33EDF7844E267B065EB1
+234670.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/0560FD1A928B08F04A40BCA38E5C91FA4EF73C33EDF7844E267B065EB1
+234670.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/E68BD1F10CBFEB654843E039BE59771F4EF73C33EDF7844E267B065EB1
+234670.pygtex [18])
+<figures/ch3_JMCompareTrace.png, id=598, 462.528pt x 346.896pt>
+File: figures/ch3_JMCompareTrace.png Graphic file (type png)
+<use figures/ch3_JMCompareTrace.png>
+Package pdftex.def Info: figures/ch3_JMCompareTrace.png  used on input line 427
+.
+(pdftex.def)             Requested size: 338.58632pt x 253.95184pt.
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/F78674AA49D4E150CF07393294C6402686FA503B7245306FEC594FFC58
+8019BA.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/EA0B58B599B06B88BA1BFCEBDAC8AF2B86FA503B7245306FEC594FFC58
+8019BA.pygtex [19 <./figures/ch3_JMCompareTrace.png>])
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/6FFDC85692429ABF7F7D0EF721808FF486FA503B7245306FEC594FFC58
+8019BA.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/BC4971451F99D88009514E144436C84786FA503B7245306FEC594FFC58
+8019BA.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/F975D6C37B19129473294C8C6AAD126161CDD55AD99798A7BEF92575F9
+324259.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/9D73F17D60ADB126BAF68E3954BF632186FA503B7245306FEC594FFC58
+8019BA.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/BB9E2048BA715DA0B096F0554C1B38E17F5A74254C162834BE09F73745
+78705C.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/31CCBA6D6D0297A97666260674DC82EC86FA503B7245306FEC594FFC58
+8019BA.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/AE1E3B7CD5FDD4D2AC771C3AD96109677F5A74254C162834BE09F73745
+78705C.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/BB8B33A97FB7D994DBE8B022D0F8AAC386FA503B7245306FEC594FFC58
+8019BA.pygtex [20])
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/AE5CF69DFA870730EC839C80CF224ADE7F5A74254C162834BE09F73745
+78705C.pygtex)
+Overfull \hbox (50.0806pt too wide) in paragraph at lines 567--594
+ [][] 
+ []
+
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/E1F9D4270FE74A29129473C20D066FB77F5A74254C162834BE09F73745
+78705C.pygtex [21])
+Overfull \hbox (2.16084pt too wide) in paragraph at lines 666--666
 []\OT1/cmtt/m/n/14.4 con2020\OT1/cmr/bx/n/14.4 : Python im-ple-men-ta-tion of J
 upiter's mag-ne-todisc model 
  []
 
 
-Overfull \hbox (9.27417pt too wide) in paragraph at lines 260--260
+LaTeX Warning: File `https://zenodo.org/badge/doi/10.5281/zenodo.6959770.svg' n
+ot found on input line 670.
+
+
+! LaTeX Error: Unknown graphics extension: .svg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.670 ...rg/badge/doi/10.5281/zenodo.6959770.svg}}
+                                                   \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[22]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.674 ...ttps://github.com/marissav06/con2020_idl}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.674 ...ttps://github.com/marissav06/con2020_idl}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.677 ...s://github.com/marissav06/con2020_matlab}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.677 ...s://github.com/marissav06/con2020_matlab}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.679 ..._final_code_documentation_june9_2022.pdf}
+                                                  . It describes the Connern...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.679 ..._final_code_documentation_june9_2022.pdf}
+                                                  . It describes the Connern...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/C3CAC2AB5002C26BF1E768581A8597DC86FA503B7245306FEC594FFC58
+8019BA.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/AA5518FAF275490477D9BDB70700C2E786FA503B7245306FEC594FFC58
+8019BA.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/87BE00B564B392D941483FFBEC3315CF4EF73C33EDF7844E267B065EB1
+234670.pygtex) [23]
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/33E0B625C617B2C63CEE1DC3696FEF164EF73C33EDF7844E267B065EB1
+234670.pygtex)
+Overfull \hbox (961.91742pt too wide) in paragraph at lines 758--783
+ [][] 
+ []
+
+<figures/ch3_con2020Test.png, id=635, 794.97pt x 578.16pt>
+File: figures/ch3_con2020Test.png Graphic file (type png)
+<use figures/ch3_con2020Test.png>
+Package pdftex.def Info: figures/ch3_con2020Test.png  used on input line 794.
+(pdftex.def)             Requested size: 386.95897pt x 281.43062pt.
+
+Overfull \hbox (9.27417pt too wide) in paragraph at lines 799--799
 []\OT1/cmtt/m/n/14.4 libcon2020\OT1/cmr/bx/n/14.4 : C++ im-ple-men-ta-tion of J
 upiter's mag-ne-todisc model 
  []
 
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [15]
-[16 <./figures/ch03_vsmodel.png>] [17]
+) [24] [25 <./figures/ch3_con2020Test.png>]
 \openout2 = `./chapters/chapter04.aux'.
 
- (./chapters/chapter04.tex [18
+ (./chapters/chapter04.tex [26
 
 
 
 ]
 Chapter 4.
-) [19]
+) [27]
 \openout2 = `./chapters/chapter05.aux'.
 
- (./chapters/chapter05.tex [20
+ (./chapters/chapter05.tex [28
 
 
 
@@ -1048,7 +1262,7 @@ File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 
 
 (./_minted-mattscode/0D3FD685DF46E9247565F74806C4550F4EF73C33EDF7844E267B065EB1
-234670.pygtex [21])
+234670.pygtex [29])
 \openout3 = `mattscode.pyg'.
 
 
@@ -1058,8 +1272,8 @@ File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 
 
 (./_minted-mattscode/C788A75A845A207C2380A157CF92466E4EF73C33EDF7844E267B065EB1
-234670.pygtex [22])
-<figures/ch05_sdexample.png, id=569, 578.16pt x 714.0276pt>
+234670.pygtex [30])
+<figures/ch05_sdexample.png, id=676, 578.16pt x 714.0276pt>
 File: figures/ch05_sdexample.png Graphic file (type png)
 <use figures/ch05_sdexample.png>
 Package pdftex.def Info: figures/ch05_sdexample.png  used on input line 119.
@@ -1069,30 +1283,30 @@ Package pdftex.def Info: figures/ch05_sdexample.png  used on input line 119.
 
 (./_minted-mattscode/E3F09FB75362D7B8A5A9B07E6BBA3D8B4EF73C33EDF7844E267B065EB1
 234670.pygtex)
-<figures/ch05_sdfov.png, id=571, 462.528pt x 346.896pt>
+<figures/ch05_sdfov.png, id=678, 462.528pt x 346.896pt>
 File: figures/ch05_sdfov.png Graphic file (type png)
 <use figures/ch05_sdfov.png>
 Package pdftex.def Info: figures/ch05_sdfov.png  used on input line 151.
 (pdftex.def)             Requested size: 241.84843pt x 181.38736pt.
-) [23] [24 <./figures/ch05_sdexample.png>] [25 <./figures/ch05_sdfov.png>]
+) [31] [32 <./figures/ch05_sdexample.png>] [33 <./figures/ch05_sdfov.png>]
 \openout2 = `./chapters/chapter06.aux'.
 
- (./chapters/chapter06.tex [26
+ (./chapters/chapter06.tex [34
 
 
 
 ]
 Chapter 6.
-) [27]
+) [35]
 \openout2 = `./chapters/chapter07.aux'.
 
- (./chapters/chapter07.tex [28
+ (./chapters/chapter07.tex [36
 
 
 
 ]
 Chapter 7.
-) [29] [30
+) [37] [38
 
 
 ]
@@ -1105,25 +1319,22 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 53.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
 Package rerunfilecheck Info: File `mattscode.out' has not changed.
-(rerunfilecheck)             Checksum: BE83B453E95C49491EF41A532FEE9837;6136.
+(rerunfilecheck)             Checksum: 9B4EB26A56D8FC69550BCFF02821EF01;6640.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 runsystem(rm mattscode.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 9904 strings out of 481239
- 182518 string characters out of 5920377
- 493799 words of memory out of 5000000
- 24653 multiletter control sequences out of 15000+600000
- 540261 words of font info for 51 fonts, out of 8000000 for 9000
+ 10121 strings out of 481239
+ 195037 string characters out of 5920377
+ 502329 words of memory out of 5000000
+ 24747 multiletter control sequences out of 15000+600000
+ 540600 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,6n,39p,847b,573s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,18n,39p,847b,573s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dis
@@ -1132,17 +1343,18 @@ s/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsltt1
-0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf/
-fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/c
-m-super/sftt1000.pfb>
-Output written on mattscode.pdf (34 pages, 837607 bytes).
+mr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsltt10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf/fonts/ty
+pe1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/
+sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on mattscode.pdf (42 pages, 1005768 bytes).
 PDF statistics:
- 692 PDF objects out of 1000 (max. 8388607)
- 618 compressed objects within 7 object streams
- 139 named destinations out of 1000 (max. 500000)
- 649 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 813 PDF objects out of 1000 (max. 8388607)
+ 724 compressed objects within 8 object streams
+ 168 named destinations out of 1000 (max. 500000)
+ 723 words of extra memory for PDF output out of 10000 (max. 10000000)
 

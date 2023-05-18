@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import} \PYG{n+nn}{JupiterMag} \PYG{k}{as} \PYG{n+nn}{jm}
+	
+\PYG{c+c1}{\PYGZsh{}configure external field model prior to tracing}
+\PYG{c+c1}{\PYGZsh{}in this case using the analytic Con2020 model for speed}
+\PYG{n}{jm}\PYG{o}{.}\PYG{n}{Con2020}\PYG{o}{.}\PYG{n}{Config}\PYG{p}{(}\PYG{n}{equation\PYGZus{}type}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}analytic\PYGZsq{}}\PYG{p}{)}
+	
+\PYG{c+c1}{\PYGZsh{}trace the field in both directions from a starting position}
+\PYG{n}{T} \PYG{o}{=} \PYG{n}{jm}\PYG{o}{.}\PYG{n}{TraceField}\PYG{p}{(}\PYG{l+m+mf}{5.0}\PYG{p}{,}\PYG{l+m+mf}{0.0}\PYG{p}{,}\PYG{l+m+mf}{0.0}\PYG{p}{,}\PYG{n}{IntModel}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}jrm09\PYGZsq{}}\PYG{p}{,}\PYG{n}{ExtModel}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}Con2020\PYGZsq{}}\PYG{p}{)}
+\end{Verbatim}

@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}configure model}
+\PYG{n}{jm}\PYG{o}{.}\PYG{n}{Con2020}\PYG{o}{.}\PYG{n}{Config}\PYG{p}{(}\PYG{n}{equation\PYGZus{}type}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}analytic\PYGZsq{}}\PYG{p}{)}
+\PYG{n}{Bx}\PYG{p}{,}\PYG{n}{By}\PYG{p}{,}\PYG{n}{Bz} \PYG{o}{=} \PYG{n}{jm}\PYG{o}{.}\PYG{n}{Con2020}\PYG{o}{.}\PYG{n}{Field}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,}\PYG{n}{y}\PYG{p}{,}\PYG{n}{z}\PYG{p}{)}
+\end{Verbatim}

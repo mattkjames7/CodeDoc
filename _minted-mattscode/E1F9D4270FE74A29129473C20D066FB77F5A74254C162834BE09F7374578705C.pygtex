@@ -1,0 +1,60 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cp}{\PYGZsh{}include}\PYG{+w}{ }\PYG{c+cpf}{\PYGZlt{}stdio.h\PYGZgt{}}
+\PYG{c+cp}{\PYGZsh{}include}\PYG{+w}{ }\PYG{c+cpf}{\PYGZlt{}jupitermag.h\PYGZgt{}}
+\PYG{c+cp}{\PYGZsh{}include}\PYG{+w}{ }\PYG{c+cpf}{\PYGZlt{}vector\PYGZgt{}}
+\PYG{+w}{	}
+\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n+nf}{main}\PYG{+w}{ }\PYG{p}{()}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{	}\PYG{c+cm}{/* set initial position to start trace from (this can be an array}
+\PYG{c+cm}{		for multiple traces) */}
+\PYG{+w}{	}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{n}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}
+\PYG{+w}{	}\PYG{k+kt}{double}\PYG{+w}{ }\PYG{n}{x0}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mf}{5.0}\PYG{p}{;}
+\PYG{+w}{	}\PYG{k+kt}{double}\PYG{+w}{ }\PYG{n}{y0}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mf}{0.0}\PYG{p}{;}
+\PYG{+w}{	}\PYG{k+kt}{double}\PYG{+w}{ }\PYG{n}{z0}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mf}{0.0}\PYG{p}{;}
+\PYG{+w}{	}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{nalpha}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}
+\PYG{+w}{	}\PYG{k+kt}{double}\PYG{+w}{ }\PYG{n}{alpha}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mf}{0.0}\PYG{p}{;}
+\PYG{+w}{	}
+\PYG{+w}{	}\PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Create field function vector}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{);}
+\PYG{+w}{	}\PYG{c+cm}{/* store the function pointers for the components of the}
+\PYG{c+cm}{	model to be included in the trace */}
+\PYG{+w}{	}\PYG{n}{std}\PYG{o}{::}\PYG{n}{vector}\PYG{o}{\PYGZlt{}}\PYG{n}{FieldFuncPtr}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{Funcs}\PYG{p}{;}
+\PYG{+w}{	}
+\PYG{+w}{	}\PYG{c+cm}{/* internal model */}
+\PYG{+w}{	}\PYG{n}{Funcs}\PYG{p}{.}\PYG{n}{push\PYGZus{}back}\PYG{p}{(}\PYG{n}{jrm09Field}\PYG{p}{);}
+\PYG{+w}{	}
+\PYG{+w}{	}\PYG{c+cm}{/* external model */}
+\PYG{+w}{	}\PYG{n}{Funcs}\PYG{p}{.}\PYG{n}{push\PYGZus{}back}\PYG{p}{(}\PYG{n}{Con2020Field}\PYG{p}{);}
+\PYG{+w}{	}
+\PYG{+w}{	}\PYG{c+cm}{/* initialise the trace object */}
+\PYG{+w}{	}\PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Create Trace object}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{);}
+\PYG{+w}{	}\PYG{n}{Trace}\PYG{+w}{ }\PYG{n}{T}\PYG{p}{(}\PYG{n}{Funcs}\PYG{p}{);}
+\PYG{+w}{	}
+\PYG{+w}{	}\PYG{c+cm}{/* add the starting positions for the traces */}
+\PYG{+w}{	}\PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Add starting position}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{);}
+\PYG{+w}{	}\PYG{n}{T}\PYG{p}{.}\PYG{n}{InputPos}\PYG{p}{(}\PYG{n}{n}\PYG{p}{,}\PYG{o}{\PYGZam{}}\PYG{n}{x0}\PYG{p}{,}\PYG{o}{\PYGZam{}}\PYG{n}{y0}\PYG{p}{,}\PYG{o}{\PYGZam{}}\PYG{n}{z0}\PYG{p}{);}
+\PYG{+w}{	}
+\PYG{+w}{	}\PYG{c+cm}{/* configure the trace parameters, leaving this empty will}
+\PYG{c+cm}{	use default values for things like minimum and maximum step size */}
+\PYG{+w}{	}\PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Set the trace parameters }\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{);}
+\PYG{+w}{	}\PYG{n}{T}\PYG{p}{.}\PYG{n}{SetTraceCFG}\PYG{p}{();}
+\PYG{+w}{	}
+\PYG{+w}{	}\PYG{c+cm}{/* set up the alpha calculation \PYGZhy{} the angles (in degrees) of each}
+\PYG{c+cm}{	polarization angle. This is generally used for ULF waves */}
+\PYG{+w}{	}\PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Initialize alpha}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{);}
+\PYG{+w}{	}\PYG{n}{T}\PYG{p}{.}\PYG{n}{SetAlpha}\PYG{p}{(}\PYG{n}{nalpha}\PYG{p}{,}\PYG{o}{\PYGZam{}}\PYG{n}{alpha}\PYG{p}{);}
+\PYG{+w}{	}
+\PYG{+w}{	}\PYG{c+cm}{/* Trace */}
+\PYG{+w}{	}\PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Trace}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{);}
+\PYG{+w}{	}\PYG{n}{T}\PYG{p}{.}\PYG{n}{TraceField}\PYG{p}{();}
+\PYG{+w}{	}
+\PYG{+w}{	}\PYG{c+cm}{/* trace distance, footprints, Rnorm */}
+\PYG{+w}{	}\PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Footprints etc...}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{);}
+\PYG{+w}{	}\PYG{n}{T}\PYG{p}{.}\PYG{n}{CalculateTraceDist}\PYG{p}{();}
+\PYG{+w}{	}\PYG{n}{T}\PYG{p}{.}\PYG{n}{CalculateTraceFP}\PYG{p}{();}
+\PYG{+w}{	}\PYG{n}{T}\PYG{p}{.}\PYG{n}{CalculateTraceRnorm}\PYG{p}{();}
+\PYG{+w}{	}
+\PYG{+w}{	}\PYG{c+cm}{/* calculate halpha for each of the polarization angles}
+\PYG{c+cm}{	   specified above*/}
+\PYG{+w}{	}\PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}H\PYGZus{}alpha}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{);}
+\PYG{+w}{	}\PYG{n}{T}\PYG{p}{.}\PYG{n}{CalculateHalpha}\PYG{p}{();}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

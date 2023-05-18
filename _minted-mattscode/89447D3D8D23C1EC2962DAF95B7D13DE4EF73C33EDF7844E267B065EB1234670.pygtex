@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import} \PYG{n+nn}{JupiterMag} \PYG{k}{as} \PYG{n+nn}{jm}
+	
+\PYG{c+c1}{\PYGZsh{}configure model to use VIP4 in polar coords (r,t,p)}
+\PYG{n}{jm}\PYG{o}{.}\PYG{n}{Internal}\PYG{o}{.}\PYG{n}{Config}\PYG{p}{(}\PYG{n}{Model}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}vip4\PYGZdq{}}\PYG{p}{,}\PYG{n}{CartesianIn}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{,}\PYG{n}{CartesianOut}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{)}
+\PYG{n}{Br}\PYG{p}{,}\PYG{n}{Bt}\PYG{p}{,}\PYG{n}{Bp} \PYG{o}{=} \PYG{n}{jm}\PYG{o}{.}\PYG{n}{Internal}\PYG{o}{.}\PYG{n}{Field}\PYG{p}{(}\PYG{n}{r}\PYG{p}{,}\PYG{n}{t}\PYG{p}{,}\PYG{n}{p}\PYG{p}{)}
+	
+\PYG{c+c1}{\PYGZsh{}or use jrm33 in cartesian coordinates (x,y,z)}
+\PYG{n}{jm}\PYG{o}{.}\PYG{n}{Internal}\PYG{o}{.}\PYG{n}{Config}\PYG{p}{(}\PYG{n}{Model}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}jrm33\PYGZdq{}}\PYG{p}{,}\PYG{n}{CartesianIn}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{,}\PYG{n}{CartesianOut}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)}
+\PYG{n}{Bx}\PYG{p}{,}\PYG{n}{By}\PYG{p}{,}\PYG{n}{Bz} \PYG{o}{=} \PYG{n}{jm}\PYG{o}{.}\PYG{n}{Internal}\PYG{o}{.}\PYG{n}{Field}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,}\PYG{n}{y}\PYG{p}{,}\PYG{n}{z}\PYG{p}{)}
+\end{Verbatim}

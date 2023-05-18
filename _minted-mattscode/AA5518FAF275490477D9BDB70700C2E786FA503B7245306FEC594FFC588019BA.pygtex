@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}clone the repo}
+git clone https://github.com/gabbyprovan/con2020
+\PYG{n+nb}{cd} con2020
+	
+\PYG{c+c1}{\PYGZsh{}EITHER create a wheel and install (X.X.X is the current version number)}
+python3 setup.py bdist\PYGZus{}wheel
+pip3 install \PYGZhy{}\PYGZhy{}user dist/con2020\PYGZhy{}X.X.X\PYGZhy{}py3\PYGZhy{}none\PYGZhy{}any.whl
+	
+\PYG{c+c1}{\PYGZsh{}or directly install using setup.py}
+python3 setup.py insall \PYGZhy{}\PYGZhy{}user
+\end{Verbatim}

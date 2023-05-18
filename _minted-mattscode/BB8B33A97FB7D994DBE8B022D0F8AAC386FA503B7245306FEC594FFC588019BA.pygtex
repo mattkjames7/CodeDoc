@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} absolute path}
+g++ test.cc \PYGZhy{}o \PYG{n+nb}{test} \PYGZhy{}L:/path/to/libjupitermag.so
+	
+\PYG{c+c1}{\PYGZsh{} or relative path}
+g++ test.cc \PYGZhy{}o \PYG{n+nb}{test} \PYGZhy{}Wl,\PYGZhy{}rpath\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}\PYGZdl{}\PYGZdl{}ORIGIN/../lib/libjupitermag\PYGZsq{}} \PYGZhy{}L ..lib/libjupitermag \PYGZhy{}ljupitermag
+\end{Verbatim}

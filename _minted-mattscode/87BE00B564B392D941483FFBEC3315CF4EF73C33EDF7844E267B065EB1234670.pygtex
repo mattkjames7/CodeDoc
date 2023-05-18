@@ -1,0 +1,17 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import} \PYG{n+nn}{con2020}
+	
+\PYG{c+c1}{\PYGZsh{}initialize a model object with default parameters}
+\PYG{n}{def\PYGZus{}model} \PYG{o}{=} \PYG{n}{con2020}\PYG{o}{.}\PYG{n}{Model}\PYG{p}{()}
+	
+\PYG{c+c1}{\PYGZsh{}initialize a model which uses spherical polar coordinates for input and output}
+\PYG{n}{sph\PYGZus{}model} \PYG{o}{=} \PYG{n}{con2020}\PYG{o}{.}\PYG{n}{Model}\PYG{p}{(}\PYG{n}{CartesianIn}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{,}\PYG{n}{CartesianOut}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{)}
+	
+\PYG{c+c1}{\PYGZsh{}initialize a model with custom parameters (longhand)}
+\PYG{n}{cust\PYGZus{}model0} \PYG{o}{=} \PYG{n}{con2020}\PYG{o}{.}\PYG{n}{Model}\PYG{p}{(}\PYG{n}{mu\PYGZus{}i\PYGZus{}div2\PYGZus{}\PYGZus{}current\PYGZus{}parameter\PYGZus{}nT}\PYG{o}{=}\PYG{l+m+mf}{150.0}\PYG{p}{,}
+						   	\PYG{n}{r0\PYGZus{}\PYGZus{}inner\PYGZus{}rj}\PYG{o}{=}\PYG{l+m+mf}{9.5}\PYG{p}{,}
+							\PYG{n}{d\PYGZus{}\PYGZus{}cs\PYGZus{}half\PYGZus{}thickness\PYGZus{}rj}\PYG{o}{=}\PYG{l+m+mf}{3.1}\PYG{p}{)}
+	
+\PYG{c+c1}{\PYGZsh{}equivalently, a custom parameter model (shorthand)}
+\PYG{n}{cust\PYGZus{}model1} \PYG{o}{=} \PYG{n}{con2020}\PYG{o}{.}\PYG{n}{Model}\PYG{p}{(}\PYG{n}{mu\PYGZus{}i}\PYG{o}{=}\PYG{l+m+mf}{150.0}\PYG{p}{,}\PYG{n}{r0}\PYG{o}{=}\PYG{l+m+mf}{9.5}\PYG{p}{,}\PYG{n}{d}\PYG{o}{=}\PYG{l+m+mf}{3.1}\PYG{p}{)}
+\end{Verbatim}

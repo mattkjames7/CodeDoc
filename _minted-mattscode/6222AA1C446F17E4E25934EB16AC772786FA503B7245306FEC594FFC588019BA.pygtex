@@ -1,0 +1,15 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}pull this repo}
+git clone https://github.com/mattkjames7/JupiterMag.git
+\PYG{n+nb}{cd} JupiterMag
+	
+\PYG{c+c1}{\PYGZsh{}update the submodule}
+git submodule update \PYGZhy{}\PYGZhy{}init \PYGZhy{}\PYGZhy{}recursive
+	
+\PYG{c+c1}{\PYGZsh{}build the wheel file}
+python3 setup.py bdist\PYGZus{}wheel
+\PYG{c+c1}{\PYGZsh{}the output of the previous command should give some indication of}
+\PYG{c+c1}{\PYGZsh{}the current version number. If it\PYGZsq{}s not obvious then do}
+\PYG{c+c1}{\PYGZsh{} \PYGZdl{}ls dist/ to see what the latest version is}
+pip3 install dist/JupiterMag\PYGZhy{}1.0.0\PYGZhy{}py3\PYGZhy{}none\PYGZhy{}any.whl \PYGZhy{}\PYGZhy{}user
+\end{Verbatim}

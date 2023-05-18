@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n+nb}{cd }\PYG{n}{libjupitermag}
+\PYG{n}{compile}\PYG{p}{.}\PYG{n}{bat}
+\end{Verbatim}

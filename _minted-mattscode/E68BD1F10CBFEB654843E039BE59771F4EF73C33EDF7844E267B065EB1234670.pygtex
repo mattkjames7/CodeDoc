@@ -1,0 +1,28 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import} \PYG{n+nn}{JupiterMag} \PYG{k}{as} \PYG{n+nn}{jm}
+\PYG{k+kn}{import} \PYG{n+nn}{numpy} \PYG{k}{as} \PYG{n+nn}{np}
+	
+\PYG{c+c1}{\PYGZsh{}be sure to configure external field model prior to tracing}
+\PYG{n}{jm}\PYG{o}{.}\PYG{n}{Con2020}\PYG{o}{.}\PYG{n}{Config}\PYG{p}{(}\PYG{n}{equation\PYGZus{}type}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}analytic\PYGZsq{}}\PYG{p}{)}
+\PYG{c+c1}{\PYGZsh{}this may also become necessary with internal models in the future, e.g.}
+\PYG{c+c1}{\PYGZsh{}setting the model degree}
+	
+\PYG{c+c1}{\PYGZsh{}create some starting positions}
+\PYG{n}{n} \PYG{o}{=} \PYG{l+m+mi}{8}
+\PYG{n}{theta} \PYG{o}{=} \PYG{p}{(}\PYG{l+m+mf}{180.0} \PYG{o}{\PYGZhy{}} \PYG{n}{np}\PYG{o}{.}\PYG{n}{linspace}\PYG{p}{(}\PYG{l+m+mf}{22.5}\PYG{p}{,}\PYG{l+m+mi}{35}\PYG{p}{,}\PYG{n}{n}\PYG{p}{))}\PYG{o}{*}\PYG{n}{np}\PYG{o}{.}\PYG{n}{pi}\PYG{o}{/}\PYG{l+m+mf}{180.0}
+\PYG{n}{r} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{ones}\PYG{p}{(}\PYG{n}{n}\PYG{p}{)}
+\PYG{n}{x0} \PYG{o}{=} \PYG{n}{r}\PYG{o}{*}\PYG{n}{np}\PYG{o}{.}\PYG{n}{sin}\PYG{p}{(}\PYG{n}{theta}\PYG{p}{)}
+\PYG{n}{y0} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{zeros}\PYG{p}{(}\PYG{n}{n}\PYG{p}{)}
+\PYG{n}{z0} \PYG{o}{=} \PYG{n}{r}\PYG{o}{*}\PYG{n}{np}\PYG{o}{.}\PYG{n}{cos}\PYG{p}{(}\PYG{n}{theta}\PYG{p}{)}
+	
+\PYG{c+c1}{\PYGZsh{}create trace objects, pass starting position(s) x0,y0,z0}
+\PYG{n}{T0} \PYG{o}{=} \PYG{n}{jm}\PYG{o}{.}\PYG{n}{TraceField}\PYG{p}{(}\PYG{n}{x0}\PYG{p}{,}\PYG{n}{y0}\PYG{p}{,}\PYG{n}{z0}\PYG{p}{,}\PYG{n}{Verbose}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{,}\PYG{n}{IntModel}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}jrm33\PYGZsq{}}\PYG{p}{,}\PYG{n}{ExtModel}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}none\PYGZsq{}}\PYG{p}{)}
+\PYG{n}{T1} \PYG{o}{=} \PYG{n}{jm}\PYG{o}{.}\PYG{n}{TraceField}\PYG{p}{(}\PYG{n}{x0}\PYG{p}{,}\PYG{n}{y0}\PYG{p}{,}\PYG{n}{z0}\PYG{p}{,}\PYG{n}{Verbose}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{,}\PYG{n}{IntModel}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}jrm33\PYGZsq{}}\PYG{p}{,}\PYG{n}{ExtModel}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}Con2020\PYGZsq{}}\PYG{p}{)}
+	
+\PYG{c+c1}{\PYGZsh{}plot a trace}
+\PYG{n}{ax} \PYG{o}{=} \PYG{n}{T0}\PYG{o}{.}\PYG{n}{PlotRhoZ}\PYG{p}{(}\PYG{n}{label}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}JRM33\PYGZsq{}}\PYG{p}{,}\PYG{n}{color}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}black\PYGZsq{}}\PYG{p}{)}
+\PYG{n}{ax} \PYG{o}{=} \PYG{n}{T1}\PYG{o}{.}\PYG{n}{PlotRhoZ}\PYG{p}{(}\PYG{n}{fig}\PYG{o}{=}\PYG{n}{ax}\PYG{p}{,}\PYG{n}{label}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}JRM33 + Con2020\PYGZsq{}}\PYG{p}{,}\PYG{n}{color}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}red\PYGZsq{}}\PYG{p}{)}
+	
+\PYG{n}{ax}\PYG{o}{.}\PYG{n}{set\PYGZus{}xlim}\PYG{p}{(}\PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{2.0}\PYG{p}{,}\PYG{l+m+mf}{15.0}\PYG{p}{)}
+\PYG{n}{ax}\PYG{o}{.}\PYG{n}{set\PYGZus{}ylim}\PYG{p}{(}\PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{6.0}\PYG{p}{,}\PYG{l+m+mf}{6.0}\PYG{p}{)}
+\end{Verbatim}

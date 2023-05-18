@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n+nb}{cd} libjupitermag
+make
+\PYG{c+c1}{\PYGZsh{}optionally install the library}
+sudo make install
+\end{Verbatim}

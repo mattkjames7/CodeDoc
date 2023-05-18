@@ -35,50 +35,68 @@
 \contentsline {section}{\numberline {3.4}\texttt {vsmodel}: Python based Volland-Stern electric field model for Earth}{14}{section.3.4}%
 \contentsline {subsection}{\numberline {3.4.1}Installation}{14}{subsection.3.4.1}%
 \contentsline {subsection}{\numberline {3.4.2}Usage}{15}{subsection.3.4.2}%
-\contentsline {section}{\numberline {3.5}\texttt {JupiterMag}: Python wrapper for Jovian field models}{17}{section.3.5}%
-\contentsline {section}{\numberline {3.6}\texttt {libjupitermag}: C++ library for field tracing in Jupiter's magnetosphere}{17}{section.3.6}%
-\contentsline {section}{\numberline {3.7}\texttt {con2020}: Python implementation of Jupiter's magnetodisc model}{17}{section.3.7}%
-\contentsline {section}{\numberline {3.8}\texttt {libcon2020}: C++ implementation of Jupiter's magnetodisc model}{17}{section.3.8}%
-\contentsline {section}{\numberline {3.9}\texttt {jrm33}: The JRM33 model in Python}{17}{section.3.9}%
-\contentsline {section}{\numberline {3.10}\texttt {jrm09}: The JRM09 model in Python}{17}{section.3.10}%
-\contentsline {section}{\numberline {3.11}\texttt {vip4model}: The VIP4 model in Python}{17}{section.3.11}%
-\contentsline {chapter}{\numberline {4}Spacecraft Data}{19}{chapter.4}%
-\contentsline {section}{\numberline {4.1}\texttt {Arase}: Download and read Arase data}{19}{section.4.1}%
-\contentsline {section}{\numberline {4.2}\texttt {RBSP}: Download and read Van Allen Probe data}{19}{section.4.2}%
-\contentsline {section}{\numberline {4.3}\texttt {cluster}: Download and read Cluster data}{19}{section.4.3}%
-\contentsline {section}{\numberline {4.4}\texttt {pyCRRES}: Download and read CRRES data}{19}{section.4.4}%
-\contentsline {section}{\numberline {4.5}\texttt {themissc}: Download and read THEMIS data}{19}{section.4.5}%
-\contentsline {section}{\numberline {4.6}\texttt {imageeuv}: Download and read IMAGE EUV data}{19}{section.4.6}%
-\contentsline {section}{\numberline {4.7}\texttt {imagerpi}: Download and read IMAGE RPI data}{19}{section.4.7}%
-\contentsline {section}{\numberline {4.8}\texttt {imagePP}: Download and read Goldstein's plasmapause dataset}{19}{section.4.8}%
-\contentsline {section}{\numberline {4.9}\texttt {PyMess}: Download and read MESSENGER data}{19}{section.4.9}%
-\contentsline {section}{\numberline {4.10}\texttt {FIPSProtonData}: Download and read ANN verified FIPS moments}{19}{section.4.10}%
-\contentsline {section}{\numberline {4.11}\texttt {VenusExpress}: Download and read VEX data}{19}{section.4.11}%
-\contentsline {chapter}{\numberline {5}Ground Data and Geomagnetic Indices}{21}{chapter.5}%
-\contentsline {section}{\numberline {5.1}\texttt {groundmag}: Tools for processing and reading ground magnetometer data}{21}{section.5.1}%
-\contentsline {section}{\numberline {5.2}\texttt {SuperDARN}: Simple SuperDARN fitacf reading code}{21}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Installation}{21}{subsection.5.2.1}%
-\contentsline {subsubsection}{Usage}{21}{section*.6}%
-\contentsline {subsubsection}{Reading Data}{22}{section*.7}%
-\contentsline {subsubsection}{Plotting Data}{22}{section*.8}%
-\contentsline {subsubsection}{Fields of View}{23}{section*.9}%
-\contentsline {section}{\numberline {5.3}\texttt {kpindex}: Download the latext Kp indices}{23}{section.5.3}%
-\contentsline {section}{\numberline {5.4}\texttt {pyomnidata}: Download the latext OMNI and solar flux data}{23}{section.5.4}%
-\contentsline {section}{\numberline {5.5}\texttt {smindex}: Read the SuperMAG indices}{23}{section.5.5}%
-\contentsline {chapter}{\numberline {6}Machine Learning}{27}{chapter.6}%
-\contentsline {section}{\numberline {6.1}\texttt {NNClass}: Simple neural network classifier module}{27}{section.6.1}%
-\contentsline {section}{\numberline {6.2}\texttt {NNFunction}: Train neural networks on arbitrary functions}{27}{section.6.2}%
-\contentsline {chapter}{\numberline {7}Other Tools}{29}{chapter.7}%
-\contentsline {section}{\numberline {7.1}\texttt {wavespec}: Spectral analysis tools}{29}{section.7.1}%
-\contentsline {section}{\numberline {7.2}\texttt {MHDWaveHarmonics}: Tools for MHD waves}{29}{section.7.2}%
-\contentsline {section}{\numberline {7.3}\texttt {FieldTracing}: Python field tracing code}{29}{section.7.3}%
-\contentsline {section}{\numberline {7.4}\texttt {DateTimeTools}: Tools for dealing with dates and times}{29}{section.7.4}%
-\contentsline {section}{\numberline {7.5}\texttt {datetime}: C++ library dealing for dates and times}{29}{section.7.5}%
-\contentsline {section}{\numberline {7.6}\texttt {PyFileIO}: Tools for reading and writing files}{29}{section.7.6}%
-\contentsline {section}{\numberline {7.7}\texttt {RecarrayTools}: Tools for manipulating \texttt {numpy.recarrays}}{29}{section.7.7}%
-\contentsline {section}{\numberline {7.8}\texttt {PBSJobExamples}: Examples for submitting jobs to PBS}{29}{section.7.8}%
-\contentsline {section}{\numberline {7.9}\texttt {PlanetSpice}: SPICE related code}{29}{section.7.9}%
-\contentsline {section}{\numberline {7.10}\texttt {ColorString}: Change colour of strings in the terminal}{29}{section.7.10}%
-\contentsline {section}{\numberline {7.11}\texttt {cppembedbinary}: Examples for embedding data into C++ code}{29}{section.7.11}%
-\contentsline {section}{\numberline {7.12}\texttt {libspline}: C++ library for splines}{29}{section.7.12}%
-\contentsline {section}{\numberline {7.13}\texttt {linterp}: C++ interpolation code}{29}{section.7.13}%
+\contentsline {section}{\numberline {3.5}\texttt {JupiterMag}: Python wrapper for Jovian field models}{15}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Requirements}{15}{subsection.3.5.1}%
+\contentsline {subsubsection}{Linux}{17}{section*.6}%
+\contentsline {subsubsection}{Windows}{17}{section*.7}%
+\contentsline {subsubsection}{MacOS}{17}{section*.8}%
+\contentsline {subsection}{\numberline {3.5.2}Installation}{17}{subsection.3.5.2}%
+\contentsline {subsubsection}{Update an Existing Installation}{17}{section*.9}%
+\contentsline {subsection}{\numberline {3.5.3}Usage}{18}{subsection.3.5.3}%
+\contentsline {subsubsection}{Internal Field}{18}{section*.10}%
+\contentsline {subsubsection}{External Field}{18}{section*.11}%
+\contentsline {subsubsection}{Tracing}{18}{section*.12}%
+\contentsline {section}{\numberline {3.6}\texttt {libjupitermag}: C++ library for field tracing in Jupiter's magnetosphere}{19}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Cloning and Building}{19}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Usage}{20}{subsection.3.6.2}%
+\contentsline {subsubsection}{Linking to the library}{20}{section*.13}%
+\contentsline {subsubsection}{Calling Field Models}{21}{section*.14}%
+\contentsline {subsubsection}{Field Tracing}{21}{section*.15}%
+\contentsline {section}{\numberline {3.7}\texttt {con2020}: Python implementation of Jupiter's magnetodisc model}{23}{section.3.7}%
+\contentsline {section}{\numberline {3.8}con2020}{23}{section.3.8}%
+\contentsline {subsection}{\numberline {3.8.1}Installation}{23}{subsection.3.8.1}%
+\contentsline {subsection}{\numberline {3.8.2}Usage}{23}{subsection.3.8.2}%
+\contentsline {section}{\numberline {3.9}\texttt {libcon2020}: C++ implementation of Jupiter's magnetodisc model}{25}{section.3.9}%
+\contentsline {section}{\numberline {3.10}\texttt {jrm33}: The JRM33 model in Python}{25}{section.3.10}%
+\contentsline {section}{\numberline {3.11}\texttt {jrm09}: The JRM09 model in Python}{25}{section.3.11}%
+\contentsline {section}{\numberline {3.12}\texttt {vip4model}: The VIP4 model in Python}{25}{section.3.12}%
+\contentsline {chapter}{\numberline {4}Spacecraft Data}{27}{chapter.4}%
+\contentsline {section}{\numberline {4.1}\texttt {Arase}: Download and read Arase data}{27}{section.4.1}%
+\contentsline {section}{\numberline {4.2}\texttt {RBSP}: Download and read Van Allen Probe data}{27}{section.4.2}%
+\contentsline {section}{\numberline {4.3}\texttt {cluster}: Download and read Cluster data}{27}{section.4.3}%
+\contentsline {section}{\numberline {4.4}\texttt {pyCRRES}: Download and read CRRES data}{27}{section.4.4}%
+\contentsline {section}{\numberline {4.5}\texttt {themissc}: Download and read THEMIS data}{27}{section.4.5}%
+\contentsline {section}{\numberline {4.6}\texttt {imageeuv}: Download and read IMAGE EUV data}{27}{section.4.6}%
+\contentsline {section}{\numberline {4.7}\texttt {imagerpi}: Download and read IMAGE RPI data}{27}{section.4.7}%
+\contentsline {section}{\numberline {4.8}\texttt {imagePP}: Download and read Goldstein's plasmapause dataset}{27}{section.4.8}%
+\contentsline {section}{\numberline {4.9}\texttt {PyMess}: Download and read MESSENGER data}{27}{section.4.9}%
+\contentsline {section}{\numberline {4.10}\texttt {FIPSProtonData}: Download and read ANN verified FIPS moments}{27}{section.4.10}%
+\contentsline {section}{\numberline {4.11}\texttt {VenusExpress}: Download and read VEX data}{27}{section.4.11}%
+\contentsline {chapter}{\numberline {5}Ground Data and Geomagnetic Indices}{29}{chapter.5}%
+\contentsline {section}{\numberline {5.1}\texttt {groundmag}: Tools for processing and reading ground magnetometer data}{29}{section.5.1}%
+\contentsline {section}{\numberline {5.2}\texttt {SuperDARN}: Simple SuperDARN fitacf reading code}{29}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Installation}{29}{subsection.5.2.1}%
+\contentsline {subsubsection}{Usage}{29}{section*.16}%
+\contentsline {subsubsection}{Reading Data}{30}{section*.17}%
+\contentsline {subsubsection}{Plotting Data}{30}{section*.18}%
+\contentsline {subsubsection}{Fields of View}{31}{section*.19}%
+\contentsline {section}{\numberline {5.3}\texttt {kpindex}: Download the latext Kp indices}{31}{section.5.3}%
+\contentsline {section}{\numberline {5.4}\texttt {pyomnidata}: Download the latext OMNI and solar flux data}{31}{section.5.4}%
+\contentsline {section}{\numberline {5.5}\texttt {smindex}: Read the SuperMAG indices}{31}{section.5.5}%
+\contentsline {chapter}{\numberline {6}Machine Learning}{35}{chapter.6}%
+\contentsline {section}{\numberline {6.1}\texttt {NNClass}: Simple neural network classifier module}{35}{section.6.1}%
+\contentsline {section}{\numberline {6.2}\texttt {NNFunction}: Train neural networks on arbitrary functions}{35}{section.6.2}%
+\contentsline {chapter}{\numberline {7}Other Tools}{37}{chapter.7}%
+\contentsline {section}{\numberline {7.1}\texttt {wavespec}: Spectral analysis tools}{37}{section.7.1}%
+\contentsline {section}{\numberline {7.2}\texttt {MHDWaveHarmonics}: Tools for MHD waves}{37}{section.7.2}%
+\contentsline {section}{\numberline {7.3}\texttt {FieldTracing}: Python field tracing code}{37}{section.7.3}%
+\contentsline {section}{\numberline {7.4}\texttt {DateTimeTools}: Tools for dealing with dates and times}{37}{section.7.4}%
+\contentsline {section}{\numberline {7.5}\texttt {datetime}: C++ library dealing for dates and times}{37}{section.7.5}%
+\contentsline {section}{\numberline {7.6}\texttt {PyFileIO}: Tools for reading and writing files}{37}{section.7.6}%
+\contentsline {section}{\numberline {7.7}\texttt {RecarrayTools}: Tools for manipulating \texttt {numpy.recarrays}}{37}{section.7.7}%
+\contentsline {section}{\numberline {7.8}\texttt {PBSJobExamples}: Examples for submitting jobs to PBS}{37}{section.7.8}%
+\contentsline {section}{\numberline {7.9}\texttt {PlanetSpice}: SPICE related code}{37}{section.7.9}%
+\contentsline {section}{\numberline {7.10}\texttt {ColorString}: Change colour of strings in the terminal}{37}{section.7.10}%
+\contentsline {section}{\numberline {7.11}\texttt {cppembedbinary}: Examples for embedding data into C++ code}{37}{section.7.11}%
+\contentsline {section}{\numberline {7.12}\texttt {libspline}: C++ library for splines}{37}{section.7.12}%
+\contentsline {section}{\numberline {7.13}\texttt {linterp}: C++ interpolation code}{37}{section.7.13}%

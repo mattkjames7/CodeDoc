@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+pip3 uninstall JupiterMag
+pip3 install JupiterMag \PYGZhy{}\PYGZhy{}user
+\end{Verbatim}

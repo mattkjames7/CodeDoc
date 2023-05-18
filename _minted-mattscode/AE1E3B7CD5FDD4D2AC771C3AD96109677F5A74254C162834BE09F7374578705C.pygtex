@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cm}{/* instead of this */}
+\PYG{c+cp}{\PYGZsh{}include}\PYG{+w}{ }\PYG{c+cpf}{\PYGZlt{}jupitermag\PYGZgt{}}
+\PYG{c+cm}{/* use something like this */}
+\PYG{c+cp}{\PYGZsh{}include}\PYG{+w}{ }\PYG{c+cpf}{\PYGZdq{}include/jupitermag.h\PYGZdq{}}
+\end{Verbatim}

@@ -1,0 +1,20 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}Example 1: the model at a single Cartesian position (all in Rj)}
+\PYG{n}{x} \PYG{o}{=} \PYG{l+m+mf}{5.0}
+\PYG{n}{y} \PYG{o}{=} \PYG{l+m+mf}{10.0}
+\PYG{n}{z} \PYG{o}{=} \PYG{l+m+mf}{6.0}
+\PYG{n}{Bcart} \PYG{o}{=} \PYG{n}{def\PYGZus{}model}\PYG{o}{.}\PYG{n}{Field}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,}\PYG{n}{y}\PYG{p}{,}\PYG{n}{z}\PYG{p}{)}
+\PYG{c+c1}{\PYGZsh{}Result:}
+\PYG{n}{Bxyz}\PYG{o}{=}\PYG{p}{[}\PYG{l+m+mf}{15.57977074}\PYG{p}{,} \PYG{l+m+mf}{36.88229249}\PYG{p}{,} \PYG{l+m+mf}{63.02051163}\PYG{p}{]} \PYG{n}{nT}
+\PYG{c+c1}{\PYGZsh{}Calculated using the default con2020 model keywords and the hybrid approximation.}
+	
+\PYG{c+c1}{\PYGZsh{}Example 2: the model at an array of positions of spherical polar coordinates}
+\PYG{n}{r} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{array}\PYG{p}{([}\PYG{l+m+mf}{10.0}\PYG{p}{,}\PYG{l+m+mf}{20.0}\PYG{p}{])}					\PYG{c+c1}{\PYGZsh{}radial distance in Rj}
+\PYG{n}{theta} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{array}\PYG{p}{([}\PYG{l+m+mf}{30.0}\PYG{p}{,}\PYG{l+m+mf}{35.0}\PYG{p}{])}\PYG{o}{*}\PYG{n}{np}\PYG{o}{.}\PYG{n}{pi}\PYG{o}{/}\PYG{l+m+mf}{180.0}	\PYG{c+c1}{\PYGZsh{}colatitude in radians}
+\PYG{n}{phi} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{array}\PYG{p}{([}\PYG{l+m+mf}{90.0}\PYG{p}{,}\PYG{l+m+mf}{95.0}\PYG{p}{])}\PYG{o}{*}\PYG{n}{np}\PYG{o}{.}\PYG{n}{pi}\PYG{o}{/}\PYG{l+m+mf}{180.0}	\PYG{c+c1}{\PYGZsh{}east longitude in radians}
+\PYG{n}{Bpol} \PYG{o}{=} \PYG{n}{sph\PYGZus{}model}\PYG{o}{.}\PYG{n}{Field}\PYG{p}{(}\PYG{n}{r}\PYG{p}{,}\PYG{n}{theta}\PYG{p}{,}\PYG{n}{phi}\PYG{p}{)}
+\PYG{c+c1}{\PYGZsh{}Result:}
+\PYG{n}{Spherical} \PYG{n}{polar} \PYG{n}{Brtp} \PYG{o}{=}\PYG{p}{[}\PYG{l+m+mf}{63.32354453} \PYG{p}{,}\PYG{l+m+mf}{31.15790459}\PYG{p}{],} \PYG{p}{[}\PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{21.01051861} \PYG{p}{,} \PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{6.86773727}\PYG{p}{],} \PYG{p}{[}\PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{3.61151705}\PYG{p}{,} \PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{2.72626057}\PYG{p}{]} \PYG{n}{nT}
+\PYG{n}{Cartesian}       \PYG{n}{Bxyz} \PYG{o}{=}\PYG{p}{[}\PYG{l+m+mf}{3.61151705}\PYG{p}{,} \PYG{l+m+mf}{1.6486016}\PYG{p}{],} \PYG{p}{[}\PYG{l+m+mf}{13.4661294}\PYG{p}{,}  \PYG{l+m+mf}{12.43672946}\PYG{p}{],} \PYG{p}{[}\PYG{l+m+mf}{65.34505753}\PYG{p}{,} \PYG{l+m+mf}{29.46223351}\PYG{p}{]} \PYG{n}{nT}
+\PYG{c+c1}{\PYGZsh{}Calculated using the default con2020 model keywords and the hybrid approximation.}
+\end{Verbatim}

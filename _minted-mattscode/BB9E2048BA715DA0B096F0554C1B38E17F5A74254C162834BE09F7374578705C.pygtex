@@ -1,0 +1,14 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cm}{/* test.cc */}
+\PYG{c+cp}{\PYGZsh{}include}\PYG{+w}{ }\PYG{c+cpf}{\PYGZlt{}stdio.h\PYGZgt{}}
+\PYG{c+cp}{\PYGZsh{}include}\PYG{+w}{ }\PYG{c+cpf}{\PYGZlt{}jupitermag.h\PYGZgt{}}
+\PYG{+w}{	}
+\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n+nf}{main}\PYG{p}{()}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{	}\PYG{c+cm}{/* simply print the version of the library */}
+\PYG{+w}{	}\PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}libjupitermag version: \PYGZdl{}\PYGZpc{}d.\PYGZpc{}d.\PYGZpc{}d}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{,}
+\PYG{+w}{			}\PYG{n}{LIBJUPITERMAG\PYGZus{}VERSION\PYGZus{}MAJOR}\PYG{p}{,}
+\PYG{+w}{			}\PYG{n}{LIBJUPITERMAG\PYGZus{}VERSION\PYGZus{}MINOR}\PYG{p}{,}
+\PYG{+w}{			}\PYG{n}{LIBJUPITERMAG\PYGZus{}VERSION\PYGZus{}PATCH}\PYG{p}{);}
+\PYG{+w}{	}\PYG{k}{return}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}
