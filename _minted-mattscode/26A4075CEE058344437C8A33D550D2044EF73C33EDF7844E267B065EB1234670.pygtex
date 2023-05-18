@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{c+c1}{\PYGZsh{}Read a single year file}
+	\PYG{n}{data} \PYG{o}{=} \PYG{n}{smindex}\PYG{o}{.}\PYG{n}{GetData}\PYG{p}{(}\PYG{l+m+mi}{2005}\PYG{p}{)}
+	
+	\PYG{c+c1}{\PYGZsh{}or a range of years}
+	\PYG{n}{data} \PYG{o}{=} \PYG{n}{smindex}\PYG{o}{.}\PYG{n}{GetData}\PYG{p}{([}\PYG{l+m+mi}{2005}\PYG{p}{,}\PYG{l+m+mi}{2008}\PYG{p}{])}
+\end{Verbatim}

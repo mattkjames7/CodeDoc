@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.7.13)  18 MAY 2023 17:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.7.13)  18 MAY 2023 17:32
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2152,89 +2152,21 @@ Overfull \hbox (10.02411pt too wide) in paragraph at lines 160--162
 
 (./_minted-mattscode/BAD8510D86DCB2E77638C4185B739FE886FA503B7245306FEC594FFC58
 8019BA.pygtex [49] [50 <./figures/ch05_sdexample.png>])
-! Missing $ inserted.
-<inserted text> 
-                $
-l.216 ...e access using the \texttt{\$KPDATA_PATH}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.216 ...e access using the \texttt{\$KPDATA_PATH}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.220 	
-       
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (529.03355pt too wide) in paragraph at lines 214--220
-\OT1/cmr/m/n/10 the di-rec-tion of a di-rec-tory where you have read and write 
-ac-cess us-ing the \TS1/cmtt/m/n/10 $\OT1/cmtt/m/n/10 KPDATA$[]\OML/cmm/m/it/10
- ATHenvironmentvariable:Thiscanbedoneeitherbyrunningthefollowingintheterminalbe
-forestartingPython; orinsertingitintoyour[]file \OT1/cmr/m/n/10 :$ 
- []
-
 \openout3 = `mattscode.pyg'.
 
 
 (./_minted-mattscode/39298E8DD9D94F174B37DE31CE75393486FA503B7245306FEC594FFC58
 8019BA.pygtex)
-Overfull \hbox (25.54869pt too wide) in paragraph at lines 227--230
-\OT1/cmtt/m/n/10 Using this module is very simple: the first time you run it yo
-u will need to update the database
- []
-
 \openout3 = `mattscode.pyg'.
 
 
 (./_minted-mattscode/B89BBB145216293D02C79602D63A68644EF73C33EDF7844E267B065EB1
 234670.pygtex)
-Overfull \hbox (3.79901pt too wide) in paragraph at lines 236--238
-[]\OT1/cmtt/m/n/10 It may take a couple of minutes to download the data and con
-vert it, then you are ready to
- []
-
 \openout3 = `mattscode.pyg'.
 
 
 (./_minted-mattscode/89F36212EAE92654C4743C852F5D61E54EF73C33EDF7844E267B065EB1
 234670.pygtex)
-Overfull \hbox (30.04878pt too wide) in paragraph at lines 243--248
-[]\OT1/cmtt/m/n/10 where Date could be None, in which case ALL of the Kp indice
-s ever will be returned; Date could
- []
-
-
-Overfull \hbox (4.54887pt too wide) in paragraph at lines 243--248
-\OT1/cmtt/m/n/10 be a single date in the format yyyymmdd, in which case only Kp
- indices from that date will be
- []
-
-
-Overfull \hbox (25.54869pt too wide) in paragraph at lines 243--248
-\OT1/cmtt/m/n/10 returned; finally, it could be a two-element array/list/tuple 
-containing two dates, in this case,
- []
-
-
-Overfull \hbox (40.54869pt too wide) in paragraph at lines 257--258
-[]\OT1/cmtt/m/n/10 If you make use of the OMNI data please acknowledge and cite
- as specified here: [][]$https : / / omniweb .
- []
-
 \openout3 = `mattscode.pyg'.
 
 
@@ -2245,41 +2177,6 @@ Overfull \hbox (40.54869pt too wide) in paragraph at lines 257--258
 
 (./_minted-mattscode/986776491A0B8FA737EC2E82F7DC527686FA503B7245306FEC594FFC58
 8019BA.pygtex)
-! Missing $ inserted.
-<inserted text> 
-                $
-l.281 ...ed to set up the \texttt{\$OMNIDATA_PATH}
-                                                   environment variable to p...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.281 ...ed to set up the \texttt{\$OMNIDATA_PATH}
-                                                   environment variable to p...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.282 	
-       
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (604.65811pt too wide) in paragraph at lines 281--282
-[]\OT1/cmtt/m/n/10 For this to work properly - you will need to set up the \TS1
-/cmtt/m/n/10 $\OT1/cmtt/m/n/10 OMNIDATA$[]\OML/cmm/m/it/10 ATHenvironmentvariab
-letopointtoafolderwhereyouwanttostorethedata:Dothisbyaddingsomethingalongthelin
-esofthefollowingtothebottomofyour[]file \OT1/cmr/m/n/10 :$ 
- []
-
 \openout3 = `mattscode.pyg'.
 
 
@@ -2295,34 +2192,11 @@ esofthefollowingtothebottomofyour[]file \OT1/cmr/m/n/10 :$
 
 (./_minted-mattscode/F0421B1280D848FBCFF89D32EAB2626C4EF73C33EDF7844E267B065EB1
 234670.pygtex)
-Overfull \hbox (3.79901pt too wide) in paragraph at lines 306--307
-[]\OT1/cmtt/m/n/10 where EndDate is the last date for which you want to request
- solar flux data. This should
- []
-
-
-Overfull \hbox (46.54851pt too wide) in paragraph at lines 306--307
-\OT1/cmtt/m/n/10 be set to a date at least a few days prior to the current date
-. If you request a date that currently
- []
-
 \openout3 = `mattscode.pyg'.
 
 
 (./_minted-mattscode/B1F981D1C779C75AC01498873CE89EF84EF73C33EDF7844E267B065EB1
-234670.pygtex)
-Overfull \hbox (45.79865pt too wide) in paragraph at lines 336--337
-[]\OT1/cmtt/m/n/10 The returned data object is a numpy.recarray object which co
-ntains all of the OMNI data requested.
- []
-
-
-Overfull \hbox (41.29855pt too wide) in paragraph at lines 336--337
-\OT1/cmtt/m/n/10 To see what fields are stored use print(data.dtype.names). The
- units are as presented here: [][]$https :
- []
-
-[52]
+234670.pygtex) [52]
 \openout3 = `mattscode.pyg'.
 
 
@@ -2333,60 +2207,226 @@ File: figures/ch5_omniexample.png Graphic file (type png)
 <use figures/ch5_omniexample.png>
 Package pdftex.def Info: figures/ch5_omniexample.png  used on input line 362.
 (pdftex.def)             Requested size: 483.69687pt x 263.83954pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 366.
- [53 <./figures/ch5_omniexample.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 366.
- (./mattscode.aux
-(./chapters/chapter01.aux) (./chapters/chapter02.aux) (./chapters/chapter03.aux
-) (./chapters/chapter04.aux) (./chapters/chapter05.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 366.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 366.
-Package rerunfilecheck Info: File `mattscode.out' has not changed.
-(rerunfilecheck)             Checksum: 08CAFF2B076AD318701D21A4FB8BCF9A;6804.
+\openout3 = `mattscode.pyg'.
 
+runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
+nted-mattscode/8D3F8910169D1992B7245941378FB4B486FA503B7245306FEC594FFC588019BA
+.pygtex mattscode.pyg)...executed.
+
+
+(./_minted-mattscode/8D3F8910169D1992B7245941378FB4B486FA503B7245306FEC594FFC58
+8019BA.pygtex [53 <./figures/ch5_omniexample.png>])
+\openout3 = `mattscode.pyg'.
+
+runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
+nted-mattscode/586DDD9E16AB300A6D8F6F461437841A86FA503B7245306FEC594FFC588019BA
+.pygtex mattscode.pyg)...executed.
+
+
+(./_minted-mattscode/586DDD9E16AB300A6D8F6F461437841A86FA503B7245306FEC594FFC58
+8019BA.pygtex)
+\openout3 = `mattscode.pyg'.
+
+runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
+nted-mattscode/D66822A0B82B361F01BAE886A98E737F86FA503B7245306FEC594FFC588019BA
+.pygtex mattscode.pyg)...executed.
+
+
+(./_minted-mattscode/D66822A0B82B361F01BAE886A98E737F86FA503B7245306FEC594FFC58
+8019BA.pygtex)
+Overfull \hbox (18.04878pt too wide) in paragraph at lines 408--409
+\OT1/cmtt/m/n/10 E ,[] SME . MLAT ,[] SME . MLT ,[] SME . E ,[] SME . UL & fide
+lity = low & start = 2001-[]01-[]30T00 % 3A00 % 3A00 . 000Z & step = 14400 & ta
+b =
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.412 ...irectory \texttt{\$SMINDEX_PATH/download}
+                                                   where they can be processed.
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.412 ...irectory \texttt{\$SMINDEX_PATH/download}
+                                                   where they can be processed.
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.413 	
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+\openout3 = `mattscode.pyg'.
+
+runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
+minted-mattscode/056C4CEB4F563393DAB45F797DC1B5774EF73C33EDF7844E267B065EB12346
+70.pygtex mattscode.pyg)...executed.
+
+
+(./_minted-mattscode/056C4CEB4F563393DAB45F797DC1B5774EF73C33EDF7844E267B065EB1
+234670.pygtex)
+\openout3 = `mattscode.pyg'.
+
+runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
+minted-mattscode/26A4075CEE058344437C8A33D550D2044EF73C33EDF7844E267B065EB12346
+70.pygtex mattscode.pyg)...executed.
+
+
+(./_minted-mattscode/26A4075CEE058344437C8A33D550D2044EF73C33EDF7844E267B065EB1
+234670.pygtex)
+Overfull \hbox (15.04878pt too wide) in paragraph at lines 435--436
+\OT1/cmtt/m/n/10 Substorm lists (by Frey et al., 2004 and 2006; Liou 2010; Newe
+ll and Gjerloev, 2011; Forsyth et
+ []
+
+
+Overfull \hbox (36.0486pt too wide) in paragraph at lines 435--436
+\OT1/cmtt/m/n/10 al., 2015; Ohtani and Gjerloev, 2020) can be downloaded from t
+he following page: [][]$https : / / supermag .
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.437 ...aced in \texttt{\$SMINDEX_PATH/substorms}
+                                                  .
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.437 ...aced in \texttt{\$SMINDEX_PATH/substorms}
+                                                  .
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.438 	
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (82.402pt too wide) in paragraph at lines 437--438
+[]\OT1/cmtt/m/n/10 The ASCII file format is readable by this module. The files 
+should be placed in \TS1/cmtt/m/n/10 $\OT1/cmtt/m/n/10 SMINDEX$[]\OML/cmm/m/it/
+10 ATH=substorms:$ 
+ []
+
+\openout3 = `mattscode.pyg'.
+
+runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
+minted-mattscode/DDD226C5FE93AFE71EB9E282B6A680B14EF73C33EDF7844E267B065EB12346
+70.pygtex mattscode.pyg)...executed.
+
+
+(./_minted-mattscode/DDD226C5FE93AFE71EB9E282B6A680B14EF73C33EDF7844E267B065EB1
+234670.pygtex)
+\openout3 = `mattscode.pyg'.
+
+runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
+minted-mattscode/33D24C8D59423058C6865EB69ED314094EF73C33EDF7844E267B065EB12346
+70.pygtex mattscode.pyg)...executed.
+
+
+(./_minted-mattscode/33D24C8D59423058C6865EB69ED314094EF73C33EDF7844E267B065EB1
+234670.pygtex)) [54]
+\openout2 = `./chapters/chapter06.aux'.
+
+ (./chapters/chapter06.tex
+Chapter 6.
+) [55
+
+
+
+]
+\openout2 = `./chapters/chapter07.aux'.
+
+ (./chapters/chapter07.tex [56
+
+
+
+]
+Chapter 7.
+) [57] [58
+
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
+ (./mattscode.aux (./chapters/chapter01.aux)
+(./chapters/chapter02.aux) (./chapters/chapter03.aux) (./chapters/chapter04.aux
+) (./chapters/chapter05.aux) (./chapters/chapter06.aux)
+(./chapters/chapter07.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 53.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
+
+
+Package rerunfilecheck Warning: File `mattscode.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `mattscode.out':
+(rerunfilecheck)             Before: 08CAFF2B076AD318701D21A4FB8BCF9A;6804
+(rerunfilecheck)             After:  930C39665FB543B954F583312D2E5184;8736.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 runsystem(rm mattscode.pyg)...executed.
 
- ) )
+ )
 (\end occurred inside a group at level 2)
 
-### simple group (level 2) entered at line 281 ({)
-### simple group (level 1) entered at line 216 ({)
-### bottom level
-(\end occurred when \iftrue on line 45 was incomplete)
-(\end occurred when \ifnum on line 45 was incomplete) 
+### simple group (level 2) entered at line 437 ({)
+### simple group (level 1) entered at line 412 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 10615 strings out of 481239
- 230135 string characters out of 5920377
- 530381 words of memory out of 5000000
- 24949 multiletter control sequences out of 15000+600000
+ 10694 strings out of 481239
+ 233722 string characters out of 5920377
+ 529668 words of memory out of 5000000
+ 24969 multiletter control sequences out of 15000+600000
  540600 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,18n,39p,847b,575s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/en
-c/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsltt10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmtt12.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></
-usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/font
-s/type1/public/cm-super/sftt1000.pfb>
-Output written on mattscode.pdf (57 pages, 1519887 bytes).
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msltt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf/f
+onts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm
+-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb>
+
+Output written on mattscode.pdf (62 pages, 1526145 bytes).
 PDF statistics:
- 987 PDF objects out of 1000 (max. 8388607)
- 865 compressed objects within 9 object streams
- 227 named destinations out of 1000 (max. 500000)
+ 1045 PDF objects out of 1200 (max. 8388607)
+ 917 compressed objects within 10 object streams
+ 255 named destinations out of 1000 (max. 500000)
  835 words of extra memory for PDF output out of 10000 (max. 10000000)
 

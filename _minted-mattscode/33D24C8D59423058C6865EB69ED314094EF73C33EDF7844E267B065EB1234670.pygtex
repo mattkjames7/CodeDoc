@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{c+c1}{\PYGZsh{}get everything:}
+	\PYG{n}{ss} \PYG{o}{=} \PYG{n}{smindex}\PYG{o}{.}\PYG{n}{GetSubstorms}\PYG{p}{()}
+	
+	\PYG{c+c1}{\PYGZsh{}get a single date (25th January 2005 in this case)}
+	\PYG{n}{ss} \PYG{o}{=} \PYG{n}{smindex}\PYG{o}{.}\PYG{n}{GetSubstorms}\PYG{p}{(}\PYG{n}{Date}\PYG{o}{=}\PYG{l+m+mi}{20050125}\PYG{p}{)}
+	
+	\PYG{c+c1}{\PYGZsh{}get a range of dates}
+	\PYG{n}{ss} \PYG{o}{=} \PYG{n}{smindex}\PYG{o}{.}\PYG{n}{GetSubstorms}\PYG{p}{(}\PYG{n}{Date}\PYG{o}{=}\PYG{p}{[}\PYG{l+m+mi}{20050101}\PYG{p}{,}\PYG{l+m+mi}{20050125}\PYG{p}{])}
+\end{Verbatim}

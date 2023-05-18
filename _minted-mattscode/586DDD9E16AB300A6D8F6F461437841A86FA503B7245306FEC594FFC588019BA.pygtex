@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	git clone https://github.com/mattkjames7/smindex
+	\PYG{n+nb}{cd} smindex
+	python3 setup.py bdist\PYGZus{}wheel
+	pip3 install dist/smindex\PYGZhy{}1.0.0\PYGZhy{}py3\PYGZhy{}none\PYGZhy{}any.whl \PYGZhy{}\PYGZhy{}user
+\end{Verbatim}
