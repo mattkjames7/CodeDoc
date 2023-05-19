@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{c+c1}{\PYGZsh{}X in this case is a new matrix}
+	\PYG{n}{y} \PYG{o}{=} \PYG{n}{net}\PYG{o}{.}\PYG{n}{Predict}\PYG{p}{(}\PYG{n}{X}\PYG{p}{)}
+\end{Verbatim}

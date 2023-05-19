@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{c+c1}{\PYGZsh{}clone the repo}
+	git clone https://github.com/mattkjames7/RecarrayTools
+	\PYG{n+nb}{cd} RecarrayTools
+	
+	\PYG{c+c1}{\PYGZsh{}either use a wheel}
+	python3 setup.py bdist\PYGZus{}wheel
+	pip3 install \PYGZhy{}\PYGZhy{}user dist/RecarrayTools\PYGZhy{}0.0.3\PYGZhy{}py3\PYGZhy{}none\PYGZhy{}any.whl
+	
+	\PYG{c+c1}{\PYGZsh{}or just install directly}
+	python3 setup.py install
+\end{Verbatim}

@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	make
+	
+	\PYG{c+c1}{\PYGZsh{} OR if using mingw}
+	mingw32\PYGZhy{}make
+\end{Verbatim}

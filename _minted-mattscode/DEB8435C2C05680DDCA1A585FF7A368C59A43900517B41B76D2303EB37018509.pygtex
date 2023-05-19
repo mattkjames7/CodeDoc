@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{k+kn}{import} \PYG{n+nn}{FieldTracing} \PYG{k}{as} \PYG{n+nn}{ft}
+	
+	\PYG{n}{ft}\PYG{o}{.}\PYG{n}{RK4}\PYG{o}{.}\PYG{n}{RK4Trace}\PYG{err}{?}
+	\PYG{n}{ft}\PYG{o}{.}\PYG{n}{Euler}\PYG{o}{.}\PYG{n}{EulerTrace}\PYG{err}{?}
+\end{Verbatim}

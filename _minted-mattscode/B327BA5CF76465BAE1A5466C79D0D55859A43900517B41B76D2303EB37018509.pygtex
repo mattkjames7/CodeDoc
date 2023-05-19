@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}calculate the difference between two dates in days}
+\PYG{n}{ndays} \PYG{o}{=} \PYG{n}{TT}\PYG{o}{.}\PYG{n}{DateDifference}\PYG{p}{(}\PYG{n}{Date0}\PYG{p}{,}\PYG{n}{Date1}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{}Similar to above, but include start and end times (still returns days)}
+\PYG{n}{ndays} \PYG{o}{=} \PYG{n}{TT}\PYG{o}{.}\PYG{n}{TimeDifference}\PYG{p}{(}\PYG{n}{Date0}\PYG{p}{,}\PYG{n}{ut0}\PYG{p}{,}\PYG{n}{Date1}\PYG{p}{,}\PYG{n}{ut1}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{}We can find the middle time between two date/times}
+\PYG{n}{mDate}\PYG{p}{,}\PYG{n}{mut} \PYG{o}{=} \PYG{n}{TT}\PYG{o}{.}\PYG{n}{MidTime}\PYG{p}{(}\PYG{n}{Date0}\PYG{p}{,}\PYG{n}{ut0}\PYG{p}{,}\PYG{n}{Date1}\PYG{p}{,}\PYG{n}{ut1}\PYG{p}{)}
+\end{Verbatim}

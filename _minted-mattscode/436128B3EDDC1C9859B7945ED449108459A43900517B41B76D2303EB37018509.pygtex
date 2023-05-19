@@ -1,0 +1,25 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}calculate day number and year}
+\PYG{n}{year}\PYG{p}{,}\PYG{n}{dayno} \PYG{o}{=} \PYG{n}{TT}\PYG{o}{.}\PYG{n}{DayNo}\PYG{p}{(}\PYG{n}{Date}\PYG{p}{)}
+\PYG{c+c1}{\PYGZsh{}or return to original date format}
+\PYG{n}{Date} \PYG{o}{=} \PYG{n}{TT}\PYG{o}{.}\PYG{n}{DayNotoDate}\PYG{p}{(}\PYG{n}{year}\PYG{p}{,}\PYG{n}{dayno}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{}Check if year(s) are leap year(s)}
+\PYG{n}{ly} \PYG{o}{=} \PYG{n}{TT}\PYG{o}{.}\PYG{n}{LeapYear}\PYG{p}{(}\PYG{n}{year}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{}Add one day to a date}
+\PYG{n}{NextDate} \PYG{o}{=} \PYG{n}{TT}\PYG{o}{.}\PYG{n}{PlusDay}\PYG{p}{(}\PYG{n}{Date}\PYG{p}{)}
+\PYG{c+c1}{\PYGZsh{}or go back a day}
+\PYG{n}{PrevDate} \PYG{o}{=} \PYG{n}{TT}\PYG{o}{.}\PYG{n}{MinusDay}\PYG{p}{(}\PYG{n}{Date}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{}Calculate the nearest index in a time/date array}
+\PYG{c+c1}{\PYGZsh{}to a test time/date}
+\PYG{n}{ind} \PYG{o}{=} \PYG{n}{TT}\PYG{o}{.}\PYG{n}{NearestTimeIndex}\PYG{p}{(}\PYG{n}{DateArray}\PYG{p}{,}\PYG{n}{utArray}\PYG{p}{,}\PYG{n}{testDate}\PYG{p}{,}\PYG{n}{testut}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{}check which indices of a time array are within two time limits}
+\PYG{n}{inds} \PYG{o}{=} \PYG{n}{TT}\PYG{o}{.}\PYG{n}{WithinTimeRange}\PYG{p}{(}\PYG{n}{t}\PYG{p}{,}\PYG{n}{t0}\PYG{p}{,}\PYG{n}{t1}\PYG{p}{)}
+\PYG{c+c1}{\PYGZsh{}or including dates}
+\PYG{n}{inds} \PYG{o}{=} \PYG{n}{TT}\PYG{o}{.}\PYG{n}{WithinTimeRange}\PYG{p}{((}\PYG{n}{d}\PYG{p}{,}\PYG{n}{t}\PYG{p}{),(}\PYG{n}{d0}\PYG{p}{,}\PYG{n}{t0}\PYG{p}{),(}\PYG{n}{d1}\PYG{p}{,}\PYG{n}{t1}\PYG{p}{))}
+\PYG{o}{\PYGZpc{}}\PYG{n}{alternatively}\PYG{p}{,} \PYG{k}{return} \PYG{n}{a} \PYG{n}{boolean} \PYG{n}{array} \PYG{n}{where} \PYG{n}{each} \PYG{k+kc}{True} \PYG{n}{element} \PYG{o+ow}{is} \PYG{n}{within} \PYG{n}{the} \PYG{n+nb}{range}
+\PYG{n}{b} \PYG{o}{=} \PYG{n}{TT}\PYG{o}{.}\PYG{n}{WithinTimeRange}\PYG{p}{((}\PYG{n}{d}\PYG{p}{,}\PYG{n}{t}\PYG{p}{),(}\PYG{n}{d0}\PYG{p}{,}\PYG{n}{t0}\PYG{p}{),(}\PYG{n}{d1}\PYG{p}{,}\PYG{n}{t1}\PYG{p}{),}\PYG{n}{BoolOut}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)}
+\end{Verbatim}

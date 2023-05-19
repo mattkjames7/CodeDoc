@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{n}{Nw}\PYG{p}{,}\PYG{n}{LenW}\PYG{p}{,}\PYG{n}{Freq}\PYG{p}{,}\PYG{n}{Spec} \PYG{o}{=} \PYG{n}{ws}\PYG{o}{.}\PYG{n}{Spectrogram}\PYG{o}{.}\PYG{n}{Spectrogram3D}\PYG{p}{(}\PYG{n}{t}\PYG{p}{,}\PYG{n}{vx}\PYG{p}{,}\PYG{n}{vy}\PYG{p}{,}\PYG{n}{vz}\PYG{p}{,}\PYG{n}{wind}\PYG{p}{,}\PYG{n}{slip}\PYG{p}{,}\PYG{n}{Freq}\PYG{o}{=}\PYG{k+kc}{None}\PYG{p}{,}\PYG{n}{Method}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}FFT\PYGZsq{}}\PYG{p}{,}\PYG{n}{WindowFunction}\PYG{o}{=}\PYG{k+kc}{None}\PYG{p}{,}\PYG{n}{Param}\PYG{o}{=}\PYG{k+kc}{None}\PYG{p}{,}\PYG{n}{Detrend}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{,}\PYG{n}{FindGaps}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{,}\PYG{n}{GoodData}\PYG{o}{=}\PYG{k+kc}{None}\PYG{p}{)}
+\end{Verbatim}

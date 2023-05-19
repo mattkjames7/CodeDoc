@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	git clone https://github.com/mattkjames7/datetime.git
+	\PYG{n+nb}{cd} datetime
+\end{Verbatim}

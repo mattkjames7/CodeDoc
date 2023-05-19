@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{n+nb}{export} \PYG{n+nv}{SPICE\PYGZus{}KERNEL\PYGZus{}PATH}\PYG{o}{=}/path/to/spice/kernels
+	\PYG{n+nb}{export} \PYG{n+nv}{SPICE\PYGZus{}OUTPUT\PYGZus{}PATH}\PYG{o}{=}/path/to/output/stuff
+\end{Verbatim}

@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+gcc cexample.c \PYGZhy{}o cexample \PYGZhy{}lm \PYGZhy{}lspline
+./cexample
+\end{Verbatim}

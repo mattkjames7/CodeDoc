@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{+w}{	}\PYG{c+cm}{/* for method 1 */}
+\PYG{+w}{	}\PYG{k}{extern}\PYG{+w}{ }\PYG{k+kt}{unsigned}\PYG{+w}{ }\PYG{k+kt}{char}\PYG{+w}{ }\PYG{o}{*}\PYG{n}{\PYGZus{}binary\PYGZus{}data\PYGZus{}bin\PYGZus{}start}\PYG{p}{;}
+\PYG{+w}{	}
+\PYG{+w}{	}\PYG{c+cm}{/* or method 2 */}
+\PYG{+w}{	}\PYG{k}{extern}\PYG{+w}{ }\PYG{k+kt}{unsigned}\PYG{+w}{ }\PYG{k+kt}{char}\PYG{+w}{ }\PYG{o}{*}\PYG{n}{data\PYGZus{}bin}\PYG{p}{;}
+\end{Verbatim}

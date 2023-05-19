@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{k+kn}{import} \PYG{n+nn}{MHDWaveHarmonics} \PYG{k}{as} \PYG{n+nn}{wh}
+	\PYG{n}{T}\PYG{p}{,}\PYG{n}{s} \PYG{o}{=} \PYG{n}{wh}\PYG{o}{.}\PYG{n}{GetFieldLine}\PYG{p}{(}\PYG{n}{pos}\PYG{p}{,}\PYG{n}{Date}\PYG{o}{=}\PYG{k+kc}{None}\PYG{p}{,}\PYG{n}{ut}\PYG{o}{=}\PYG{k+kc}{None}\PYG{p}{,}\PYG{n}{Model}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}KT17\PYGZsq{}}\PYG{p}{,}\PYG{n}{Delta}\PYG{o}{=}\PYG{k+kc}{None}\PYG{p}{,}\PYG{n}{Polarization}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}none\PYGZsq{}}\PYG{p}{,}\PYG{o}{**}\PYG{n}{kwargs}\PYG{p}{)}
+	\PYG{n}{T}\PYG{p}{,}\PYG{n}{s}\PYG{p}{,}\PYG{n}{h} \PYG{o}{=} \PYG{n}{wh}\PYG{o}{.}\PYG{n}{GetFieldLine}\PYG{p}{(}\PYG{n}{pos}\PYG{p}{,}\PYG{n}{Date}\PYG{o}{=}\PYG{k+kc}{None}\PYG{p}{,}\PYG{n}{ut}\PYG{o}{=}\PYG{k+kc}{None}\PYG{p}{,}\PYG{n}{Model}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}KT17\PYGZsq{}}\PYG{p}{,}\PYG{n}{Delta}\PYG{o}{=}\PYG{k+kc}{None}\PYG{p}{,}\PYG{n}{Polarization}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}poloidal\PYGZsq{}}\PYG{p}{,}\PYG{o}{**}\PYG{n}{kwargs}\PYG{p}{)}
+\end{Verbatim}

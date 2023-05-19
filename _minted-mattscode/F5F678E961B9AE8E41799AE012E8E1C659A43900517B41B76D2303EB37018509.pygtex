@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{c+c1}{\PYGZsh{}read a csv file, which contains a header \PYGZhy{} dtype will be worked out automatically}
+	\PYG{n}{data} \PYG{o}{=} \PYG{n}{pf}\PYG{o}{.}\PYG{n}{ReadASCIIData}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}somedata.csv\PYGZsq{}}\PYG{p}{)}
+	
+	\PYG{c+c1}{\PYGZsh{}we can also save data}
+	\PYG{n}{pf}\PYG{o}{.}\PYG{n}{WriteASCIIData}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}newfile.dat\PYGZsq{}}\PYG{p}{,}\PYG{n}{data}\PYG{p}{)}
+\end{Verbatim}

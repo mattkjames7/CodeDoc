@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{c+c1}{\PYGZsh{}clone the repo}
+	git clone https://github.com/mattkjames7/NNFunction
+	\PYG{n+nb}{cd} NNFunction
+	
+	\PYG{c+c1}{\PYGZsh{}Either create a wheel and use pip: (X.X.X should be replaced with the current version)}
+	python3 setup.py bdist\PYGZus{}wheel
+	pip3 install \PYGZhy{}\PYGZhy{}user dists/NNFunction\PYGZhy{}X.X.X\PYGZhy{}py3\PYGZhy{}none\PYGZhy{}any.whl
+	
+	\PYG{c+c1}{\PYGZsh{}Or by using setup.py directly}
+	python3 setup.py install \PYGZhy{}\PYGZhy{}user
+\end{Verbatim}

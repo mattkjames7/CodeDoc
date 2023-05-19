@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	  g++ \PYGZhy{}c data.cc \PYGZhy{}o data.o
+\end{Verbatim}

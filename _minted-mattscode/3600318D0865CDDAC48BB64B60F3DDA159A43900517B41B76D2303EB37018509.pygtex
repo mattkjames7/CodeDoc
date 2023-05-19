@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{n}{C} \PYG{o}{=} \PYG{n}{RT}\PYG{o}{.}\PYG{n}{JoinRecarray}\PYG{p}{(}\PYG{n}{A}\PYG{p}{,}\PYG{n}{B}\PYG{p}{)}
+\end{Verbatim}

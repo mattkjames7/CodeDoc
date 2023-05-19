@@ -1,0 +1,13 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{c+c1}{\PYGZsh{}open a file}
+	\PYG{n}{f} \PYG{o}{=} \PYG{n+nb}{open}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}filename.bin\PYGZsq{}}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}wb\PYGZsq{}}\PYG{p}{)}
+	
+	\PYG{c+c1}{\PYGZsh{}save some stuff}
+	\PYG{n}{ScalarToFile}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}int64\PYGZsq{}}\PYG{p}{,}\PYG{n}{f}\PYG{p}{)}       \PYG{c+c1}{\PYGZsh{}save a single scalar integer}
+	\PYG{n}{ArrayToFile}\PYG{p}{(}\PYG{n}{y}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}float32\PYGZsq{}}\PYG{p}{,}\PYG{n}{f}\PYG{p}{)}      \PYG{c+c1}{\PYGZsh{}save a floating point array}
+	\PYG{n}{ListArrayToFile}\PYG{p}{(}\PYG{n}{z}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}int32\PYGZsq{}}\PYG{p}{,}\PYG{n}{f}\PYG{p}{)}    \PYG{c+c1}{\PYGZsh{}save a list of integer arrays}
+	\PYG{n}{StringToFile}\PYG{p}{(}\PYG{n}{s}\PYG{p}{,}\PYG{n}{f}\PYG{p}{)}               \PYG{c+c1}{\PYGZsh{}save a string to file}
+	
+	\PYG{c+c1}{\PYGZsh{}close the file}
+	\PYG{n}{f}\PYG{o}{.}\PYG{n}{close}\PYG{p}{()}
+\end{Verbatim}

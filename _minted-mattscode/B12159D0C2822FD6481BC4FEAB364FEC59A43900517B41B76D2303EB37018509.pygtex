@@ -1,0 +1,45 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{k+kn}{import} \PYG{n+nn}{KT17}
+	\PYG{k+kn}{import} \PYG{n+nn}{FieldTracing} \PYG{k}{as} \PYG{n+nn}{ft}
+	\PYG{k+kn}{import} \PYG{n+nn}{matplotlib.pyplot} \PYG{k}{as} \PYG{n+nn}{plt}
+	
+	\PYG{c+c1}{\PYGZsh{}define a model field function which will accept a vector position and return a field vector}
+	\PYG{k}{def} \PYG{n+nf}{modelfunc}\PYG{p}{(}\PYG{n}{p}\PYG{p}{):}
+		\PYG{c+c1}{\PYGZsh{}accepts position with shape (3,)}
+		\PYG{n}{B} \PYG{o}{=} \PYG{n}{KT17}\PYG{o}{.}\PYG{n}{ModelField}\PYG{p}{(}\PYG{n}{p}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{],}\PYG{n}{p}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{],}\PYG{n}{p}\PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{])}
+		\PYG{c+c1}{\PYGZsh{}return field with shape (3,)}
+		\PYG{k}{return} \PYG{n}{np}\PYG{o}{.}\PYG{n}{array}\PYG{p}{(}\PYG{n}{B}\PYG{p}{)}\PYG{o}{.}\PYG{n}{flatten}\PYG{p}{()}
+	
+	\PYG{c+c1}{\PYGZsh{}define a function which says whether we are within some acceptable tracing bounds}
+	\PYG{k}{def} \PYG{n+nf}{boundsfunc}\PYG{p}{(}\PYG{n}{p}\PYG{p}{):}
+		\PYG{c+c1}{\PYGZsh{}check if we are within the planet (note that Mercury has a vertical dipole offset)}
+		\PYG{n}{r} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{sqrt}\PYG{p}{(}\PYG{n}{p}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]}\PYG{o}{**}\PYG{l+m+mi}{2} \PYG{o}{+} \PYG{n}{p}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]}\PYG{o}{**}\PYG{l+m+mi}{2} \PYG{o}{+} \PYG{p}{(}\PYG{n}{p}\PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{]}\PYG{o}{+}\PYG{l+m+mf}{0.196}\PYG{p}{)}\PYG{o}{**}\PYG{l+m+mi}{2}\PYG{p}{)}
+		\PYG{c+c1}{\PYGZsh{}we want this to terminate at the surface of the iron core, so we should return True as long as r \PYGZgt{} 0.83}
+		\PYG{k}{return} \PYG{n}{r} \PYG{o}{\PYGZgt{}} \PYG{l+m+mf}{0.83}
+	
+	\PYG{c+c1}{\PYGZsh{}call the field tracing function, from some initial position}
+	\PYG{n}{x0} \PYG{o}{=} \PYG{p}{[}\PYG{l+m+mf}{1.2}\PYG{p}{,}\PYG{l+m+mf}{0.0}\PYG{p}{,}\PYG{l+m+mf}{0.0}\PYG{p}{]}
+	\PYG{n}{Tr} \PYG{o}{=} \PYG{n}{ft}\PYG{o}{.}\PYG{n}{RK4}\PYG{o}{.}\PYG{n}{RK4Trace}\PYG{p}{(}\PYG{n}{x0}\PYG{p}{,}\PYG{l+m+mf}{0.02}\PYG{p}{,}\PYG{n}{modelfunc}\PYG{p}{,}\PYG{n}{bounds}\PYG{o}{=}\PYG{n}{boundsfunc}\PYG{p}{)}
+	\PYG{n}{Te} \PYG{o}{=} \PYG{n}{ft}\PYG{o}{.}\PYG{n}{Euler}\PYG{o}{.}\PYG{n}{EulerTrace}\PYG{p}{(}\PYG{n}{x0}\PYG{p}{,}\PYG{l+m+mf}{0.02}\PYG{p}{,}\PYG{n}{modelfunc}\PYG{p}{,}\PYG{n}{bounds}\PYG{o}{=}\PYG{n}{boundsfunc}\PYG{p}{)}
+	
+	\PYG{c+c1}{\PYGZsh{}call the built\PYGZhy{}in KT17 trace}
+	\PYG{n}{T} \PYG{o}{=} \PYG{n}{KT17}\PYG{o}{.}\PYG{n}{TraceField}\PYG{p}{(}\PYG{o}{*}\PYG{n}{x0}\PYG{p}{,}\PYG{n}{LimType}\PYG{o}{=}\PYG{l+m+mi}{17}\PYG{p}{)}
+	
+	\PYG{c+c1}{\PYGZsh{}plot to compare}
+	\PYG{n}{a} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{arange}\PYG{p}{(}\PYG{l+m+mi}{361}\PYG{p}{)}\PYG{o}{*}\PYG{n}{np}\PYG{o}{.}\PYG{n}{pi}\PYG{o}{/}\PYG{l+m+mf}{180.0}
+	\PYG{n}{x} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{cos}\PYG{p}{(}\PYG{n}{a}\PYG{p}{)}
+	\PYG{n}{z} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{sin}\PYG{p}{(}\PYG{n}{a}\PYG{p}{)} \PYG{o}{\PYGZhy{}} \PYG{l+m+mf}{0.196}
+	\PYG{n}{xc} \PYG{o}{=} \PYG{l+m+mf}{0.83}\PYG{o}{*}\PYG{n}{np}\PYG{o}{.}\PYG{n}{cos}\PYG{p}{(}\PYG{n}{a}\PYG{p}{)}
+	\PYG{n}{zc} \PYG{o}{=} \PYG{l+m+mf}{0.83}\PYG{o}{*}\PYG{n}{np}\PYG{o}{.}\PYG{n}{sin}\PYG{p}{(}\PYG{n}{a}\PYG{p}{)} \PYG{o}{\PYGZhy{}} \PYG{l+m+mf}{0.196}
+	\PYG{n}{plt}\PYG{o}{.}\PYG{n}{figure}\PYG{p}{()}
+	\PYG{n}{ax} \PYG{o}{=} \PYG{n}{plt}\PYG{o}{.}\PYG{n}{subplot2grid}\PYG{p}{((}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{l+m+mi}{1}\PYG{p}{),(}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{l+m+mi}{0}\PYG{p}{))}
+	\PYG{n}{ax}\PYG{o}{.}\PYG{n}{plot}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,}\PYG{n}{z}\PYG{p}{,}\PYG{n}{color}\PYG{o}{=}\PYG{p}{[}\PYG{l+m+mf}{0.0}\PYG{p}{,}\PYG{l+m+mf}{0.0}\PYG{p}{,}\PYG{l+m+mf}{0.0}\PYG{p}{,}\PYG{l+m+mf}{0.7}\PYG{p}{],}\PYG{n}{label}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}Mercury Surface\PYGZsq{}}\PYG{p}{,}\PYG{n}{lw}\PYG{o}{=}\PYG{l+m+mi}{4}\PYG{p}{)}
+	\PYG{n}{ax}\PYG{o}{.}\PYG{n}{plot}\PYG{p}{(}\PYG{n}{xc}\PYG{p}{,}\PYG{n}{zc}\PYG{p}{,}\PYG{n}{color}\PYG{o}{=}\PYG{p}{[}\PYG{l+m+mf}{0.5}\PYG{p}{,}\PYG{l+m+mf}{0.5}\PYG{p}{,}\PYG{l+m+mf}{0.5}\PYG{p}{,}\PYG{l+m+mf}{0.7}\PYG{p}{],}\PYG{n}{label}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}Mercury Core\PYGZsq{}}\PYG{p}{,}\PYG{n}{linestyle}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}\PYGZhy{}\PYGZhy{}\PYGZsq{}}\PYG{p}{,}\PYG{n}{lw}\PYG{o}{=}\PYG{l+m+mi}{4}\PYG{p}{)}
+	\PYG{n}{ax}\PYG{o}{.}\PYG{n}{plot}\PYG{p}{(}\PYG{n}{Tr}\PYG{p}{[:,}\PYG{l+m+mi}{0}\PYG{p}{],}\PYG{n}{Tr}\PYG{p}{[:,}\PYG{l+m+mi}{2}\PYG{p}{],}\PYG{n}{color}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}red\PYGZsq{}}\PYG{p}{,}\PYG{n}{label}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}FieldTrace (RK4)\PYGZsq{}}\PYG{p}{)}
+	\PYG{n}{ax}\PYG{o}{.}\PYG{n}{plot}\PYG{p}{(}\PYG{n}{Te}\PYG{p}{[:,}\PYG{l+m+mi}{0}\PYG{p}{],}\PYG{n}{Te}\PYG{p}{[:,}\PYG{l+m+mi}{2}\PYG{p}{],}\PYG{n}{color}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}lime\PYGZsq{}}\PYG{p}{,}\PYG{n}{label}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}FieldTrace (Euler)\PYGZsq{}}\PYG{p}{)}
+	\PYG{n}{ax}\PYG{o}{.}\PYG{n}{plot}\PYG{p}{(}\PYG{n}{T}\PYG{o}{.}\PYG{n}{x}\PYG{p}{,}\PYG{n}{T}\PYG{o}{.}\PYG{n}{z}\PYG{p}{,}\PYG{n}{color}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}blue\PYGZsq{}}\PYG{p}{,}\PYG{n}{label}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}KT17.TraceField\PYGZsq{}}\PYG{p}{,}\PYG{n}{linestyle}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}:\PYGZsq{}}\PYG{p}{)}
+	\PYG{n}{ax}\PYG{o}{.}\PYG{n}{set\PYGZus{}xlabel}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}\PYGZdl{}x\PYGZus{}}\PYG{l+s+si}{\PYGZob{}MSM\PYGZcb{}}\PYG{l+s+s1}{\PYGZdl{}\PYGZsq{}}\PYG{p}{)}
+	\PYG{n}{ax}\PYG{o}{.}\PYG{n}{set\PYGZus{}ylabel}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}\PYGZdl{}z\PYGZus{}}\PYG{l+s+si}{\PYGZob{}MSM\PYGZcb{}}\PYG{l+s+s1}{\PYGZdl{}\PYGZsq{}}\PYG{p}{)}
+	\PYG{n}{ax}\PYG{o}{.}\PYG{n}{set\PYGZus{}aspect}\PYG{p}{(}\PYG{l+m+mf}{1.0}\PYG{p}{)}
+	\PYG{n}{ax}\PYG{o}{.}\PYG{n}{legend}\PYG{p}{()}
+\end{Verbatim}

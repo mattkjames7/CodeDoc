@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	  xxd \PYGZhy{}i data.bin \PYGZgt{} data.cc
+\end{Verbatim}

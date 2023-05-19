@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	git clone https://github.com/mattkjames7/wavespec
+	\PYG{n+nb}{cd} wavespec
+	python3 setup.py install \PYGZhy{}\PYGZhy{}user
+\end{Verbatim}

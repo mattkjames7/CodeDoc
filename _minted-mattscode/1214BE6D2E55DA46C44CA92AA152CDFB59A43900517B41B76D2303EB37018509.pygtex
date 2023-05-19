@@ -1,0 +1,41 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import} \PYG{n+nn}{DateTimeTools} \PYG{k}{as} \PYG{n+nn}{TT}
+
+\PYG{n}{Date} \PYG{o}{=} \PYG{l+m+mi}{20140102}
+\PYG{n}{ut} \PYG{o}{=} \PYG{l+m+mf}{15.0}
+
+\PYG{c+c1}{\PYGZsh{}to unix time (seconds since 00:00 1970\PYGZhy{}01\PYGZhy{}01)}
+\PYG{n}{unixt} \PYG{o}{=} \PYG{n}{TT}\PYG{o}{.}\PYG{n}{UnixTime}\PYG{p}{(}\PYG{n}{Date}\PYG{p}{,}\PYG{n}{ut}\PYG{p}{)}
+\PYG{c+c1}{\PYGZsh{}and back}
+\PYG{n}{Date}\PYG{p}{,}\PYG{n}{ut} \PYG{o}{=} \PYG{n}{TT}\PYG{o}{.}\PYG{n}{UnixTimetoDate}\PYG{p}{(}\PYG{n}{unixt}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{}to continuous time (hours since 00:00 1950\PYGZhy{}01\PYGZhy{}01)}
+\PYG{n}{utc} \PYG{o}{=} \PYG{n}{TT}\PYG{o}{.}\PYG{n}{ContUT}\PYG{p}{(}\PYG{n}{Date}\PYG{p}{,}\PYG{n}{ut}\PYG{p}{)}
+\PYG{c+c1}{\PYGZsh{}and back again}
+\PYG{n}{Date}\PYG{p}{,}\PYG{n}{ut} \PYG{o}{=} \PYG{n}{TT}\PYG{o}{.}\PYG{n}{contUTtoDate}\PYG{p}{(}\PYG{n}{utc}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{}Julian day}
+\PYG{n}{jd} \PYG{o}{=} \PYG{n}{TT}\PYG{o}{.}\PYG{n}{JulDay}\PYG{p}{(}\PYG{n}{Date}\PYG{p}{,}\PYG{n}{ut}\PYG{p}{)}
+\PYG{c+c1}{\PYGZsh{}and back}
+\PYG{n}{Date}\PYG{p}{,}\PYG{n}{ut} \PYG{o}{=} \PYG{n}{TT}\PYG{o}{.}\PYG{n}{JulDaytoDate}\PYG{p}{(}\PYG{n}{jd}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{}CDF Epoch (milliseconds since 00:00 0000\PYGZhy{}01\PYGZhy{}01)}
+\PYG{n}{cdfe} \PYG{o}{=} \PYG{n}{TT}\PYG{o}{.}\PYG{n}{CDFEpoch}\PYG{p}{(}\PYG{n}{Date}\PYG{p}{,}\PYG{n}{ut}\PYG{p}{)}
+\PYG{c+c1}{\PYGZsh{}and back}
+\PYG{n}{Date}\PYG{p}{,}\PYG{n}{ut} \PYG{o}{=} \PYG{n}{TT}\PYG{o}{.}\PYG{n}{CDFEpochtoDate}\PYG{p}{(}\PYG{n}{cdfe}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{}get the python datetime}
+\PYG{n}{dt} \PYG{o}{=} \PYG{n}{TT}\PYG{o}{.}\PYG{n}{Datetime}\PYG{p}{(}\PYG{n}{Date}\PYG{p}{,}\PYG{n}{ut}\PYG{p}{)}
+\PYG{c+c1}{\PYGZsh{}or the reverse conversion}
+\PYG{n}{Date}\PYG{p}{,}\PYG{n}{ut} \PYG{o}{=} \PYG{n}{TT}\PYG{o}{.}\PYG{n}{DatetimetoDate}\PYG{p}{(}\PYG{n}{dt}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{}convert hours since the start of the day to hours,minutes,seconds,milliseconds}
+\PYG{n}{hh}\PYG{p}{,}\PYG{n}{mm}\PYG{p}{,}\PYG{n}{ss}\PYG{p}{,}\PYG{n}{ms} \PYG{o}{=} \PYG{n}{TT}\PYG{o}{.}\PYG{n}{DectoHHMM}\PYG{p}{(}\PYG{n}{ut}\PYG{p}{)}
+\PYG{c+c1}{\PYGZsh{}and back}
+\PYG{n}{ut} \PYG{o}{=} \PYG{n}{TT}\PYG{o}{.}\PYG{n}{HHMMtoDec}\PYG{p}{(}\PYG{n}{hh}\PYG{p}{,}\PYG{n}{mm}\PYG{p}{,}\PYG{n}{ss}\PYG{p}{,}\PYG{n}{ms}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{}Split dates into separate integers}
+\PYG{n}{yr}\PYG{p}{,}\PYG{n}{mn}\PYG{p}{,}\PYG{n}{dy} \PYG{o}{=} \PYG{n}{TT}\PYG{o}{.}\PYG{n}{DateSplit}\PYG{p}{(}\PYG{n}{Date}\PYG{p}{)}
+\PYG{c+c1}{\PYGZsh{}or the reverse}
+\PYG{n}{Date} \PYG{o}{=} \PYG{n}{TT}\PYG{o}{.}\PYG{n}{DateJoin}\PYG{p}{(}\PYG{n}{yr}\PYG{p}{,}\PYG{n}{mn}\PYG{p}{,}\PYG{n}{dy}\PYG{p}{)}
+\end{Verbatim}

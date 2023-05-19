@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{n}{PlotFieldLineDensity}\PYG{p}{(}\PYG{n}{pos}\PYG{p}{,}\PYG{n}{Params}\PYG{p}{,}\PYG{n}{fig}\PYG{o}{=}\PYG{k+kc}{None}\PYG{p}{,}\PYG{n}{maps}\PYG{o}{=}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{l+m+mi}{0}\PYG{p}{],}\PYG{n}{Overplot}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{,}\PYG{o}{**}\PYG{n}{kwargs}\PYG{p}{)}
+\end{Verbatim}

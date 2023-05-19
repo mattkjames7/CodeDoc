@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	pip3 install spiceypy RecarrayTools PyFileIO numpy scipy DateTimeTools \PYGZhy{}\PYGZhy{}user
+\end{Verbatim}

@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{+w}{	}\PYG{c+cm}{/* point to the memory address of the start of the data */}
+\PYG{+w}{	}\PYG{k+kt}{unsigned}\PYG{+w}{ }\PYG{k+kt}{char}\PYG{+w}{ }\PYG{o}{*}\PYG{n}{p}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{data\PYGZus{}start}\PYG{p}{;}
+\PYG{+w}{	}
+\PYG{+w}{	}\PYG{c+cm}{/* there is probably a more elegant way of doing this bit}
+\PYG{c+cm}{	 * but is casts pointer p as an integer pointer, then assigns}
+\PYG{c+cm}{	 * the value from that address to an integer variable*/}
+\PYG{+w}{	}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{n}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{((}\PYG{k+kt}{int}\PYG{o}{*}\PYG{p}{)}\PYG{+w}{ }\PYG{n}{p}\PYG{p}{)[}\PYG{l+m+mi}{0}\PYG{p}{];}
+\PYG{+w}{	}
+\PYG{+w}{	}\PYG{c+cm}{/* now move the pointer along by 4 bytes (for a 32\PYGZhy{}bit integer) */}
+\PYG{+w}{	}\PYG{n}{p}\PYG{+w}{ }\PYG{o}{+=}\PYG{+w}{ }\PYG{k}{sizeof}\PYG{p}{(}\PYG{k+kt}{int}\PYG{p}{);}
+\end{Verbatim}

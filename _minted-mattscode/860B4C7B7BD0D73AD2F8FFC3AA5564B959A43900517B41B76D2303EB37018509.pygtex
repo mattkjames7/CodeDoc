@@ -1,0 +1,29 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import} \PYG{n+nn}{matplotlib.pyplot} \PYG{k}{as} \PYG{n+nn}{plt}
+
+\PYG{c+c1}{\PYGZsh{}some plot of a time series}
+\PYG{c+c1}{\PYGZsh{}t is time either in unix time, ContUT, seconds from the start of the day}
+\PYG{c+c1}{\PYGZsh{}or hours from the start of the day}
+\PYG{n}{plt}\PYG{o}{.}\PYG{n}{plot}\PYG{p}{(}\PYG{n}{t}\PYG{p}{,}\PYG{n}{x}\PYG{p}{)}
+\PYG{n}{ax} \PYG{o}{=} \PYG{n}{plt}\PYG{o}{.}\PYG{n}{gca}\PYG{p}{()}
+
+\PYG{c+c1}{\PYGZsh{}if we are plotting with t = TT.ContUT(Date,ut)}
+\PYG{c+c1}{\PYGZsh{}the function will be able to work out the date}
+\PYG{c+c1}{\PYGZsh{}The TimeFMT keyword isn\PYGZsq{}t needed here, by default = \PYGZsq{}utc\PYGZsq{}}
+\PYG{n}{TT}\PYG{o}{.}\PYG{n}{DTPlotLabel}\PYG{p}{(}\PYG{n}{ax}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{}similar to above \PYGZhy{} we can us unix time}
+\PYG{c+c1}{\PYGZsh{}so t = TT.UnixTime(Date,ut)}
+\PYG{c+c1}{\PYGZsh{}We must let the function know though}
+\PYG{n}{TT}\PYG{o}{.}\PYG{n}{DTPlotLabel}\PYG{p}{(}\PYG{n}{ax}\PYG{p}{,}\PYG{n}{TimeFMT}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}unix\PYGZsq{}}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{}With seconds from the beginning of the day, we need to}
+\PYG{c+c1}{\PYGZsh{}tell the function what Date starts at t == 0.0}
+\PYG{c+c1}{\PYGZsh{}NOTE t can go beyond the range 0 \PYGZlt{} t \PYGZlt{} 24,}
+\PYG{c+c1}{\PYGZsh{}the labels should include relevant dates}
+\PYG{c+c1}{\PYGZsh{}Also, without the date keyword, just HH:MM(:SS) is shown}
+\PYG{n}{TT}\PYG{o}{.}\PYG{n}{DTPlotLabel}\PYG{p}{(}\PYG{n}{ax}\PYG{p}{,}\PYG{n}{TimeFMT}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}seconds\PYGZsq{}}\PYG{p}{,}\PYG{n}{Date}\PYG{o}{=}\PYG{l+m+mi}{20150101}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{}Plotting with hours since the start of the day is similar}
+\PYG{n}{TT}\PYG{o}{.}\PYG{n}{DTPlotLabel}\PYG{p}{(}\PYG{n}{ax}\PYG{p}{,}\PYG{n}{TimeFMT}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}hours\PYGZsq{}}\PYG{p}{,}\PYG{n}{Date}\PYG{o}{=}\PYG{l+m+mi}{20190908}\PYG{p}{)}
+\end{Verbatim}

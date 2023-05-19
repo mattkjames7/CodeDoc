@@ -1,0 +1,15 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}t is the evenly sampled time axis}
+\PYG{c+c1}{\PYGZsh{}x is the time series data}
+
+\PYG{c+c1}{\PYGZsh{}we need to know the sampling interval in seconds}
+\PYG{n}{inter} \PYG{o}{=} \PYG{n}{t}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]} \PYG{o}{\PYGZhy{}} \PYG{n}{t}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]}
+
+\PYG{c+c1}{\PYGZsh{}we can do a low\PYGZhy{}pass filter, we need to set \PYGZsq{}high = inter\PYGZsq{}}
+\PYG{c+c1}{\PYGZsh{}and \PYGZsq{}low = lsec\PYGZsq{} which is the cutoff period in seconds}
+\PYG{n}{xlow} \PYG{o}{=} \PYG{n}{TT}\PYG{o}{.}\PYG{n}{lsfilter}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,}\PYG{n}{inter}\PYG{p}{,}\PYG{n}{lowsec}\PYG{p}{,}\PYG{n}{inter}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{}alternatively a high\PYGZhy{}pass filter can be used by setting}
+\PYG{c+c1}{\PYGZsh{}\PYGZsq{}high = hsec\PYGZsq{} (the cutoff period in seconds) and \PYGZsq{}low = inter\PYGZsq{}}
+\PYG{n}{xhigh} \PYG{o}{=} \PYG{n}{TT}\PYG{o}{.}\PYG{n}{lsfilter}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,}\PYG{n}{hsec}\PYG{p}{,}\PYG{n}{inter}\PYG{p}{,}\PYG{n}{inter}\PYG{p}{)}
+\end{Verbatim}

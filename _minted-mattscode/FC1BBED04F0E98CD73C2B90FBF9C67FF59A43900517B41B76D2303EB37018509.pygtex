@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{n}{dtype} \PYG{o}{=} \PYG{p}{[(}\PYG{l+s+s1}{\PYGZsq{}a\PYGZsq{}}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}int32\PYGZsq{}}\PYG{p}{),(}\PYG{l+s+s1}{\PYGZsq{}b\PYGZsq{}}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}float64\PYGZsq{}}\PYG{p}{,(}\PYG{l+m+mi}{6}\PYG{p}{,))]}
+	\PYG{n}{fname} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}path/to/file.name\PYGZsq{}}
+	\PYG{n}{arr} \PYG{o}{=} \PYG{n}{RT}\PYG{o}{.}\PYG{n}{ReadRecarray}\PYG{p}{(}\PYG{n}{fname}\PYG{p}{,}\PYG{n}{dtype}\PYG{p}{)}
+\end{Verbatim}

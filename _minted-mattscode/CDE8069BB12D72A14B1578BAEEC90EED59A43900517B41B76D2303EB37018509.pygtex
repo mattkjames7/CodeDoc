@@ -1,0 +1,15 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{k+kn}{import} \PYG{n+nn}{numpy} \PYG{k}{as} \PYG{n+nn}{np}
+	\PYG{k+kn}{import} \PYG{n+nn}{RecarrayTools} \PYG{k}{as} \PYG{n+nn}{RT}
+	
+	\PYG{c+c1}{\PYGZsh{}create some recarray}
+	\PYG{n}{dtype} \PYG{o}{=} \PYG{p}{[(}\PYG{l+s+s1}{\PYGZsq{}a\PYGZsq{}}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}int32\PYGZsq{}}\PYG{p}{),(}\PYG{l+s+s1}{\PYGZsq{}b\PYGZsq{}}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}float64\PYGZsq{}}\PYG{p}{,(}\PYG{l+m+mi}{6}\PYG{p}{,))]}
+	\PYG{n}{arr} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{recarray}\PYG{p}{(}\PYG{l+m+mi}{10}\PYG{p}{,}\PYG{n}{dtype}\PYG{o}{=}\PYG{n}{dtype}\PYG{p}{)}
+	
+	\PYG{c+c1}{\PYGZsh{}fill it}
+	\PYG{n}{arr}\PYG{o}{.}\PYG{n}{a} \PYG{o}{=} \PYG{n}{blah} \PYG{c+c1}{\PYGZsh{}shape (10,)}
+	\PYG{n}{arr}\PYG{o}{.}\PYG{n}{b} \PYG{o}{=} \PYG{n}{stuff} \PYG{c+c1}{\PYGZsh{}shape (10,6)}
+	
+	\PYG{c+c1}{\PYGZsh{}save it}
+	\PYG{n}{RT}\PYG{o}{.}\PYG{n}{SaveRecarray}\PYG{p}{(}\PYG{n}{arr}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}path/to/file.name\PYGZsq{}}\PYG{p}{,}\PYG{n}{Progress}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)}
+\end{Verbatim}

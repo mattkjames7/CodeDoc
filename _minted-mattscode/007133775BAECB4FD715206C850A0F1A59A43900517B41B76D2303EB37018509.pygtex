@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{n}{va} \PYG{o}{=} \PYG{n}{CalcFieldLineVa}\PYG{p}{(}\PYG{n}{T}\PYG{p}{,}\PYG{n}{s}\PYG{p}{,}\PYG{n}{Params}\PYG{p}{,}\PYG{n}{halpha}\PYG{o}{=}\PYG{k+kc}{None}\PYG{p}{)}
+\end{Verbatim}

@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{c+c1}{\PYGZsh{}initial object with fields \PYGZsq{}a\PYGZsq{}, \PYGZsq{}b\PYGZsq{}, \PYGZsq{}c\PYGZsq{} and \PYGZsq{}d\PYGZsq{}}
+	\PYG{n}{dtype} \PYG{o}{=} \PYG{p}{[(}\PYG{l+s+s1}{\PYGZsq{}a\PYGZsq{}}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}int32\PYGZsq{}}\PYG{p}{),(}\PYG{l+s+s1}{\PYGZsq{}b\PYGZsq{}}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}float64\PYGZsq{}}\PYG{p}{,(}\PYG{l+m+mi}{6}\PYG{p}{,)),(}\PYG{l+s+s1}{\PYGZsq{}c\PYGZsq{}}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}int64\PYGZsq{}}\PYG{p}{),(}\PYG{l+s+s1}{\PYGZsq{}d\PYGZsq{}}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}float64\PYGZsq{}}\PYG{p}{)]}
+	\PYG{n}{obj0} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{recarray}\PYG{p}{(}\PYG{l+m+mi}{10}\PYG{p}{,}\PYG{n}{dtype}\PYG{o}{=}\PYG{n}{dtype}\PYG{p}{)}
+	
+	\PYG{c+c1}{\PYGZsh{}new object with just fields \PYGZsq{}a\PYGZsq{} and \PYGZsq{}c\PYGZsq{}}
+	\PYG{n}{obj1} \PYG{o}{=} \PYG{n}{RT}\PYG{o}{.}\PYG{n}{ReduceRecarray}\PYG{p}{(}\PYG{n}{obj0}\PYG{p}{,[}\PYG{l+s+s1}{\PYGZsq{}a\PYGZsq{}}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}c\PYGZsq{}}\PYG{p}{])}
+\end{Verbatim}

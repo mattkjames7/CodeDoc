@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{n}{ws}\PYG{o}{.}\PYG{n}{Test}\PYG{o}{.}\PYG{n}{TestLS}\PYG{p}{(}\PYG{n}{A}\PYG{o}{=}\PYG{p}{[}\PYG{l+m+mf}{1.0}\PYG{p}{,}\PYG{l+m+mf}{2.0}\PYG{p}{],}\PYG{n}{f}\PYG{o}{=}\PYG{p}{[}\PYG{l+m+mf}{0.04}\PYG{p}{,}\PYG{l+m+mf}{0.1}\PYG{p}{],}\PYG{n}{phi}\PYG{o}{=}\PYG{p}{[}\PYG{l+m+mf}{0.0}\PYG{p}{,}\PYG{l+m+mf}{90.0}\PYG{p}{],}\PYG{n}{Backend}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}C++\PYGZsq{}}\PYG{p}{)}
+	\PYG{n}{ws}\PYG{o}{.}\PYG{n}{Test}\PYG{o}{.}\PYG{n}{TestPolarization}\PYG{p}{(}\PYG{n}{xPow}\PYG{o}{=}\PYG{l+m+mf}{2.0}\PYG{p}{,}\PYG{n}{xPhase}\PYG{o}{=}\PYG{l+m+mf}{0.0}\PYG{p}{,}\PYG{n}{yPow}\PYG{o}{=}\PYG{l+m+mf}{1.0}\PYG{p}{,}\PYG{n}{yPhase}\PYG{o}{=}\PYG{l+m+mf}{40.0}\PYG{p}{)}
+	\PYG{n}{ws}\PYG{o}{.}\PYG{n}{Test}\PYG{o}{.}\PYG{n}{TestSpectrogram}\PYG{p}{()}
+\end{Verbatim}

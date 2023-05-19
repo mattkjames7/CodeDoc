@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{c+c1}{\PYGZsh{}saving text}
+	\PYG{n}{text} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}some text, can be an array}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s+s1}{ or just a single string\PYGZsq{}}
+	\PYG{n}{pf}\PYG{o}{.}\PYG{n}{WriteASCIIFile}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}filename.txt\PYGZsq{}}\PYG{p}{,}\PYG{n}{text}\PYG{p}{)}
+	
+	\PYG{c+c1}{\PYGZsh{}reading text}
+	\PYG{n}{text} \PYG{o}{=} \PYG{n}{pf}\PYG{o}{.}\PYG{n}{ReadASCIIFile}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}filename.txt\PYGZsq{}}\PYG{p}{)}
+\end{Verbatim}

@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{c+c1}{\PYGZsh{}when installed globally}
+	g++ \PYG{k}{\PYGZdl{}(}CFLAGS\PYG{k}{)} main.cc \PYGZhy{}o main \PYGZhy{}ldatetime
+	
+	\PYG{c+c1}{\PYGZsh{}otherwise}
+	g++ \PYG{k}{\PYGZdl{}(}CFLAGS\PYG{k}{)} \PYGZhy{}I/path/to/header/ main.cc \PYGZhy{}o main \PYGZhy{}L/path/to/lib \PYGZhy{}ldatetime
+\end{Verbatim}

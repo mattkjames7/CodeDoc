@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{k+kn}{import} \PYG{n+nn}{PyFileIO} \PYG{k}{as} \PYG{n+nn}{pf}
+	
+	\PYG{c+c1}{\PYGZsh{}save an object}
+	\PYG{n}{pf}\PYG{o}{.}\PYG{n}{SaveObject}\PYG{p}{(}\PYG{n}{obj}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}/path/to/some/file.bin\PYGZsq{}}\PYG{p}{)}
+	
+	\PYG{c+c1}{\PYGZsh{}load an object}
+	\PYG{n}{obj} \PYG{o}{=} \PYG{n}{pf}\PYG{o}{.}\PYG{n}{LoadObject}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}/path/to/some/file.bin\PYGZsq{}}\PYG{p}{)}
+\end{Verbatim}

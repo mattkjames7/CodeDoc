@@ -1,0 +1,28 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{k+kn}{import} \PYG{n+nn}{NNClass} \PYG{k}{as} \PYG{n+nn}{nnc}
+	
+	\PYG{c+c1}{\PYGZsh{}create the network, defining the activation functions and the number of nodes in each layer}
+	\PYG{n}{net} \PYG{o}{=} \PYG{n}{nnc}\PYG{o}{.}\PYG{n}{NNClass}\PYG{p}{(}\PYG{n}{s}\PYG{p}{,}\PYG{n}{AF}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}sigmoid\PYGZsq{}}\PYG{p}{,}\PYG{n}{Output}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}softmax\PYGZsq{}}\PYG{p}{)}
+	
+	\PYG{c+c1}{\PYGZsh{}note that s should be a list, where each element denotes the number of nodes in each layer}
+	
+	\PYG{c+c1}{\PYGZsh{}input training data}
+	\PYG{n}{net}\PYG{o}{.}\PYG{n}{AddData}\PYG{p}{(}\PYG{n}{X}\PYG{p}{,}\PYG{n}{y}\PYG{p}{)}
+	\PYG{c+c1}{\PYGZsh{}Input matrix X should be of the shape (m,n) \PYGZhy{} where m is the number of samples and n is the number of input features}
+	\PYG{c+c1}{\PYGZsh{}Output hypothesis matrix y should either be}
+	\PYG{c+c1}{\PYGZsh{} an array (m,) of integers corresponding to class}
+	\PYG{c+c1}{\PYGZsh{} or matrix (m,k) of one\PYGZhy{}hot labels}
+	
+	\PYG{c+c1}{\PYGZsh{}optionally add validation and test data}
+	\PYG{n}{net}\PYG{o}{.}\PYG{n}{AddValidationData}\PYG{p}{(}\PYG{n}{Xv}\PYG{p}{,}\PYG{n}{yv}\PYG{p}{)}
+	\PYG{c+c1}{\PYGZsh{}Note that validation data is ignored if kfolds \PYGZgt{} 1 during training}
+	\PYG{n}{net}\PYG{o}{.}\PYG{n}{AddTestData}\PYG{p}{(}\PYG{n}{Xt}\PYG{p}{,}\PYG{n}{yt}\PYG{p}{)}
+	
+	\PYG{c+c1}{\PYGZsh{}Train the network}
+	\PYG{n}{net}\PYG{o}{.}\PYG{n}{Train}\PYG{p}{(}\PYG{n}{nEpoch}\PYG{p}{,}\PYG{n}{kfolds}\PYG{o}{=}\PYG{n}{k}\PYG{p}{)}
+	\PYG{c+c1}{\PYGZsh{}nEpoch is the number of training epochs}
+	\PYG{c+c1}{\PYGZsh{}kfolds is the number of kfolds to do \PYGZhy{} if kfolds \PYGZgt{} 1 then the training data are split}
+	\PYG{c+c1}{\PYGZsh{}into kfold sets, each of which has a turn at being the validation set. This results in}
+	\PYG{c+c1}{\PYGZsh{}kfold networks being trained in total (net.model)}
+	\PYG{c+c1}{\PYGZsh{}see docstring net.Train? to see more options}
+\end{Verbatim}

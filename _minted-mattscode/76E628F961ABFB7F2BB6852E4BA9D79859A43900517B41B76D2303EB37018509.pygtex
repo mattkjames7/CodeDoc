@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{c+c1}{\PYGZsh{}a would be the initial recarray, b would be the new recarray}
+	\PYG{c+c1}{\PYGZsh{}RefField = name of field to interpolate over}
+	\PYG{c+c1}{\PYGZsh{}InterpFields = list of names of fields to interpolate}
+	\PYG{n}{b} \PYG{o}{=} \PYG{n}{RT}\PYG{o}{.}\PYG{n}{InterpRecarrayFields}\PYG{p}{(}\PYG{n}{a}\PYG{p}{,}\PYG{n}{b}\PYG{p}{,}\PYG{n}{RefField}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}x\PYGZsq{}}\PYG{p}{,}\PYG{n}{InterpFields}\PYG{o}{=}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}a\PYGZsq{}}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}b\PYGZsq{}}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}c\PYGZsq{}}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}d\PYGZsq{}}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}x\PYGZsq{}}\PYG{p}{])}
+\end{Verbatim}
