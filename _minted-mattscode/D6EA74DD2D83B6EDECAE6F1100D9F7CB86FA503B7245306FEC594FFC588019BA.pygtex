@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	git clone https://github.com/mattkjames7/RBSP.git
+	\PYG{n+nb}{cd} RBSP
+	
+	\PYG{c+c1}{\PYGZsh{}build the wheel}
+	python3 setup.py bdist\PYGZus{}wheel
+	
+	\PYG{c+c1}{\PYGZsh{}install the package just built}
+	pip3 install dist/RBSP\PYGZhy{}0.0.1\PYGZhy{}py3\PYGZhy{}none\PYGZhy{}any.whl \PYGZhy{}\PYGZhy{}user
+\end{Verbatim}

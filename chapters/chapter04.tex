@@ -227,7 +227,451 @@
 
 	\section{\texttt{RBSP}: Download and read Van Allen Probe data}
 	
-	Some tools for loading RBSP (Van Allen Probe) data
+	Some tools for loading RBSP (Van Allen Probe) data. 
+	
+	\subsection{Installation}
+	
+	Firstly, install the Python wheel package:
+	\begin{minted}{python}
+	pip3 install wheel --user
+	\end{minted}
+	
+	Clone this repo, build and install (swap x.x.x for the current version):
+	\begin{minted}{bash}
+	git clone https://github.com/mattkjames7/RBSP.git
+	cd RBSP
+	
+	#build the wheel
+	python3 setup.py bdist_wheel
+	
+	#install the package just built
+	pip3 install dist/RBSP-0.0.1-py3-none-any.whl --user
+	\end{minted}
+	
+	\subsection{Submodules}
+	
+	This is a list of submodules contained within this package.
+	
+	\begin{itemize}
+		\item \texttt{ECT} (see documentation in \texttt{doc/ECT.md})
+		\item \texttt{EFW} (see documentation in \texttt{doc/EFW.md})
+		\item \texttt{EMFISIS} (see documentation in \texttt{doc/EMFISIS.md})
+		\item \texttt{Fields} (see documentation in \texttt{doc/Fields.md})
+		\item \texttt{Pos} (see documentation in \texttt{doc/Pos.md})
+		\item \texttt{RBSPICE} (see documentation in \texttt{doc/RBSPICE.md})
+		\item \texttt{RPS} (see documentation in \texttt{doc/RPS.md})
+		\item \texttt{VExB} (see documentation in \texttt{doc/VExB.md})
+	\end{itemize}
+	
+	\subsection{ECT - Energetic Particle, Composition, and Thermal Plasma Suite}
+	
+	The overview of this instrument suite can be found in Spence et al., 2013.
+	
+	ECT contains the following instruments:
+	
+	\begin{itemize}
+		\item Helium, Oxygen, Proton, and Electron (HOPE) Mass Spectrometer (Funsten et al., 2013)
+		\item Magnetic Electron Ion Spectrometer (MagEIS, Blake et al., 2013)
+		\item Relativistic Electron-Proton Telescope (REPT, Baker et al., 2013)
+	\end{itemize}
+	
+	\subsubsection{List of Functions}
+	
+	The following functions are all called from within the \texttt{ECT} submodule, e.g.: \texttt{RBSP.ECT.DownloadData()}
+	
+	\begin{tabular}{|l|l|l|}
+	\hline
+	Function Name & Description & Section \\
+	\hline
+	\texttt{DownloadData()} & Download latest data files. & \\
+	\texttt{ReadCDF()} & Read a downloaded CDF file. & \\
+	\texttt{DataAvailability()} & Checks what dates have data. & \\
+	\texttt{DeleteDate()} & Deletes data from a specific date. & \\
+	\texttt{RebuildDataIndex()} & Scan the downloaded data and rebuild the index file. & \\
+	\texttt{ReadHOPESA()} & Read the HOPE Spin-Averaged data into a \texttt{PSpecCls} object. & \\
+	\texttt{ReadHOPEMoments()} & Read the HOPE moments. & \\
+	\texttt{ReadHOPEOmni()} & Read the omnidirectional HOPE data into a \texttt{PSpecCls} object. & \\
+	\texttt{SaveIonMoments()} & Save the cold ion moments. & \\
+	\texttt{ReadIonMoments()} & Read the cold ion moments. & \\
+	\texttt{MomentAvailability()} & Check what dates there are moments calculated for. & \\
+	\texttt{CalculateIonMoments()} & Calculate the low energy ion moments. & \\
+	\texttt{PlotMoments()} & Plot moments. & \\
+	\texttt{PlotDensity()} & Plot density. & \\
+	\texttt{PlotTemp()} & Plot the temperature. & \\
+	\texttt{PlotMav()} & Plot the average ion mass. & \\
+	\hline
+	\end{tabular}
+	
+	\subsubsection{Downloading Data}
+	
+	Data from HOPE, MagEIS, and REPT can all be downloaded using the \texttt{DownloadData()} function. The \texttt{sc}, \texttt{Inst}, and \texttt{L} keywords determine which probe ('a' or 'b'), instrument, or level of data to download. To limit the time period over which to download data, set the \texttt{Date} keyword to a 2-element list containing the start and end dates in the format \texttt{yyyymmdd}.
+	
+	\begin{tabular}{|l|l|}
+	\hline
+	\texttt{Inst} & \texttt{L} \\
+	\hline
+	\texttt{'hope'} & \texttt{'l2.sectors'} \\
+	\texttt{'hope'} & \texttt{'l2.spinaverage'} \\
+	\texttt{'hope'} & \texttt{'l3.moments'} \\
+	\texttt{'hope'} & \texttt{'l3.pitchangle'} \\
+	\texttt{'mageis'} & \texttt{'l2'} \\
+	\texttt{'mageis'} & \texttt{'l3'} \\
+	\texttt{'rept'} & \texttt{'l2'} \\
+	\texttt{'rept'} & \texttt{'l3'} \\
+	\hline
+	\end{tabular}
+	
+	Data is stored in \texttt{\$RBSP\_PATH/ECT/Inst/L/sc/} (e.g., \texttt{\$RBSP\_PATH/ECT/hope/l2.sectors/a/}) and the index file is named \texttt{\$RBSP\_PATH/ECT/Inst.L.sc.dat} which lists all of the downloaded files, their dates, and their versions.
+	
+	\subsubsection{Reading Data}
+	
+	All of the downloaded data can be read directly from the CDF files using \texttt{ReadCDF()}.
+	
+	Some HOPE-specific functions exist:
+	
+	\begin{minted}{python}
+	#moment data from HOPE
+	mom = RBSP.ECT.ReadHOPEMoments(Date,sc)
+	
+	#spin averaged data
+	sa = RBSP.ECT.ReadHOPESA(Date,sc)
+	
+	#Omnidirectional data
+	omni = RBSP.ECT.ReadHOPEOmni(Date,sc)
+	\end{minted}
+	
+	\subsubsection{HOPE Moments}
+	
+	The moments provided by the data repository are warm plasma moments. The functions in this section make an attempt to calculate the cold ion moments.
+	
+	Prior to calculating the cold ion moments, we need to have downloaded all of the required HOPE Omni data, calculated all of the spacecraft potentials (see EFW), ExB drifts (see VExB), and downloaded all level 4 EMFISIS data (see EMFISIS).
+	
+	This function calculates all of the moments:
+	
+	\begin{minted}{python}
+	mom = RBSP.ECT.CalculateIonMoments(Date,sc,MaxE=0.02)
+	\end{minted}
+	
+	where \texttt{MaxE} is the maximum energy bin (keV) to include in the spectral integration (usually around 0.02 keV). The moments are calculated using the method described by Goldstein et al., 2014, Genestreti et al., 2017, and Goldstein et al., 2019.
+	
+	Moments are all saved to disk (\texttt{\$RBSP\_PATH/Moments/Ions/sc/}, where \texttt{sc} is either 'a' or 'b') using \texttt{SaveIonMoments()}.
+	
+	The moments can be read using:
+	
+	\begin{minted}{python}
+	mom = RBSP.ECT.ReadIonMoments(Date,sc)
+	\end{minted}
+	
+	\subsubsection{Plotting Functions}
+	
+	The ion moments can be plotted using \texttt{PlotDensity()}, \texttt{PlotTemp()}, and \texttt{PlotMav()}, or using \texttt{PlotMoments()} which uses all three of the former functions together.
+	
+	\begin{minted}{python}
+	# The PlotMoments() function returns a list of axes
+	axs = RBSP.ECT.PlotMoments(20140101,'a',ut=[12.0,24.0])
+	\end{minted}
+	
+	The above code should produce the plot.
+	\begin{figure}
+		\includegraphics[width=0.9\textwidth]{figures/ch4_rbspions.png}
+	\end{figure}
+	
+	\subsection{EFW - Electric Field and Waves}
+	
+	The full documentation for this instrument can be found in Wygant et al., 2013.
+	
+	\subsubsection{List of Functions}
+	
+	\begin{tabular}{|l|l|}
+	\hline
+	Function Name & Description \\
+	\hline
+	\texttt{DownloadData()} & Download latest data files. \\
+	\texttt{ReadCDF()} & Read a downloaded CDF file. \\
+	\texttt{DataAvailability()} & Checks what dates have data. \\
+	\texttt{DeleteDate()} & Deletes data from a specific date. \\
+	\texttt{RebuildDataIndex()} & Scan the downloaded data and rebuild the index file. \\
+	\texttt{GetPotential()} & Get the spacecraft potential. \\
+	\texttt{SavePotentials()} & Save spacecraft potentials for all dates. \\
+	\texttt{ReadElectronDensity()} & Read the electron density calculated using spacecraft potential. \\
+	\hline
+	\end{tabular}
+	
+	\subsubsection{Downloading Data}
+	
+	The data can be downloaded using different data products, \texttt{L}:
+	
+	\begin{tabular}{|l|l|}
+	\hline
+	\texttt{L} & Description \\
+	\hline
+	\texttt{'l3'} & Spin-fit Electric field in modified-GSE (MGSE) coord, density, and other products \\
+	\texttt{'l2.spec'} & 8 second FFT power spectra \\
+	\texttt{'l2.e-spinfit-mgse'} & Spin-fit E12 Electric field in MGSE coordinates \\
+	\texttt{'l2.fbk'} & 8 sample/sec filterbank peak, average wave amplitude \\
+	\texttt{'l2.esvy\_despun'} & 32 sample/sec despun electric field in MGSE coordinates \\
+	\texttt{'l2.vsvy-hires'} & 16 sample/sec single-ended V1-V6 probe potentials \\
+	\texttt{'l1.eb1'} & EB1 in UVW coordinates \\
+	\texttt{'l1.eb2'} & EB2 in UVW coordinates \\
+	\texttt{'l1.mscb1'} & MSCB1 in UVW coordinates \\
+	\texttt{'l1.mscb2'} & MSCB2 in UVW coordinates \\
+	\texttt{'l1.vb1'} & VB1 in UVW coordinates \\
+	\texttt{'l1.vb2'} & VB2 in UVW coordinates \\
+	\hline
+	\end{tabular}
+	
+	\subsubsection{Spacecraft Potentials}
+	
+	Spacecraft potentials need to be saved first using \texttt{SavePotentials()}, e.g.:
+	
+	\begin{minted}{python}
+	RBSP.EFW.SavePotentials(sc)
+	\end{minted}
+	
+	where \texttt{sc} can be 'a' or 'b'. This will save the potentials for every date found in the 'l3' data.
+	
+	Read the data using \texttt{GetPotential()}, e.g.:
+	
+	\begin{minted}{python}
+	data = RBSP.EFW.GetPotential(Date,sc)
+	\end{minted}
+	
+	\subsubsection{Electron Density}
+	
+	The electron densities as measured using the spacecraft potential can be obtained using the \texttt{ReadElectronDensity()} function, which is a wrapper for the \texttt{ReadCDF()} function, e.g.:
+	
+	\begin{minted}{python}
+	data = RBSP.EFW.ReadElectronDensity(Date,sc)
+	\end{minted}
+	
+	\subsection{EMFISIS - Electric and Magnetic Field Instrument Suite and Integrated Science}
+	
+	The details of this instrument can be found in Kletzing et al., 2013.
+	
+	\subsubsection{List of Functions}
+	
+	\begin{tabular}{|l|l|}
+	\hline
+	Function Name & Description \\
+	\hline
+	\texttt{DownloadData()} & Download latest data files. \\
+	\texttt{ReadCDF()} & Read a downloaded CDF file. \\
+	\texttt{DataAvailability()} & Checks what dates have data. \\
+	\texttt{DeleteDate()} & Deletes data from a specific date. \\
+	\texttt{RebuildDataIndex()} & Scan the downloaded data and rebuild the index file. \\
+	\texttt{GetMag()} & Get the magnetometer data. \\
+	\texttt{ReadElectronDensity()} & Get the UHR electron density. \\
+	\hline
+	\end{tabular}
+	
+	\subsubsection{Downloading Data}
+	
+	The data can be downloaded using different data levels and products, \texttt{L} and \texttt{Prod}:
+	
+	\begin{tabular}{|l|l|l|}
+	\hline
+	\texttt{L} & \texttt{Prod} & Description \\
+	\hline
+	\texttt{'l4'} & \texttt{None} & densities \\
+	\texttt{'l3'} & \texttt{'1sec-***'} & 1-second resolution magnetic fields \\
+	\texttt{'l3'} & \texttt{'4sec-***'} & 4-second resolution magnetic fields \\
+	\texttt{'l3'} & \texttt{'hires-***'} & High-resolution magnetic fields \\
+	\texttt{'l2'} & \texttt{'HFR-spectra'} & \\
+	\texttt{'l2'} & \texttt{'HFR-spectra-merged'} & \\
+	\texttt{'l2'} & \texttt{'HFR-spectra-burst'} & \\
+	\texttt{'l2'} & \texttt{'HFR-waveform'} & \\
+	\texttt{'l2'} & \texttt{'WFR-spectral-matrix'} & \\
+	\texttt{'l2'} & \texttt{'WFR-spectral-matrix-burst'} & \\
+	\texttt{'l2'} & \texttt{'WFR-spectral-matrix-burst-diagonal'} & \\
+	\texttt{'l2'} & \texttt{'WFR-spectral-matrix-diagonal-merged'} & \\
+	\texttt{'l2'} & \texttt{'WFR-spectral-matrix-diagonal'} & \\
+	\texttt{'l2'} & \texttt{'WFR-waveform'} & \\
+	\texttt{'l2'} & \texttt{'WFR-waveform-continuous-burst'} & \\
+	\hline
+	\end{tabular}
+	
+	Note that \texttt{***} in the above table should be replaced with the coordinate system to be used, e.g., \texttt{gsm}, \texttt{gse}, etc.
+	
+	\subsubsection{Mag Data}
+	
+	Magnetometer data can be obtained using \texttt{GetMag()} once it has been downloaded, e.g.:
+	
+	\begin{minted}{python}
+	data = RBSP.EMFISIS.GetMag(Date,sc,ut=[ut0,ut1],Coord='GSE',Res='1sec')
+	\end{minted}
+	
+	where \texttt{Date} may be a range or a single date; \texttt{ut} will limit the start and end times (in hours); \texttt{Coord} can be one of the following strings: 'GSE', 'GSM', 'SM', 'GEO', 'GEI'; and \texttt{Res} may be '1sec', '4sec', or 'hires'.
+	
+	\subsubsection{Electron Densities}
+	
+	Electron densities may be read from the 'l4' data using the \texttt{ReadElectronDensity()} function, e.g.:
+	
+	\begin{minted}{python}
+	data = RBSP.EMFISIS.ReadElectronDensity(Date,sc)
+	\end{minted}
+	
+	\subsection{Fields}
+	
+	This submodule combines the electric and magnetic fields.
+	
+	\subsubsection{List of Functions}
+	
+	\begin{tabular}{|l|l|}
+	\hline
+	Function Name & Description \\
+	\hline
+	\texttt{DataAvailability()} & Checks what dates have data. \\
+	\texttt{CalculateEx()} & Calculates the missing E field component in MGSE. \\
+	\texttt{CombineFields()} & Combines electric and magnetic field data into one object. \\
+	\texttt{GetData()} & Get data for more than one date. \\
+	\texttt{ModelField()} & Uses Tsyganenko field models to obtain model magnetic field vectors. \\
+	\texttt{ReadData()} & Reads a single data file. \\
+	\hline
+	\end{tabular}
+	
+	\subsubsection{Usage}
+	
+	Get a list of dates where we have field data:
+	
+	\begin{minted}{python}
+	dates = RBSP.Fields.DataAvailability(sc)
+	\end{minted}
+	
+	Combine electric and magnetic fields for a single date:
+	
+	\begin{minted}{python}
+	RBSP.Fields.CombineFields(20150101,'a')
+	\end{minted}
+	
+	Read combined field for a date:
+	
+	\begin{minted}{python}
+	data = RBSP.Fields.ReadData(20140503,'b')
+	\end{minted}
+	
+	Read data between date/time limits of 20140101 12:30 to 20140103 8:15:
+	
+	\begin{minted}{python}
+	data = RBSP.Fields.GetData([20140101,20140103],ut=[12.5,8.25],sc='a')
+	\end{minted}
+	
+	\subsection{Pos}
+	
+	This submodule gets positional data for each spacecraft and can save field traces.
+	
+	\subsubsection{List of Functions}
+	
+	\begin{tabular}{|l|l|}
+	\hline
+	Function & Description \\
+	\hline
+	\texttt{CalculateVelocity()} & Calculate orbital velocity. \\
+	\texttt{ConvertH5toBinary()} & Converts the downloaded position data to binary. \\
+	\texttt{DownloadData()} & Downloads MagEph data. \\
+	\texttt{GetPos()} & Get all position data for a spacecraft. \\
+	\texttt{GetVelocity()} & Get all spacecraft velocities. \\
+	\texttt{PlotL()} & Plot the $L$-shell. \\
+	\texttt{PlotMLT()} & Plot magnetic local time. \\
+	\texttt{ReadFieldTraces()} & Read the field line footprints for a date. \\
+	\texttt{ReadAllFieldTraces()} & Read all the traces for a spacecraft. \\
+	\texttt{ReadH5()} & Read the downloaded H5 data directly. \\
+	\texttt{ReadPos()} & Read converted position binary data. \\
+	\texttt{SaveFieldTraces()} & Saves the field line footprints. \\
+	\texttt{TraceFieldDay()} & Performs field tracing for a day. \\
+	\hline
+	\end{tabular}
+	
+	\subsubsection{Usage}
+	
+	Download the position data first:
+	
+	\begin{minted}{python}
+	RBSP.Pos.DownloadData(sc='a')
+	\end{minted}
+	
+	Now convert it to binary:
+	
+	\begin{minted}{python}
+	RBSP.Pos.ConvertH5toBinary(sc='a')
+	\end{minted}
+	
+	Save the field line traces:
+	
+	\begin{minted}{python}
+	RBSP.Pos.SaveFieldTraces(sc='a',Model='T96')
+	\end{minted}
+	
+	Read in position data for the whole mission:
+	
+	\begin{minted}{python}
+	posa = RBSP.Pos.GetPos(sc='a')
+	\end{minted}
+	
+	Get the velocity:
+	
+	\begin{minted}{python}
+	vela = RBSP.Pos.GetVelocity(sc='a')
+	\end{minted}
+	
+	Get the field trace footprints:
+	
+	\begin{minted}{python}
+	fpa = RBSP.Pos.ReadAllFieldTraces(sc='a',Model='T96')
+	\end{minted}
+	
+	\subsection{RBSPICE - Radiation Belt Storm Probes Ion Composition Experiment}
+	
+	The details of this instrument can be found in Lanzerotti et al., 2013.
+	
+	\subsubsection{List of Functions}
+	
+	Not currently implemented.
+	
+	\subsection{RPS - Relativistic Proton Spectrometer}
+	
+	Details for this instrument can be found in Mazur et al., 2013.
+	
+	\subsubsection{List of Functions}
+	
+	Not currently implemented.
+	
+	\subsection{VExB}
+	
+	This submodule uses electric and magnetic fields to determine $\mathbf{E} \times \mathbf{B}$ drift, $V_{E\times B}$.
+	
+	\subsubsection{List of Functions}
+	
+	\begin{tabular}{|l|l|}
+	\hline
+	Function & Description \\
+	\hline
+	\texttt{VExB()} & Calculate drift velocity vector. \\
+	\texttt{SaveData()} & Save velocity data for a single date. \\
+	\texttt{ReadData()} & Read the velocity data for a single date. \\
+	\hline
+	\end{tabular}
+	
+	\subsubsection{Usage}
+	
+	Given arrays of electric field components \texttt{Ex}, \texttt{Ey}, and \texttt{Ez}, and magnetic field components \texttt{Bx}, \texttt{By}, and \texttt{Bz}, calculate the velocity vectors:
+	
+	\begin{minted}{python}
+	Vx,Vy,Vz = RBSP.VExB(Ex,Ey,Ez,Bx,By,Bz)
+	\end{minted}
+	
+	Save the field vectors for a single date:
+	
+	\begin{minted}{python}
+	RBSP.SaveData(20170101,'a')
+	\end{minted}
+	
+	Read those vectors back in from a file:
+	
+	\begin{minted}{python}
+	data = RBSP.ReadData(20170101,'a')
+	\end{minted}
+	
+	
 
 
 	\section{\texttt{cluster}: Download and read Cluster data}

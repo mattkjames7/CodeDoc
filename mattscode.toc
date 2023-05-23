@@ -53,26 +53,25 @@
 \contentsline {subsubsection}{Calling Field Models}{21}{section*.14}%
 \contentsline {subsubsection}{Field Tracing}{21}{section*.15}%
 \contentsline {section}{\numberline {3.7}\texttt {con2020}: Python implementation of Jupiter's magnetodisc model}{23}{section.3.7}%
-\contentsline {section}{\numberline {3.8}con2020}{23}{section.3.8}%
-\contentsline {subsection}{\numberline {3.8.1}Installation}{23}{subsection.3.8.1}%
-\contentsline {subsection}{\numberline {3.8.2}Usage}{23}{subsection.3.8.2}%
-\contentsline {section}{\numberline {3.9}\texttt {libcon2020}: C++ implementation of Jupiter's magnetodisc model}{25}{section.3.9}%
-\contentsline {subsection}{\numberline {3.9.1}Building libcon2020}{25}{subsection.3.9.1}%
-\contentsline {subsection}{\numberline {3.9.2}Usage}{26}{subsection.3.9.2}%
+\contentsline {subsection}{\numberline {3.7.1}Installation}{23}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}Usage}{23}{subsection.3.7.2}%
+\contentsline {section}{\numberline {3.8}\texttt {libcon2020}: C++ implementation of Jupiter's magnetodisc model}{25}{section.3.8}%
+\contentsline {subsection}{\numberline {3.8.1}Building libcon2020}{25}{subsection.3.8.1}%
+\contentsline {subsection}{\numberline {3.8.2}Usage}{26}{subsection.3.8.2}%
 \contentsline {subsubsection}{Linking to and Including libcon2020}{26}{section*.16}%
 \contentsline {subsubsection}{C++ usage}{26}{section*.17}%
 \contentsline {subsubsection}{Other Languages}{27}{section*.18}%
-\contentsline {subsection}{\numberline {3.9.3}Model Parameters}{28}{subsection.3.9.3}%
-\contentsline {section}{\numberline {3.10}\texttt {jrm33}: The JRM33 model in Python}{30}{section.3.10}%
-\contentsline {subsection}{\numberline {3.10.1}Installation}{30}{subsection.3.10.1}%
-\contentsline {subsection}{\numberline {3.10.2}Usage}{30}{subsection.3.10.2}%
-\contentsline {section}{\numberline {3.11}\texttt {jrm09}: The JRM09 model in Python}{31}{section.3.11}%
+\contentsline {subsection}{\numberline {3.8.3}Model Parameters}{28}{subsection.3.8.3}%
+\contentsline {section}{\numberline {3.9}\texttt {jrm33}: The JRM33 model in Python}{30}{section.3.9}%
+\contentsline {subsection}{\numberline {3.9.1}Installation}{30}{subsection.3.9.1}%
+\contentsline {subsection}{\numberline {3.9.2}Usage}{30}{subsection.3.9.2}%
+\contentsline {section}{\numberline {3.10}\texttt {jrm09}: The JRM09 model in Python}{31}{section.3.10}%
+\contentsline {section}{\numberline {3.11}Installation}{31}{section.3.11}%
 \contentsline {section}{\numberline {3.12}Installation}{31}{section.3.12}%
-\contentsline {section}{\numberline {3.13}Installation}{31}{section.3.13}%
-\contentsline {section}{\numberline {3.14}Usage}{31}{section.3.14}%
-\contentsline {section}{\numberline {3.15}\texttt {vip4model}: The VIP4 model in Python}{32}{section.3.15}%
-\contentsline {section}{\numberline {3.16}Installation}{32}{section.3.16}%
-\contentsline {section}{\numberline {3.17}Usage}{32}{section.3.17}%
+\contentsline {section}{\numberline {3.13}Usage}{31}{section.3.13}%
+\contentsline {section}{\numberline {3.14}\texttt {vip4model}: The VIP4 model in Python}{32}{section.3.14}%
+\contentsline {subsection}{\numberline {3.14.1}Installation}{32}{subsection.3.14.1}%
+\contentsline {subsection}{\numberline {3.14.2}Usage}{32}{subsection.3.14.2}%
 \contentsline {chapter}{\numberline {4}Spacecraft Data}{35}{chapter.4}%
 \contentsline {section}{\numberline {4.1}\texttt {Arase}: Download and read Arase data}{35}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Installation}{35}{subsection.4.1.1}%
@@ -87,143 +86,174 @@
 \contentsline {subsubsection}{Pitch Angle Distributions}{37}{section*.24}%
 \contentsline {subsection}{\numberline {4.1.5}Current Progress}{39}{subsection.4.1.5}%
 \contentsline {section}{\numberline {4.2}\texttt {RBSP}: Download and read Van Allen Probe data}{39}{section.4.2}%
-\contentsline {section}{\numberline {4.3}\texttt {cluster}: Download and read Cluster data}{40}{section.4.3}%
-\contentsline {section}{\numberline {4.4}\texttt {pyCRRES}: Download and read CRRES data}{40}{section.4.4}%
-\contentsline {section}{\numberline {4.5}\texttt {themissc}: Download and read THEMIS data}{40}{section.4.5}%
-\contentsline {section}{\numberline {4.6}\texttt {imageeuv}: Download and read IMAGE EUV data}{40}{section.4.6}%
-\contentsline {section}{\numberline {4.7}\texttt {imagerpi}: Download and read IMAGE RPI data}{40}{section.4.7}%
-\contentsline {section}{\numberline {4.8}\texttt {imagePP}: Download and read Goldstein's plasmapause dataset}{40}{section.4.8}%
-\contentsline {section}{\numberline {4.9}Installation}{40}{section.4.9}%
-\contentsline {section}{\numberline {4.10}Usage}{40}{section.4.10}%
-\contentsline {section}{\numberline {4.11}\texttt {PyMess}: Download and read MESSENGER data}{41}{section.4.11}%
-\contentsline {subsection}{\numberline {4.11.1}Installation}{41}{subsection.4.11.1}%
-\contentsline {subsection}{\numberline {4.11.2}Submodules}{41}{subsection.4.11.2}%
-\contentsline {subsubsection}{\texttt {FIPS} - Fast Imaging Plasma Spectrometer}{42}{section*.25}%
-\contentsline {subsubsection}{\texttt {MAG} - Magnetometer}{42}{section*.26}%
-\contentsline {subsubsection}{\texttt {NS} - Neutron Spectrometer}{43}{section*.27}%
-\contentsline {section}{\numberline {4.12}\texttt {FIPSProtonData}: Download and read ANN verified FIPS moments}{43}{section.4.12}%
-\contentsline {subsection}{\numberline {4.12.1}Requirements}{43}{subsection.4.12.1}%
-\contentsline {subsection}{\numberline {4.12.2}Installation}{43}{subsection.4.12.2}%
-\contentsline {subsubsection}{For Linux and possibly Mac:}{43}{section*.28}%
-\contentsline {subsubsection}{Windows:}{43}{section*.29}%
-\contentsline {subsection}{\numberline {4.12.3}Usage}{43}{subsection.4.12.3}%
-\contentsline {subsubsection}{First run}{43}{section*.30}%
-\contentsline {subsubsection}{Loading data}{44}{section*.31}%
-\contentsline {subsubsection}{Plotting data}{44}{section*.32}%
-\contentsline {section}{\numberline {4.13}\texttt {VenusExpress}: Download and read VEX data}{45}{section.4.13}%
-\contentsline {chapter}{\numberline {5}Ground Data and Geomagnetic Indices}{47}{chapter.5}%
-\contentsline {section}{\numberline {5.1}\texttt {groundmag}: Tools for processing and reading ground magnetometer data}{47}{section.5.1}%
-\contentsline {section}{\numberline {5.2}\texttt {SuperDARN}: Simple SuperDARN fitacf reading code}{47}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Installation}{47}{subsection.5.2.1}%
-\contentsline {subsubsection}{Usage}{47}{section*.33}%
-\contentsline {subsubsection}{Reading Data}{48}{section*.34}%
-\contentsline {subsubsection}{Plotting Data}{48}{section*.35}%
-\contentsline {subsubsection}{Fields of View}{49}{section*.36}%
-\contentsline {section}{\numberline {5.3}\texttt {kpindex}: Download the latext Kp indices}{49}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Installation}{49}{subsection.5.3.1}%
-\contentsline {subsubsection}{Method 1}{49}{section*.37}%
-\contentsline {subsubsection}{Method 2}{49}{section*.38}%
-\contentsline {subsubsection}{Method 3}{51}{section*.39}%
-\contentsline {subsubsection}{Method 4}{51}{section*.40}%
-\contentsline {subsection}{\numberline {5.3.2}Post-Install}{51}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.3.3}Usage}{51}{subsection.5.3.3}%
-\contentsline {section}{\numberline {5.4}\texttt {pyomnidata}: Download the latext OMNI and solar flux data}{51}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Installation}{52}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}Usage}{52}{subsection.5.4.2}%
-\contentsline {subsubsection}{Downloading Data}{52}{section*.41}%
-\contentsline {subsubsection}{Read Data}{52}{section*.42}%
-\contentsline {subsubsection}{Plot Data}{53}{section*.43}%
-\contentsline {section}{\numberline {5.5}\texttt {smindex}: Read the SuperMAG indices}{53}{section.5.5}%
-\contentsline {subsection}{\numberline {5.5.1}Installation}{54}{subsection.5.5.1}%
-\contentsline {subsection}{\numberline {5.5.2}Downloading Indices}{54}{subsection.5.5.2}%
-\contentsline {subsection}{\numberline {5.5.3}Read Indices}{54}{subsection.5.5.3}%
-\contentsline {subsection}{\numberline {5.5.4}Downloading Substorm Lists}{54}{subsection.5.5.4}%
-\contentsline {subsection}{\numberline {5.5.5}Reading Substorms}{54}{subsection.5.5.5}%
-\contentsline {chapter}{\numberline {6}Machine Learning}{55}{chapter.6}%
-\contentsline {section}{\numberline {6.1}\texttt {NNClass}: Simple neural network classifier module}{55}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}Installation}{55}{subsection.6.1.1}%
-\contentsline {subsection}{\numberline {6.1.2}Usage}{55}{subsection.6.1.2}%
-\contentsline {section}{\numberline {6.2}\texttt {NNFunction}: Train neural networks on arbitrary functions}{57}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Installation}{57}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Usage}{58}{subsection.6.2.2}%
-\contentsline {chapter}{\numberline {7}Other Tools}{59}{chapter.7}%
-\contentsline {section}{\numberline {7.1}\texttt {wavespec}: Spectral analysis tools}{59}{section.7.1}%
-\contentsline {subsection}{\numberline {7.1.1}Installation}{59}{subsection.7.1.1}%
-\contentsline {subsubsection}{Using \texttt {pip3}:}{59}{section*.44}%
-\contentsline {subsubsection}{Installing the wheel using \texttt {pip3}:}{59}{section*.45}%
-\contentsline {subsubsection}{From git:}{59}{section*.46}%
-\contentsline {subsection}{\numberline {7.1.2}Usage}{59}{subsection.7.1.2}%
-\contentsline {subsubsection}{Fast Fourier Transform (FFT)}{59}{section*.47}%
-\contentsline {subsubsection}{Lomb-Scargle (LS)}{59}{section*.48}%
-\contentsline {subsubsection}{Spectrograms}{59}{section*.49}%
-\contentsline {subsubsection}{3D Spectrograms}{59}{section*.50}%
-\contentsline {subsubsection}{Tests}{59}{section*.51}%
-\contentsline {section}{\numberline {7.2}\texttt {MHDWaveHarmonics}: Tools for MHD waves}{60}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}Installation}{60}{subsection.7.2.1}%
-\contentsline {subsection}{\numberline {7.2.2}Usage}{60}{subsection.7.2.2}%
-\contentsline {subsubsection}{1. \texttt {GetFieldLine}}{60}{section*.52}%
-\contentsline {subsubsection}{2. \texttt {SolveWave}}{60}{section*.53}%
-\contentsline {subsubsection}{3. \texttt {FindHarmonics}}{60}{section*.54}%
-\contentsline {subsubsection}{4. \texttt {CalcFieldLineVa}}{61}{section*.55}%
-\contentsline {subsubsection}{5. \texttt {PlotHarmonics}}{61}{section*.56}%
-\contentsline {subsubsection}{6. \texttt {FitPlasmaToHarmonic}}{61}{section*.57}%
-\contentsline {subsubsection}{7. \texttt {FitPlasma}}{61}{section*.58}%
-\contentsline {subsubsection}{8. \texttt {GetSandhuParams}}{61}{section*.59}%
-\contentsline {subsubsection}{9. \texttt {PlotFieldLineDensity}}{61}{section*.60}%
-\contentsline {section}{\numberline {7.3}\texttt {FieldTracing}: Python field tracing code}{61}{section.7.3}%
-\contentsline {subsection}{\numberline {7.3.1}Installation}{61}{subsection.7.3.1}%
-\contentsline {subsection}{\numberline {7.3.2}Usage}{62}{subsection.7.3.2}%
-\contentsline {section}{\numberline {7.4}\texttt {DateTimeTools}: Tools for dealing with dates and times}{63}{section.7.4}%
-\contentsline {subsection}{\numberline {7.4.1}Installation}{63}{subsection.7.4.1}%
-\contentsline {subsection}{\numberline {7.4.2}Usage}{63}{subsection.7.4.2}%
-\contentsline {subsubsection}{Converting between different date/time formats}{63}{section*.61}%
-\contentsline {subsubsection}{Formatted plot tick marks}{64}{section*.62}%
-\contentsline {subsubsection}{Calculating time differences}{65}{section*.63}%
-\contentsline {subsubsection}{Filtering time series data}{65}{section*.64}%
-\contentsline {subsubsection}{Miscellaneous functions}{65}{section*.65}%
-\contentsline {section}{\numberline {7.5}\texttt {datetime}: C++ library dealing for dates and times}{65}{section.7.5}%
-\contentsline {subsection}{\numberline {7.5.1}Installation}{66}{subsection.7.5.1}%
-\contentsline {subsection}{\numberline {7.5.2}Linking}{66}{subsection.7.5.2}%
-\contentsline {subsection}{\numberline {7.5.3}Testing}{66}{subsection.7.5.3}%
-\contentsline {subsection}{\numberline {7.5.4}Summary of Functions}{66}{subsection.7.5.4}%
-\contentsline {section}{\numberline {7.6}\texttt {PyFileIO}: Tools for reading and writing files}{67}{section.7.6}%
-\contentsline {subsection}{\numberline {7.6.1}Installation}{67}{subsection.7.6.1}%
-\contentsline {subsection}{\numberline {7.6.2}Usage}{67}{subsection.7.6.2}%
-\contentsline {subsubsection}{Loading/Saving Objects}{67}{section*.66}%
-\contentsline {subsubsection}{Loading/Saving ASCII Data}{67}{section*.67}%
-\contentsline {subsubsection}{Loading/Saving Binary Data}{68}{section*.68}%
-\contentsline {section}{\numberline {7.7}\texttt {RecarrayTools}: Tools for manipulating \texttt {numpy.recarrays}}{68}{section.7.7}%
-\contentsline {subsection}{\numberline {7.7.1}Installation}{68}{subsection.7.7.1}%
-\contentsline {subsection}{\numberline {7.7.2}Usage}{68}{subsection.7.7.2}%
-\contentsline {subsubsection}{\texttt {SaveRecarray()}}{68}{section*.69}%
-\contentsline {subsubsection}{\texttt {ReadRecarray()}}{69}{section*.70}%
-\contentsline {subsubsection}{\texttt {ReduceRecarray()}}{69}{section*.71}%
-\contentsline {subsubsection}{\texttt {JoinRecarray()}}{69}{section*.72}%
-\contentsline {subsubsection}{\texttt {AppendFields()}}{69}{section*.73}%
-\contentsline {subsubsection}{\texttt {InterpRecarrayFields()}}{70}{section*.74}%
-\contentsline {section}{\numberline {7.8}\texttt {PBSJobExamples}: Examples for submitting jobs to ALICE}{70}{section.7.8}%
-\contentsline {subsection}{\numberline {7.8.1}Templates}{70}{subsection.7.8.1}%
-\contentsline {subsubsection}{singlejob}{70}{section*.75}%
-\contentsline {subsubsection}{arrayjob}{70}{section*.76}%
-\contentsline {subsubsection}{paralleljob}{70}{section*.77}%
-\contentsline {subsection}{\numberline {7.8.2}Job Files}{70}{subsection.7.8.2}%
-\contentsline {subsubsection}{submitjob.sh}{70}{section*.78}%
-\contentsline {subsubsection}{myjob.sub}{71}{section*.79}%
-\contentsline {subsubsection}{startscript.sh}{71}{section*.80}%
-\contentsline {subsubsection}{runcode.py}{71}{section*.81}%
-\contentsline {section}{\numberline {7.9}\texttt {PlanetSpice}: SPICE related code}{71}{section.7.9}%
-\contentsline {subsection}{\numberline {7.9.1}Usage}{72}{subsection.7.9.1}%
-\contentsline {section}{\numberline {7.10}\texttt {ColorString}: Change colour of strings in the terminal}{72}{section.7.10}%
-\contentsline {section}{\numberline {7.11}\texttt {cppembedbinary}: Examples for embedding data into C++ code}{72}{section.7.11}%
-\contentsline {subsection}{\numberline {7.11.1}Building}{72}{subsection.7.11.1}%
-\contentsline {subsection}{\numberline {7.11.2}How it should work}{72}{subsection.7.11.2}%
-\contentsline {subsection}{\numberline {7.11.3}References}{73}{subsection.7.11.3}%
-\contentsline {section}{\numberline {7.12}\texttt {libspline}: C++ library for splines}{73}{section.7.12}%
-\contentsline {subsection}{\numberline {7.12.1}Install}{73}{subsection.7.12.1}%
-\contentsline {subsection}{\numberline {7.12.2}Usage}{73}{subsection.7.12.2}%
-\contentsline {subsubsection}{C++}{73}{section*.82}%
-\contentsline {subsubsection}{C}{74}{section*.83}%
-\contentsline {subsection}{\numberline {7.12.3}Usage}{75}{subsection.7.12.3}%
-\contentsline {subsubsection}{C++}{75}{section*.84}%
-\contentsline {subsubsection}{C}{76}{section*.85}%
-\contentsline {section}{\numberline {7.13}\texttt {linterp}: C++ interpolation code}{77}{section.7.13}%
+\contentsline {subsection}{\numberline {4.2.1}Installation}{40}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Submodules}{40}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}ECT - Energetic Particle, Composition, and Thermal Plasma Suite}{40}{subsection.4.2.3}%
+\contentsline {subsubsection}{List of Functions}{40}{section*.25}%
+\contentsline {subsubsection}{Downloading Data}{41}{section*.26}%
+\contentsline {subsubsection}{Reading Data}{41}{section*.27}%
+\contentsline {subsubsection}{HOPE Moments}{41}{section*.28}%
+\contentsline {subsubsection}{Plotting Functions}{41}{section*.29}%
+\contentsline {subsection}{\numberline {4.2.4}EFW - Electric Field and Waves}{42}{subsection.4.2.4}%
+\contentsline {subsubsection}{List of Functions}{42}{section*.30}%
+\contentsline {subsubsection}{Downloading Data}{42}{section*.31}%
+\contentsline {subsubsection}{Spacecraft Potentials}{43}{section*.32}%
+\contentsline {subsubsection}{Electron Density}{43}{section*.33}%
+\contentsline {subsection}{\numberline {4.2.5}EMFISIS - Electric and Magnetic Field Instrument Suite and Integrated Science}{43}{subsection.4.2.5}%
+\contentsline {subsubsection}{List of Functions}{43}{section*.34}%
+\contentsline {subsubsection}{Downloading Data}{43}{section*.35}%
+\contentsline {subsubsection}{Mag Data}{43}{section*.36}%
+\contentsline {subsubsection}{Electron Densities}{44}{section*.37}%
+\contentsline {subsection}{\numberline {4.2.6}Fields}{44}{subsection.4.2.6}%
+\contentsline {subsubsection}{List of Functions}{44}{section*.38}%
+\contentsline {subsubsection}{Usage}{44}{section*.39}%
+\contentsline {subsection}{\numberline {4.2.7}Pos}{44}{subsection.4.2.7}%
+\contentsline {subsubsection}{List of Functions}{44}{section*.40}%
+\contentsline {subsubsection}{Usage}{45}{section*.41}%
+\contentsline {subsection}{\numberline {4.2.8}RBSPICE - Radiation Belt Storm Probes Ion Composition Experiment}{45}{subsection.4.2.8}%
+\contentsline {subsubsection}{List of Functions}{45}{section*.42}%
+\contentsline {subsection}{\numberline {4.2.9}RPS - Relativistic Proton Spectrometer}{45}{subsection.4.2.9}%
+\contentsline {subsubsection}{List of Functions}{45}{section*.43}%
+\contentsline {subsection}{\numberline {4.2.10}VExB}{45}{subsection.4.2.10}%
+\contentsline {subsubsection}{List of Functions}{45}{section*.44}%
+\contentsline {subsubsection}{Usage}{45}{section*.45}%
+\contentsline {section}{\numberline {4.3}\texttt {cluster}: Download and read Cluster data}{46}{section.4.3}%
+\contentsline {section}{\numberline {4.4}\texttt {pyCRRES}: Download and read CRRES data}{46}{section.4.4}%
+\contentsline {section}{\numberline {4.5}\texttt {themissc}: Download and read THEMIS data}{46}{section.4.5}%
+\contentsline {section}{\numberline {4.6}\texttt {imageeuv}: Download and read IMAGE EUV data}{46}{section.4.6}%
+\contentsline {section}{\numberline {4.7}\texttt {imagerpi}: Download and read IMAGE RPI data}{46}{section.4.7}%
+\contentsline {section}{\numberline {4.8}\texttt {imagePP}: Download and read Goldstein's plasmapause dataset}{46}{section.4.8}%
+\contentsline {section}{\numberline {4.9}Installation}{46}{section.4.9}%
+\contentsline {section}{\numberline {4.10}Usage}{46}{section.4.10}%
+\contentsline {section}{\numberline {4.11}\texttt {PyMess}: Download and read MESSENGER data}{47}{section.4.11}%
+\contentsline {subsection}{\numberline {4.11.1}Installation}{47}{subsection.4.11.1}%
+\contentsline {subsection}{\numberline {4.11.2}Submodules}{47}{subsection.4.11.2}%
+\contentsline {subsubsection}{\texttt {FIPS} - Fast Imaging Plasma Spectrometer}{48}{section*.46}%
+\contentsline {subsubsection}{\texttt {MAG} - Magnetometer}{48}{section*.47}%
+\contentsline {subsubsection}{\texttt {NS} - Neutron Spectrometer}{49}{section*.48}%
+\contentsline {section}{\numberline {4.12}\texttt {FIPSProtonData}: Download and read ANN verified FIPS moments}{49}{section.4.12}%
+\contentsline {subsection}{\numberline {4.12.1}Requirements}{49}{subsection.4.12.1}%
+\contentsline {subsection}{\numberline {4.12.2}Installation}{49}{subsection.4.12.2}%
+\contentsline {subsubsection}{For Linux and possibly Mac:}{49}{section*.49}%
+\contentsline {subsubsection}{Windows:}{49}{section*.50}%
+\contentsline {subsection}{\numberline {4.12.3}Usage}{49}{subsection.4.12.3}%
+\contentsline {subsubsection}{First run}{49}{section*.51}%
+\contentsline {subsubsection}{Loading data}{50}{section*.52}%
+\contentsline {subsubsection}{Plotting data}{50}{section*.53}%
+\contentsline {section}{\numberline {4.13}\texttt {VenusExpress}: Download and read VEX data}{51}{section.4.13}%
+\contentsline {chapter}{\numberline {5}Ground Data and Geomagnetic Indices}{53}{chapter.5}%
+\contentsline {section}{\numberline {5.1}\texttt {groundmag}: Tools for processing and reading ground magnetometer data}{53}{section.5.1}%
+\contentsline {section}{\numberline {5.2}\texttt {SuperDARN}: Simple SuperDARN fitacf reading code}{53}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Installation}{53}{subsection.5.2.1}%
+\contentsline {subsubsection}{Usage}{53}{section*.54}%
+\contentsline {subsubsection}{Reading Data}{54}{section*.55}%
+\contentsline {subsubsection}{Plotting Data}{54}{section*.56}%
+\contentsline {subsubsection}{Fields of View}{55}{section*.57}%
+\contentsline {section}{\numberline {5.3}\texttt {kpindex}: Download the latext Kp indices}{55}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Installation}{55}{subsection.5.3.1}%
+\contentsline {subsubsection}{Method 1}{55}{section*.58}%
+\contentsline {subsubsection}{Method 2}{55}{section*.59}%
+\contentsline {subsubsection}{Method 3}{57}{section*.60}%
+\contentsline {subsubsection}{Method 4}{57}{section*.61}%
+\contentsline {subsection}{\numberline {5.3.2}Post-Install}{57}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Usage}{57}{subsection.5.3.3}%
+\contentsline {section}{\numberline {5.4}\texttt {pyomnidata}: Download the latext OMNI and solar flux data}{57}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Installation}{58}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Usage}{58}{subsection.5.4.2}%
+\contentsline {subsubsection}{Downloading Data}{58}{section*.62}%
+\contentsline {subsubsection}{Read Data}{58}{section*.63}%
+\contentsline {subsubsection}{Plot Data}{59}{section*.64}%
+\contentsline {section}{\numberline {5.5}\texttt {smindex}: Read the SuperMAG indices}{59}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Installation}{60}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Downloading Indices}{60}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.5.3}Read Indices}{60}{subsection.5.5.3}%
+\contentsline {subsection}{\numberline {5.5.4}Downloading Substorm Lists}{60}{subsection.5.5.4}%
+\contentsline {subsection}{\numberline {5.5.5}Reading Substorms}{60}{subsection.5.5.5}%
+\contentsline {chapter}{\numberline {6}Machine Learning}{61}{chapter.6}%
+\contentsline {section}{\numberline {6.1}\texttt {NNClass}: Simple neural network classifier module}{61}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Installation}{61}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Usage}{61}{subsection.6.1.2}%
+\contentsline {section}{\numberline {6.2}\texttt {NNFunction}: Train neural networks on arbitrary functions}{63}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Installation}{63}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Usage}{64}{subsection.6.2.2}%
+\contentsline {chapter}{\numberline {7}Other Tools}{65}{chapter.7}%
+\contentsline {section}{\numberline {7.1}\texttt {wavespec}: Spectral analysis tools}{65}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Installation}{65}{subsection.7.1.1}%
+\contentsline {subsubsection}{Using \texttt {pip3}:}{65}{section*.65}%
+\contentsline {subsubsection}{Installing the wheel using \texttt {pip3}:}{65}{section*.66}%
+\contentsline {subsubsection}{From git:}{65}{section*.67}%
+\contentsline {subsection}{\numberline {7.1.2}Usage}{65}{subsection.7.1.2}%
+\contentsline {subsubsection}{Fast Fourier Transform (FFT)}{65}{section*.68}%
+\contentsline {subsubsection}{Lomb-Scargle (LS)}{65}{section*.69}%
+\contentsline {subsubsection}{Spectrograms}{65}{section*.70}%
+\contentsline {subsubsection}{3D Spectrograms}{65}{section*.71}%
+\contentsline {subsubsection}{Tests}{65}{section*.72}%
+\contentsline {section}{\numberline {7.2}\texttt {MHDWaveHarmonics}: Tools for MHD waves}{66}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Installation}{66}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}Usage}{66}{subsection.7.2.2}%
+\contentsline {subsubsection}{1. \texttt {GetFieldLine}}{66}{section*.73}%
+\contentsline {subsubsection}{2. \texttt {SolveWave}}{66}{section*.74}%
+\contentsline {subsubsection}{3. \texttt {FindHarmonics}}{66}{section*.75}%
+\contentsline {subsubsection}{4. \texttt {CalcFieldLineVa}}{67}{section*.76}%
+\contentsline {subsubsection}{5. \texttt {PlotHarmonics}}{67}{section*.77}%
+\contentsline {subsubsection}{6. \texttt {FitPlasmaToHarmonic}}{67}{section*.78}%
+\contentsline {subsubsection}{7. \texttt {FitPlasma}}{67}{section*.79}%
+\contentsline {subsubsection}{8. \texttt {GetSandhuParams}}{67}{section*.80}%
+\contentsline {subsubsection}{9. \texttt {PlotFieldLineDensity}}{67}{section*.81}%
+\contentsline {section}{\numberline {7.3}\texttt {FieldTracing}: Python field tracing code}{67}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Installation}{67}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}Usage}{68}{subsection.7.3.2}%
+\contentsline {section}{\numberline {7.4}\texttt {DateTimeTools}: Tools for dealing with dates and times}{69}{section.7.4}%
+\contentsline {subsection}{\numberline {7.4.1}Installation}{69}{subsection.7.4.1}%
+\contentsline {subsection}{\numberline {7.4.2}Usage}{69}{subsection.7.4.2}%
+\contentsline {subsubsection}{Converting between different date/time formats}{69}{section*.82}%
+\contentsline {subsubsection}{Formatted plot tick marks}{70}{section*.83}%
+\contentsline {subsubsection}{Calculating time differences}{71}{section*.84}%
+\contentsline {subsubsection}{Filtering time series data}{71}{section*.85}%
+\contentsline {subsubsection}{Miscellaneous functions}{71}{section*.86}%
+\contentsline {section}{\numberline {7.5}\texttt {datetime}: C++ library dealing for dates and times}{71}{section.7.5}%
+\contentsline {subsection}{\numberline {7.5.1}Installation}{72}{subsection.7.5.1}%
+\contentsline {subsection}{\numberline {7.5.2}Linking}{72}{subsection.7.5.2}%
+\contentsline {subsection}{\numberline {7.5.3}Testing}{72}{subsection.7.5.3}%
+\contentsline {subsection}{\numberline {7.5.4}Summary of Functions}{72}{subsection.7.5.4}%
+\contentsline {section}{\numberline {7.6}\texttt {PyFileIO}: Tools for reading and writing files}{73}{section.7.6}%
+\contentsline {subsection}{\numberline {7.6.1}Installation}{73}{subsection.7.6.1}%
+\contentsline {subsection}{\numberline {7.6.2}Usage}{73}{subsection.7.6.2}%
+\contentsline {subsubsection}{Loading/Saving Objects}{73}{section*.87}%
+\contentsline {subsubsection}{Loading/Saving ASCII Data}{73}{section*.88}%
+\contentsline {subsubsection}{Loading/Saving Binary Data}{74}{section*.89}%
+\contentsline {section}{\numberline {7.7}\texttt {RecarrayTools}: Tools for manipulating \texttt {numpy.recarrays}}{74}{section.7.7}%
+\contentsline {subsection}{\numberline {7.7.1}Installation}{74}{subsection.7.7.1}%
+\contentsline {subsection}{\numberline {7.7.2}Usage}{74}{subsection.7.7.2}%
+\contentsline {subsubsection}{\texttt {SaveRecarray()}}{74}{section*.90}%
+\contentsline {subsubsection}{\texttt {ReadRecarray()}}{75}{section*.91}%
+\contentsline {subsubsection}{\texttt {ReduceRecarray()}}{75}{section*.92}%
+\contentsline {subsubsection}{\texttt {JoinRecarray()}}{75}{section*.93}%
+\contentsline {subsubsection}{\texttt {AppendFields()}}{75}{section*.94}%
+\contentsline {subsubsection}{\texttt {InterpRecarrayFields()}}{76}{section*.95}%
+\contentsline {section}{\numberline {7.8}\texttt {PBSJobExamples}: Examples for submitting jobs to ALICE}{76}{section.7.8}%
+\contentsline {subsection}{\numberline {7.8.1}Templates}{76}{subsection.7.8.1}%
+\contentsline {subsubsection}{singlejob}{76}{section*.96}%
+\contentsline {subsubsection}{arrayjob}{76}{section*.97}%
+\contentsline {subsubsection}{paralleljob}{76}{section*.98}%
+\contentsline {subsection}{\numberline {7.8.2}Job Files}{76}{subsection.7.8.2}%
+\contentsline {subsubsection}{submitjob.sh}{76}{section*.99}%
+\contentsline {subsubsection}{myjob.sub}{77}{section*.100}%
+\contentsline {subsubsection}{startscript.sh}{77}{section*.101}%
+\contentsline {subsubsection}{runcode.py}{77}{section*.102}%
+\contentsline {section}{\numberline {7.9}\texttt {PlanetSpice}: SPICE related code}{77}{section.7.9}%
+\contentsline {subsection}{\numberline {7.9.1}Usage}{78}{subsection.7.9.1}%
+\contentsline {section}{\numberline {7.10}\texttt {ColorString}: Change colour of strings in the terminal}{78}{section.7.10}%
+\contentsline {section}{\numberline {7.11}\texttt {cppembedbinary}: Examples for embedding data into C++ code}{78}{section.7.11}%
+\contentsline {subsection}{\numberline {7.11.1}Building}{78}{subsection.7.11.1}%
+\contentsline {subsection}{\numberline {7.11.2}How it should work}{78}{subsection.7.11.2}%
+\contentsline {subsection}{\numberline {7.11.3}References}{79}{subsection.7.11.3}%
+\contentsline {section}{\numberline {7.12}\texttt {libspline}: C++ library for splines}{79}{section.7.12}%
+\contentsline {subsection}{\numberline {7.12.1}Install}{79}{subsection.7.12.1}%
+\contentsline {subsection}{\numberline {7.12.2}Usage}{79}{subsection.7.12.2}%
+\contentsline {subsubsection}{C++}{79}{section*.103}%
+\contentsline {subsubsection}{C}{80}{section*.104}%
+\contentsline {subsection}{\numberline {7.12.3}Usage}{81}{subsection.7.12.3}%
+\contentsline {subsubsection}{C++}{81}{section*.105}%
+\contentsline {subsubsection}{C}{82}{section*.106}%
+\contentsline {section}{\numberline {7.13}\texttt {linterp}: C++ interpolation code}{83}{section.7.13}%

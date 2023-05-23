@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{c+c1}{\PYGZsh{} The PlotMoments() function returns a list of axes}
+	\PYG{n}{axs} \PYG{o}{=} \PYG{n}{RBSP}\PYG{o}{.}\PYG{n}{ECT}\PYG{o}{.}\PYG{n}{PlotMoments}\PYG{p}{(}\PYG{l+m+mi}{20140101}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}a\PYGZsq{}}\PYG{p}{,}\PYG{n}{ut}\PYG{o}{=}\PYG{p}{[}\PYG{l+m+mf}{12.0}\PYG{p}{,}\PYG{l+m+mf}{24.0}\PYG{p}{])}
+\end{Verbatim}

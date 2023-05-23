@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{n}{data} \PYG{o}{=} \PYG{n}{RBSP}\PYG{o}{.}\PYG{n}{Fields}\PYG{o}{.}\PYG{n}{ReadData}\PYG{p}{(}\PYG{l+m+mi}{20140503}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}b\PYGZsq{}}\PYG{p}{)}
+\end{Verbatim}

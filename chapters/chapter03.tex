@@ -665,7 +665,6 @@ int main () {
 
 	\section{\texttt{con2020}: Python implementation of Jupiter's magnetodisc model}
 
-	\section{con2020}
 
 	\href{https://zenodo.org/badge/doi/10.5281/zenodo.6959770.svg}{\includegraphics{https://zenodo.org/badge/doi/10.5281/zenodo.6959770.svg}} \\
 	Python implementation of the Connerney et al., 1981 and Connerney et al., 2020 Jovian magnetodisc model. This model provides the magnetic field due to a "washer-shaped" current near to Jupiter's magnetic equator. This model code uses either analytical equations from Edwards et al., 2001 or the numerical integration of the Connerney et al., 1981 equations to provide the magnetodisc field, depending upon proximity to the disc along $z$ and the inner edge of the disc, $r_0$.
@@ -1129,7 +1128,7 @@ jrm09.Test(R=0.85)
 
 	\section{\texttt{vip4model}: The VIP4 model in Python}
 	
-	\section{Installation}
+	\subsection{Installation}
 
 Install using \texttt{pip}:
 
@@ -1151,7 +1150,7 @@ pip3 install dist/vip4model-X.X.X-py3-none-any.whl --user
 python3 setup.py install --user
 \end{minted}
 
-\section{Usage}
+\subsection{Usage}
 
 The model accepts right-handed System III coordinates either in Cartesian form (\texttt{vip4model.ModelCart()}) or in spherical polar form (\texttt{vip4model.Model()}), e.g.:
 

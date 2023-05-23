@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{n}{mom} \PYG{o}{=} \PYG{n}{RBSP}\PYG{o}{.}\PYG{n}{ECT}\PYG{o}{.}\PYG{n}{ReadIonMoments}\PYG{p}{(}\PYG{n}{Date}\PYG{p}{,}\PYG{n}{sc}\PYG{p}{)}
+\end{Verbatim}

@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{c+c1}{\PYGZsh{}moment data from HOPE}
+	\PYG{n}{mom} \PYG{o}{=} \PYG{n}{RBSP}\PYG{o}{.}\PYG{n}{ECT}\PYG{o}{.}\PYG{n}{ReadHOPEMoments}\PYG{p}{(}\PYG{n}{Date}\PYG{p}{,}\PYG{n}{sc}\PYG{p}{)}
+	
+	\PYG{c+c1}{\PYGZsh{}spin averaged data}
+	\PYG{n}{sa} \PYG{o}{=} \PYG{n}{RBSP}\PYG{o}{.}\PYG{n}{ECT}\PYG{o}{.}\PYG{n}{ReadHOPESA}\PYG{p}{(}\PYG{n}{Date}\PYG{p}{,}\PYG{n}{sc}\PYG{p}{)}
+	
+	\PYG{c+c1}{\PYGZsh{}Omnidirectional data}
+	\PYG{n}{omni} \PYG{o}{=} \PYG{n}{RBSP}\PYG{o}{.}\PYG{n}{ECT}\PYG{o}{.}\PYG{n}{ReadHOPEOmni}\PYG{p}{(}\PYG{n}{Date}\PYG{p}{,}\PYG{n}{sc}\PYG{p}{)}
+\end{Verbatim}
