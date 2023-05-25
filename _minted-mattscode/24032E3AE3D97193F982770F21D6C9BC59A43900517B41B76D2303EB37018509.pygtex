@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+			\PYG{n}{T} \PYG{o}{=} \PYG{n}{KT17}\PYG{o}{.}\PYG{n}{TraceField}\PYG{p}{(}\PYG{n}{x0}\PYG{p}{,}\PYG{n}{y0}\PYG{p}{,}\PYG{n}{z0}\PYG{p}{,}\PYG{o}{**}\PYG{n}{kwargs}\PYG{p}{)}
+\end{Verbatim}

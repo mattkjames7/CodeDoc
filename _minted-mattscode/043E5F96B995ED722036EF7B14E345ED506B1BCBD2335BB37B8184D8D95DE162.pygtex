@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+			git clone https://github.com/mattkjames7/KT17.git
+			\PYG{n+nb}{cd} KT17
+			python3 setup.py bdist\PYGZus{}wheel
+			pip3 install dist/KT17\PYGZhy{}1.0.0\PYGZhy{}py3\PYGZhy{}none\PYGZhy{}any.whl
+\end{Verbatim}

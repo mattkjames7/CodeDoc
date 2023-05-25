@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+			\PYG{c+c1}{\PYGZsh{}save the Trace object}
+			\PYG{n}{T}\PYG{o}{.}\PYG{n}{Save}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Trace.bin\PYGZsq{}}\PYG{p}{)}
+			
+			\PYG{c+c1}{\PYGZsh{}load the file}
+			\PYG{n}{T} \PYG{o}{=} \PYG{n}{KT17}\PYG{o}{.}\PYG{n}{TraceField}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Trace.bin\PYGZsq{}}\PYG{p}{)}
+\end{Verbatim}

@@ -113,6 +113,138 @@ sudo make install
 			C++ is able to use all of the functions declared in \texttt{geopack.h}, including the wrapper functions used by C. This means that direct usage of the \texttt{Trace} class is possible, an example of this is shown in \texttt{geopack\tests\test.cc}.
 			
 
+			\section{KT17}
+
+			KT17/KT14 magnetic field model for Mercury written in C++ with a Python wrapper. See Korth et al., 2015 (JGR) and Korth et al., 2017 (GRL) for more details on the models themselves.
+			
+			\subsection{Installation}
+			
+			Best to install using \texttt{pip3}:
+			
+			\begin{minted}{python}
+			pip3 install KT17 --user
+			\end{minted}
+			
+			The installation will require the following packages:
+			
+			\begin{itemize}
+			\item numpy
+			\item scipy
+			\item matplotlib
+			\end{itemize}
+			
+			Alternatively, clone this repo and build a wheel:
+			
+			\begin{minted}{bash}
+			git clone https://github.com/mattkjames7/KT17.git
+			cd KT17
+			python3 setup.py bdist_wheel
+			pip3 install dist/KT17-1.0.0-py3-none-any.whl
+			\end{minted}
+			
+			NOTE: This module includes C++ code which does all of the model calculating and tracing. The package includes \texttt{libkt.so} for Linux and \texttt{libkt.dll} for Windows 10 - if either of these files can't be loaded, the code will attempt to recompile. If the compilation fails, then make sure that you have \texttt{g++} (version >= 5) and \texttt{make} installed on your system. For Windows users, install TDM-GCC.
+			
+			\subsection{Usage}
+			
+			\subsubsection{Model parameters}
+			
+			Both \texttt{KT17.ModelField()} and \texttt{KT17.TraceField()} functions accept five different keyword arguments (\texttt{\*\*kwargs}) which affect the model:
+			
+			\begin{table}[H]
+			\centering
+			\begin{tabular}{|l|l|l|}
+			\hline
+			Parameter & Model & Description \\
+			\hline
+			\texttt{Rsm} & KT14 & Magnetopause standoff distance (\texttt{$R_M$}). \\
+			\texttt{t1} & KT14 & Disk current field magnitude. \\
+			\texttt{t2} & KT14 & Quasi-Harris sheet field magnitude. \\
+			\texttt{Rsun} & KT17 & Distance of Mercury from the Sun (AU). \\
+			\texttt{DistIndex} & KT17 & Anderson et al., 2013 disturbance index, in the range 0-97. 
+			\hline
+			\end{tabular}
+			\end{table}
+			
+			If the KT17 parameters are provided, they are used to calculate the appropriate KT14 set of parameters as defined in Korth et al., 2017.
+			
+			\subsubsection{Obtaining model field vectors}
+			
+			To get model field vectors for some position(s) in the magnetosphere:
+			
+			\begin{minted}{python}
+			import KT17
+			
+			#default model
+			Bx,By,Bz = KT17.ModelField(x,y,z)
+			
+			#Custom KT14 model
+			Bx,By,Bz = KT17.ModelField(x,y,z,Rsm=1.3,t1=7.0,t2=2.5)
+			
+			#Custom KT17 model
+			Bx,By,Bz = KT17.ModelField(x,y,z,Rsun=0.4,DistIndex=25.0)
+			\end{minted}
+			
+			where \texttt{x}, \texttt{y}, and \texttt{z} are either scalars or arrays of position(s) in the MSM coordinate system. The returned \texttt{Bx}, \texttt{By}, and \texttt{Bz} contain the magnetic field vector(s) at each position in nT. For positions which are outside of the magnetopause, the magnetic field components are returned as \texttt{NAN}.
+			
+			\subsubsection{Tracing the magnetic field}
+			
+			To trace the magnetic field, use the \texttt{TraceField} object:
+			
+			\begin{minted}{python}
+			T = KT17.TraceField(x0,y0,z0,**kwargs)
+			\end{minted}
+			
+			where \texttt{x0}, \texttt{y0}, and \texttt{z0} are the starting position(s) of the traces in MSM coordinates. The parameters of the trace can be provided using \texttt{**kwargs} - see the \texttt{KT17.TraceField} docstring for more information using \texttt{help(KT17.TraceField)} or \texttt{KT17.TraceField\?} in ipython.
+			
+			\texttt{TraceField} can be saved to a file and reloaded, e.g.:
+			
+			\begin{minted}{python}
+			#save the Trace object
+			T.Save('Trace.bin')
+			
+			#load the file
+			T = KT17.TraceField('Trace.bin')
+			\end{minted}
+			
+			\subsubsection{Other routines}
+			
+			For a quick plot of the magnetic field in the X-Z plane run:
+			
+			\begin{minted}{python}
+			KT17.TestTrace()
+			\end{minted}
+			
+			To find out if a position in MSM coordinates is actually within the magnetopause or not, run the following:
+			
+			\begin{minted}{python}
+			KT17.WithinMP(x,y,z,Rsm=1.42)
+			\end{minted}
+			
+			To get the latitude and local times of the northern and southern open-closed field line boundaries, run:
+			
+			\begin{minted}{python}
+			ocb = KT17.ReadOCB()
+			\end{minted}
+			
+			where \texttt{ocb} is a \texttt{numpy.recarray} object which contains the following fields:
+			
+			\begin{table}[H]
+			\centering
+			\begin{tabular}{|l|}
+			\hline
+			Fields \\
+			\hline
+			\texttt{Mlt} \\
+			\texttt{LctN} \\
+			\texttt{LctS} \\
+			\texttt{Mlat} \\
+			\texttt{LatN} \\
+			\texttt{LatS} \\
+			\hline
+			\end{tabular}
+			\end{table}
+
+
 	\section{\texttt{libinternalfield}: C++ spherical harmonic model code}
 
 		This library provides field vectors for spherical harmonic magnetic field models. It has a bunch of built in models from magnetized planets and a moon (Ganymede). This library is used by libjupitermag.

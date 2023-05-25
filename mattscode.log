@@ -1,57 +1,57 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.7.13)  23 MAY 2023 17:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.4.18)  25 MAY 2023 15:34
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
 **mattscode.tex
 (./mattscode.tex
-LaTeX2e <2020-02-02> patch level 2
-L3 programming layer <2020-02-14>
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21>
 (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
-Document Class: book 2019/12/20 v1.4l Standard LaTeX document class
+Document Class: book 2021/10/04 v1.4n Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/bk10.clo
-File: bk10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+File: bk10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count167
-\c@chapter=\count168
-\c@section=\count169
-\c@subsection=\count170
-\c@subsubsection=\count171
-\c@paragraph=\count172
-\c@subparagraph=\count173
-\c@figure=\count174
-\c@table=\count175
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
-\bibindent=\dimen134
+\bibindent=\dimen138
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks14
-\inpenc@posthook=\toks15
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks16
+\KV@toks@=\toks18
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 105.
+Package graphics Info: Driver file: pdftex.def on input line 107.
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen135
-\Gin@req@width=\dimen136
+\Gin@req@height=\dimen139
+\Gin@req@width=\dimen140
 )
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -60,29 +60,29 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2019/11/07 v1.0c TeX engine tests
+Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
-\Gm@cnth=\count176
-\Gm@cntv=\count177
-\c@Gm@tempcnt=\count178
-\Gm@bindingoffset=\dimen137
-\Gm@wd@mp=\dimen138
-\Gm@odd@mp=\dimen139
-\Gm@even@mp=\dimen140
-\Gm@layoutwidth=\dimen141
-\Gm@layoutheight=\dimen142
-\Gm@layouthoffset=\dimen143
-\Gm@layoutvoffset=\dimen144
-\Gm@dimlist=\toks17
+\Gm@cnth=\count194
+\Gm@cntv=\count195
+\c@Gm@tempcnt=\count196
+\Gm@bindingoffset=\dimen141
+\Gm@wd@mp=\dimen142
+\Gm@odd@mp=\dimen143
+\Gm@even@mp=\dimen144
+\Gm@layoutwidth=\dimen145
+\Gm@layoutheight=\dimen146
+\Gm@layouthoffset=\dimen147
+\Gm@layoutvoffset=\dimen148
+\Gm@dimlist=\toks19
 )
 (/usr/share/texlive/texmf-dist/tex/latex/minted/minted.sty
-Package: minted 2017/07/19 v2.5 Yet another Pygments shim for LaTeX
+Package: minted 2021/12/24 v2.6 Yet another Pygments shim for LaTeX
 
 (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 
 (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
 (/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
@@ -91,19 +91,19 @@ Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 Package: fvextra 2019/02/04 v1.4 fvextra - extensions and patches for fancyvrb
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count179
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count197
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
-Package: fancyvrb 2020/01/13 v3.5 verbatim text (tvz,hv)
-\FV@CodeLineNo=\count180
+Package: fancyvrb 2021/12/21 4.1b verbatim text (tvz,hv)
+\FV@CodeLineNo=\count198
 \FV@InFile=\read2
-\FV@TabBox=\box45
-\c@FancyVerbLine=\count181
-\FV@StepNumber=\count182
+\FV@TabBox=\box50
+\c@FancyVerbLine=\count199
+\FV@StepNumber=\count266
 \FV@OutFile=\write3
 )
 (/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
@@ -112,56 +112,56 @@ tim
 )
 (/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-\linenopenalty=\count183
-\output=\toks18
-\linenoprevgraf=\count184
-\linenumbersep=\dimen145
-\linenumberwidth=\dimen146
-\c@linenumber=\count185
-\c@pagewiselinenumber=\count186
-\c@LN@truepage=\count187
-\c@internallinenumber=\count188
-\c@internallinenumbers=\count189
-\quotelinenumbersep=\dimen147
-\bframerule=\dimen148
-\bframesep=\dimen149
-\bframebox=\box46
+\linenopenalty=\count267
+\output=\toks20
+\linenoprevgraf=\count268
+\linenumbersep=\dimen149
+\linenumberwidth=\dimen150
+\c@linenumber=\count269
+\c@pagewiselinenumber=\count270
+\c@LN@truepage=\count271
+\c@internallinenumber=\count272
+\c@internallinenumbers=\count273
+\quotelinenumbersep=\dimen151
+\bframerule=\dimen152
+\bframesep=\dimen153
+\bframebox=\box51
 LaTeX Info: Redefining \\ on input line 3056.
 )
-\c@FV@TrueTabGroupLevel=\count190
-\c@FV@TrueTabCounter=\count191
-\FV@TabBox@Group=\box47
+\c@FV@TrueTabGroupLevel=\count274
+\c@FV@TrueTabCounter=\count275
+\FV@TabBox@Group=\box52
 \FV@TmpLength=\skip49
-\c@FV@HighlightLinesStart=\count192
-\c@FV@HighlightLinesStop=\count193
-\FV@LoopCount=\count194
-\FV@NCharsBox=\box48
-\FV@BreakIndent=\dimen150
-\FV@BreakIndentNChars=\count195
-\FV@BreakSymbolSepLeft=\dimen151
-\FV@BreakSymbolSepLeftNChars=\count196
-\FV@BreakSymbolSepRight=\dimen152
-\FV@BreakSymbolSepRightNChars=\count197
-\FV@BreakSymbolIndentLeft=\dimen153
-\FV@BreakSymbolIndentLeftNChars=\count198
-\FV@BreakSymbolIndentRight=\dimen154
-\FV@BreakSymbolIndentRightNChars=\count199
-\c@FancyVerbLineBreakLast=\count266
-\FV@LineBox=\box49
-\FV@LineIndentBox=\box50
-\FV@LineWidth=\dimen155
+\c@FV@HighlightLinesStart=\count276
+\c@FV@HighlightLinesStop=\count277
+\FV@LoopCount=\count278
+\FV@NCharsBox=\box53
+\FV@BreakIndent=\dimen154
+\FV@BreakIndentNChars=\count279
+\FV@BreakSymbolSepLeft=\dimen155
+\FV@BreakSymbolSepLeftNChars=\count280
+\FV@BreakSymbolSepRight=\dimen156
+\FV@BreakSymbolSepRightNChars=\count281
+\FV@BreakSymbolIndentLeft=\dimen157
+\FV@BreakSymbolIndentLeftNChars=\count282
+\FV@BreakSymbolIndentRight=\dimen158
+\FV@BreakSymbolIndentRightNChars=\count283
+\c@FancyVerbLineBreakLast=\count284
+\FV@LineBox=\box54
+\FV@LineIndentBox=\box55
+\FV@LineWidth=\dimen159
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count267
-\calc@Bcount=\count268
-\calc@Adimen=\dimen156
-\calc@Bdimen=\dimen157
+\calc@Acount=\count285
+\calc@Bcount=\count286
+\calc@Adimen=\dimen160
+\calc@Bdimen=\dimen161
 \calc@Askip=\skip50
 \calc@Bskip=\skip51
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count269
+\calc@Ccount=\count287
 \calc@Cskip=\skip52
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty
@@ -171,8 +171,8 @@ Package shellesc Info: Unrestricted shell escape enabled on input line 75.
 (/usr/share/texlive/texmf-dist/tex/latex/ifplatform/ifplatform.sty
 Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
 (/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
@@ -198,57 +198,57 @@ runsystem(rm -- "mattscode.w18")...executed.
 
 ) (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
 (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
-\integerpart=\count270
-\decimalpart=\count271
+\integerpart=\count288
+\decimalpart=\count289
 )
-Package: xstring 2019/02/06 v1.83 String manipulations (CT)
+Package: xstring 2021/07/21 v1.84 String manipulations (CT)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip53
-\fb@frw=\dimen158
-\fb@frh=\dimen159
-\FrameRule=\dimen160
-\FrameSep=\dimen161
+\fb@frw=\dimen162
+\fb@frh=\dimen163
+\FrameRule=\dimen164
+\FrameSep=\dimen165
 )
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count272
-\float@exts=\toks19
-\float@box=\box51
-\@float@everytoks=\toks20
-\@floatcapt=\box52
+\c@float@type=\count290
+\float@exts=\toks21
+\float@box=\box56
+\@float@everytoks=\toks22
+\@floatcapt=\box57
 )
 \minted@appexistsfile=\read3
-\minted@bgbox=\box53
+\minted@bgbox=\box58
 \minted@code=\write4
-\c@minted@FancyVerbLineTemp=\count273
-\c@minted@pygmentizecounter=\count274
-\@float@every@listing=\toks21
-\c@listing=\count275
+\c@minted@FancyVerbLineTemp=\count291
+\c@minted@pygmentizecounter=\count292
+\@float@every@listing=\toks23
+\c@listing=\count293
 )
 runsystem(mkdir -p _minted-mattscode)...executed.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: pdftex.def on input line 225.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
-Package xcolor Info: Model `RGB' extended on input line 1364.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
 
 (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
@@ -265,35 +265,44 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen162
-\Hy@linkcounter=\count276
-\Hy@pagecounter=\count277
+\@linkdim=\dimen166
+\Hy@linkcounter=\count294
+\Hy@pagecounter=\count295
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
+File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel la
+nguages
 )
 (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count278
-\pdfmajorversion=\count279
-Package hyperref Info: Hyper figures OFF on input line 4547.
-Package hyperref Info: Link nesting OFF on input line 4552.
-Package hyperref Info: Hyper index ON on input line 4555.
-Package hyperref Info: Plain pages OFF on input line 4562.
-Package hyperref Info: Backreferencing OFF on input line 4567.
+\Hy@SavedSpaceFactor=\count296
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4800.
-\c@Hy@tempcnt=\count280
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count297
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5159.
-\XeTeXLinkMargin=\dimen163
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen167
 
 (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -302,36 +311,39 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count281
-\Field@Width=\dimen164
-\Fld@charsize=\dimen165
-Package hyperref Info: Hyper figures OFF on input line 6430.
-Package hyperref Info: Link nesting OFF on input line 6435.
-Package hyperref Info: Hyper index ON on input line 6438.
-Package hyperref Info: backreferencing OFF on input line 6445.
-Package hyperref Info: Link coloring OFF on input line 6450.
-Package hyperref Info: Link coloring with OCG OFF on input line 6455.
-Package hyperref Info: PDF/A mode OFF on input line 6460.
-LaTeX Info: Redefining \ref on input line 6500.
-LaTeX Info: Redefining \pageref on input line 6504.
+\Fld@menulength=\count298
+\Field@Width=\dimen168
+\Fld@charsize=\dimen169
+Package hyperref Info: Hyper figures OFF on input line 6076.
+Package hyperref Info: Link nesting OFF on input line 6081.
+Package hyperref Info: Hyper index ON on input line 6084.
+Package hyperref Info: backreferencing OFF on input line 6091.
+Package hyperref Info: Link coloring OFF on input line 6096.
+Package hyperref Info: Link coloring with OCG OFF on input line 6101.
+Package hyperref Info: PDF/A mode OFF on input line 6106.
+LaTeX Info: Redefining \ref on input line 6146.
+LaTeX Info: Redefining \pageref on input line 6150.
 
-(/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty
-Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
 )
-\Hy@abspage=\count282
-\c@Item=\count283
-\c@Hfootnote=\count284
+\Hy@abspage=\count299
+\c@Item=\count300
+\c@Hfootnote=\count301
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
+File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
 
-(/usr/share/texlive/texmf-dist/tex/latex/atveryend/atveryend.sty
-Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
 )
-\Fld@listcount=\count285
-\c@bookmark@seq@number=\count286
+\Fld@listcount=\count302
+\c@bookmark@seq@number=\count303
 
 (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
@@ -350,13 +362,14 @@ runsystem(which pygmentize && touch mattscode.aex)...executed.
 runsystem(rm mattscode.aex)...executed.
 
 
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
-File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count287
-\l__pdf_internal_box=\box54
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count304
+\l__pdf_internal_box=\box59
 )
 (./mattscode.aux (./chapters/chapter01.aux) (./chapters/chapter02.aux)
-(./chapters/chapter03.aux) (./chapters/chapter04.aux))
+(./chapters/chapter03.aux) (./chapters/chapter04.aux) (./chapters/chapter05.aux
+) (./chapters/chapter06.aux) (./chapters/chapter07.aux))
 \openout1 = `mattscode.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
@@ -375,20 +388,22 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
 LaTeX Font Info:    ... okay on input line 29.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
 LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count288
-\scratchdimen=\dimen166
-\scratchbox=\box55
-\nofMPsegments=\count289
-\nofMParguments=\count290
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count291
-\MPscratchDim=\dimen167
-\MPnumerator=\count292
-\makeMPintoPDFobject=\count293
-\everyMPtoPDFconversion=\toks23
+\scratchcounter=\count305
+\scratchdimen=\dimen170
+\scratchbox=\box60
+\nofMPsegments=\count306
+\nofMParguments=\count307
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count308
+\MPscratchDim=\dimen171
+\MPnumerator=\count309
+\makeMPintoPDFobject=\count310
+\everyMPtoPDFconversion=\toks25
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -432,10 +447,9 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box56
 Package hyperref Info: Link coloring ON on input line 29.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
@@ -443,7 +457,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count294
+\c@section@level=\count311
 )
 LaTeX Info: Redefining \ref on input line 29.
 LaTeX Info: Redefining \pageref on input line 29.
@@ -470,68 +484,69 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 2.
- [3])
+ [3] [4])
 \tf@toc=\write6
 \openout6 = `mattscode.toc'.
 
- [4]
+ [5] [6
+
+]
 \openout2 = `./chapters/chapter01.aux'.
 
  (./chapters/chapter01.tex
 Chapter 1.
 \openout3 = `mattscode.pyg'.
 
-(./_minted-mattscode/default-pyg-prefix.pygstyle)
 (./_minted-mattscode/pastie.pygstyle)
-(./_minted-mattscode/5BD3F0136BC21B7CC528788CBA19E1CC86FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/5BD3F0136BC21B7CC528788CBA19E1CC506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/463266740068905A92ACD9C81F6190BB86FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/463266740068905A92ACD9C81F6190BB506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/596B7F5A42F7C3E2B223F8173AC799DC86FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/596B7F5A42F7C3E2B223F8173AC799DC506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/DECF4AD9AD811D1A63323D76C011086186FA503B7245306FEC594FFC58
-8019BA.pygtex [1
-
+(./_minted-mattscode/DECF4AD9AD811D1A63323D76C0110861506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex [1
 
 
 ])
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/799B5518A89A513285A816BF05C02A2586FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/799B5518A89A513285A816BF05C02A25506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/018778BA6096BC8C7E014FB48B14C9F086FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/018778BA6096BC8C7E014FB48B14C9F0506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/FC32F1E9E5DF3380DA41B9AFA67393D186FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/FC32F1E9E5DF3380DA41B9AFA67393D1506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/45737EB99C315CE188C645DE144C760B86FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/45737EB99C315CE188C645DE144C760B506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/2852662D8A084CD140F70430FA7CD8F84EF73C33EDF7844E267B065EB1
-234670.pygtex)) [2] [3]
+(./_minted-mattscode/2852662D8A084CD140F70430FA7CD8F859A43900517B41B76D2303EB37
+018509.pygtex)) [2] [3]
 \openout2 = `./chapters/chapter02.aux'.
 
  (./chapters/chapter02.tex [4
+
 
 
 
@@ -539,7 +554,7 @@ Chapter 1.
 Chapter 2.
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 3.
-<figures/ch2_spicedmodel.png, id=430, 578.16pt x 505.89pt>
+<figures/ch2_spicedmodel.png, id=856, 578.16pt x 505.89pt>
 File: figures/ch2_spicedmodel.png Graphic file (type png)
 <use figures/ch2_spicedmodel.png>
 Package pdftex.def Info: figures/ch2_spicedmodel.png  used on input line 11.
@@ -549,31 +564,31 @@ LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/142B047EBAF29AFF5708167574FF9D4B86FA503B7245306FEC594FFC58
-8019BA.pygtex
+(./_minted-mattscode/142B047EBAF29AFF5708167574FF9D4B506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex
 Underfull \vbox (badness 4378) has occurred while \output is active []
 
  [5 <./figures/ch2_spicedmodel.png>])
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/BA47A4DADB341D49200A0FF178EA435D86FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/BA47A4DADB341D49200A0FF178EA435D506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/EDEB91AB23FBD25938FD13C6D62CA95686FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/EDEB91AB23FBD25938FD13C6D62CA956506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/91645E553720474AF2EC87A9D08D29EF86FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/91645E553720474AF2EC87A9D08D29EF506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/122856ED48E4AE2585E329942305B9614EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/122856ED48E4AE2585E329942305B96159A43900517B41B76D2303EB37
+018509.pygtex)
 ! Undefined control sequence.
 l.62 ...m Plasmasphere average ion mass, $m_{\text
                                                   {av,ps}}$: \texttt{spicedm...
@@ -640,18 +655,18 @@ and I'll forget about whatever was undefined.
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/D106AD6E87DA9B31503A49A140476E3A4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/D106AD6E87DA9B31503A49A140476E3A59A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/EC9BC810C0929A0D3852E6213F7ADD614EF73C33EDF7844E267B065EB1
-234670.pygtex [6])
+(./_minted-mattscode/EC9BC810C0929A0D3852E6213F7ADD6159A43900517B41B76D2303EB37
+018509.pygtex [6])
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/22419DD058CEE37C29FCD22082C31FAF4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/22419DD058CEE37C29FCD22082C31FAF59A43900517B41B76D2303EB37
+018509.pygtex)
 Overfull \hbox (216.80057pt too wide) in paragraph at lines 104--105
 []\OT1/cmr/m/n/10 where \OT1/cmtt/m/n/10 ptype \OT1/cmr/m/n/10 is used to tell 
 the func-tion which model to plot, avail-able op-tions are: \OT1/cmtt/m/n/10 'm
@@ -662,23 +677,23 @@ av'|'mavps'|'mavpt'|'mavhot'|'prob'|'ps'|'pt'|'density'|'pmd'\OT1/cmr/m/n/10 .
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/593500244B2035DA4F2443CD6AFBBC524EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/593500244B2035DA4F2443CD6AFBBC5259A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/6758D4310E1F21265A67C46E89C44D9486FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/6758D4310E1F21265A67C46E89C44D94506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/B864A8566A82FA1DA78B2236BF5D9C0B86FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/B864A8566A82FA1DA78B2236BF5D9C0B506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/1EA04FDD6C2BF87E3F2ECDDCF24E8C4A7F5A74254C162834BE09F73745
-78705C.pygtex [7])
+(./_minted-mattscode/1EA04FDD6C2BF87E3F2ECDDCF24E8C4AC5A4D957759BD904BD1AADCCF3
+31E6A1.pygtex [7])
 LaTeX Font Info:    Trying to load font information for OMS+cmtt on input line 
 164.
 LaTeX Font Info:    No file OMScmtt.fd. on input line 164.
@@ -700,24 +715,24 @@ and I'll forget about whatever was undefined.
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/60154A0CF5F7BB6F28A96B5F5EDFE09586FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/60154A0CF5F7BB6F28A96B5F5EDFE095506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/5999602422C011C15120BAFD93033B4C4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/5999602422C011C15120BAFD93033B4C59A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/E9378681DE1F279AA0AEA85F028495424EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/E9378681DE1F279AA0AEA85F0284954259A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/C26C6D5C5731C8ED5F43047E299C072D4EF73C33EDF7844E267B065EB1
-234670.pygtex)
-<figures/ch2_hflr.png, id=459, 462.528pt x 346.896pt>
+(./_minted-mattscode/C26C6D5C5731C8ED5F43047E299C072D59A43900517B41B76D2303EB37
+018509.pygtex)
+<figures/ch2_hflr.png, id=886, 462.528pt x 346.896pt>
 File: figures/ch2_hflr.png Graphic file (type png)
 <use figures/ch2_hflr.png>
 Package pdftex.def Info: figures/ch2_hflr.png  used on input line 221.
@@ -735,19 +750,19 @@ and I'll forget about whatever was undefined.
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/3E94B632711DC0BED92164EB88A0E62786FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/3E94B632711DC0BED92164EB88A0E627506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/8A0570E17C32C58A39A2860F5944C80A4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/8A0570E17C32C58A39A2860F5944C80A59A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/12744E3435C94EC8E7BA1C67B0E2E93E4EF73C33EDF7844E267B065EB1
-234670.pygtex)
-<figures/ch2_pygcpm_equator.png, id=468, 462.528pt x 346.896pt>
+(./_minted-mattscode/12744E3435C94EC8E7BA1C67B0E2E93E59A43900517B41B76D2303EB37
+018509.pygtex)
+<figures/ch2_pygcpm_equator.png, id=895, 462.528pt x 346.896pt>
 File: figures/ch2_pygcpm_equator.png Graphic file (type png)
 <use figures/ch2_pygcpm_equator.png>
 Package pdftex.def Info: figures/ch2_pygcpm_equator.png  used on input line 265
@@ -756,9 +771,9 @@ Package pdftex.def Info: figures/ch2_pygcpm_equator.png  used on input line 265
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/00057E2B72843F28A2EC627862935E1B4EF73C33EDF7844E267B065EB1
-234670.pygtex)
-<figures/ch2_pygcpm_mlt.png, id=470, 462.528pt x 346.896pt>
+(./_minted-mattscode/00057E2B72843F28A2EC627862935E1B59A43900517B41B76D2303EB37
+018509.pygtex)
+<figures/ch2_pygcpm_mlt.png, id=897, 462.528pt x 346.896pt>
 File: figures/ch2_pygcpm_mlt.png Graphic file (type png)
 <use figures/ch2_pygcpm_mlt.png>
 Package pdftex.def Info: figures/ch2_pygcpm_mlt.png  used on input line 278.
@@ -778,8 +793,8 @@ down-loaded from here: [][]https://github.com/mattkjames7/PyGeopack[][].
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/BAE9958D59E6252E1439625C424AC65F86FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/BAE9958D59E6252E1439625C424AC65F506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 ! Undefined control sequence.
 l.15 ...ers available to do this (see section \rec
                                                   {sectSetup}).
@@ -792,8 +807,8 @@ and I'll forget about whatever was undefined.
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/2FB80F1FF3E0957D657B9FE4E8D05A3E86FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/2FB80F1FF3E0957D657B9FE4E8D05A3E506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
@@ -809,18 +824,19 @@ l.28 			\end{minted}
 This input will be discarded. Type <return> to continue.
 
 
-(./_minted-mattscode/DA0EA8B3F469DC5C34AFFEDF2E154D2586FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/DA0EA8B3F469DC5C34AFFEDF2E154D25506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/977EDCD7E74908D7E84262B8EF9B13384EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/977EDCD7E74908D7E84262B8EF9B133859A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/CAF14D3A2C62E28684826BEAE5FD084B4EF73C33EDF7844E267B065EB1
-234670.pygtex) [11
+(./_minted-mattscode/CAF14D3A2C62E28684826BEAE5FD084B59A43900517B41B76D2303EB37
+018509.pygtex) [11
+
 
 
 
@@ -828,9 +844,9 @@ This input will be discarded. Type <return> to continue.
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/AB9FCAFD866DFAF1006F7ACE7D8D89AE4EF73C33EDF7844E267B065EB1
-234670.pygtex)
-<figures/ch03_geopacktrace.png, id=496, 462.528pt x 346.896pt>
+(./_minted-mattscode/AB9FCAFD866DFAF1006F7ACE7D8D89AE59A43900517B41B76D2303EB37
+018509.pygtex)
+<figures/ch03_geopacktrace.png, id=921, 462.528pt x 346.896pt>
 File: figures/ch03_geopacktrace.png Graphic file (type png)
 <use figures/ch03_geopacktrace.png>
 Package pdftex.def Info: figures/ch03_geopacktrace.png  used on input line 67.
@@ -839,8 +855,8 @@ Package pdftex.def Info: figures/ch03_geopacktrace.png  used on input line 67.
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/52F15303F6262245DBA6F059A93FCB0386FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/52F15303F6262245DBA6F059A93FCB03506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 Overfull \hbox (41.32822pt too wide) in paragraph at lines 99--100
 []\OT1/cmr/m/n/10 On Linux and Ma-cOS the \OT1/cmtt/m/n/10 sudo make install \O
 T1/cmr/m/n/10 com-mand will place the header file at \OT1/cmtt/m/n/10 /usr/loca
@@ -850,8 +866,8 @@ l/include/geopack.h
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/5EDC2A7C42ADB31FE7BCCCE17E9B73977F5A74254C162834BE09F73745
-78705C.pygtex)
+(./_minted-mattscode/5EDC2A7C42ADB31FE7BCCCE17E9B7397C5A4D957759BD904BD1AADCCF3
+31E6A1.pygtex)
 ! Undefined control sequence.
 <argument> geopack\tests 
                          \test .c
@@ -899,21 +915,100 @@ and I'll forget about whatever was undefined.
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/378D9471BC4A905D5721356BD51C787C86FA503B7245306FEC594FFC58
-8019BA.pygtex)
-! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                   i
-l.140 ...luded \texttt{#include <internalfield.h>}
-                                                   and the code should be co...
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
+(./_minted-mattscode/0EDDF98F926CFBDEA82B422B3F2EC97459A43900517B41B76D2303EB37
+018509.pygtex)
+\openout3 = `mattscode.pyg'.
 
+
+(./_minted-mattscode/043E5F96B995ED722036EF7B14E345ED506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex) [13]
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.164 			\hline
+               
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.164 			\hline
+               
+To put a horizontal rule in an hbox or an alignment,
+you should use \leaders or \hrulefill (see The TeXbook).
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.164 			\hline
+               
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.164 			\hline
+               
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/6AF4F483EB9481C69FD8F2109EED113B59A43900517B41B76D2303EB37
+018509.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/24032E3AE3D97193F982770F21D6C9BC59A43900517B41B76D2303EB37
+018509.pygtex)
+! Undefined control sequence.
+<argument> KT17.TraceField\?
+                            
+l.197 ...raceField)} or \texttt{KT17.TraceField\?}
+                                                   in ipython.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/A771392D2BE65308D0533F056205D0F759A43900517B41B76D2303EB37
+018509.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/A3A2CC1EBD4CC02CF7FF3F313E67234459A43900517B41B76D2303EB37
+018509.pygtex [14])
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/CC6177772D7C6C085933D4CE6E0B21EE59A43900517B41B76D2303EB37
+018509.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/4CA307B769FB1F95A622FE3A67406E9959A43900517B41B76D2303EB37
+018509.pygtex)
+\openout3 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/378D9471BC4A905D5721356BD51C787C506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 ! Illegal parameter number in definition of \reserved@b.
 <to be read again> 
                    }
-l.140 ...luded \texttt{#include <internalfield.h>}
+l.272 ...luded \texttt{#include <internalfield.h>}
                                                    and the code should be co...
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -922,26 +1017,25 @@ are all screwed up? I'm going to assume that you meant ##.
 ! You can't use `macro parameter character #' in horizontal mode.
 <recently read> ##
                   
-l.140 ...luded \texttt{#include <internalfield.h>}
+l.272 ...luded \texttt{#include <internalfield.h>}
                                                    and the code should be co...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-[13]
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/7E51426F29989BB09D088EEE63A4835E355EDB485ED9D1E55F42B5AD92
-9BBF13.pygtex)
+(./_minted-mattscode/7E51426F29989BB09D088EEE63A4835E6E6768FEC94D65C9A9C023D686
+8E4714.pygtex [15])
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/0CDA35D56142B2079F287CEEDDEC5B337F5A74254C162834BE09F73745
-78705C.pygtex)
+(./_minted-mattscode/0CDA35D56142B2079F287CEEDDEC5B33C5A4D957759BD904BD1AADCCF3
+31E6A1.pygtex)
 ! Undefined control sequence.
-l.192 ...Volland-Stern electric field model \citep
+l.324 ...Volland-Stern electric field model \citep
                                                   {Volland1973,Stern1975}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -952,22 +1046,22 @@ and I'll forget about whatever was undefined.
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/BF89D5F813C8B3A33019F1B50A01828E86FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/BF89D5F813C8B3A33019F1B50A01828E506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/D956F8601051F7C6F2926F45D3138BFB4EF73C33EDF7844E267B065EB1
-234670.pygtex
-Overfull \hbox (21.77336pt too wide) in paragraph at lines 203--1
+(./_minted-mattscode/D956F8601051F7C6F2926F45D3138BFB59A43900517B41B76D2303EB37
+018509.pygtex
+Overfull \hbox (21.77336pt too wide) in paragraph at lines 335--1
 \OT1/cmr/m/n/10 Electric field vec-tors can be de-ter-mined us-ing ei-ther cyli
 n-dri-cal (\OT1/cmtt/m/n/10 vsmodel.ModelE\OT1/cmr/m/n/10 ) or Carte-sian (\OT1
 /cmtt/m/n/10 vsmodel.ModelCart\OT1/cmr/m/n/10 )
  []
 
-[14])
+[16])
 ! Undefined control sequence.
-l.225 			where the \citet
+l.357 			where the \citet
                          {Maynard1975} method uses the Kp index and the \cit...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -976,7 +1070,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.225 ...} method uses the Kp index and the \citet
+l.357 ...} method uses the Kp index and the \citet
                                                   {Goldstein2005} method use...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -987,137 +1081,142 @@ and I'll forget about whatever was undefined.
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/EC839C7D9BDB0AFE956B88F834DF7D124EF73C33EDF7844E267B065EB1
-234670.pygtex)
-<figures/ch03_vsmodel.png, id=513, 650.43pt x 578.16pt>
+(./_minted-mattscode/EC839C7D9BDB0AFE956B88F834DF7D1259A43900517B41B76D2303EB37
+018509.pygtex)
+<figures/ch03_vsmodel.png, id=952, 650.43pt x 578.16pt>
 File: figures/ch03_vsmodel.png Graphic file (type png)
 <use figures/ch03_vsmodel.png>
-Package pdftex.def Info: figures/ch03_vsmodel.png  used on input line 250.
+Package pdftex.def Info: figures/ch03_vsmodel.png  used on input line 382.
 (pdftex.def)             Requested size: 483.69687pt x 429.96663pt.
- [15] [16 <./figures/ch03_vsmodel.png>]
+ [17] [18 <./figures/ch03_vsmodel.png>]
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/F58DD771485D5BAE4876756C4DBF340786FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/F58DD771485D5BAE4876756C4DBF3407506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/70389147E1946249E15CC2ECF3B3399386FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/70389147E1946249E15CC2ECF3B33993506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/6222AA1C446F17E4E25934EB16AC772786FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/6222AA1C446F17E4E25934EB16AC7727506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/C518D7F99FDBA73F2C90DE27FE0B7F4186FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/C518D7F99FDBA73F2C90DE27FE0B7F41506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/FB13017DAD8E540970480AFED95D943C86FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/FB13017DAD8E540970480AFED95D943C506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/89447D3D8D23C1EC2962DAF95B7D13DE4EF73C33EDF7844E267B065EB1
-234670.pygtex [17])
+(./_minted-mattscode/89447D3D8D23C1EC2962DAF95B7D13DE59A43900517B41B76D2303EB37
+018509.pygtex) [19]
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/D5068BD515020AAB9F78C4485CB4F7994EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/D5068BD515020AAB9F78C4485CB4F79959A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/0560FD1A928B08F04A40BCA38E5C91FA4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/0560FD1A928B08F04A40BCA38E5C91FA59A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/E68BD1F10CBFEB654843E039BE59771F4EF73C33EDF7844E267B065EB1
-234670.pygtex [18])
-<figures/ch3_JMCompareTrace.png, id=547, 462.528pt x 346.896pt>
+(./_minted-mattscode/E68BD1F10CBFEB654843E039BE59771F59A43900517B41B76D2303EB37
+018509.pygtex)
+<figures/ch3_JMCompareTrace.png, id=980, 462.528pt x 346.896pt>
 File: figures/ch3_JMCompareTrace.png Graphic file (type png)
 <use figures/ch3_JMCompareTrace.png>
-Package pdftex.def Info: figures/ch3_JMCompareTrace.png  used on input line 427
+Package pdftex.def Info: figures/ch3_JMCompareTrace.png  used on input line 559
 .
 (pdftex.def)             Requested size: 338.58632pt x 253.95184pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[20]
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/F78674AA49D4E150CF07393294C6402686FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/F78674AA49D4E150CF07393294C64026506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/EA0B58B599B06B88BA1BFCEBDAC8AF2B86FA503B7245306FEC594FFC58
-8019BA.pygtex [19 <./figures/ch3_JMCompareTrace.png>])
+(./_minted-mattscode/EA0B58B599B06B88BA1BFCEBDAC8AF2B506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/6FFDC85692429ABF7F7D0EF721808FF486FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/6FFDC85692429ABF7F7D0EF721808FF4506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/BC4971451F99D88009514E144436C84786FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/BC4971451F99D88009514E144436C847506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/F975D6C37B19129473294C8C6AAD126161CDD55AD99798A7BEF92575F9
-324259.pygtex)
+(./_minted-mattscode/F975D6C37B19129473294C8C6AAD1261FBEC15013753B76731D2FFEE80
+FD3733.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/9D73F17D60ADB126BAF68E3954BF632186FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/9D73F17D60ADB126BAF68E3954BF6321506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex [21 <./figures/ch3_JMCompareTrace.png>])
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/BB9E2048BA715DA0B096F0554C1B38E17F5A74254C162834BE09F73745
-78705C.pygtex)
+(./_minted-mattscode/BB9E2048BA715DA0B096F0554C1B38E1C5A4D957759BD904BD1AADCCF3
+31E6A1.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/31CCBA6D6D0297A97666260674DC82EC86FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/31CCBA6D6D0297A97666260674DC82EC506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/AE1E3B7CD5FDD4D2AC771C3AD96109677F5A74254C162834BE09F73745
-78705C.pygtex)
+(./_minted-mattscode/AE1E3B7CD5FDD4D2AC771C3AD9610967C5A4D957759BD904BD1AADCCF3
+31E6A1.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/BB8B33A97FB7D994DBE8B022D0F8AAC386FA503B7245306FEC594FFC58
-8019BA.pygtex [20])
+(./_minted-mattscode/BB8B33A97FB7D994DBE8B022D0F8AAC3506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/AE5CF69DFA870730EC839C80CF224ADE7F5A74254C162834BE09F73745
-78705C.pygtex)
-Overfull \hbox (50.0806pt too wide) in paragraph at lines 567--594
+(./_minted-mattscode/AE5CF69DFA870730EC839C80CF224ADEC5A4D957759BD904BD1AADCCF3
+31E6A1.pygtex [22])
+Overfull \hbox (50.0806pt too wide) in paragraph at lines 699--726
  [][] 
  []
 
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/E1F9D4270FE74A29129473C20D066FB77F5A74254C162834BE09F73745
-78705C.pygtex [21])
-Overfull \hbox (2.16084pt too wide) in paragraph at lines 666--666
+(./_minted-mattscode/E1F9D4270FE74A29129473C20D066FB7C5A4D957759BD904BD1AADCCF3
+31E6A1.pygtex [23])
+Overfull \hbox (2.16084pt too wide) in paragraph at lines 798--798
 []\OT1/cmtt/m/n/14.4 con2020\OT1/cmr/bx/n/14.4 : Python im-ple-men-ta-tion of J
 upiter's mag-ne-todisc model 
  []
 
 
 LaTeX Warning: File `https://zenodo.org/badge/doi/10.5281/zenodo.6959770.svg' n
-ot found on input line 669.
+ot found on input line 801.
 
 
 ! LaTeX Error: Unknown graphics extension: .svg.
@@ -1126,16 +1225,15 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.669 ...rg/badge/doi/10.5281/zenodo.6959770.svg}}
+l.801 ...rg/badge/doi/10.5281/zenodo.6959770.svg}}
                                                    \\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[22]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.673 ...ttps://github.com/marissav06/con2020_idl}
+l.805 ...ttps://github.com/marissav06/con2020_idl}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1143,7 +1241,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.673 ...ttps://github.com/marissav06/con2020_idl}
+l.805 ...ttps://github.com/marissav06/con2020_idl}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1154,7 +1252,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.676 ...s://github.com/marissav06/con2020_matlab}
+l.808 ...s://github.com/marissav06/con2020_matlab}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1162,7 +1260,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.676 ...s://github.com/marissav06/con2020_matlab}
+l.808 ...s://github.com/marissav06/con2020_matlab}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1173,7 +1271,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.678 ..._final_code_documentation_june9_2022.pdf}
+l.810 ..._final_code_documentation_june9_2022.pdf}
                                                   . It describes the Connern...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1181,7 +1279,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.678 ..._final_code_documentation_june9_2022.pdf}
+l.810 ..._final_code_documentation_june9_2022.pdf}
                                                   . It describes the Connern...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1192,60 +1290,60 @@ my insertion and my current dilemma will both disappear.
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/C3CAC2AB5002C26BF1E768581A8597DC86FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/C3CAC2AB5002C26BF1E768581A8597DC506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex [24])
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/AA5518FAF275490477D9BDB70700C2E786FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/AA5518FAF275490477D9BDB70700C2E7506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/87BE00B564B392D941483FFBEC3315CF4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/87BE00B564B392D941483FFBEC3315CF59A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/33E0B625C617B2C63CEE1DC3696FEF164EF73C33EDF7844E267B065EB1
-234670.pygtex [23])
-Overfull \hbox (961.91742pt too wide) in paragraph at lines 757--782
+(./_minted-mattscode/33E0B625C617B2C63CEE1DC3696FEF1659A43900517B41B76D2303EB37
+018509.pygtex) [25]
+Overfull \hbox (961.91742pt too wide) in paragraph at lines 889--914
  [][] 
  []
 
-<figures/ch3_con2020Test.png, id=585, 794.97pt x 578.16pt>
+<figures/ch3_con2020Test.png, id=1023, 794.97pt x 578.16pt>
 File: figures/ch3_con2020Test.png Graphic file (type png)
 <use figures/ch3_con2020Test.png>
-Package pdftex.def Info: figures/ch3_con2020Test.png  used on input line 793.
+Package pdftex.def Info: figures/ch3_con2020Test.png  used on input line 925.
 (pdftex.def)             Requested size: 386.95897pt x 281.43062pt.
 
-Overfull \hbox (9.27417pt too wide) in paragraph at lines 798--798
+Overfull \hbox (9.27417pt too wide) in paragraph at lines 930--930
 []\OT1/cmtt/m/n/14.4 libcon2020\OT1/cmr/bx/n/14.4 : C++ im-ple-men-ta-tion of J
 upiter's mag-ne-todisc model 
  []
 
-[24]
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/11CF558D45E6B4D0B296BE0E0D1B009C86FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/11CF558D45E6B4D0B296BE0E0D1B009C506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex [26])
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/363EB3331FE50C52BC2D22D5AC20D6A861CDD55AD99798A7BEF92575F9
-324259.pygtex) [25 <./figures/ch3_con2020Test.png>]
-Overfull \hbox (36.39536pt too wide) in paragraph at lines 841--842
+(./_minted-mattscode/363EB3331FE50C52BC2D22D5AC20D6A8FBEC15013753B76731D2FFEE80
+FD3733.pygtex)
+Overfull \hbox (36.39536pt too wide) in paragraph at lines 973--974
 \OT1/cmr/m/n/10 flag while com-pil-ing/linking. Oth-er-wise, the path to the li
 -brary must also be in-cluded, e.g. \OT1/cmtt/m/n/10 -L /path/to/lib/directory
  []
 
+[27 <./figures/ch3_con2020Test.png>]
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/376F53E2AE0FCCDC654F78B9ED0403447F5A74254C162834BE09F73745
-78705C.pygtex [26])
-Overfull \hbox (23.96957pt too wide) in paragraph at lines 895--896
+(./_minted-mattscode/376F53E2AE0FCCDC654F78B9ED040344C5A4D957759BD904BD1AADCCF3
+31E6A1.pygtex)
+Overfull \hbox (23.96957pt too wide) in paragraph at lines 1027--1028
 []\OT1/cmr/m/n/10 In the ex-am-ple above, the model can be con-fig-ured by us-i
 ng class mem-ber func-tions (e.g., \OT1/cmtt/m/n/10 Con2020::SetCartIn()\OT1/cm
 r/m/n/10 ),
@@ -1254,56 +1352,56 @@ r/m/n/10 ),
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/AE91D5B0C1F8DA795941BB7D3E70BD1086FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/AE91D5B0C1F8DA795941BB7D3E70BD10506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/6F5AE0625CF6B32E688FEA4C4A5A42D2355EDB485ED9D1E55F42B5AD92
-9BBF13.pygtex)
+(./_minted-mattscode/6F5AE0625CF6B32E688FEA4C4A5A42D26E6768FEC94D65C9A9C023D686
+8E4714.pygtex [28])
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/81055CE1ADDD240B495888E62D240B9586FA503B7245306FEC594FFC58
-8019BA.pygtex [27])
-Underfull \hbox (badness 1852) in paragraph at lines 973--974
+(./_minted-mattscode/81055CE1ADDD240B495888E62D240B95506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
+Underfull \hbox (badness 1852) in paragraph at lines 1105--1106
 []\OT1/cmr/m/n/10 Half thick-ness of the cur-rent
  []
 
 
-Underfull \hbox (badness 3884) in paragraph at lines 988--989
+Underfull \hbox (badness 3884) in paragraph at lines 1120--1121
 \OT1/cmr/m/n/10 mid-dle mag-ne-to-sphere, where
  []
 
 
-Overfull \hbox (108.28629pt too wide) in paragraph at lines 965--994
+Overfull \hbox (108.28629pt too wide) in paragraph at lines 1097--1126
 [][] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [28]
+ [29]
 Overfull \vbox (152.96414pt too high) has occurred while \output is active []
 
 
-[29]
+[30]
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/15375E1386B34E489918085D5E1EC4C286FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/15375E1386B34E489918085D5E1EC4C2506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/1D710EC94541E33897A2E75012AF2A7D86FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/1D710EC94541E33897A2E75012AF2A7D506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/53B2BFC23E245D3ECB6B5237339D1ABA4EF73C33EDF7844E267B065EB1
-234670.pygtex)
-Overfull \hbox (19.17142pt too wide) in paragraph at lines 1035--1036
+(./_minted-mattscode/53B2BFC23E245D3ECB6B5237339D1ABA59A43900517B41B76D2303EB37
+018509.pygtex)
+Overfull \hbox (19.17142pt too wide) in paragraph at lines 1167--1168
 []\OT1/cmr/m/n/10 Please read the doc-strings for \OT1/cmtt/m/n/10 jrm33.Model(
 ) \OT1/cmr/m/n/10 and \OT1/cmtt/m/n/10 jrm33.ModelCart() \OT1/cmr/m/n/10 us-ing
  \OT1/cmtt/m/n/10 help \OT1/cmr/m/n/10 or \OT1/cmtt/m/n/10 ? \OT1/cmr/m/n/10 e.
@@ -1313,39 +1411,39 @@ g. \OT1/cmtt/m/n/10 help(jrm33.Model)\OT1/cmr/m/n/10 .
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/780D64BC8CD4900595A140538FEA863C4EF73C33EDF7844E267B065EB1
-234670.pygtex)
-<figures/ch3_jrm33test.png, id=617, 462.528pt x 346.896pt>
+(./_minted-mattscode/780D64BC8CD4900595A140538FEA863C59A43900517B41B76D2303EB37
+018509.pygtex)
+<figures/ch3_jrm33test.png, id=1051, 462.528pt x 346.896pt>
 File: figures/ch3_jrm33test.png Graphic file (type png)
 <use figures/ch3_jrm33test.png>
-Package pdftex.def Info: figures/ch3_jrm33test.png  used on input line 1047.
+Package pdftex.def Info: figures/ch3_jrm33test.png  used on input line 1179.
 (pdftex.def)             Requested size: 290.22107pt x 217.67754pt.
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/A5E2F3EC80ACB0F8F22153556E5581F886FA503B7245306FEC594FFC58
-8019BA.pygtex [30 <./figures/ch3_jrm33test.png>])
+(./_minted-mattscode/A5E2F3EC80ACB0F8F22153556E5581F8506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex [31 <./figures/ch3_jrm33test.png>])
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/39A0F0138C644BA3E90EDB68BC1B0BAF86FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/39A0F0138C644BA3E90EDB68BC1B0BAF506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/A5E2F3EC80ACB0F8F22153556E5581F886FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/A5E2F3EC80ACB0F8F22153556E5581F8506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/0D1870154052100975EF70877E2BCA3886FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/0D1870154052100975EF70877E2BCA38506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/31B6328A4683BD73EA45BF24517454E64EF73C33EDF7844E267B065EB1
-234670.pygtex)
-Overfull \hbox (19.17142pt too wide) in paragraph at lines 1113--1114
+(./_minted-mattscode/31B6328A4683BD73EA45BF24517454E659A43900517B41B76D2303EB37
+018509.pygtex)
+Overfull \hbox (19.17142pt too wide) in paragraph at lines 1245--1246
 []\OT1/cmr/m/n/10 Please read the doc-strings for \OT1/cmtt/m/n/10 jrm09.Model(
 ) \OT1/cmr/m/n/10 and \OT1/cmtt/m/n/10 jrm09.ModelCart() \OT1/cmr/m/n/10 us-ing
  \OT1/cmtt/m/n/10 help \OT1/cmr/m/n/10 or \OT1/cmtt/m/n/10 ? \OT1/cmr/m/n/10 e.
@@ -1355,148 +1453,149 @@ g. \OT1/cmtt/m/n/10 help(jrm09.Model)\OT1/cmr/m/n/10 .
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/1090F5F14FEF2FEDAB059F4F803368274EF73C33EDF7844E267B065EB1
-234670.pygtex)
-<figures/ch3_jrm09test.png, id=623, 462.528pt x 346.896pt>
+(./_minted-mattscode/1090F5F14FEF2FEDAB059F4F8033682759A43900517B41B76D2303EB37
+018509.pygtex)
+<figures/ch3_jrm09test.png, id=1058, 462.528pt x 346.896pt>
 File: figures/ch3_jrm09test.png Graphic file (type png)
 <use figures/ch3_jrm09test.png>
-Package pdftex.def Info: figures/ch3_jrm09test.png  used on input line 1125.
+Package pdftex.def Info: figures/ch3_jrm09test.png  used on input line 1257.
 (pdftex.def)             Requested size: 290.22107pt x 217.67754pt.
- [31]
+ [32]
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/A542BEA6B9A43D9A62AB2A4A9F67A47F86FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/A542BEA6B9A43D9A62AB2A4A9F67A47F506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/100BC2C20CDD531C7F71DEFE123A6AA286FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/100BC2C20CDD531C7F71DEFE123A6AA2506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/D21158EFA6E0E2C5F4B74878209CAD7C4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/D21158EFA6E0E2C5F4B74878209CAD7C59A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/A4020EC8F22DFC2B9F5F981C040347B04EF73C33EDF7844E267B065EB1
-234670.pygtex)
-<figures/ch3_vip4test.png, id=628, 462.528pt x 346.896pt>
+(./_minted-mattscode/A4020EC8F22DFC2B9F5F981C040347B059A43900517B41B76D2303EB37
+018509.pygtex)
+<figures/ch3_vip4test.png, id=1063, 462.528pt x 346.896pt>
 File: figures/ch3_vip4test.png Graphic file (type png)
 <use figures/ch3_vip4test.png>
-Package pdftex.def Info: figures/ch3_vip4test.png  used on input line 1179.
+Package pdftex.def Info: figures/ch3_vip4test.png  used on input line 1311.
 (pdftex.def)             Requested size: 290.22107pt x 217.67754pt.
- [32 <./figures/ch3_jrm09test.png>]) [33 <./figures/ch3_vip4test.png>]
+ [33 <./figures/ch3_jrm09test.png>]) [34 <./figures/ch3_vip4test.png>]
 \openout2 = `./chapters/chapter04.aux'.
 
- (./chapters/chapter04.tex [34
-
-
-
-]
+ (./chapters/chapter04.tex
 Chapter 4.
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/618DC34EF00E7755319C8B96B053085D86FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/618DC34EF00E7755319C8B96B053085D506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/F916BA6C88D2D4E89A6BBD201E3BDD3986FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/F916BA6C88D2D4E89A6BBD201E3BDD39506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/F9AA3E8A470F63248205CB2438A0200286FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/F9AA3E8A470F63248205CB2438A02002506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/BCC09A54C55D23AECBF03DB03B03286D4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/BCC09A54C55D23AECBF03DB03B03286D59A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/AB22B95E1EDA1A443DFA985773BED11B4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/AB22B95E1EDA1A443DFA985773BED11B59A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/011FF633BA3B6813829885AFE2C8A1DE4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/011FF633BA3B6813829885AFE2C8A1DE59A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/26F6214FAE1AB40C3A0BD49993A28CE44EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/26F6214FAE1AB40C3A0BD49993A28CE459A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/C96C4554469C07FAA4F951767A4029EB4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/C96C4554469C07FAA4F951767A4029EB59A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/2CDC74D0FF126C0EE63FB4420F2FDA614EF73C33EDF7844E267B065EB1
-234670.pygtex) [35]
+(./_minted-mattscode/2CDC74D0FF126C0EE63FB4420F2FDA6159A43900517B41B76D2303EB37
+018509.pygtex) [35
+
+
+
+
+]
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/BAD5466CB1CD8662A743E505F086284B4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/BAD5466CB1CD8662A743E505F086284B59A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/6C4E676502B6845AF45C77CE727021F74EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/6C4E676502B6845AF45C77CE727021F759A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/7FA599068365AF746F2C4D27F7BFD2D34EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/7FA599068365AF746F2C4D27F7BFD2D359A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/0E99C7CEFF0FD7026C2EA1E8F98743F54EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/0E99C7CEFF0FD7026C2EA1E8F98743F559A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/A1EB2182C433E9C741F55D6A7DAB31644EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/A1EB2182C433E9C741F55D6A7DAB316459A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/4C5D67A15C98EFC3D43C1A31A460B2FC4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/4C5D67A15C98EFC3D43C1A31A460B2FC59A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/0068EC6D4BC19DFA775D48598F616C7B4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/0068EC6D4BC19DFA775D48598F616C7B59A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/FA0AF093B094298FC126D900624AA8184EF73C33EDF7844E267B065EB1
-234670.pygtex [36])
+(./_minted-mattscode/FA0AF093B094298FC126D900624AA81859A43900517B41B76D2303EB37
+018509.pygtex [36])
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/B59E9A4B4FF50A867E03480FD7C612144EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/B59E9A4B4FF50A867E03480FD7C6121459A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/157E4DE93331AD1F11803FAF176EE15E4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/157E4DE93331AD1F11803FAF176EE15E59A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/F28EC3EED829F4124F99C6ABB808F9614EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/F28EC3EED829F4124F99C6ABB808F96159A43900517B41B76D2303EB37
+018509.pygtex)
 Overfull \hbox (10.65439pt too wide) in paragraph at lines 165--166
 \OT1/cmr/m/n/10 on the in-stru-ment). The re-turned ob-ject will ei-ther be a \
 OT1/cmtt/m/n/10 dict \OT1/cmr/m/n/10 con-tain-ing just the data if \OT1/cmtt/m/
@@ -1506,9 +1605,9 @@ n/10 ReturnSpecObject=False\OT1/cmr/m/n/10 ,
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/53846796825C9DCACBDB485B3D4D40434EF73C33EDF7844E267B065EB1
-234670.pygtex)
-<figures/ch4_ArasePADSpectrogram.png, id=661, 462.528pt x 346.896pt>
+(./_minted-mattscode/53846796825C9DCACBDB485B3D4D404359A43900517B41B76D2303EB37
+018509.pygtex)
+<figures/ch4_ArasePADSpectrogram.png, id=1091, 462.528pt x 346.896pt>
 File: figures/ch4_ArasePADSpectrogram.png Graphic file (type png)
 <use figures/ch4_ArasePADSpectrogram.png>
 Package pdftex.def Info: figures/ch4_ArasePADSpectrogram.png  used on input lin
@@ -1521,9 +1620,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/7E935FBF47901736F8D0232A6EE36BA34EF73C33EDF7844E267B065EB1
-234670.pygtex)
-<figures/ch4_ArasePAD1DSpectrum.png, id=668, 462.528pt x 346.896pt>
+(./_minted-mattscode/7E935FBF47901736F8D0232A6EE36BA359A43900517B41B76D2303EB37
+018509.pygtex)
+<figures/ch4_ArasePAD1DSpectrum.png, id=1099, 462.528pt x 346.896pt>
 File: figures/ch4_ArasePAD1DSpectrum.png Graphic file (type png)
 <use figures/ch4_ArasePAD1DSpectrum.png>
 Package pdftex.def Info: figures/ch4_ArasePAD1DSpectrum.png  used on input line
@@ -1532,9 +1631,9 @@ Package pdftex.def Info: figures/ch4_ArasePAD1DSpectrum.png  used on input line
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/FFF8909C3FA645D379287FDF68C637424EF73C33EDF7844E267B065EB1
-234670.pygtex)
-<figures/ch4_ArasePAD2DSpectrum.png, id=669, 462.528pt x 346.896pt>
+(./_minted-mattscode/FFF8909C3FA645D379287FDF68C6374259A43900517B41B76D2303EB37
+018509.pygtex)
+<figures/ch4_ArasePAD2DSpectrum.png, id=1100, 462.528pt x 346.896pt>
 File: figures/ch4_ArasePAD2DSpectrum.png Graphic file (type png)
 <use figures/ch4_ArasePAD2DSpectrum.png>
 Package pdftex.def Info: figures/ch4_ArasePAD2DSpectrum.png  used on input line
@@ -1940,13 +2039,13 @@ and I'll forget about whatever was undefined.
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/2491BFF6B89B9B1851425C1EE41E31114EF73C33EDF7844E267B065EB1
-234670.pygtex [39 <./figures/ch4_ArasePAD2DSpectrum.png>])
+(./_minted-mattscode/2491BFF6B89B9B1851425C1EE41E311159A43900517B41B76D2303EB37
+018509.pygtex [39 <./figures/ch4_ArasePAD2DSpectrum.png>])
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/D6EA74DD2D83B6EDECAE6F1100D9F7CB86FA503B7245306FEC594FFC58
-8019BA.pygtex) [40]
+(./_minted-mattscode/D6EA74DD2D83B6EDECAE6F1100D9F7CB506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex) [40]
 LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
 324.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmtt.fd
@@ -1955,13 +2054,13 @@ File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/947D23E5D3DCE76F265662410E643D594EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/947D23E5D3DCE76F265662410E643D5959A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/FE62A479692151E60931D36313540C5F4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/FE62A479692151E60931D36313540C5F59A43900517B41B76D2303EB37
+018509.pygtex)
 Overfull \hbox (37.9413pt too wide) in paragraph at lines 357--358
 []\OT1/cmr/m/n/10 Moments are all saved to disk (\TS1/cmtt/m/n/10 $\OT1/cmtt/m/
 n/10 RBSP[]PATH/Moments/Ions/sc/\OT1/cmr/m/n/10 , where \OT1/cmtt/m/n/10 sc \OT
@@ -1972,14 +2071,14 @@ n/10 RBSP[]PATH/Moments/Ions/sc/\OT1/cmr/m/n/10 , where \OT1/cmtt/m/n/10 sc \OT
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/F9DBCA1247F70CC304460DDAF01DE8B54EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/F9DBCA1247F70CC304460DDAF01DE8B559A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/98722E265967CF5540BC22DE84E865314EF73C33EDF7844E267B065EB1
-234670.pygtex)
-<figures/ch4_rbspions.png, id=688, 794.97pt x 578.16pt>
+(./_minted-mattscode/98722E265967CF5540BC22DE84E8653159A43900517B41B76D2303EB37
+018509.pygtex)
+<figures/ch4_rbspions.png, id=1117, 794.97pt x 578.16pt>
 File: figures/ch4_rbspions.png Graphic file (type png)
 <use figures/ch4_rbspions.png>
 Package pdftex.def Info: figures/ch4_rbspions.png  used on input line 376.
@@ -1992,13 +2091,13 @@ Overfull \hbox (16.10854pt too wide) in paragraph at lines 404--422
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/2EAECEA61B6C948B6266A182E209396E4EF73C33EDF7844E267B065EB1
-234670.pygtex [42 <./figures/ch4_rbspions.png>])
+(./_minted-mattscode/2EAECEA61B6C948B6266A182E209396E59A43900517B41B76D2303EB37
+018509.pygtex [42 <./figures/ch4_rbspions.png>])
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/82FCD789C0F5DE19B38EA123939122914EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/82FCD789C0F5DE19B38EA1239391229159A43900517B41B76D2303EB37
+018509.pygtex)
 Overfull \hbox (15.91388pt too wide) in paragraph at lines 441--442
 \OT1/cmr/m/n/10 The elec-tron den-si-ties as mea-sured us-ing the space-craft p
 o-ten-tial can be ob-tained us-ing the \OT1/cmtt/m/n/10 ReadElectronDensity()
@@ -2007,101 +2106,93 @@ o-ten-tial can be ob-tained us-ing the \OT1/cmtt/m/n/10 ReadElectronDensity()
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/0F28A67487963A9147FE2AE58609CA5D4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/0F28A67487963A9147FE2AE58609CA5D59A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/E8EDF354835FF7A048CE10A05CDD6B554EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/E8EDF354835FF7A048CE10A05CDD6B5559A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/E761A3EC8D052C2D7A895D0247B5851A4EF73C33EDF7844E267B065EB1
-234670.pygtex [43])
+(./_minted-mattscode/E761A3EC8D052C2D7A895D0247B5851A59A43900517B41B76D2303EB37
+018509.pygtex [43])
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/20CF342C332D17E9C46420DA02156ADF4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/20CF342C332D17E9C46420DA02156ADF59A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/AB028084AA7E6BA485B100765038E9D74EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/AB028084AA7E6BA485B100765038E9D759A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/C279935C524548662EF128ED067CB8F94EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/C279935C524548662EF128ED067CB8F959A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/2330F8610B77CD877761B5C79BC2E7D54EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/2330F8610B77CD877761B5C79BC2E7D559A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/E4F8101568EB00764C3224044B9FC3BF4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/E4F8101568EB00764C3224044B9FC3BF59A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/D3746E3BFEAC82C691D25081B810F2C54EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/D3746E3BFEAC82C691D25081B810F2C559A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/1D4CB8D27FDE33BC9FC7073CFA6368864EF73C33EDF7844E267B065EB1
-234670.pygtex [44])
+(./_minted-mattscode/1D4CB8D27FDE33BC9FC7073CFA63688659A43900517B41B76D2303EB37
+018509.pygtex [44])
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/FEB091D1DED361E690992D4B21C0AD434EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/FEB091D1DED361E690992D4B21C0AD4359A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/08F7EFB7AE20F281A45877F3C43E87CD4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/08F7EFB7AE20F281A45877F3C43E87CD59A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/354ECF776FAC56FBCC26D0919ED8106D4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/354ECF776FAC56FBCC26D0919ED8106D59A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/57F499F664DB195B76443F7A78CDF1C04EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/57F499F664DB195B76443F7A78CDF1C059A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/76843B5616BBA349FB4CE063403FCCC64EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/76843B5616BBA349FB4CE063403FCCC659A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/45CF7C823ACF407716C99AC9E34CB3194EF73C33EDF7844E267B065EB1
-234670.pygtex) [45]
+(./_minted-mattscode/45CF7C823ACF407716C99AC9E34CB31959A43900517B41B76D2303EB37
+018509.pygtex) [45]
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/76357F1F6CAD84B62C9B6669193B0E0D86FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/76357F1F6CAD84B62C9B6669193B0E0D86FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/76357F1F6CAD84B62C9B6669193B0E0D506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/D44246A6BB1AB0385D682DD2BD065F2886FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/D44246A6BB1AB0385D682DD2BD065F2886FA503B7245306FEC594FFC58
-8019BA.pygtex
+(./_minted-mattscode/D44246A6BB1AB0385D682DD2BD065F28506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex
 Overfull \hbox (14.01552pt too wide) in paragraph at lines 713--1
 []\OT1/cmr/m/n/10 The \OT1/cmtt/m/n/10 ImagePP \OT1/cmr/m/n/10 mod-ule re-quire
 s a di-rec-tory to down-load data to. Set the en-vi-ron-ment vari-able \TS1/cmt
@@ -2111,32 +2202,20 @@ t/m/n/10 $\OT1/cmtt/m/n/10 PLASMAPAUSE[]DATA
 )
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/EC89F06510F5C3FD9EC1B0DA82B81C134EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/EC89F06510F5C3FD9EC1B0DA82B81C134EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/EC89F06510F5C3FD9EC1B0DA82B81C1359A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/5BDCED301991EE756DC203F90134D6994EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/5BDCED301991EE756DC203F90134D6994EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/5BDCED301991EE756DC203F90134D69959A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/CA1A76F1351784161595398C164C0A674EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/CA1A76F1351784161595398C164C0A674EF73C33EDF7844E267B065EB1
-234670.pygtex)
-<figures/ch4_ppexample.png, id=733, 462.528pt x 346.896pt>
+(./_minted-mattscode/CA1A76F1351784161595398C164C0A6759A43900517B41B76D2303EB37
+018509.pygtex)
+<figures/ch4_ppexample.png, id=1163, 462.528pt x 346.896pt>
 File: figures/ch4_ppexample.png Graphic file (type png)
 <use figures/ch4_ppexample.png>
 Package pdftex.def Info: figures/ch4_ppexample.png  used on input line 743.
@@ -2144,13 +2223,9 @@ Package pdftex.def Info: figures/ch4_ppexample.png  used on input line 743.
  [46]
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/FB0B849165347A9EC8B3D8B3312183AA86FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/FB0B849165347A9EC8B3D8B3312183AA86FA503B7245306FEC594FFC58
-8019BA.pygtex
+(./_minted-mattscode/FB0B849165347A9EC8B3D8B3312183AA506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex
 Overfull \hbox (22.63457pt too wide) in paragraph at lines 762--1
 \OT1/cmr/m/n/10 mod-ule is to down-load this repos-i-tory, or clone it us-ing: 
 \OT1/cmtt/m/n/10 git clone https://github.com/mattkjames7/PyMess.git
@@ -2159,169 +2234,98 @@ Overfull \hbox (22.63457pt too wide) in paragraph at lines 762--1
 ) [47 <./figures/ch4_ppexample.png>]
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/7E0EAF48E44F0B728548F9DEB352CD0B4EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/7E0EAF48E44F0B728548F9DEB352CD0B4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/7E0EAF48E44F0B728548F9DEB352CD0B59A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/6BC7B25796F77A6C1FAD79380A6834CE4EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/6BC7B25796F77A6C1FAD79380A6834CE4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/6BC7B25796F77A6C1FAD79380A6834CE59A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/ABB2BC99508AF5B2E88767F0ABC9E7754EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/ABB2BC99508AF5B2E88767F0ABC9E7754EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/ABB2BC99508AF5B2E88767F0ABC9E77559A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/1E6043D3E8E2B89899E718E60CA536C84EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/1E6043D3E8E2B89899E718E60CA536C84EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/1E6043D3E8E2B89899E718E60CA536C859A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/697E80FFA42256D382A16DFE723BF6D74EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/697E80FFA42256D382A16DFE723BF6D74EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/697E80FFA42256D382A16DFE723BF6D759A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/27AE1189DD011A3392E264722C1DE1AA4EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/27AE1189DD011A3392E264722C1DE1AA4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/27AE1189DD011A3392E264722C1DE1AA59A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/C50E59B9C049A3B16A29360EE858A18B4EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/C50E59B9C049A3B16A29360EE858A18B4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/C50E59B9C049A3B16A29360EE858A18B59A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/E9D66FC89185E9AD2849DC6D1E07A01E4EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/E9D66FC89185E9AD2849DC6D1E07A01E4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/E9D66FC89185E9AD2849DC6D1E07A01E59A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/8B0B077E4212AD65619C1412D489E3A44EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/8B0B077E4212AD65619C1412D489E3A44EF73C33EDF7844E267B065EB1
-234670.pygtex) [48]
+(./_minted-mattscode/8B0B077E4212AD65619C1412D489E3A459A43900517B41B76D2303EB37
+018509.pygtex) [48]
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/ECDDE77EAB9EAB84C970DD03A0905CE94EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/ECDDE77EAB9EAB84C970DD03A0905CE94EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/ECDDE77EAB9EAB84C970DD03A0905CE959A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/C05CFBA55231F20F5B37E83401473CD186FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/C05CFBA55231F20F5B37E83401473CD186FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/C05CFBA55231F20F5B37E83401473CD1506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/6B1C16900093A97D1C9242190099642586FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/6B1C16900093A97D1C9242190099642586FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/6B1C16900093A97D1C92421900996425506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/F571A330FA34FB4017DB1AC74544092E4EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/F571A330FA34FB4017DB1AC74544092E4EF73C33EDF7844E267B065EB1
-234670.pygtex) [49]
+(./_minted-mattscode/F571A330FA34FB4017DB1AC74544092E59A43900517B41B76D2303EB37
+018509.pygtex) [49]
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/E233967F05F4EB799795470303A96BDB4EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/E233967F05F4EB799795470303A96BDB4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/E233967F05F4EB799795470303A96BDB59A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/44051247E025EB50241793A52F5C77C64EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/44051247E025EB50241793A52F5C77C64EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/44051247E025EB50241793A52F5C77C659A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/C4BD781D39DF17CA7F0AE35E8DC8E73F4EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/C4BD781D39DF17CA7F0AE35E8DC8E73F4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/C4BD781D39DF17CA7F0AE35E8DC8E73F59A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/95B58E9F5D5D7ECB8170E5B24D1E6AFE4EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/95B58E9F5D5D7ECB8170E5B24D1E6AFE4EF73C33EDF7844E267B065EB1
-234670.pygtex [50])
+(./_minted-mattscode/95B58E9F5D5D7ECB8170E5B24D1E6AFE59A43900517B41B76D2303EB37
+018509.pygtex [50])
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/AB518EEA01B273089A303420E7904C664EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/AB518EEA01B273089A303420E7904C664EF73C33EDF7844E267B065EB1
-234670.pygtex)) [51]
+(./_minted-mattscode/AB518EEA01B273089A303420E7904C6659A43900517B41B76D2303EB37
+018509.pygtex)) [51]
 \openout2 = `./chapters/chapter05.aux'.
 
  (./chapters/chapter05.tex [52
+
 
 
 
@@ -2329,71 +2333,40 @@ minted-mattscode/AB518EEA01B273089A303420E7904C664EF73C33EDF7844E267B065EB12346
 Chapter 5.
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/36CE360915F26640CB3362D6AA82E10786FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/36CE360915F26640CB3362D6AA82E10786FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/36CE360915F26640CB3362D6AA82E107506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/51581C89EDEB3A37F6D3A0C3F91C86E086FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/51581C89EDEB3A37F6D3A0C3F91C86E086FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/51581C89EDEB3A37F6D3A0C3F91C86E0506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/0D3FD685DF46E9247565F74806C4550F4EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/0D3FD685DF46E9247565F74806C4550F4EF73C33EDF7844E267B065EB1
-234670.pygtex [53])
+(./_minted-mattscode/0D3FD685DF46E9247565F74806C4550F59A43900517B41B76D2303EB37
+018509.pygtex [53])
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/2565C17C58039680B1CF92ECD715FB854EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/2565C17C58039680B1CF92ECD715FB854EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/2565C17C58039680B1CF92ECD715FB8559A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/C788A75A845A207C2380A157CF92466E4EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/C788A75A845A207C2380A157CF92466E4EF73C33EDF7844E267B065EB1
-234670.pygtex [54])
-
-LaTeX Warning: Reference `FigSDExample' on page 55 undefined on input line 116.
-
-
-<figures/ch05_sdexample.png, id=814, 578.16pt x 714.0276pt>
+(./_minted-mattscode/C788A75A845A207C2380A157CF92466E59A43900517B41B76D2303EB37
+018509.pygtex [54])
+<figures/ch05_sdexample.png, id=1224, 578.16pt x 714.0276pt>
 File: figures/ch05_sdexample.png Graphic file (type png)
 <use figures/ch05_sdexample.png>
 Package pdftex.def Info: figures/ch05_sdexample.png  used on input line 119.
 (pdftex.def)             Requested size: 386.95897pt x 477.89484pt.
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/E3F09FB75362D7B8A5A9B07E6BBA3D8B4EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/E3F09FB75362D7B8A5A9B07E6BBA3D8B4EF73C33EDF7844E267B065EB1
-234670.pygtex)
-
-LaTeX Warning: Reference `FigSDFOV' on page 55 undefined on input line 148.
-
-<figures/ch05_sdfov.png, id=815, 462.528pt x 346.896pt>
+(./_minted-mattscode/E3F09FB75362D7B8A5A9B07E6BBA3D8B59A43900517B41B76D2303EB37
+018509.pygtex)
+<figures/ch05_sdfov.png, id=1226, 462.528pt x 346.896pt>
 File: figures/ch05_sdfov.png Graphic file (type png)
 <use figures/ch05_sdfov.png>
 Package pdftex.def Info: figures/ch05_sdfov.png  used on input line 151.
@@ -2407,153 +2380,89 @@ Overfull \hbox (10.02411pt too wide) in paragraph at lines 160--162
 
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/4FD15B3F6087DD7521000DA53C07F6A986FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/4FD15B3F6087DD7521000DA53C07F6A986FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/4FD15B3F6087DD7521000DA53C07F6A9506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/63ACCC60B157A457952D1891E248EAD386FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/63ACCC60B157A457952D1891E248EAD386FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/63ACCC60B157A457952D1891E248EAD3506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/BAD8510D86DCB2E77638C4185B739FE886FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/BAD8510D86DCB2E77638C4185B739FE886FA503B7245306FEC594FFC58
-8019BA.pygtex [55] [56 <./figures/ch05_sdexample.png>])
+(./_minted-mattscode/BAD8510D86DCB2E77638C4185B739FE8506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex [55] [56 <./figures/ch05_sdexample.png>])
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/39298E8DD9D94F174B37DE31CE75393486FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/39298E8DD9D94F174B37DE31CE75393486FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/39298E8DD9D94F174B37DE31CE753934506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/B89BBB145216293D02C79602D63A68644EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/B89BBB145216293D02C79602D63A68644EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/B89BBB145216293D02C79602D63A686459A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/89F36212EAE92654C4743C852F5D61E54EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/89F36212EAE92654C4743C852F5D61E54EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/89F36212EAE92654C4743C852F5D61E559A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/BED381BF9C4975E7922FA365CCEAFA7386FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/BED381BF9C4975E7922FA365CCEAFA7386FA503B7245306FEC594FFC58
-8019BA.pygtex [57 <./figures/ch05_sdfov.png>])
+(./_minted-mattscode/BED381BF9C4975E7922FA365CCEAFA73506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex [57 <./figures/ch05_sdfov.png>])
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/986776491A0B8FA737EC2E82F7DC527686FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/986776491A0B8FA737EC2E82F7DC527686FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/986776491A0B8FA737EC2E82F7DC5276506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/2F14206C2830D0BFF630AEFFA8DD621786FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/2F14206C2830D0BFF630AEFFA8DD621786FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/2F14206C2830D0BFF630AEFFA8DD6217506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/34A98D2387B0CE5EB3B46453A2C9BB3B4EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/34A98D2387B0CE5EB3B46453A2C9BB3B4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/34A98D2387B0CE5EB3B46453A2C9BB3B59A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/F0421B1280D848FBCFF89D32EAB2626C4EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/F0421B1280D848FBCFF89D32EAB2626C4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/F0421B1280D848FBCFF89D32EAB2626C59A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/B1F981D1C779C75AC01498873CE89EF84EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/B1F981D1C779C75AC01498873CE89EF84EF73C33EDF7844E267B065EB1
-234670.pygtex) [58]
+(./_minted-mattscode/B1F981D1C779C75AC01498873CE89EF859A43900517B41B76D2303EB37
+018509.pygtex) [58]
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/42575AC1C53D1412E8072C243E61792B4EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/42575AC1C53D1412E8072C243E61792B4EF73C33EDF7844E267B065EB1
-234670.pygtex)
-<figures/ch5_omniexample.png, id=855, 794.97pt x 433.62pt>
+(./_minted-mattscode/42575AC1C53D1412E8072C243E61792B59A43900517B41B76D2303EB37
+018509.pygtex)
+<figures/ch5_omniexample.png, id=1260, 794.97pt x 433.62pt>
 File: figures/ch5_omniexample.png Graphic file (type png)
 <use figures/ch5_omniexample.png>
 Package pdftex.def Info: figures/ch5_omniexample.png  used on input line 362.
 (pdftex.def)             Requested size: 483.69687pt x 263.83954pt.
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/8D3F8910169D1992B7245941378FB4B486FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/8D3F8910169D1992B7245941378FB4B486FA503B7245306FEC594FFC58
-8019BA.pygtex [59 <./figures/ch5_omniexample.png>])
+(./_minted-mattscode/8D3F8910169D1992B7245941378FB4B4506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex [59 <./figures/ch5_omniexample.png>])
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/586DDD9E16AB300A6D8F6F461437841A86FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/586DDD9E16AB300A6D8F6F461437841A86FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/586DDD9E16AB300A6D8F6F461437841A506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/D66822A0B82B361F01BAE886A98E737F86FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/D66822A0B82B361F01BAE886A98E737F86FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/D66822A0B82B361F01BAE886A98E737F506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 Overfull \hbox (18.04878pt too wide) in paragraph at lines 408--409
 \OT1/cmtt/m/n/10 E ,[] SME . MLAT ,[] SME . MLT ,[] SME . E ,[] SME . UL & fide
 lity = low & start = 2001-[]01-[]30T00 % 3A00 % 3A00 . 000Z & step = 14400 & ta
@@ -2589,22 +2498,14 @@ you left one out. Proceed, with fingers crossed.
 
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/056C4CEB4F563393DAB45F797DC1B5774EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/056C4CEB4F563393DAB45F797DC1B5774EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/056C4CEB4F563393DAB45F797DC1B57759A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/26A4075CEE058344437C8A33D550D2044EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/26A4075CEE058344437C8A33D550D2044EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/26A4075CEE058344437C8A33D550D20459A43900517B41B76D2303EB37
+018509.pygtex)
 Overfull \hbox (15.04878pt too wide) in paragraph at lines 435--436
 \OT1/cmtt/m/n/10 Substorm lists (by Frey et al., 2004 and 2006; Liou 2010; Newe
 ll and Gjerloev, 2011; Forsyth et
@@ -2652,93 +2553,58 @@ should be placed in \TS1/cmtt/m/n/10 $\OT1/cmtt/m/n/10 SMINDEX$[]\OML/cmm/m/it/
 
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/DDD226C5FE93AFE71EB9E282B6A680B14EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/DDD226C5FE93AFE71EB9E282B6A680B14EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/DDD226C5FE93AFE71EB9E282B6A680B159A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/33D24C8D59423058C6865EB69ED314094EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/33D24C8D59423058C6865EB69ED314094EF73C33EDF7844E267B065EB1
-234670.pygtex)) [60]
+(./_minted-mattscode/33D24C8D59423058C6865EB69ED3140959A43900517B41B76D2303EB37
+018509.pygtex)) [60]
 \openout2 = `./chapters/chapter06.aux'.
 
  (./chapters/chapter06.tex
 Chapter 6.
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/DF4023BFB7557D4E17F829AF02A2642B86FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/DF4023BFB7557D4E17F829AF02A2642B86FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/DF4023BFB7557D4E17F829AF02A2642B506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/983423F021FF2F49B0F86769D69D6D0786FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/983423F021FF2F49B0F86769D69D6D0786FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/983423F021FF2F49B0F86769D69D6D07506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/87535702C17CC6CCD2ED11DB5B6290154EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
+(./_minted-mattscode/87535702C17CC6CCD2ED11DB5B62901559A43900517B41B76D2303EB37
+018509.pygtex [61
 
-(./_minted-mattscode/87535702C17CC6CCD2ED11DB5B6290154EF73C33EDF7844E267B065EB1
-234670.pygtex [61
 
 
 
 ])
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/E9B3282F2234DFF3DCF0ED0CACC7A3424EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/E9B3282F2234DFF3DCF0ED0CACC7A3424EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/E9B3282F2234DFF3DCF0ED0CACC7A34259A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/71556926E8C5FE93CFE6140E19BF170C4EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/71556926E8C5FE93CFE6140E19BF170C4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/71556926E8C5FE93CFE6140E19BF170C59A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/BD05826F19C7F0A94D868C2E16ED37CD4EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/BD05826F19C7F0A94D868C2E16ED37CD4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/BD05826F19C7F0A94D868C2E16ED37CD59A43900517B41B76D2303EB37
+018509.pygtex)
 \openout4 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/5053E4415907C734A03B9D16E0B7F9584EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/5053E4415907C734A03B9D16E0B7F9584EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/5053E4415907C734A03B9D16E0B7F95859A43900517B41B76D2303EB37
+018509.pygtex)
 Overfull \hbox (9.04897pt too wide) in paragraph at lines 87--88
 []\OT1/cmtt/m/n/10 Running [] will perform a test on the code, by training a ne
 ural network to
@@ -2756,12 +2622,12 @@ Overfull \hbox (9.79883pt too wide) in paragraph at lines 87--88
 ple of a classified digit, e.g.: 
  []
 
-<figures/ch6_nnccost.png, id=889, 462.528pt x 346.896pt>
+<figures/ch6_nnccost.png, id=1285, 462.528pt x 346.896pt>
 File: figures/ch6_nnccost.png Graphic file (type png)
 <use figures/ch6_nnccost.png>
 Package pdftex.def Info: figures/ch6_nnccost.png  used on input line 91.
 (pdftex.def)             Requested size: 338.58632pt x 253.95184pt.
-<figures/ch6_nncaccuracy.png, id=890, 462.528pt x 346.896pt>
+<figures/ch6_nncaccuracy.png, id=1286, 462.528pt x 346.896pt>
 File: figures/ch6_nncaccuracy.png Graphic file (type png)
 <use figures/ch6_nncaccuracy.png>
 Package pdftex.def Info: figures/ch6_nncaccuracy.png  used on input line 97.
@@ -2770,7 +2636,7 @@ Package pdftex.def Info: figures/ch6_nncaccuracy.png  used on input line 97.
 Underfull \vbox (badness 8151) has occurred while \output is active []
 
  [62 <./figures/ch6_nnccost.png>]
-<figures/ch6_nncdigit.png, id=897, 462.528pt x 346.896pt>
+<figures/ch6_nncdigit.png, id=1293, 462.528pt x 346.896pt>
 File: figures/ch6_nncdigit.png Graphic file (type png)
 <use figures/ch6_nncdigit.png>
 Package pdftex.def Info: figures/ch6_nncdigit.png  used on input line 103.
@@ -2783,51 +2649,35 @@ ctions using artificial neural networks.
 
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/5D3CE60045DB2DDCC37DA7650AF5901F86FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/5D3CE60045DB2DDCC37DA7650AF5901F86FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/5D3CE60045DB2DDCC37DA7650AF5901F506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/63BAA68F2DB69FDBDD878D018D85CB8286FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/63BAA68F2DB69FDBDD878D018D85CB8286FA503B7245306FEC594FFC58
-8019BA.pygtex [63 <./figures/ch6_nncaccuracy.png> <./figures/ch6_nncdigit.png>]
+(./_minted-mattscode/63BAA68F2DB69FDBDD878D018D85CB82506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex [63 <./figures/ch6_nncaccuracy.png> <./figures/ch6_nncdigit.png>]
 )
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/F2166C3D4218D902CDAC3BA1054581DB4EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/F2166C3D4218D902CDAC3BA1054581DB4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/F2166C3D4218D902CDAC3BA1054581DB59A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/E9B3282F2234DFF3DCF0ED0CACC7A3424EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/E9B3282F2234DFF3DCF0ED0CACC7A34259A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/71556926E8C5FE93CFE6140E19BF170C4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/71556926E8C5FE93CFE6140E19BF170C59A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/01922E98401C1D8A650D1AFD818EE5294EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/01922E98401C1D8A650D1AFD818EE5294EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/01922E98401C1D8A650D1AFD818EE52959A43900517B41B76D2303EB37
+018509.pygtex)
 Overfull \hbox (45.79865pt too wide) in paragraph at lines 192--193
 []\OT1/cmtt/m/n/10 The animation below demonstrates the training of a neural ne
 twork used to reproduce four different
@@ -2855,98 +2705,59 @@ If that doesn't work, type  X <return>  to quit.
 Chapter 7.
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/0A2C1A2EE3B7A136FC8C28FCC735149E86FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/0A2C1A2EE3B7A136FC8C28FCC735149E86FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/0A2C1A2EE3B7A136FC8C28FCC735149E506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/CB831CEDFF28ACD82D56AA56A6449C2B86FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/CB831CEDFF28ACD82D56AA56A6449C2B86FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/CB831CEDFF28ACD82D56AA56A6449C2B506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/9C5DC4C1D9E23AC8D7A73D3BF441EDBF86FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/9C5DC4C1D9E23AC8D7A73D3BF441EDBF86FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/9C5DC4C1D9E23AC8D7A73D3BF441EDBF506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/E580D3F795838FC6B033764B54B5C38F4EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/E580D3F795838FC6B033764B54B5C38F4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/E580D3F795838FC6B033764B54B5C38F59A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/A53B4A4EBEF957CE9C1EABB7B2EB38694EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/A53B4A4EBEF957CE9C1EABB7B2EB38694EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/A53B4A4EBEF957CE9C1EABB7B2EB386959A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/90D8C8F95B007693917061AD981B48F44EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/90D8C8F95B007693917061AD981B48F44EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/90D8C8F95B007693917061AD981B48F459A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/F2EEEBAF85BD113E05F2AE984F1238E64EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/F2EEEBAF85BD113E05F2AE984F1238E64EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/F2EEEBAF85BD113E05F2AE984F1238E659A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/DC14E3867109FF2A5B08FA287D67FE8A4EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/DC14E3867109FF2A5B08FA287D67FE8A4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/DC14E3867109FF2A5B08FA287D67FE8A59A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/DFEF9C73D43F0F7531DFC34497F361B64EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
+(./_minted-mattscode/DFEF9C73D43F0F7531DFC34497F361B659A43900517B41B76D2303EB37
+018509.pygtex) [65
 
-(./_minted-mattscode/DFEF9C73D43F0F7531DFC34497F361B64EF73C33EDF7844E267B065EB1
-234670.pygtex) [65
 
 
 
 ]
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/6469B0EDB73C99E9E070CCADC9F47A4286FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/6469B0EDB73C99E9E070CCADC9F47A4286FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/6469B0EDB73C99E9E070CCADC9F47A42506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 Overfull \hbox (24.79883pt too wide) in paragraph at lines 93--95
 []\OT1/cmtt/m/n/10 all of which will be installed automatically. For modelling 
 waves in Mercury's magnetosphere,
@@ -2966,13 +2777,9 @@ Overfull \hbox (4.54887pt too wide) in paragraph at lines 100--104
 
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/A2E0ED180A3061FD4BF6067671B2E2254EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/A2E0ED180A3061FD4BF6067671B2E2254EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/A2E0ED180A3061FD4BF6067671B2E22559A43900517B41B76D2303EB37
+018509.pygtex)
 Overfull \hbox (14.29892pt too wide) in paragraph at lines 111--116
 []\OT1/cmtt/m/n/10 where h is provided using a second trace if the Polarization
  parameter is set to 'poloidal',
@@ -2998,13 +2805,9 @@ n arbitrary magnetic field trace
 
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/091C70A300710CBDF20096188ED50BCB4EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/091C70A300710CBDF20096188ED50BCB4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/091C70A300710CBDF20096188ED50BCB59A43900517B41B76D2303EB37
+018509.pygtex)
 Overfull \hbox (9.34459pt too wide) in paragraph at lines 127--130
 []\OT1/cmtt/m/n/10 where yr is the real part of the scaled field displacement, 
 $\OML/cmm/m/it/10 ^^X=h[]$\OT1/cmtt/m/n/10 , yi is the imaginary part,
@@ -3024,13 +2827,9 @@ of harmonics that would be allowed
 
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/0AED3A2D694A259F15C0237166767C444EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/0AED3A2D694A259F15C0237166767C444EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/0AED3A2D694A259F15C0237166767C4459A43900517B41B76D2303EB37
+018509.pygtex)
 Overfull \hbox (3.79901pt too wide) in paragraph at lines 140--143
 []\OT1/cmtt/m/n/10 where freq is an array of allowed frequencies, success is a 
 Boolean array denoting whether
@@ -3044,22 +2843,14 @@ ng the number of iterations required
 
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/007133775BAECB4FD715206C850A0F1A4EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/007133775BAECB4FD715206C850A0F1A4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/007133775BAECB4FD715206C850A0F1A59A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/FBEB3760D9FF58B7DF5518FBFFADD4CA4EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/FBEB3760D9FF58B7DF5518FBFFADD4CA4EF73C33EDF7844E267B065EB1
-234670.pygtex [66])
+(./_minted-mattscode/FBEB3760D9FF58B7DF5518FBFFADD4CA59A43900517B41B76D2303EB37
+018509.pygtex [66])
 Overfull \hbox (4.54887pt too wide) in paragraph at lines 160--163
 \OT1/cmtt/m/n/10 This will produce a plot of the allowed toroidal and poloidal 
 harmonics on a field line given
@@ -3067,13 +2858,9 @@ harmonics on a field line given
 
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/EEC78A197392FDB37F7159EF68A2C37A4EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/EEC78A197392FDB37F7159EF68A2C37A4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/EEC78A197392FDB37F7159EF68A2C37A59A43900517B41B76D2303EB37
+018509.pygtex)
 Overfull \hbox (30.79865pt too wide) in paragraph at lines 170--172
 \OT1/cmtt/m/n/10 Attempts to fit a power law or the Sandhu et al model plasma m
 ass density profile to a given field
@@ -3081,13 +2868,9 @@ ass density profile to a given field
 
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/B870CDA7F4AE16E813CA6F44077228694EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/B870CDA7F4AE16E813CA6F44077228694EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/B870CDA7F4AE16E813CA6F440772286959A43900517B41B76D2303EB37
+018509.pygtex)
 Overfull \hbox (9.79883pt too wide) in paragraph at lines 179--181
 \OT1/cmtt/m/n/10 This tries to fit the plasma mass density profile to a set of 
 observed frequencies (with their
@@ -3095,22 +2878,14 @@ observed frequencies (with their
 
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/FEA3E8B74A1B64CBF0EFBA80D0F94B234EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/FEA3E8B74A1B64CBF0EFBA80D0F94B234EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/FEA3E8B74A1B64CBF0EFBA80D0F94B2359A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/FE4BF33EDEB0F22510FE1FD9058092314EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/FE4BF33EDEB0F22510FE1FD9058092314EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/FE4BF33EDEB0F22510FE1FD90580923159A43900517B41B76D2303EB37
+018509.pygtex)
 Overfull \hbox (9.79883pt too wide) in paragraph at lines 197--199
 \OT1/cmtt/m/n/10 Plots the modelled density along a field line given a position
  in which to start a field trace
@@ -3118,13 +2893,9 @@ Overfull \hbox (9.79883pt too wide) in paragraph at lines 197--199
 
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/F0C37770CC3C163A075CEDD9FFCFC1E54EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/F0C37770CC3C163A075CEDD9FFCFC1E54EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/F0C37770CC3C163A075CEDD9FFCFC1E559A43900517B41B76D2303EB37
+018509.pygtex)
 Overfull \hbox (9.79883pt too wide) in paragraph at lines 209--210
 \OT1/cmtt/m/n/10 This is a very simple Python module to trace fields (e.g., mag
 netic fields) when provided with
@@ -3132,22 +2903,14 @@ netic fields) when provided with
 
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/FB6C0322E1FA39FD8B0DC61D1EECD4DA86FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/FB6C0322E1FA39FD8B0DC61D1EECD4DA86FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/FB6C0322E1FA39FD8B0DC61D1EECD4DA506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/0F3B0B587392589EB257C51F97E02D7D86FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/0F3B0B587392589EB257C51F97E02D7D86FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/0F3B0B587392589EB257C51F97E02D7D506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 Overfull \hbox (15.04878pt too wide) in paragraph at lines 236--237
 \OT1/cmtt/m/n/10 There are two tracing routines in this model: FieldTracing.Eul
 er.EulerTrace - this is the most
@@ -3168,13 +2931,9 @@ ng any non-linear field, the RK4
 [67]
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/DEB8435C2C05680DDCA1A585FF7A368C4EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/DEB8435C2C05680DDCA1A585FF7A368C4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/DEB8435C2C05680DDCA1A585FF7A368C59A43900517B41B76D2303EB37
+018509.pygtex)
 Overfull \hbox (35.29874pt too wide) in paragraph at lines 247--248
 []\OT1/cmtt/m/n/10 Below is an example trace using the KT17 model field module 
 (see [][]$https : / / github . com / mattkjames7 /
@@ -3182,14 +2941,10 @@ Overfull \hbox (35.29874pt too wide) in paragraph at lines 247--248
 
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/B12159D0C2822FD6481BC4FEAB364FEC4EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/B12159D0C2822FD6481BC4FEAB364FEC4EF73C33EDF7844E267B065EB1
-234670.pygtex)
-<figures/ch7_ftExample.png, id=954, 462.528pt x 346.896pt>
+(./_minted-mattscode/B12159D0C2822FD6481BC4FEAB364FEC59A43900517B41B76D2303EB37
+018509.pygtex)
+<figures/ch7_ftExample.png, id=1337, 462.528pt x 346.896pt>
 File: figures/ch7_ftExample.png Graphic file (type png)
 <use figures/ch7_ftExample.png>
 Package pdftex.def Info: figures/ch7_ftExample.png  used on input line 299.
@@ -3197,13 +2952,9 @@ Package pdftex.def Info: figures/ch7_ftExample.png  used on input line 299.
  [68]
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/8AB7013950680FE801B523EEC6C54C6786FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/8AB7013950680FE801B523EEC6C54C6786FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/8AB7013950680FE801B523EEC6C54C67506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 Overfull \hbox (19.54887pt too wide) in paragraph at lines 317--318
 []\OT1/cmtt/m/n/10 NOTE: This module uses a C++ backend, which is compiled with
  g++ under Linux (libdatetime.so)
@@ -3247,13 +2998,9 @@ yymmdd and floating point times
 
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/1214BE6D2E55DA46C44CA92AA152CDFB4EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/1214BE6D2E55DA46C44CA92AA152CDFB4EF73C33EDF7844E267B065EB1
-234670.pygtex [69 <./figures/ch7_ftExample.png>])
+(./_minted-mattscode/1214BE6D2E55DA46C44CA92AA152CDFB59A43900517B41B76D2303EB37
+018509.pygtex [69 <./figures/ch7_ftExample.png>])
 Overfull \hbox (36.0486pt too wide) in paragraph at lines 371--372
 \OT1/cmtt/m/n/10 The DTPlotLabel function can be used to change the plot labels
  on the x-axis of a matplotlib.pyplot
@@ -3261,22 +3008,14 @@ Overfull \hbox (36.0486pt too wide) in paragraph at lines 371--372
 
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/860B4C7B7BD0D73AD2F8FFC3AA5564B94EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/860B4C7B7BD0D73AD2F8FFC3AA5564B94EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/860B4C7B7BD0D73AD2F8FFC3AA5564B959A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/B327BA5CF76465BAE1A5466C79D0D5584EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/B327BA5CF76465BAE1A5466C79D0D5584EF73C33EDF7844E267B065EB1
-234670.pygtex [70])
+(./_minted-mattscode/B327BA5CF76465BAE1A5466C79D0D55859A43900517B41B76D2303EB37
+018509.pygtex [70])
 Overfull \hbox (4.54887pt too wide) in paragraph at lines 420--421
 \OT1/cmtt/m/n/10 Given an evenly sampled time series, the lsfilter function can
  perform low-pass and high-pass
@@ -3284,22 +3023,14 @@ Overfull \hbox (4.54887pt too wide) in paragraph at lines 420--421
 
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/A71442765431BD8250AC70D348A4CE1E4EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/A71442765431BD8250AC70D348A4CE1E4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/A71442765431BD8250AC70D348A4CE1E59A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/436128B3EDDC1C9859B7945ED44910844EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/436128B3EDDC1C9859B7945ED44910844EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/436128B3EDDC1C9859B7945ED449108459A43900517B41B76D2303EB37
+018509.pygtex)
 Overfull \hbox (15.04878pt too wide) in paragraph at lines 475--476
 \OT1/cmtt/m/n/10 This library requires GNU-make and g++ to be built in Linux an
 d Mac. In Windows, I use TDM-GCC
@@ -3308,27 +3039,19 @@ d Mac. In Windows, I use TDM-GCC
 [71]
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/4BE82FF2DE1168D63A348C892A3F07CA86FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/4BE82FF2DE1168D63A348C892A3F07CA86FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/4BE82FF2DE1168D63A348C892A3F07CA506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/AC98A056C0819E06460ECCA505283F1C86FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/AC98A056C0819E06460ECCA505283F1C86FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/AC98A056C0819E06460ECCA505283F1C506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l cmd -f latex -P commandprefix=PYG -F tokenmerge -o _min
-ted-mattscode/4D2C3ADA0A2C1DCD86B4AB68B20D2279D139B3F0A9B67F92A2068F30E3D3321E.
-pygtex mattscode.pyg)...executed.
+runsystem(pygmentize -l cmd -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o _minted-mattscode/4D2C3ADA0A2C1DCD86B4AB68B20D22795723F160039043D3
+152B36F8B5EFA2BB.pygtex mattscode.pyg)...executed.
 
 
 
@@ -3350,22 +3073,14 @@ or using frozencache with a missing file.
 
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -o _min
-ted-mattscode/7DCADC84D13BD8EB1396D72B743AC57F7F5A74254C162834BE09F7374578705C.
-pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/7DCADC84D13BD8EB1396D72B743AC57F7F5A74254C162834BE09F73745
-78705C.pygtex)
+(./_minted-mattscode/7DCADC84D13BD8EB1396D72B743AC57FC5A4D957759BD904BD1AADCCF3
+31E6A1.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/A846BB22B54BE21DACBDEF480822D6DF86FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/A846BB22B54BE21DACBDEF480822D6DF86FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/A846BB22B54BE21DACBDEF480822D6DF506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 Overfull \hbox (25.54869pt too wide) in paragraph at lines 518--519
 \OT1/cmtt/m/n/10 To check that all of the functions are working as expected, ru
 n the following tests in Linux/Mac: 
@@ -3373,18 +3088,14 @@ n the following tests in Linux/Mac:
 
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/E16DCA0A784CE535334D7FA0CA19FF4486FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/E16DCA0A784CE535334D7FA0CA19FF4486FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/E16DCA0A784CE535334D7FA0CA19FF44506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l cmd -f latex -P commandprefix=PYG -F tokenmerge -o _min
-ted-mattscode/C77381F1D7ACDF4E5EF76CF6EFBFE1F7D139B3F0A9B67F92A2068F30E3D3321E.
-pygtex mattscode.pyg)...executed.
+runsystem(pygmentize -l cmd -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o _minted-mattscode/C77381F1D7ACDF4E5EF76CF6EFBFE1F75723F160039043D3
+152B36F8B5EFA2BB.pygtex mattscode.pyg)...executed.
 
 
 
@@ -3412,198 +3123,114 @@ ng test will check that linking
 
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/DA20540855971E3519943241E7B70B0A86FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/DA20540855971E3519943241E7B70B0A86FA503B7245306FEC594FFC58
-8019BA.pygtex)
-\openout4 = `mattscode.pyg'.
-
-runsystem(pygmentize -l text -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/5259CDB52272035DB17F4F84841838D321293E8415E7C04EBF1D581AB3897AFE
-.pygtex mattscode.pyg)...executed.
-
-
-(./_minted-mattscode/5259CDB52272035DB17F4F84841838D321293E8415E7C04EBF1D581AB3
-897AFE.pygtex)
-\openout4 = `mattscode.pyg'.
-
-runsystem(pygmentize -l text -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/B08D770D6E5181E193077F7B0A22650D21293E8415E7C04EBF1D581AB3897AFE
-.pygtex mattscode.pyg)...executed.
-
-
-(./_minted-mattscode/B08D770D6E5181E193077F7B0A22650D21293E8415E7C04EBF1D581AB3
-897AFE.pygtex)
+(./_minted-mattscode/DA20540855971E3519943241E7B70B0A506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout4 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/5259CDB52272035DB17F4F84841838D321293E8415E7C04EBF1D581AB3
-897AFE.pygtex)
+(./_minted-mattscode/5259CDB52272035DB17F4F84841838D3A0D8B8F8055CCB464417E879E0
+B48F98.pygtex)
 \openout4 = `mattscode.pyg'.
 
-runsystem(pygmentize -l text -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/F716F62B2938C1D1E1EB60A35499505C21293E8415E7C04EBF1D581AB3897AFE
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/F716F62B2938C1D1E1EB60A35499505C21293E8415E7C04EBF1D581AB3
-897AFE.pygtex)
+(./_minted-mattscode/B08D770D6E5181E193077F7B0A22650DA0D8B8F8055CCB464417E879E0
+B48F98.pygtex)
 \openout4 = `mattscode.pyg'.
 
-runsystem(pygmentize -l text -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/BB7F28F0C28A166D1AC607F327C9194721293E8415E7C04EBF1D581AB3897AFE
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/BB7F28F0C28A166D1AC607F327C9194721293E8415E7C04EBF1D581AB3
-897AFE.pygtex)
+(./_minted-mattscode/5259CDB52272035DB17F4F84841838D3A0D8B8F8055CCB464417E879E0
+B48F98.pygtex)
 \openout4 = `mattscode.pyg'.
 
-runsystem(pygmentize -l text -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/BF99847AC133AC4F6337F6099BB28EE621293E8415E7C04EBF1D581AB3897AFE
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/BF99847AC133AC4F6337F6099BB28EE621293E8415E7C04EBF1D581AB3
-897AFE.pygtex)
+(./_minted-mattscode/F716F62B2938C1D1E1EB60A35499505CA0D8B8F8055CCB464417E879E0
+B48F98.pygtex)
 \openout4 = `mattscode.pyg'.
 
-runsystem(pygmentize -l text -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/69A0BAA20DB97C892F2A5D5FC5B2799A21293E8415E7C04EBF1D581AB3897AFE
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/69A0BAA20DB97C892F2A5D5FC5B2799A21293E8415E7C04EBF1D581AB3
-897AFE.pygtex)
+(./_minted-mattscode/BB7F28F0C28A166D1AC607F327C91947A0D8B8F8055CCB464417E879E0
+B48F98.pygtex)
 \openout4 = `mattscode.pyg'.
 
-runsystem(pygmentize -l text -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/E65678F4D2E072D7917FDE29DED7AB9221293E8415E7C04EBF1D581AB3897AFE
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/E65678F4D2E072D7917FDE29DED7AB9221293E8415E7C04EBF1D581AB3
-897AFE.pygtex)
+(./_minted-mattscode/BF99847AC133AC4F6337F6099BB28EE6A0D8B8F8055CCB464417E879E0
+B48F98.pygtex)
 \openout4 = `mattscode.pyg'.
 
-runsystem(pygmentize -l text -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/15C67F5B21D67420BCF4F5BE31F6507C21293E8415E7C04EBF1D581AB3897AFE
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/15C67F5B21D67420BCF4F5BE31F6507C21293E8415E7C04EBF1D581AB3
-897AFE.pygtex)
+(./_minted-mattscode/69A0BAA20DB97C892F2A5D5FC5B2799AA0D8B8F8055CCB464417E879E0
+B48F98.pygtex)
 \openout4 = `mattscode.pyg'.
 
-runsystem(pygmentize -l text -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/BEB26FD0728DBAD194A43115BD18144021293E8415E7C04EBF1D581AB3897AFE
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/BEB26FD0728DBAD194A43115BD18144021293E8415E7C04EBF1D581AB3
-897AFE.pygtex)
+(./_minted-mattscode/E65678F4D2E072D7917FDE29DED7AB92A0D8B8F8055CCB464417E879E0
+B48F98.pygtex)
 \openout4 = `mattscode.pyg'.
 
-runsystem(pygmentize -l text -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/89D7EC02C62722DC4B723B4ED75E110821293E8415E7C04EBF1D581AB3897AFE
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/89D7EC02C62722DC4B723B4ED75E110821293E8415E7C04EBF1D581AB3
-897AFE.pygtex)
+(./_minted-mattscode/15C67F5B21D67420BCF4F5BE31F6507CA0D8B8F8055CCB464417E879E0
+B48F98.pygtex)
 \openout4 = `mattscode.pyg'.
 
-runsystem(pygmentize -l text -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/E3A4B87F4B5631976201456EC73A2E3821293E8415E7C04EBF1D581AB3897AFE
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/E3A4B87F4B5631976201456EC73A2E3821293E8415E7C04EBF1D581AB3
-897AFE.pygtex)
+(./_minted-mattscode/BEB26FD0728DBAD194A43115BD181440A0D8B8F8055CCB464417E879E0
+B48F98.pygtex)
 \openout4 = `mattscode.pyg'.
 
-runsystem(pygmentize -l text -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/E3845772F401DAFA95B785D77C60185A21293E8415E7C04EBF1D581AB3897AFE
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/E3845772F401DAFA95B785D77C60185A21293E8415E7C04EBF1D581AB3
-897AFE.pygtex)
+(./_minted-mattscode/89D7EC02C62722DC4B723B4ED75E1108A0D8B8F8055CCB464417E879E0
+B48F98.pygtex)
 \openout4 = `mattscode.pyg'.
 
-runsystem(pygmentize -l text -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/308A8B9E8E1305466069CD2FD829011821293E8415E7C04EBF1D581AB3897AFE
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/308A8B9E8E1305466069CD2FD829011821293E8415E7C04EBF1D581AB3
-897AFE.pygtex)
+(./_minted-mattscode/E3A4B87F4B5631976201456EC73A2E38A0D8B8F8055CCB464417E879E0
+B48F98.pygtex)
 \openout4 = `mattscode.pyg'.
 
-runsystem(pygmentize -l text -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/07D5E513EC4D7B37AA7A72A6C098A83721293E8415E7C04EBF1D581AB3897AFE
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/07D5E513EC4D7B37AA7A72A6C098A83721293E8415E7C04EBF1D581AB3
-897AFE.pygtex)
+(./_minted-mattscode/E3845772F401DAFA95B785D77C60185AA0D8B8F8055CCB464417E879E0
+B48F98.pygtex)
 \openout4 = `mattscode.pyg'.
 
-runsystem(pygmentize -l text -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/03D0C2AA25B769E23A8299F7409FF11E21293E8415E7C04EBF1D581AB3897AFE
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/03D0C2AA25B769E23A8299F7409FF11E21293E8415E7C04EBF1D581AB3
-897AFE.pygtex)
+(./_minted-mattscode/308A8B9E8E1305466069CD2FD8290118A0D8B8F8055CCB464417E879E0
+B48F98.pygtex)
 \openout4 = `mattscode.pyg'.
 
-runsystem(pygmentize -l text -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/ED0F94E2A1CC94A9A5380D152FBFC36A21293E8415E7C04EBF1D581AB3897AFE
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/ED0F94E2A1CC94A9A5380D152FBFC36A21293E8415E7C04EBF1D581AB3
-897AFE.pygtex)
+(./_minted-mattscode/07D5E513EC4D7B37AA7A72A6C098A837A0D8B8F8055CCB464417E879E0
+B48F98.pygtex)
 \openout4 = `mattscode.pyg'.
 
-runsystem(pygmentize -l text -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/9FA51023C2D068A8CC6338B469B7087521293E8415E7C04EBF1D581AB3897AFE
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/9FA51023C2D068A8CC6338B469B7087521293E8415E7C04EBF1D581AB3
-897AFE.pygtex)
+(./_minted-mattscode/03D0C2AA25B769E23A8299F7409FF11EA0D8B8F8055CCB464417E879E0
+B48F98.pygtex)
 \openout4 = `mattscode.pyg'.
 
-runsystem(pygmentize -l text -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/BFFE259FDDDEBD3E0ECF48FEE76A85AF21293E8415E7C04EBF1D581AB3897AFE
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/BFFE259FDDDEBD3E0ECF48FEE76A85AF21293E8415E7C04EBF1D581AB3
-897AFE.pygtex)
+(./_minted-mattscode/ED0F94E2A1CC94A9A5380D152FBFC36AA0D8B8F8055CCB464417E879E0
+B48F98.pygtex)
 \openout4 = `mattscode.pyg'.
 
-runsystem(pygmentize -l text -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/61A2DA33C702933DDF7AC2AF990A20C221293E8415E7C04EBF1D581AB3897AFE
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/61A2DA33C702933DDF7AC2AF990A20C221293E8415E7C04EBF1D581AB3
-897AFE.pygtex)
+(./_minted-mattscode/9FA51023C2D068A8CC6338B469B70875A0D8B8F8055CCB464417E879E0
+B48F98.pygtex)
 \openout4 = `mattscode.pyg'.
 
-runsystem(pygmentize -l text -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/E333D3BEC58D8224FFF4BB93402EB18521293E8415E7C04EBF1D581AB3897AFE
-.pygtex mattscode.pyg)...executed.
+
+(./_minted-mattscode/BFFE259FDDDEBD3E0ECF48FEE76A85AFA0D8B8F8055CCB464417E879E0
+B48F98.pygtex)
+\openout4 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/E333D3BEC58D8224FFF4BB93402EB18521293E8415E7C04EBF1D581AB3
-897AFE.pygtex)
+(./_minted-mattscode/61A2DA33C702933DDF7AC2AF990A20C2A0D8B8F8055CCB464417E879E0
+B48F98.pygtex)
+\openout4 = `mattscode.pyg'.
+
+
+(./_minted-mattscode/E333D3BEC58D8224FFF4BB93402EB185A0D8B8F8055CCB464417E879E0
+B48F98.pygtex)
 Overfull \hbox (195.07744pt too wide) in paragraph at lines 538--564
 [] 
  []
@@ -3611,85 +3238,49 @@ Overfull \hbox (195.07744pt too wide) in paragraph at lines 538--564
 [72]
 \openout4 = `mattscode.pyg'.
 
-runsystem(pygmentize -l text -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/B7A55FBE5A893A805F50641F2208EF1921293E8415E7C04EBF1D581AB3897AFE
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/B7A55FBE5A893A805F50641F2208EF1921293E8415E7C04EBF1D581AB3
-897AFE.pygtex)
+(./_minted-mattscode/B7A55FBE5A893A805F50641F2208EF19A0D8B8F8055CCB464417E879E0
+B48F98.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/094D7A6C49F15F9B4A8B9DC113812D8A86FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/094D7A6C49F15F9B4A8B9DC113812D8A86FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/094D7A6C49F15F9B4A8B9DC113812D8A506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/5E7AFACA298CC1D149782C2738AE346C86FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/5E7AFACA298CC1D149782C2738AE346C86FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/5E7AFACA298CC1D149782C2738AE346C506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout4 = `mattscode.pyg'.
 
-runsystem(pygmentize -l text -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/FE29F081E2EEE853A924EE78CA77CA6B21293E8415E7C04EBF1D581AB3897AFE
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/FE29F081E2EEE853A924EE78CA77CA6B21293E8415E7C04EBF1D581AB3
-897AFE.pygtex)
+(./_minted-mattscode/FE29F081E2EEE853A924EE78CA77CA6BA0D8B8F8055CCB464417E879E0
+B48F98.pygtex)
 \openout4 = `mattscode.pyg'.
 
-runsystem(pygmentize -l text -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/E1452654A78D238983A841D6424C560121293E8415E7C04EBF1D581AB3897AFE
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/E1452654A78D238983A841D6424C560121293E8415E7C04EBF1D581AB3
-897AFE.pygtex)
+(./_minted-mattscode/E1452654A78D238983A841D6424C5601A0D8B8F8055CCB464417E879E0
+B48F98.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/17F15079D69E71A1258A4C5324C6E0CF4EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/17F15079D69E71A1258A4C5324C6E0CF4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/17F15079D69E71A1258A4C5324C6E0CF59A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/603F721A1022899694AA71F08F02B8FA4EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/603F721A1022899694AA71F08F02B8FA4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/603F721A1022899694AA71F08F02B8FA59A43900517B41B76D2303EB37
+018509.pygtex)
 \openout4 = `mattscode.pyg'.
 
-runsystem(pygmentize -l text -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/59182B729FA5D708AB44B6E23A2071A021293E8415E7C04EBF1D581AB3897AFE
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/59182B729FA5D708AB44B6E23A2071A021293E8415E7C04EBF1D581AB3
-897AFE.pygtex)
+(./_minted-mattscode/59182B729FA5D708AB44B6E23A2071A0A0D8B8F8055CCB464417E879E0
+B48F98.pygtex)
 \openout4 = `mattscode.pyg'.
 
-runsystem(pygmentize -l text -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/E4B0E419698E985630DEFB4126B7A6D521293E8415E7C04EBF1D581AB3897AFE
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/E4B0E419698E985630DEFB4126B7A6D521293E8415E7C04EBF1D581AB3
-897AFE.pygtex)
+(./_minted-mattscode/E4B0E419698E985630DEFB4126B7A6D5A0D8B8F8055CCB464417E879E0
+B48F98.pygtex)
 Overfull \hbox (24.79883pt too wide) in paragraph at lines 626--627
 []\OT1/cmtt/m/n/10 We can also use ASCII files to load [] files and save data s
 tored in a simple []: 
@@ -3697,76 +3288,44 @@ tored in a simple []:
 
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/F5F678E961B9AE8E41799AE012E8E1C64EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/F5F678E961B9AE8E41799AE012E8E1C64EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/F5F678E961B9AE8E41799AE012E8E1C659A43900517B41B76D2303EB37
+018509.pygtex)
 \openout4 = `mattscode.pyg'.
 
-runsystem(pygmentize -l text -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/14517CC0DABE032D6439F45AEAF349BF21293E8415E7C04EBF1D581AB3897AFE
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/14517CC0DABE032D6439F45AEAF349BF21293E8415E7C04EBF1D581AB3
-897AFE.pygtex)
+(./_minted-mattscode/14517CC0DABE032D6439F45AEAF349BFA0D8B8F8055CCB464417E879E0
+B48F98.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/39F123F147379481C4EB938446720B004EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/39F123F147379481C4EB938446720B004EF73C33EDF7844E267B065EB1
-234670.pygtex [73])
+(./_minted-mattscode/39F123F147379481C4EB938446720B0059A43900517B41B76D2303EB37
+018509.pygtex [73])
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/E04DD9B01EFF54743588A880E482FFC44EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/E04DD9B01EFF54743588A880E482FFC44EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/E04DD9B01EFF54743588A880E482FFC459A43900517B41B76D2303EB37
+018509.pygtex)
 \openout4 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/E4B0E419698E985630DEFB4126B7A6D54EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/E4B0E419698E985630DEFB4126B7A6D54EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/E4B0E419698E985630DEFB4126B7A6D559A43900517B41B76D2303EB37
+018509.pygtex)
 \openout4 = `mattscode.pyg'.
 
-runsystem(pygmentize -l text -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/365C9BFEB7D89244F2CE01C1DE44CB8521293E8415E7C04EBF1D581AB3897AFE
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/365C9BFEB7D89244F2CE01C1DE44CB8521293E8415E7C04EBF1D581AB3
-897AFE.pygtex)
+(./_minted-mattscode/365C9BFEB7D89244F2CE01C1DE44CB85A0D8B8F8055CCB464417E879E0
+B48F98.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/3AB39638CB4F1532EF155FE9D4F1726086FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/3AB39638CB4F1532EF155FE9D4F1726086FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/3AB39638CB4F1532EF155FE9D4F17260506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/55521BCD92CA2E45F5B77F9F0E98F64E86FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/55521BCD92CA2E45F5B77F9F0E98F64E86FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/55521BCD92CA2E45F5B77F9F0E98F64E506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 Overfull \hbox (30.79865pt too wide) in paragraph at lines 707--708
 \OT1/cmtt/m/n/10 This will save a record array to a binary file - note that the
  dtype of the record array shouldn't
@@ -3774,22 +3333,14 @@ Overfull \hbox (30.79865pt too wide) in paragraph at lines 707--708
 
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/CDE8069BB12D72A14B1578BAEEC90EED4EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/CDE8069BB12D72A14B1578BAEEC90EED4EF73C33EDF7844E267B065EB1
-234670.pygtex [74])
+(./_minted-mattscode/CDE8069BB12D72A14B1578BAEEC90EED59A43900517B41B76D2303EB37
+018509.pygtex [74])
 \openout4 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/BB86F4E94BC83A9EDCDFF295E6ED244E4EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/BB86F4E94BC83A9EDCDFF295E6ED244E4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/BB86F4E94BC83A9EDCDFF295E6ED244E59A43900517B41B76D2303EB37
+018509.pygtex)
 Overfull \hbox (3.79901pt too wide) in paragraph at lines 727--728
 []\OT1/cmtt/m/n/10 The first 4 bytes correspond to a 32-bit integer containing 
 the size of the recarray (i.e.
@@ -3797,13 +3348,9 @@ the size of the recarray (i.e.
 
 \openout4 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/3C86F8BB8BC54707B4143A7F68F6F90F4EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/3C86F8BB8BC54707B4143A7F68F6F90F4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/3C86F8BB8BC54707B4143A7F68F6F90F59A43900517B41B76D2303EB37
+018509.pygtex)
 Overfull \hbox (24.79883pt too wide) in paragraph at lines 729--730
 []\OT1/cmtt/m/n/10 Then each field [] is stored contiguously as whatever dtype 
 it was assigned with,
@@ -3811,76 +3358,44 @@ it was assigned with,
 
 \openout4 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/16879C1AA2BBB731C4FC6D978C609A6E4EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/16879C1AA2BBB731C4FC6D978C609A6E4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/16879C1AA2BBB731C4FC6D978C609A6E59A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/FC1BBED04F0E98CD73C2B90FBF9C67FF4EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/FC1BBED04F0E98CD73C2B90FBF9C67FF4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/FC1BBED04F0E98CD73C2B90FBF9C67FF59A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/172EC8DE9BF4516A399715CC65BC1E334EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/172EC8DE9BF4516A399715CC65BC1E334EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/172EC8DE9BF4516A399715CC65BC1E3359A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/3600318D0865CDDAC48BB64B60F3DDA14EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/3600318D0865CDDAC48BB64B60F3DDA14EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/3600318D0865CDDAC48BB64B60F3DDA159A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/633FA5DE3BFB59E986DFC30F4779C99F4EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/633FA5DE3BFB59E986DFC30F4779C99F4EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/633FA5DE3BFB59E986DFC30F4779C99F59A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/76E628F961ABFB7F2BB6852E4BA9D7984EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/76E628F961ABFB7F2BB6852E4BA9D7984EF73C33EDF7844E267B065EB1
-234670.pygtex [75])
+(./_minted-mattscode/76E628F961ABFB7F2BB6852E4BA9D79859A43900517B41B76D2303EB37
+018509.pygtex [75])
 \openout4 = `mattscode.pyg'.
 
-runsystem(pygmentize -l text -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/3818ADD94035CB427627AA654FFF1C9021293E8415E7C04EBF1D581AB3897AFE
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/3818ADD94035CB427627AA654FFF1C9021293E8415E7C04EBF1D581AB3
-897AFE.pygtex)
+(./_minted-mattscode/3818ADD94035CB427627AA654FFF1C90A0D8B8F8055CCB464417E879E0
+B48F98.pygtex)
 \openout4 = `mattscode.pyg'.
 
-runsystem(pygmentize -l text -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/34239694F8A9CBCC25E0C4E91CDCB25421293E8415E7C04EBF1D581AB3897AFE
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/34239694F8A9CBCC25E0C4E91CDCB25421293E8415E7C04EBF1D581AB3
-897AFE.pygtex)
+(./_minted-mattscode/34239694F8A9CBCC25E0C4E91CDCB254A0D8B8F8055CCB464417E879E0
+B48F98.pygtex)
 Overfull \hbox (36.0486pt too wide) in paragraph at lines 804--805
 \OT1/cmtt/m/n/10 TL;DR: Copy one of these folders, [] into it, add your python 
 code to "runcode.py", edit myjob.sub
@@ -3906,13 +3421,9 @@ or example, the same bit of code
 
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/B6629F122538DD9FA3D315F66369A88086FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/B6629F122538DD9FA3D315F66369A88086FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/B6629F122538DD9FA3D315F66369A880506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 Overfull \hbox (19.54887pt too wide) in paragraph at lines 824--825
 []\OT1/cmtt/m/n/10 where 1-1000 indicates a range of job indices from 1 to 1000
 . This could also be an explicit
@@ -3932,13 +3443,9 @@ ll use multiple cores (e.g. using
 
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/36F73669514834253EF0611DCA45C46E86FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/36F73669514834253EF0611DCA45C46E86FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/36F73669514834253EF0611DCA45C46E506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 Overfull \hbox (9.04897pt too wide) in paragraph at lines 836--837
 []\OT1/cmtt/m/n/10 where nodes=1 denotes the number of nodes over which this co
 de can be distributed upon, and
@@ -3946,18 +3453,14 @@ de can be distributed upon, and
 
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/2743C281D6A20822B284D0EB38A0567A86FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/2743C281D6A20822B284D0EB38A0567A86FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/2743C281D6A20822B284D0EB38A0567A506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout4 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/34239694F8A9CBCC25E0C4E91CDCB25421293E8415E7C04EBF1D581AB3
-897AFE.pygtex)
+(./_minted-mattscode/34239694F8A9CBCC25E0C4E91CDCB254A0D8B8F8055CCB464417E879E0
+B48F98.pygtex)
 Overfull \hbox (9.04897pt too wide) in paragraph at lines 850--851
 []\OT1/cmtt/m/n/10 While it isn't necessary - it pretty much just calls the qsu
 b command, it saves some typing
@@ -3971,13 +3474,9 @@ so that the correct output folder
 
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/8E1B6FC1E3BE6303C778033DF65ADA2386FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/8E1B6FC1E3BE6303C778033DF65ADA2386FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/8E1B6FC1E3BE6303C778033DF65ADA23506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 Overfull \hbox (3.79901pt too wide) in paragraph at lines 860--861
 []\OT1/cmtt/m/n/10 This passes environment variables from the current session (
 where the job is submitted) to
@@ -3985,40 +3484,24 @@ where the job is submitted) to
 
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/A3F6E1D0754BCE18E540720B0CEBB39C86FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/A3F6E1D0754BCE18E540720B0CEBB39C86FA503B7245306FEC594FFC58
-8019BA.pygtex [76])
+(./_minted-mattscode/A3F6E1D0754BCE18E540720B0CEBB39C506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex [76])
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/7F630FEDAEADB0786C7B7747B306DF2386FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/7F630FEDAEADB0786C7B7747B306DF2386FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/7F630FEDAEADB0786C7B7747B306DF23506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/D880F541E8BBAD346B73DC5510EE8FDD86FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/D880F541E8BBAD346B73DC5510EE8FDD86FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/D880F541E8BBAD346B73DC5510EE8FDD506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/611F78734CFD7FF1AC4CB7F29E4AAE0A86FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/611F78734CFD7FF1AC4CB7F29E4AAE0A86FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/611F78734CFD7FF1AC4CB7F29E4AAE0A506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 Overfull \hbox (9.04897pt too wide) in paragraph at lines 884--885
 []\OT1/cmtt/m/n/10 This is the total amount of time for the job to run in hh:mm
 :ss. For longer jobs, add days
@@ -4026,13 +3509,9 @@ Overfull \hbox (9.04897pt too wide) in paragraph at lines 884--885
 
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/7425F0ED5813F61E07AF4A78CBABC8D586FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/7425F0ED5813F61E07AF4A78CBABC8D586FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/7425F0ED5813F61E07AF4A78CBABC8D5506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 Overfull \hbox (3.79901pt too wide) in paragraph at lines 890--891
 []\OT1/cmtt/m/n/10 This is the total amount of virtual memory to assign to the 
 job. Ideally, this should not
@@ -4040,13 +3519,9 @@ job. Ideally, this should not
 
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/71851006943A3DA633F3D406BD0C6D4B86FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/71851006943A3DA633F3D406BD0C6D4B86FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/71851006943A3DA633F3D406BD0C6D4B506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 Overfull \hbox (9.04897pt too wide) in paragraph at lines 896--897
 []\OT1/cmtt/m/n/10 This tells the cluster to send an email when each job begins
  b, ends e or is aborted a. Be
@@ -4055,8 +3530,8 @@ Overfull \hbox (9.04897pt too wide) in paragraph at lines 896--897
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/36F73669514834253EF0611DCA45C46E86FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/36F73669514834253EF0611DCA45C46E506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 Overfull \hbox (14.29892pt too wide) in paragraph at lines 902--903
 []\OT1/cmtt/m/n/10 This is for jobs which will be able to use more than one sin
 gle thread. nodes is the number
@@ -4070,22 +3545,14 @@ mber of processors to assign for
 
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/F79CCFEF1802EDD74526CEF7431A2BD186FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/F79CCFEF1802EDD74526CEF7431A2BD186FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/F79CCFEF1802EDD74526CEF7431A2BD1506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout4 = `mattscode.pyg'.
 
-runsystem(pygmentize -l text -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/812FC2D72E8F4A2D931079D8494E0AA721293E8415E7C04EBF1D581AB3897AFE
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/812FC2D72E8F4A2D931079D8494E0AA721293E8415E7C04EBF1D581AB3
-897AFE.pygtex)
+(./_minted-mattscode/812FC2D72E8F4A2D931079D8494E0AA7A0D8B8F8055CCB464417E879E0
+B48F98.pygtex)
 Overfull \hbox (30.04878pt too wide) in paragraph at lines 910--911
 []\OT1/cmtt/m/n/10 After the #PBS options are defined, the rest of this file ca
 n be treated as a bash script which
@@ -4135,40 +3602,24 @@ sition around the Sun, Carrington
 
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/EA045DF4E3CFF0322C29ECB6BADAF42786FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/EA045DF4E3CFF0322C29ECB6BADAF42786FA503B7245306FEC594FFC58
-8019BA.pygtex [77])
+(./_minted-mattscode/EA045DF4E3CFF0322C29ECB6BADAF427506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex [77])
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/7B930BB0205678AEF11E5194235088C586FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/7B930BB0205678AEF11E5194235088C586FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/7B930BB0205678AEF11E5194235088C5506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-mattscode/10BCEBBBE77AF3DFDD96F96307E8D2D44EF73C33EDF7844E267B065EB12346
-70.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/10BCEBBBE77AF3DFDD96F96307E8D2D44EF73C33EDF7844E267B065EB1
-234670.pygtex)
+(./_minted-mattscode/10BCEBBBE77AF3DFDD96F96307E8D2D459A43900517B41B76D2303EB37
+018509.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/68042B0FF7C571DAF3659F33A15E548D86FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/68042B0FF7C571DAF3659F33A15E548D86FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/68042B0FF7C571DAF3659F33A15E548D506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 Overfull \hbox (24.79883pt too wide) in paragraph at lines 975--976
 []\OT1/cmtt/m/n/10 Running this code requires the g++ and make commands. Under 
 Windows and Linux, the ld command
@@ -4182,13 +3633,9 @@ OS, the xxd command is used instead.
 
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/136C4FAAB6806153B59F83B84D20D0DC86FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/136C4FAAB6806153B59F83B84D20D0DC86FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/136C4FAAB6806153B59F83B84D20D0DC506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 Overfull \hbox (9.04897pt too wide) in paragraph at lines 985--986
 []\OT1/cmtt/m/n/10 In Windows, g++ may be provided by either TDM-GCC or Mingw-w
 64, and make can be provided by
@@ -4202,13 +3649,9 @@ ed to add the paths to the binaries
 
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -o _min
-ted-mattscode/D1FF31ED4B673A063A7F69A767A271D77F5A74254C162834BE09F7374578705C.
-pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/D1FF31ED4B673A063A7F69A767A271D77F5A74254C162834BE09F73745
-78705C.pygtex
+(./_minted-mattscode/D1FF31ED4B673A063A7F69A767A271D7C5A4D957759BD904BD1AADCCF3
+31E6A1.pygtex
 Overfull \hbox (9.79883pt too wide) in paragraph at lines 989--1
 \OT1/cmtt/m/n/10 Firstly, the code in readbin.cc will write to a simple binary 
 file called data.bin. The first
@@ -4229,22 +3672,14 @@ Overfull \hbox (36.0486pt too wide) in paragraph at lines 989--1
 )
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/0CFB65D91D77BCB5930557A44995D56886FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/0CFB65D91D77BCB5930557A44995D56886FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/0CFB65D91D77BCB5930557A44995D568506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/4373B5C3476CB20D54BF28765B57F00786FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/4373B5C3476CB20D54BF28765B57F00786FA503B7245306FEC594FFC58
-8019BA.pygtex
+(./_minted-mattscode/4373B5C3476CB20D54BF28765B57F007506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex
 Overfull \hbox (24.29895pt too wide) in paragraph at lines 1002--1
 []\OT1/cmtt/m/n/10 Method 2 uses xxd in MacOS (this will also work in Linux and
  may be possible in Windows too)
@@ -4253,22 +3688,14 @@ Overfull \hbox (24.29895pt too wide) in paragraph at lines 1002--1
 )
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/96BD18CFC49840266370414FEC0F49B986FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/96BD18CFC49840266370414FEC0F49B986FA503B7245306FEC594FFC58
-8019BA.pygtex [78])
+(./_minted-mattscode/96BD18CFC49840266370414FEC0F49B9506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex [78])
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/2ADB27D15845E4B11C9D9C3B6102F90D86FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/2ADB27D15845E4B11C9D9C3B6102F90D86FA503B7245306FEC594FFC58
-8019BA.pygtex
+(./_minted-mattscode/2ADB27D15845E4B11C9D9C3B6102F90D506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex
 Overfull \hbox (14.29892pt too wide) in paragraph at lines 1013--1
 []\OT1/cmtt/m/n/10 Finally, the resulting binary blob (data.o) can be compiled 
 into code which will try to read
@@ -4277,13 +3704,9 @@ into code which will try to read
 )
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -o _min
-ted-mattscode/5F12E779F3A2EA1B8EE909C226860AAA7F5A74254C162834BE09F7374578705C.
-pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/5F12E779F3A2EA1B8EE909C226860AAA7F5A74254C162834BE09F73745
-78705C.pygtex)
+(./_minted-mattscode/5F12E779F3A2EA1B8EE909C226860AAAC5A4D957759BD904BD1AADCCF3
+31E6A1.pygtex)
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -4373,13 +3796,9 @@ you left one out. Proceed, with fingers crossed.
 
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -o _min
-ted-mattscode/FDC43841AE5A41F13CBAFD6E37EF2EEF7F5A74254C162834BE09F7374578705C.
-pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/FDC43841AE5A41F13CBAFD6E37EF2EEF7F5A74254C162834BE09F73745
-78705C.pygtex
+(./_minted-mattscode/FDC43841AE5A41F13CBAFD6E37EF2EEFC5A4D957759BD904BD1AADCCF3
+31E6A1.pygtex
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
 
@@ -4431,13 +3850,9 @@ If that doesn't work, type  X <return>  to quit.
 )
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -o _min
-ted-mattscode/00E07FD6FE32A398C829751C5C2655C87F5A74254C162834BE09F7374578705C.
-pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/00E07FD6FE32A398C829751C5C2655C87F5A74254C162834BE09F73745
-78705C.pygtex
+(./_minted-mattscode/00E07FD6FE32A398C829751C5C2655C8C5A4D957759BD904BD1AADCCF3
+31E6A1.pygtex
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
 
@@ -4489,13 +3904,9 @@ If that doesn't work, type  X <return>  to quit.
 )
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -o _min
-ted-mattscode/F4BBA8696C70B40D649AA717E0DA0BD47F5A74254C162834BE09F7374578705C.
-pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/F4BBA8696C70B40D649AA717E0DA0BD47F5A74254C162834BE09F73745
-78705C.pygtex
+(./_minted-mattscode/F4BBA8696C70B40D649AA717E0DA0BD4C5A4D957759BD904BD1AADCCF3
+31E6A1.pygtex
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
 
@@ -4651,22 +4062,14 @@ xd method from here: [][]$https : / /
 
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/F7A066175EABE2D99F28C7E9C881D36086FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/F7A066175EABE2D99F28C7E9C881D36086FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/F7A066175EABE2D99F28C7E9C881D360506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l powershell -f latex -P commandprefix=PYG -F tokenmerge 
--o _minted-mattscode/F09B5ADBEC6BA9AE4282D07982F858B861CDD55AD99798A7BEF92575F9
-324259.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/F09B5ADBEC6BA9AE4282D07982F858B861CDD55AD99798A7BEF92575F9
-324259.pygtex)
+(./_minted-mattscode/F09B5ADBEC6BA9AE4282D07982F858B8FBEC15013753B76731D2FFEE80
+FD3733.pygtex)
 Overfull \hbox (4.54887pt too wide) in paragraph at lines 1099--1100
 \OT1/cmtt/m/n/10 This package includes a header which is compatible with both C
  and C++ (spline.c). Below are
@@ -4674,22 +4077,14 @@ Overfull \hbox (4.54887pt too wide) in paragraph at lines 1099--1100
 
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -o _min
-ted-mattscode/428EED92AC4306CC2C2EC52BDC1167E67F5A74254C162834BE09F7374578705C.
-pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/428EED92AC4306CC2C2EC52BDC1167E67F5A74254C162834BE09F73745
-78705C.pygtex [79])
+(./_minted-mattscode/428EED92AC4306CC2C2EC52BDC1167E6C5A4D957759BD904BD1AADCCF3
+31E6A1.pygtex [79])
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/B9A26B38ED2DF88018B7956BBBCE339986FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/B9A26B38ED2DF88018B7956BBBCE339986FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/B9A26B38ED2DF88018B7956BBBCE3399506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 Overfull \hbox (4.54887pt too wide) in paragraph at lines 1162--1163
 \OT1/cmtt/m/n/10 This is a C example, which would work in C++ also. The spline(
 ) wrapper function can also be
@@ -4697,18 +4092,14 @@ Overfull \hbox (4.54887pt too wide) in paragraph at lines 1162--1163
 
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l c -f latex -P commandprefix=PYG -F tokenmerge -o _minte
-d-mattscode/31D3D8699E0BAC23536E622D938F5D79355EDB485ED9D1E55F42B5AD929BBF13.py
-gtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/31D3D8699E0BAC23536E622D938F5D79355EDB485ED9D1E55F42B5AD92
-9BBF13.pygtex [80])
+(./_minted-mattscode/31D3D8699E0BAC23536E622D938F5D796E6768FEC94D65C9A9C023D686
+8E4714.pygtex [80])
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/F09B5ADBEC6BA9AE4282D07982F858B861CDD55AD99798A7BEF92575F9
-324259.pygtex)
+(./_minted-mattscode/F09B5ADBEC6BA9AE4282D07982F858B8FBEC15013753B76731D2FFEE80
+FD3733.pygtex)
 Overfull \hbox (4.54887pt too wide) in paragraph at lines 1208--1209
 \OT1/cmtt/m/n/10 This package includes a header which is compatible with both C
  and C++ (spline.c). Below are
@@ -4717,13 +4108,13 @@ Overfull \hbox (4.54887pt too wide) in paragraph at lines 1208--1209
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/428EED92AC4306CC2C2EC52BDC1167E67F5A74254C162834BE09F73745
-78705C.pygtex [81])
+(./_minted-mattscode/428EED92AC4306CC2C2EC52BDC1167E6C5A4D957759BD904BD1AADCCF3
+31E6A1.pygtex [81])
 \openout3 = `mattscode.pyg'.
 
 
-(./_minted-mattscode/B9A26B38ED2DF88018B7956BBBCE339986FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/B9A26B38ED2DF88018B7956BBBCE3399506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 Overfull \hbox (4.54887pt too wide) in paragraph at lines 1271--1272
 \OT1/cmtt/m/n/10 This is a C example, which would work in C++ also. The spline(
 ) wrapper function can also be
@@ -4731,22 +4122,14 @@ Overfull \hbox (4.54887pt too wide) in paragraph at lines 1271--1272
 
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l c -f latex -P commandprefix=PYG -F tokenmerge -o _minte
-d-mattscode/87ECF84ADB50AA9B572CE82DAF712E79355EDB485ED9D1E55F42B5AD929BBF13.py
-gtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/87ECF84ADB50AA9B572CE82DAF712E79355EDB485ED9D1E55F42B5AD92
-9BBF13.pygtex [82])
+(./_minted-mattscode/87ECF84ADB50AA9B572CE82DAF712E796E6768FEC94D65C9A9C023D686
+8E4714.pygtex [82])
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/EEF79FB277BDEDB8EF6FA596C06BE32C86FA503B7245306FEC594FFC588019BA
-.pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/EEF79FB277BDEDB8EF6FA596C06BE32C86FA503B7245306FEC594FFC58
-8019BA.pygtex)
+(./_minted-mattscode/EEF79FB277BDEDB8EF6FA596C06BE32C506B1BCBD2335BB37B8184D8D9
+5DE162.pygtex)
 ! Undefined control sequence.
 l.1327 	printf("]\n
                    ");
@@ -4829,13 +4212,9 @@ l.1347 \end{minted}
                    
 Things are pretty mixed up, but I think the worst is over.
 
-runsystem(pygmentize -l php -f latex -P commandprefix=PYG -F tokenmerge -o _min
-ted-mattscode/EEF79FB277BDEDB8EF6FA596C06BE32C71505F296A4F1B8B388945780C3F5F84.
-pygtex mattscode.pyg)...executed.
 
-
-(./_minted-mattscode/EEF79FB277BDEDB8EF6FA596C06BE32C71505F296A4F1B8B388945780C
-3F5F84.pygtex)
+(./_minted-mattscode/EEF79FB277BDEDB8EF6FA596C06BE32C811EF738A0832E83BFAE64CB1A
+3DDED6.pygtex)
 
 ! LaTeX Error: \begin{document} ended by \end{minted}.
 
@@ -4858,74 +4237,53 @@ Things are pretty mixed up, but I think the worst is over.
 
 \openout3 = `mattscode.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-mattscode/EEF79FB277BDEDB8EF6FA596C06BE32C2CF5B9F261A5C06BA2B45470B13953C6
-.pygtex mattscode.pyg)...executed.
+
+(./_minted-mattscode/EEF79FB277BDEDB8EF6FA596C06BE32C7D3BB60F70E1A08B47FD44A337
+16F573.pygtex)) [83] [84
 
 
-(./_minted-mattscode/EEF79FB277BDEDB8EF6FA596C06BE32C2CF5B9F261A5C06BA2B45470B1
-3953C6.pygtex)) [83] [84
 
-
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
- (./mattscode.aux (./chapters/chapter01.aux)
+] (./mattscode.aux (./chapters/chapter01.aux)
 (./chapters/chapter02.aux) (./chapters/chapter03.aux) (./chapters/chapter04.aux
 ) (./chapters/chapter05.aux) (./chapters/chapter06.aux)
 (./chapters/chapter07.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 53.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
-
-
-Package rerunfilecheck Warning: File `mattscode.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `mattscode.out':
-(rerunfilecheck)             Before: EAD70FE7B6EF95A3DBC0D280BB5B6CC6;5493
-(rerunfilecheck)             After:  E4B57B9AFE6FA8B9B89497C89A954ADC;11417.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+Package rerunfilecheck Info: File `mattscode.out' has not changed.
+(rerunfilecheck)             Checksum: 4997F339AEE6EEC4D9FF7381187F1080;28010.
 runsystem(rm mattscode.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 11653 strings out of 481239
- 302676 string characters out of 5920377
- 568546 words of memory out of 5000000
- 25311 multiletter control sequences out of 15000+600000
- 540600 words of font info for 52 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 41i,18n,39p,1353b,797s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsltt10.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf/fonts/type1/pub
-lic/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm100
-0.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on mattscode.pdf (88 pages, 1905753 bytes).
+ 15528 strings out of 480247
+ 405589 string characters out of 5896151
+ 674108 words of memory out of 5000000
+ 31821 multiletter control sequences out of 15000+600000
+ 477521 words of font info for 56 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 74i,18n,77p,1364b,999s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/matt/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tctt1000.600p
+k> </home/matt/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0700.600p
+k> </home/matt/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600p
+k></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsltt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on mattscode.pdf (90 pages, 1916844 bytes).
 PDF statistics:
- 1253 PDF objects out of 1440 (max. 8388607)
- 1088 compressed objects within 11 object streams
- 386 named destinations out of 1000 (max. 500000)
- 716 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1627 PDF objects out of 1728 (max. 8388607)
+ 1439 compressed objects within 15 object streams
+ 395 named destinations out of 1000 (max. 500000)
+ 1372 words of extra memory for PDF output out of 10000 (max. 10000000)
 
